@@ -116,30 +116,30 @@ OPENSSL_Applink(void)
         { (void *)APPLINK_MAX };
 
     if (once) {
-        OPENSSL_ApplinkTable[APPLINK_STDIN] = app_stdin;
-        OPENSSL_ApplinkTable[APPLINK_STDOUT] = app_stdout;
-        OPENSSL_ApplinkTable[APPLINK_STDERR] = app_stderr;
-        OPENSSL_ApplinkTable[APPLINK_FPRINTF] = fprintf;
-        OPENSSL_ApplinkTable[APPLINK_FGETS] = fgets;
-        OPENSSL_ApplinkTable[APPLINK_FREAD] = fread;
-        OPENSSL_ApplinkTable[APPLINK_FWRITE] = fwrite;
-        OPENSSL_ApplinkTable[APPLINK_FSETMOD] = app_fsetmod;
-        OPENSSL_ApplinkTable[APPLINK_FEOF] = app_feof;
-        OPENSSL_ApplinkTable[APPLINK_FCLOSE] = fclose;
+        OPENSSL_ApplinkTable[APPLINK_STDIN] = (void*)app_stdin;
+        OPENSSL_ApplinkTable[APPLINK_STDOUT] = (void*)app_stdout;
+        OPENSSL_ApplinkTable[APPLINK_STDERR] = (void*)app_stderr;
+        OPENSSL_ApplinkTable[APPLINK_FPRINTF] = (void*)fprintf;
+        OPENSSL_ApplinkTable[APPLINK_FGETS] = (void*)fgets;
+        OPENSSL_ApplinkTable[APPLINK_FREAD] = (void*)fread;
+        OPENSSL_ApplinkTable[APPLINK_FWRITE] = (void*)fwrite;
+        OPENSSL_ApplinkTable[APPLINK_FSETMOD] = (void*)app_fsetmod;
+        OPENSSL_ApplinkTable[APPLINK_FEOF] = (void*)app_feof;
+        OPENSSL_ApplinkTable[APPLINK_FCLOSE] = (void*)fclose;
 
-        OPENSSL_ApplinkTable[APPLINK_FOPEN] = fopen;
-        OPENSSL_ApplinkTable[APPLINK_FSEEK] = fseek;
-        OPENSSL_ApplinkTable[APPLINK_FTELL] = ftell;
-        OPENSSL_ApplinkTable[APPLINK_FFLUSH] = fflush;
-        OPENSSL_ApplinkTable[APPLINK_FERROR] = app_ferror;
-        OPENSSL_ApplinkTable[APPLINK_CLEARERR] = app_clearerr;
-        OPENSSL_ApplinkTable[APPLINK_FILENO] = app_fileno;
+        OPENSSL_ApplinkTable[APPLINK_FOPEN] = (void*)fopen;
+        OPENSSL_ApplinkTable[APPLINK_FSEEK] = (void*)fseek;
+        OPENSSL_ApplinkTable[APPLINK_FTELL] = (void*)ftell;
+        OPENSSL_ApplinkTable[APPLINK_FFLUSH] = (void*)fflush;
+        OPENSSL_ApplinkTable[APPLINK_FERROR] = (void*)app_ferror;
+        OPENSSL_ApplinkTable[APPLINK_CLEARERR] = (void*)app_clearerr;
+        OPENSSL_ApplinkTable[APPLINK_FILENO] = (void*)app_fileno;
 
-        OPENSSL_ApplinkTable[APPLINK_OPEN] = _open;
-        OPENSSL_ApplinkTable[APPLINK_READ] = _read;
-        OPENSSL_ApplinkTable[APPLINK_WRITE] = _write;
-        OPENSSL_ApplinkTable[APPLINK_LSEEK] = _lseek;
-        OPENSSL_ApplinkTable[APPLINK_CLOSE] = _close;
+        OPENSSL_ApplinkTable[APPLINK_OPEN] = (void*)_open;
+        OPENSSL_ApplinkTable[APPLINK_READ] = (void*)_read;
+        OPENSSL_ApplinkTable[APPLINK_WRITE] = (void*)_write;
+        OPENSSL_ApplinkTable[APPLINK_LSEEK] = (void*)_lseek;
+        OPENSSL_ApplinkTable[APPLINK_CLOSE] = (void*)_close;
 
         once = 0;
     }

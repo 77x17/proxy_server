@@ -31,6 +31,7 @@ namespace UI_WINDOW {
     LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
     void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap);
     void UpdateLog(const std::string& str);
+    void LogData(const std::string& direction, const std::string& data);
 }
 
 #endif

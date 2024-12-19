@@ -16,3 +16,2279 @@
 tion.
 [00:23:49] Connecting: spocs.getpocket.com
 [00:23:56] Exit proxy server ...
+[00:37:56] Exit proxy server ...
+[02:07:57] Proxy server started. Listening on port 8080...
+[02:08:02] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:02] Private key does not match the public certificate.
+[02:08:02] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:02] Private key does not match the public certificate.
+[02:08:03] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:03] Connecting: spocs.getpocket.com
+[02:08:03] Connecting: contile.services.mozilla.com
+[02:08:03] Private key does not match the public certificate.
+[02:08:03] Private key does not match the public certificate.
+[02:08:03] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:03] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:03] Private key does not match the public certificate.
+[02:08:03] Connecting: firefox.settings.services.mozilla.com
+[02:08:03] Private key does not match the public certificate.
+[02:08:03] Private key does not match the public certificate.
+[02:08:03] Connecting: contile.services.mozilla.com
+[02:08:03] Private key does not match the public certificate.
+[02:08:04] Connecting: push.services.mozilla.com
+[02:08:04] Connecting: safebrowsing.googleapis.com
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Connecting: firefox-settings-attachments.cdn.mozilla.net
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Connecting: spocs.getpocket.com
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Connecting: firefox.settings.services.mozilla.com
+[02:08:04] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:04] Connecting: contile.services.mozilla.com
+[02:08:04] Connecting: safebrowsing.googleapis.com
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Private key does not match the public certificate.
+[02:08:04] Private key does not match the public certificate.
+[02:08:05] Connecting: contile.services.mozilla.com
+[02:08:05] Connecting: incoming.telemetry.mozilla.org
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Connecting: aus5.mozilla.org
+[02:08:05] Connecting: firefox.settings.services.mozilla.com
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Connecting: safebrowsing.googleapis.com
+[02:08:05] Connecting: spocs.getpocket.com
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Private key does not match the public certificate.
+[02:08:05] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:06] Private key does not match the public certificate.
+[02:08:06] Connecting: firefox.settings.services.mozilla.com
+[02:08:06] Private key does not match the public certificate.
+[02:08:06] Connecting: contile.services.mozilla.com
+[02:08:06] Connecting: aus5.mozilla.org
+[02:08:06] Private key does not match the public certificate.
+[02:08:06] Connecting: spocs.getpocket.com
+[02:08:06] Private key does not match the public certificate.
+[02:08:06] Connecting: incoming.telemetry.mozilla.org
+[02:08:06] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:06] Connecting: safebrowsing.googleapis.com
+[02:08:06] Private key does not match the public certificate.
+[02:08:06] Connecting: firefox.settings.services.mozilla.com
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Connecting: aus5.mozilla.org
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Connecting: firefox.settings.services.mozilla.com
+[02:08:07] Connecting: incoming.telemetry.mozilla.org
+[02:08:07] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Connecting: contile.services.mozilla.com
+[02:08:07] Private key does not match the public certificate.
+[02:08:07] Connecting: safebrowsing.googleapis.com
+[02:08:07] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:08] Private key does not match the public certificate.
+[02:08:08] Private key does not match the public certificate.
+[02:08:08] Connecting: aus5.mozilla.org
+[02:08:08] Connecting: firefox.settings.services.mozilla.com
+[02:08:08] Private key does not match the public certificate.
+[02:08:08] Connecting: spocs.getpocket.com
+[02:08:08] Private key does not match the public certificate.
+[02:08:08] Connecting: incoming.telemetry.mozilla.org
+[02:08:08] Connecting: contile.services.mozilla.com
+[02:08:08] Private key does not match the public certificate.
+[02:08:08] Connecting: content-signature-2.cdn.mozilla.net
+[02:08:08] Connecting: safebrowsing.googleapis.com
+[02:13:59] Proxy server started. Listening on port 8080...
+[02:14:27] Proxy server started. Listening on port 8080...
+[02:16:50] Proxy server started. Listening on port 8080...
+[02:16:55] Connecting: www.youtube.com
+[02:16:58] Connecting: www.facebook.com
+[02:16:59] SSL handshake failed with client.
+[02:16:59] Connecting: www.wikipedia.org
+[02:17:07] Invalid port number format: stoi
+[02:17:12] Invalid port number format: stoi
+[02:17:17] Invalid port number format: stoi
+[02:17:22] Invalid port number format: stoi
+[02:17:25] SSL handshake failed with client.
+[02:17:25] Connecting: www.facebook.com
+[02:17:25] SSL handshake failed with client.
+[02:17:25] Connecting: www.youtube.com
+[02:17:26] SSL handshake failed with client.
+[02:17:27] Connecting: www.youtube.com
+[02:17:27] Connecting: www.youtube.com
+[02:17:27] Connecting: www.youtube.com
+[02:17:27] SSL handshake failed with client.
+[02:17:27] SSL handshake failed with client.
+[02:17:27] Invalid port number format: stoi
+[02:17:28] Exit proxy server ...
+[02:18:57] Proxy server started. Listening on port 8080...
+[02:19:00] Connecting: push.services.mozilla.com
+[02:19:01] Connecting: www.youtube.com
+[02:19:14] Connecting: www.youtube.com
+[02:19:16] Connecting: play.google.com
+[02:19:17] Connecting: www.facebook.com
+[02:19:19] SSL handshake failed with client.
+[02:19:19] Connecting: www.wikipedia.org
+[02:19:26] SSL handshake failed with client.
+[02:19:26] Connecting: www.reddit.com
+[02:19:27] Connecting: www.reddit.com
+[02:19:36] SSL handshake failed with client.
+[02:19:41] Connecting: googleads.g.doubleclick.net
+[02:19:42] SSL handshake failed with client.
+[02:19:43] SSL handshake failed with client.
+[02:19:43] SSL handshake failed with client.
+[02:19:43] Connecting: i.ytimg.com
+[02:19:43] Connecting: fonts.googleapis.com
+[02:19:43] Connecting: www.youtube.com
+[02:19:46] Exit proxy server ...
+[02:23:08] Proxy server started. Listening on port 8080...
+[02:23:09] Invalid port number format: stoi
+[02:23:09] Connecting: spocs.getpocket.com
+[02:23:09] Invalid port number format: stoi
+[02:23:09] Invalid port number format: stoi
+[02:23:09] Invalid port number format: stoi
+[02:23:09] Invalid port number format: stoi
+[02:23:09] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:10] Invalid port number format: stoi
+[02:23:14] Connecting: play.google.com
+[02:23:25] Exit proxy server ...
+[02:26:58] Proxy server started. Listening on port 8080...
+[02:27:03] Connecting: www.reddit.com:443
+[02:27:04] Connecting: www.reddit.com:443
+[02:27:07] Connecting: www.youtube.com:443
+[02:27:09] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:27:09] Connecting: www.youtube.com:443
+[02:27:09] Connecting: www.youtube.com:443
+[02:27:09] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:27:19] Connecting: play.google.com:443
+[02:27:24] Failed to receive data from client.
+[02:27:40] Connecting: www.youtube.com:443
+[02:27:41] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:27:41] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:27:41] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:27:41] Connecting: i.ytimg.com:443
+[02:27:42] Connecting: fonts.googleapis.com:443
+[02:27:42] Connecting: www.youtube.com:443
+[02:27:48] Failed to receive data from client.
+[02:27:59] Exit proxy server ...
+[02:30:30] Proxy server started. Listening on port 8080...
+[02:30:31] Proxy server started. Listening on port 8080...
+[02:30:32] Proxy server started. Listening on port 8080...
+[02:30:33] Proxy server started. Listening on port 8080...
+[02:30:33] Connecting: www.youtube.com
+[02:30:33] Proxy server started. Listening on port 8080...
+[02:30:34] Proxy server started. Listening on port 8080...
+[02:30:34] Connecting: i.ytimg.com
+[02:30:34] Proxy server started. Listening on port 8080...
+[02:30:34] Connecting: fonts.googleapis.com
+[02:30:34] Proxy server started. Listening on port 8080...
+[02:30:34] Proxy server started. Listening on port 8080...
+[02:30:35] Proxy server started. Listening on port 8080...
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:36] Connecting: googleads.g.doubleclick.net
+[02:30:36] Connecting: fonts.gstatic.com
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:36] Connecting: accounts.google.com
+[02:30:36] Proxy server started. Listening on port 8080...
+[02:30:37] Connecting: www.google.com
+[02:30:37] Proxy server started. Listening on port 8080...
+[02:30:37] Proxy server started. Listening on port 8080...
+[02:30:38] Proxy server started. Listening on port 8080...
+[02:30:38] Proxy server started. Listening on port 8080...
+[02:30:38] Connecting: yt3.ggpht.com
+[02:30:39] Proxy server stopped.
+[02:30:39] Connecting: yt3.ggpht.com
+[02:30:39] Disconnecting: yt3.ggpht.com || Reason: Stopped proxy.
+[02:30:40] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[02:30:40] Disconnecting: i.ytimg.com || Reason: Stopped proxy.
+[02:30:44] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:45] Connecting: www.youtube.com
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:45] Connecting: jnn-pa.googleapis.com
+[02:30:45] Connecting: static.doubleclick.net
+[02:30:45] Proxy server started. Listening on port 8080...
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Connecting: play.google.com
+[02:30:46] Connecting: fonts.gstatic.com
+[02:30:46] Connecting: www.google.com
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Connecting: play.google.com
+[02:30:46] Proxy server started. Listening on port 8080...
+[02:30:46] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:30:46] Connecting: play.google.com
+[02:30:47] Proxy server stopped.
+[02:30:46] Disconnecting: play.google.com || Reason: Stopped proxy.
+rred, closing connection.
+[02:30:47] Exit proxy server ...
+[02:30:47] Disconnecting: play.google.com || Reason: Stopped proxy.
+[02:35:07] Proxy server started. Listening on port 8080...
+[02:35:11] Connecting: www.youtube.com
+[02:35:11] Connecting: play.google.com
+[02:35:11] Connecting: i.ytimg.com
+[02:35:13] Connecting: googleads.g.doubleclick.net
+[02:35:15] Connecting: yt3.ggpht.com
+[02:35:16] Connecting: www.google.com
+[02:35:17] Connecting: www.google.com.vn
+[02:35:17] Connecting: play.google.com
+[02:35:18] Connecting: play.google.com
+[02:35:18] Connecting: play.google.com
+[02:35:20] Connecting: jnn-pa.googleapis.com
+[02:35:24] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:35:26] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[02:35:27] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:35:27] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:35:27] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[02:35:27] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:35:28] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:35:30] Exit proxy server ...
+[02:36:32] Proxy server started. Listening on port 8080...
+[02:36:32] Connecting: www.youtube.com
+[02:36:33] Connecting: rr1---sn-8qj-nbo6r.googlevideo.com
+[02:36:33] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[02:36:34] Connecting: jnn-pa.googleapis.com
+[02:36:35] Connecting: play.google.com
+[02:36:35] Connecting: play.google.com
+[02:36:38] Exit proxy server ...
+[02:38:23] Proxy server started. Listening on port 8080...
+[02:38:26] Connecting: www.youtube.com
+[02:38:26] Connecting: rr1---sn-8qj-nbo6r.googlevideo.com
+[02:38:27] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[02:38:32] Exit proxy server ...
+[02:39:53] Proxy server started. Listening on port 8080...
+[02:39:53] Connecting: play.google.com
+[02:39:53] Connecting: rr1---sn-8qj-nbo6r.googlevideo.com
+[02:39:53] Connecting: www.youtube.com
+[02:39:54] Connecting: play.google.com
+[02:39:54] Connecting: rr5---sn-8qj-nbo66.googlevideo.com
+[02:40:02] Connecting: www.google.com
+[02:40:03] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:40:05] Connecting: www.google.com
+[02:40:05] Connecting: www.googleadservices.com
+[02:40:05] Connecting: www.gstatic.com
+[02:40:05] Connecting: id.google.com
+[02:40:06] Connecting: ssl.gstatic.com
+[02:40:07] Connecting: csp.withgoogle.com
+[02:40:07] Connecting: ogads-pa.googleapis.com
+[02:40:07] Connecting: fonts.gstatic.com
+[02:40:08] Connecting: www.gstatic.com
+[02:40:09] Connecting: encrypted-tbn0.gstatic.com
+[02:40:09] Connecting: encrypted-tbn0.gstatic.com
+[02:40:10] Disconnecting: rr1---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[02:40:10] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:40:11] Access to example.com is blocked.
+[02:40:15] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[02:40:16] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:40:16] Disconnecting: ssl.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:40:17] Disconnecting: id.google.com || Reason: Timeout occurred, closing connection.
+[02:40:17] Disconnecting: csp.withgoogle.com || Reason: Timeout occurred, closing connection.
+[02:40:18] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:40:19] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:40:19] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:40:19] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:40:22] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:40:24] Access to play.google.com is not able.
+[02:40:26] Whitelist saved successfully!
+[02:40:29] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:40:31] Whitelist saved successfully!
+[02:40:37] Connecting: www.youtube.com
+[02:40:37] Connecting: www.youtube.com
+[02:40:37] Connecting: i.ytimg.com
+[02:40:39] Access to googleads.g.doubleclick.net is not able.
+[02:40:42] Access to www.google.com is not able.
+[02:40:42] Access to www.google.com.vn is not able.
+[02:40:42] Access to yt3.ggpht.com is not able.
+[02:40:42] Access to yt3.ggpht.com is not able.
+[02:40:43] Access to play.google.com is not able.
+[02:40:43] Access to play.google.com is not able.
+[02:40:45] Access to play.google.com is not able.
+[02:40:46] Access to www.google.com is not able.
+[02:40:49] Access to incoming.telemetry.mozilla.org is not able.
+[02:40:49] Access to incoming.telemetry.mozilla.org is not able.
+[02:40:49] Access to incoming.telemetry.mozilla.org is not able.
+[02:40:51] Access to www.google.com is not able.
+[02:40:52] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:40:56] Blacklist saved successfully!
+[02:40:58] Blacklist saved successfully!
+[02:41:00] Connecting: jnn-pa.googleapis.com
+[02:41:00] Connecting: static.doubleclick.net
+[02:41:01] Connecting: play.google.com
+[02:41:01] Connecting: play.google.com
+[02:41:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:41:04] Connecting: www.facebook.com
+[02:41:05] Connecting: incoming.telemetry.mozilla.org
+[02:41:05] Connecting: static.xx.fbcdn.net
+[02:41:05] Connecting: static.xx.fbcdn.net
+[02:41:05] Connecting: static.xx.fbcdn.net
+[02:41:06] Connecting: facebook.com
+[02:41:06] Connecting: scontent.fsgn5-14.fna.fbcdn.net
+[02:41:06] Connecting: static.xx.fbcdn.net
+[02:41:06] Connecting: static.xx.fbcdn.net
+[02:41:06] Connecting: static.xx.fbcdn.net
+[02:41:08] Blacklist saved successfully!
+[02:41:09] Blacklist saved successfully!
+[02:41:10] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:41:10] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:41:11] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:41:12] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:41:13] Connecting: www.google.com
+[02:41:16] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:41:16] Disconnecting: scontent.fsgn5-14.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:41:16] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:41:18] Blacklist saved successfully!
+[02:41:18] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:41:19] Connecting: scontent.fsgn5-14.fna.fbcdn.net
+[02:41:19] Connecting: facebook.com
+[02:41:20] Access to www.facebook.com is blocked.
+[02:41:21] Access to www.facebook.com is blocked.
+[02:41:21] Access to www.facebook.com is blocked.
+[02:41:23] Access to www.facebook.com is blocked.
+[02:41:23] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:41:25] Blacklist saved successfully!
+[02:41:26] Connecting: www.facebook.com
+[02:41:26] Connecting: scontent.fsgn8-4.fna.fbcdn.net
+[02:41:29] Disconnecting: scontent.fsgn5-14.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:41:36] Disconnecting: scontent.fsgn8-4.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:41:37] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:41:41] Proxy server stopped.
+[02:41:47] Proxy server started. Listening on port 8080...
+[02:41:49] Connecting: incoming.telemetry.mozilla.org
+[02:41:51] Connecting: www.youtube.com
+[02:41:52] Connecting: i.ytimg.com
+[02:41:54] Connecting: googleads.g.doubleclick.net
+[02:41:56] Connecting: yt3.ggpht.com
+[02:41:58] Connecting: www.google.com
+[02:41:59] Connecting: www.google.com.vn
+[02:41:59] Connecting: rr1---sn-8qj-nbosz.googlevideo.com
+[02:41:59] Connecting: play.google.com
+[02:42:01] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:42:02] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:42:02] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:42:02] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:42:03] Connecting: www.gstatic.com
+[02:42:04] Connecting: www.gstatic.com
+[02:42:04] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:42:05] Connecting: r1---sn-nx5jvh-q5gs.googlevideo.com
+[02:42:05] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:42:10] Connecting: jnn-pa.googleapis.com
+[02:42:12] Disconnecting: rr6---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[02:42:13] Connecting: googleads.g.doubleclick.net
+[02:42:14] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[02:42:14] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+ing connection.
+[02:42:14] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[02:42:15] Connecting: www.google.com
+[02:42:19] Connecting: example.com
+[02:42:21] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:42:23] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[02:42:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:42:23] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:42:28] Blacklist saved successfully!
+[02:42:37] Blacklist saved successfully!
+[02:42:40] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:42:40] Connecting: play.google.com
+[02:42:41] Connecting: www.youtube.com
+[02:42:43] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[02:42:45] Access to example.com is blocked.
+[02:42:47] Access to example.com is blocked.
+[02:42:47] Connecting: www.facebook.com
+[02:42:47] Access to example.com is blocked.
+[02:42:47] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:48] Access to example.com is blocked.
+[02:42:49] Access to example.com is blocked.
+[02:42:49] Access to example.com is blocked.
+[02:42:49] Access to example.com is blocked.
+[02:42:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:42:52] Connecting: www.youtube.com
+[02:42:53] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:43:01] Connecting: incoming.telemetry.mozilla.org
+[02:43:02] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:43:03] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:43:12] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[02:43:13] Connecting: www.youtube.com
+[02:43:13] Connecting: contile.services.mozilla.com
+[02:43:13] Access to example.com is blocked.
+[02:43:13] Connecting: spocs.getpocket.com
+[02:43:23] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+ection.
+[02:43:31] Connecting: www.facebook.com
+[02:43:32] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:43:41] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:43:47] Connecting: www.facebook.com
+[02:43:52] Connecting: www.youtube.com
+[02:43:59] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:44:01] Connecting: i.ytimg.com
+[02:44:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:44:12] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:44:12] Connecting: www.youtube.com
+[02:44:20] Connecting: play.google.com
+[02:44:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:44:30] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:44:36] Connecting: www.facebook.com
+[02:44:41] Connecting: www.youtube.com
+[02:44:47] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:44:47] Connecting: www.facebook.com
+[02:44:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:44:58] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:45:11] Connecting: www.youtube.com
+[02:45:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:45:37] Connecting: www.facebook.com
+[02:45:42] Connecting: www.youtube.com
+[02:45:48] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:45:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:46:01] Connecting: www.youtube.com
+[02:46:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:46:12] Connecting: www.youtube.com
+[02:46:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:46:41] Connecting: www.youtube.com
+[02:46:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:08] Connecting: www.facebook.com
+[02:47:12] Connecting: www.youtube.com
+[02:47:18] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:47:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:47:42] Connecting: www.youtube.com
+[02:47:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:48:01] Connecting: www.youtube.com
+[02:48:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:48:12] Connecting: www.youtube.com
+[02:48:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:48:41] Connecting: www.youtube.com
+[02:48:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:49:12] Connecting: www.youtube.com
+[02:49:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:49:43] Connecting: www.youtube.com
+[02:49:48] Connecting: www.facebook.com
+[02:49:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:49:58] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:50:01] Connecting: www.youtube.com
+[02:50:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:50:12] Connecting: www.youtube.com
+[02:50:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:50:41] Connecting: www.youtube.com
+[02:50:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:50:54] Connecting: www.youtube.com
+[02:51:04] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:51:12] Connecting: www.youtube.com
+[02:51:26] Connecting: push.services.mozilla.com
+[02:51:26] Connecting: push.services.mozilla.com
+[02:51:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:51:36] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:51:42] Connecting: www.youtube.com
+[02:51:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:52:01] Connecting: www.youtube.com
+[02:52:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:52:13] Connecting: www.youtube.com
+[02:52:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:52:41] Connecting: www.youtube.com
+[02:52:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:53:13] Connecting: www.youtube.com
+[02:53:55] Proxy server started. Listening on port 8080...
+[02:53:55] Connecting: www.youtube.com:443
+[02:53:55] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[02:54:01] Failed to receive data from client.
+[02:54:01] Connecting: www.facebook.com:443
+[02:54:03] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:54:03] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[02:54:12] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:54:12] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:54:14] Connecting: www.facebook.com
+[02:54:14] Connecting: scontent.fsgn8-4.fna.fbcdn.net
+[02:54:14] Connecting: facebook.com
+[02:54:14] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:54:20] Connecting: static.xx.fbcdn.net
+[02:54:26] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:54:26] Connecting: www.youtube.com
+[02:54:28] Connecting: play.google.com
+[02:54:29] Disconnecting: scontent.fsgn8-4.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[02:54:30] Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[02:54:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:54:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:54:39] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:54:40] Connecting: www.facebook.com
+[02:54:41] Connecting: www.youtube.com
+[02:54:50] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:54:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:54:53] Connecting: www.youtube.com
+[02:55:01] Exit proxy server ...
+[02:56:04] Proxy server started. Listening on port 8080...
+[02:56:04] Connecting: googleads.g.doubleclick.net:443
+[02:56:04] Connecting: www.youtube.com:443
+[02:56:04] Connecting: www.youtube.com:443
+[02:56:05] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:56:07] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[02:56:13] Exit proxy server ...
+[02:56:25] Proxy server started. Listening on port 8080...
+[02:56:25] Connecting: www.facebook.com
+[02:56:25] Connecting: www.youtube.com
+[02:56:34] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:56:35] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[02:56:45] Connecting: i.ytimg.com
+[02:56:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:56:53] Connecting: www.youtube.com
+[02:56:56] Connecting: play.google.com
+[02:56:56] Disconnecting: rr6---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[02:57:06] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:57:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:57:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:57:21] Connecting: www.youtube.com
+[02:57:26] Connecting: i.ytimg.com:443
+[02:57:27] Connecting: www.gstatic.com:443
+[02:57:27] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:57:27] Connecting: yt3.ggpht.com:443
+[02:57:30] Connecting: lh3.googleusercontent.com:443
+[02:57:30] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[02:57:34] Connecting: www.googleadservices.com:443
+[02:57:36] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:57:36] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[02:57:40] Connecting: play.google.com:443
+[02:57:40] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:57:41] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:57:41] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[02:57:47] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:57:47] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[02:58:00] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:58:00] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:58:00] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:58:01] Connecting: yt3.ggpht.com
+[02:58:01] Connecting: i.ytimg.com
+[02:58:05] Connecting: googleads.g.doubleclick.net
+[02:58:11] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[02:58:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:58:11] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[02:58:14] Connecting: contile.services.mozilla.com
+[02:58:15] SSL handshake failed with client. Error: 1, Details: error:0A000126:SSL routines::unexpected eof while reading
+[02:58:15] Connecting: play.google.com
+[02:58:15] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[02:58:23] Connecting: www.youtube.com
+[02:58:24] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[02:58:25] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:58:33] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:58:36] Connecting: play.google.com
+[02:58:36] Connecting: play.google.com
+[02:58:41] Connecting: www.youtube.com
+[02:58:46] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:58:47] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[02:59:03] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[02:59:21] Connecting: www.youtube.com
+[02:59:33] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:00:10] Proxy server started. Listening on port 8080...
+[03:00:10] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[03:00:13] Connecting: www.youtube.com:443
+[03:00:15] Failed to receive data from client.
+[03:00:16] Failed to receive data from client.
+[03:00:29] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:00:29] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[03:00:44] Connecting: play.google.com
+[03:00:45] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:00:45] Connecting: www.youtube.com
+[03:00:55] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:01:03] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:01:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:01:04] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[03:01:13] Connecting: www.youtube.com
+[03:01:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:01:43] Connecting: www.youtube.com
+[03:01:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:02:01] Connecting: www.youtube.com
+[03:02:12] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:02:13] Connecting: www.youtube.com
+[03:02:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:02:27] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:02:31] Disconnecting: rr6---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[03:02:35] Connecting: www.youtube.com
+[03:02:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:03:13] Connecting: www.youtube.com
+[03:03:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:03:43] Connecting: www.youtube.com
+[03:03:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:04:01] Connecting: www.youtube.com
+[03:04:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:04:13] Connecting: www.youtube.com
+[03:04:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:04:41] Connecting: www.youtube.com
+[03:04:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:05:13] Connecting: www.youtube.com
+[03:05:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:05:43] Connecting: www.youtube.com
+[03:05:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:06:01] Connecting: www.youtube.com
+[03:06:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:06:13] Connecting: www.youtube.com
+[03:06:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:06:41] Connecting: www.youtube.com
+[03:06:53] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:07:58] Proxy server started. Listening on port 8080...
+[03:08:39] Connecting: incoming.telemetry.mozilla.org
+[03:08:39] Connecting: firefox.settings.services.mozilla.com
+[03:08:48] Connecting: www.wikipedia.org
+[03:08:50] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:09:07] Failed to receive data from client.
+[03:09:08] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[03:09:08] Failed to receive data from client.
+[03:09:15] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[03:09:19] Failed to receive data from client.
+[03:09:29] Connecting: incoming.telemetry.mozilla.org
+[03:09:32] Connecting: i.ytimg.com
+[03:09:40] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[03:09:42] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[03:09:56] Connecting: www.youtube.com
+[03:09:56] Connecting: play.google.com
+[03:09:56] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:09:56] Connecting: play.google.com
+[03:10:19] Proxy server started. Listening on port 8080...
+[03:10:33] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:10:33] Connecting: play.google.com
+[03:10:33] Connecting: play.google.com
+[03:10:41] Connecting: www.youtube.com
+[03:10:43] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:10:46] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:10:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:11:03] Connecting: www.youtube.com
+[03:11:03] Connecting: safebrowsing.googleapis.com
+[03:11:10] Connecting: play.google.com
+[03:11:20] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:11:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:11:33] Connecting: www.youtube.com
+[03:11:50] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:11:55] Connecting: googleads.g.doubleclick.net
+[03:12:01] Connecting: www.youtube.com
+[03:12:05] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[03:12:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:12:36] Connecting: www.youtube.com
+[03:12:40] Connecting: play.google.com
+[03:12:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:12:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:13:06] Connecting: www.youtube.com
+[03:13:15] Connecting: contile.services.mozilla.com
+[03:13:15] Connecting: spocs.getpocket.com
+[03:13:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:13:21] Connecting: www.youtube.com
+[03:13:25] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:13:26] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[03:13:34] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:13:36] Connecting: www.youtube.com
+[03:13:46] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:14:01] Connecting: www.youtube.com
+[03:14:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:15:38] Proxy server started. Listening on port 8080...
+[03:15:38] Connecting: www.youtube.com
+[03:15:40] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:15:49] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:10] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:11] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:13] Invalid port number format: //detectportal.firefox.com/canonical.html, Error: stoi
+[03:17:28] Connecting: www.youtube.com
+[03:17:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:17:39] Connecting: www.youtube.com
+[03:17:50] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:17:56] Connecting: www.youtube.com
+[03:18:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:18:26] Connecting: www.youtube.com
+[03:18:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:18:41] Connecting: www.youtube.com
+[03:18:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:18:56] Connecting: www.youtube.com
+[03:19:07] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:19:21] Connecting: www.youtube.com
+[03:19:36] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:19:56] Connecting: www.youtube.com
+[03:20:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:20:26] Connecting: www.youtube.com
+[03:20:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:20:41] Connecting: www.youtube.com
+[03:20:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:20:56] Connecting: www.youtube.com
+[03:21:07] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:21:21] Connecting: www.youtube.com
+[03:21:27] Connecting: push.services.mozilla.com
+[03:21:28] Connecting: push.services.mozilla.com
+[03:21:36] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:21:38] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:21:56] Connecting: www.youtube.com
+[03:22:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:22:26] Connecting: www.youtube.com
+[03:22:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:23:42] Proxy server started. Listening on port 8080...
+[03:23:42] Connecting: www.youtube.com
+[03:23:43] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:23:46] Connecting: i.ytimg.com
+[03:23:57] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[03:24:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:24:15] Connecting: play.google.com
+[03:24:26] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:24:26] Connecting: www.youtube.com
+[03:24:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:24:41] Connecting: www.youtube.com
+[03:24:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:24:52] Connecting: www.youtube.com
+[03:25:06] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:25:21] Connecting: www.youtube.com
+[03:25:36] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:25:56] Connecting: www.youtube.com
+[03:26:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:26:26] Connecting: www.youtube.com
+[03:26:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:26:41] Connecting: www.youtube.com
+[03:26:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:26:56] Connecting: www.youtube.com
+[03:27:07] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:27:21] Connecting: www.youtube.com
+[03:27:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:27:40] Connecting: play.google.com
+[03:27:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:27:56] Connecting: www.youtube.com
+[03:28:05] Connecting: googleads.g.doubleclick.net
+[03:28:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:28:15] Connecting: contile.services.mozilla.com
+[03:28:16] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[03:28:25] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:28:26] Connecting: www.youtube.com
+[03:28:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:28:41] Connecting: www.youtube.com
+[03:28:55] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:29:12] Proxy server started. Listening on port 8080...
+[03:29:17] Proxy server stopped.
+[03:29:19] Proxy server started. Listening on port 8080...
+[03:29:22] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:29:48] Connecting: www.youtube.com
+[03:30:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:30:13] Blacklist saved successfully!
+[03:30:13] Blacklist saved successfully!
+[03:30:18] Access to www.facebook.com is blocked.
+[03:30:19] Access to www.facebook.com is blocked.
+[03:30:20] Access to www.facebook.com is blocked.
+[03:30:20] Access to www.facebook.com is blocked.
+[03:30:20] Access to www.facebook.com is blocked.
+[03:30:21] Access to www.facebook.com is blocked.
+[03:30:21] Access to www.facebook.com is blocked.
+[03:30:21] Access to www.facebook.com is blocked.
+[03:30:24] Blacklist saved successfully!
+[03:30:32] Blacklist saved successfully!
+[03:30:34] Access to www.facebook.com is blocked.
+[03:30:35] Access to www.facebook.com is blocked.
+[03:30:58] Connecting: www.youtube.com
+[03:31:08] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:31:21] Connecting: www.youtube.com
+[03:31:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:31:37] Connecting: i.ytimg.com
+[03:31:48] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[03:31:57] Connecting: www.youtube.com
+[03:32:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:32:29] Proxy server started. Listening on port 8080...
+[03:32:29] Connecting: www.youtube.com
+[03:32:30] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:32:35] Access to www.facebook.com is blocked.
+[03:32:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:33:02] Connecting: www.reddit.com
+[03:33:03] Connecting: incoming.telemetry.mozilla.org
+[03:33:04] Connecting: www.redditstatic.com
+[03:33:04] Connecting: www.redditstatic.com
+[03:33:04] Connecting: www.redditstatic.com
+[03:33:04] Connecting: www.redditstatic.com
+[03:33:06] Connecting: www.redditstatic.com
+[03:33:06] Connecting: www.redditstatic.com
+[03:33:06] Connecting: www.redditstatic.com
+[03:33:06] Connecting: www.redditstatic.com
+[03:33:06] Connecting: safebrowsing.googleapis.com
+[03:33:07] Connecting: external-preview.redd.it
+[03:33:08] Connecting: w3-reporting.reddit.com
+[03:33:08] Connecting: www.youtube.com
+[03:33:09] Connecting: i.redd.it
+[03:33:10] Connecting: styles.redditmedia.com
+[03:33:10] Connecting: preview.redd.it
+[03:33:10] Connecting: styles.redditmedia.com
+[03:33:10] Connecting: preview.redd.it
+[03:33:10] Connecting: b.thumbs.redditmedia.com
+[03:33:10] Connecting: preview.redd.it
+[03:33:11] Connecting: styles.redditmedia.com
+[03:33:11] Connecting: styles.redditmedia.com
+[03:33:11] Connecting: styles.redditmedia.com
+[03:33:11] Connecting: styles.redditmedia.com
+[03:33:11] Connecting: alb.reddit.com
+[03:33:11] Connecting: w3-reporting.reddit.com
+[03:33:11] Connecting: www.google.com
+[03:33:11] Connecting: alb.reddit.com
+[03:33:11] Connecting: i.ytimg.com
+[03:33:12] Connecting: accounts.google.com
+[03:33:13] Connecting: a.thumbs.redditmedia.com
+[03:33:13] Connecting: a.thumbs.redditmedia.com
+[03:33:14] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[03:33:15] Connecting: safebrowsing.googleapis.com
+[03:33:15] Connecting: emoji.redditmedia.com
+[03:33:15] Connecting: emoji.redditmedia.com
+[03:33:16] Connecting: a.thumbs.redditmedia.com
+[03:33:16] Connecting: safebrowsing.googleapis.com
+[03:33:16] Connecting: emoji.redditmedia.com
+[03:33:16] Connecting: emoji.redditmedia.com
+[03:33:16] Connecting: a.thumbs.redditmedia.com
+[03:33:33] Proxy server started. Listening on port 8080...
+[03:33:37] Proxy server stopped.
+[03:33:39] No data received or connection closed by client.
+[03:33:47] Proxy server started. Listening on port 8080...
+[03:33:47] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:33:47] Connecting: www.youtube.com
+[03:33:57] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:34:01] Connecting: www.youtube.com
+[03:34:11] Connecting: www.reddit.com
+[03:34:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:34:17] Connecting: www.youtube.com
+[03:34:25] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[03:34:27] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:34:30] Connecting: w3-reporting.reddit.com
+[03:34:41] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[03:34:41] Connecting: www.youtube.com
+[03:34:59] Proxy server started. Listening on port 8080...
+[03:34:59] Connecting: www.youtube.com
+[03:34:59] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:35:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:35:17] Proxy server stopped.
+[03:35:17] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Stopped proxy.
+[03:35:18] Proxy server started. Listening on port 8080...
+[03:35:21] Connecting: www.youtube.com
+[03:35:28] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:35:37] Connecting: www.reddit.com
+[03:35:39] Connecting: external-preview.redd.it
+[03:35:42] Connecting: external-preview.redd.it
+[03:35:42] Connecting: styles.redditmedia.com
+[03:35:42] Connecting: w3-reporting.reddit.com
+[03:35:43] Connecting: alb.reddit.com
+[03:35:43] Connecting: www.gstatic.com
+[03:35:43] Connecting: v.redd.it
+[03:35:43] Connecting: accounts.google.com
+[03:35:44] Connecting: ad-delivery.net
+[03:35:44] Connecting: fonts.gstatic.com
+[03:35:44] Connecting: fonts.gstatic.com
+[03:35:44] Connecting: www.google.com
+[03:35:45] Connecting: www.redditstatic.com
+[03:35:46] Connecting: www.gstatic.com
+[03:35:46] Connecting: www.redditstatic.com
+[03:35:46] Connecting: v.redd.it
+[03:35:47] Connecting: w3-reporting.reddit.com
+[03:35:47] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:35:48] Connecting: fonts.gstatic.com
+[03:35:48] Connecting: fonts.gstatic.com
+[03:35:52] Disconnecting: external-preview.redd.it || Reason: Timeout occurred, closing connection.
+[03:35:52] Disconnecting: styles.redditmedia.com || Reason: Timeout occurred, closing connection.
+[03:35:53] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[03:35:53] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[03:35:53] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[03:35:54] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[03:35:55] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[03:35:55] Connecting: play.google.com
+[03:35:56] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[03:35:57] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[03:35:58] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[03:35:58] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[03:35:59] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[03:35:59] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[03:36:01] Connecting: www.youtube.com
+[03:36:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:36:17] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:36:19] Connecting: www.youtube.com
+[03:36:29] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:36:37] Connecting: safebrowsing.googleapis.com
+[03:36:37] Connecting: www.youtube.com
+[03:36:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:37:21] Proxy server started. Listening on port 8080...
+[03:37:21] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:37:21] Connecting: www.reddit.com
+[03:37:21] Connecting: www.youtube.com
+[03:37:21] Connecting: www.youtube.com
+[03:37:25] Proxy server stopped.
+[03:37:27] Disconnecting: www.reddit.com || Reason: Stopped proxy.
+[03:37:28] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[03:37:28] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Stopped proxy.
+[03:37:31] Proxy server started. Listening on port 8080...
+[03:37:31] Connecting: error-tracking.reddit.com:443
+[03:37:31] Connecting: www.reddit.com:443
+[03:37:31] Connecting: www.reddit.com:443
+[03:37:31] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:37:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:37:37] Connecting: www.youtube.com:443
+[03:37:37] No data received or connection closed by client.
+[03:37:37] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:37:37] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:37:44] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:37:45] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:37:55] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:37:55] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:37:55] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:37:56] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[03:37:56] Connecting: play.google.com:443
+[03:38:01] Exit proxy server ...
+[03:38:58] Proxy server started. Listening on port 8080...
+[03:39:00] Proxy server stopped.
+[03:39:02] Proxy server started. Listening on port 8080...
+[03:39:07] Connecting: play.google.com:443
+[03:39:09] Connecting: www.youtube.com:443
+[03:39:10] Connecting: rr2---sn-8qj-nbo66.googlevideo.com:443
+[03:39:12] No data received or connection closed by client.
+[03:39:35] Connecting: www.google.com:443
+[03:39:35] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:39:35] Connecting: www.google.com:443
+[03:39:36] Connecting: www.google.com:443
+[03:39:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:39:36] Connecting: www.google.com:443
+[03:39:36] Connecting: www.google.com:443
+[03:39:36] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[03:39:36] Access to www.facebook.com is blocked.
+SSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:39:36] Connecting: www.google.com:443
+[03:39:37] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:39:39] No data received or connection closed by client.
+[03:40:23] Connecting: i.ytimg.com
+[03:40:24] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:40:24] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:40:24] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:40:24] Connecting: www.youtube.com
+[03:40:24] Connecting: play.google.com
+[03:40:24] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:40:25] Connecting: play.google.com
+[03:40:33] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[03:40:34] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[03:40:34] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:40:36] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:40:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:40:41] Connecting: www.youtube.com
+[03:40:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:40:52] Connecting: play.google.com
+[03:40:53] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:40:59] Connecting: www.youtube.com
+[03:41:02] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:41:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:41:21] Connecting: www.youtube.com
+[03:41:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:41:55] Connecting: googleads.g.doubleclick.net
+[03:41:56] Connecting: www.youtube.com
+[03:42:05] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[03:42:14] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:42:29] Connecting: www.youtube.com
+[03:42:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:42:40] Connecting: play.google.com
+[03:42:41] Connecting: www.youtube.com
+[03:42:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:42:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[03:42:59] Connecting: www.youtube.com
+[03:43:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:43:16] Connecting: contile.services.mozilla.com
+[03:43:16] Connecting: spocs.getpocket.com
+[03:43:21] Connecting: www.youtube.com
+[03:43:26] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:43:26] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[03:43:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:43:59] Connecting: www.youtube.com
+[03:44:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:44:29] Connecting: www.youtube.com
+[03:44:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:44:41] Connecting: www.youtube.com
+[03:44:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:44:59] Connecting: www.youtube.com
+[03:45:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:45:21] Connecting: www.youtube.com
+[03:45:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:45:59] Connecting: www.youtube.com
+[03:46:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:46:28] Proxy server started. Listening on port 8080...
+[03:46:29] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[03:46:29] Connecting: www.youtube.com
+[03:46:36] Access to www.facebook.com is blocked.
+[03:46:36] Connecting: incoming.telemetry.mozilla.org:443
+[03:46:41] Connecting: www.reddit.com:443
+[03:46:47] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:46:47] Connecting: incoming.telemetry.mozilla.org:443
+[03:46:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:46:57] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:46:57] Connecting: incoming.telemetry.mozilla.org:443
+[03:46:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:46:58] Connecting: translate.google.com:443
+[03:47:07] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:47:09] Connecting: www.youtube.com:443
+[03:47:28] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:47:28] Connecting: incoming.telemetry.mozilla.org
+[03:47:39] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[03:47:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[03:47:41] Connecting: www.youtube.com
+[03:47:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:48:01] Connecting: www.youtube.com
+[03:48:19] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:48:39] Connecting: www.youtube.com
+[03:48:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:49:09] Connecting: www.youtube.com
+[03:49:19] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:49:21] Connecting: www.youtube.com
+[03:49:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:49:39] Connecting: www.youtube.com
+[03:49:50] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:50:01] Connecting: www.youtube.com
+[03:50:19] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:50:39] Connecting: www.youtube.com
+[03:50:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:51:09] Connecting: www.youtube.com
+[03:51:20] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:51:21] Connecting: www.youtube.com
+[03:51:28] Connecting: push.services.mozilla.com
+[03:51:28] Connecting: push.services.mozilla.com
+[03:51:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:51:34] Connecting: www.youtube.com
+[03:51:38] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[03:51:49] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:52:01] Connecting: www.youtube.com
+[03:52:19] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:52:39] Connecting: www.youtube.com
+[03:52:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:53:09] Connecting: www.youtube.com
+[03:53:32] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:53:39] Connecting: www.youtube.com
+[03:53:50] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:54:01] Connecting: www.youtube.com
+[03:54:27] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:54:41] Connecting: www.youtube.com
+[03:54:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:55:11] Connecting: www.youtube.com
+[03:55:31] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:55:41] Connecting: www.youtube.com
+[03:55:52] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:56:01] Connecting: www.youtube.com
+[03:56:21] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[03:56:37] Connecting: www.youtube.com
+[03:56:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[04:44:41] Proxy server started. Listening on port 8080...
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:46] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:55] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:56] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:57] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:58] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:58] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:58] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:58] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:58] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:44:59] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:00] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:01] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] No data received or connection closed by client.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:02] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:03] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:04] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] Non-CONNECT request received. Only CONNECT is supported.
+[04:45:05] No data received or connection closed by client.
+[04:45:29] Connecting: www.youtube.com
+[04:45:39] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[04:47:01] Connecting: googleads.g.doubleclick.net
+[04:47:12] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[04:47:37] Proxy server started. Listening on port 8080...
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:37] Non-CONNECT request received. Only CONNECT is supported.
+[04:47:39] Proxy server stopped.
+[04:48:04] Proxy server started. Listening on port 8080...
+[04:48:46] Proxy server started. Listening on port 8080...
+[04:49:00] Proxy server stopped.
+[04:49:00] Exit proxy server ...
+[04:49:36] Proxy server started. Listening on port 8080...
+[04:50:18] Proxy server started. Listening on port 8080...
+[04:50:18] Connecting: www.youtube.com:443
+[04:50:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Connecting: www.youtube.com:443
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Connecting: www.youtube.com:443
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Connecting: www.youtube.com:443
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:18] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:19] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Connecting: translate.google.com:443
+[04:50:22] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:22] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:23] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Connecting: support.mozilla.org:443
+[04:50:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:39] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:40] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Connecting: www.youtube.com:443
+[04:50:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Connecting: incoming.telemetry.mozilla.org:443
+[04:50:52] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:52] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:52] Connecting: incoming.telemetry.mozilla.org:443
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Connecting: incoming.telemetry.mozilla.org:443
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:53] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:50:54] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:02] Exit proxy server ...
+[04:51:38] Proxy server started. Listening on port 8080...
+[04:51:41] Connecting: www.youtube.com:443
+[04:51:41] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[04:51:41] Connecting: www.youtube.com:443
+[04:51:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:41] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Connecting: i.ytimg.com:443
+[04:51:42] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:42] Connecting: www.youtube.com:443
+[04:51:42] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:51:42] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:43] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Connecting: www.youtube.com:443
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:49] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:50] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:51:51] Non-CONNECT request received. Only CONNECT is supported.
+[04:52:01] Proxy server stopped.
+[04:52:26] Proxy server started. Listening on port 8080...
+[04:52:30] Connecting: www.youtube.com:443
+[04:52:30] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:30] Connecting: i.ytimg.com:443
+[04:52:30] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:31] Connecting: www.youtube.com:443
+[04:52:31] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: googleads.g.doubleclick.net:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: www.youtube.com:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: www.youtube.com:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: www.youtube.com:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: www.youtube.com:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:32] Connecting: www.youtube.com:443
+[04:52:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:33] Connecting: www.youtube.com:443
+[04:52:33] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:52:37] No data received or connection closed by client.
+[04:52:43] Exit proxy server ...
+[04:56:34] Proxy server started. Listening on port 8080...
+[04:56:36] Connecting: www.youtube.com:443
+[04:56:36] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[04:56:36] Connecting: www.youtube.com:443
+[04:56:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:36] Connecting: i.ytimg.com:443
+[04:56:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:37] Connecting: www.youtube.com:443
+[04:56:37] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:38] Connecting: googleads.g.doubleclick.net:443
+[04:56:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:38] Connecting: www.youtube.com:443
+[04:56:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:38] Connecting: www.youtube.com:443
+[04:56:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:38] Connecting: www.youtube.com:443
+[04:56:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:38] Connecting: www.youtube.com:443
+[04:56:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:39] Connecting: www.youtube.com:443
+[04:56:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:39] Connecting: www.youtube.com:443
+[04:56:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:43] No data received or connection closed by client.
+[04:56:47] Proxy server stopped.
+[04:56:49] Exit proxy server ...
+[04:56:55] Proxy server started. Listening on port 8080...
+[04:56:58] Connecting: www.youtube.com:443
+[04:56:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:58] Connecting: i.ytimg.com:443
+[04:56:59] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:56:59] Connecting: www.youtube.com:443
+[04:56:59] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:00] Connecting: googleads.g.doubleclick.net:443
+[04:57:00] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:01] Connecting: www.youtube.com:443
+[04:57:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:01] Connecting: www.youtube.com:443
+[04:57:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:01] Connecting: www.youtube.com:443
+[04:57:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:01] Connecting: www.youtube.com:443
+[04:57:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:01] Connecting: www.youtube.com:443
+[04:57:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:02] Connecting: www.youtube.com:443
+[04:57:02] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[04:57:06] No data received or connection closed by client.
+[04:57:07] Proxy server stopped.
+[05:07:06] Proxy server started. Listening on port 8080...
+[05:07:07] Connecting: www.youtube.com:443
+[05:07:07] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:07] Connecting: i.ytimg.com:443
+[05:07:07] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:07:08] Connecting: www.youtube.com:443
+[05:07:08] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:10] Connecting: googleads.g.doubleclick.net:443
+[05:07:10] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:11] Connecting: www.youtube.com:443
+[05:07:11] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:07:15] Connecting: www.youtube.com:443
+[05:07:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:16] Connecting: www.youtube.com:443
+[05:07:16] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:16] Connecting: www.youtube.com:443
+[05:07:16] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:16] No data received or connection closed by client.
+[05:07:17] Connecting: www.youtube.com:443
+[05:07:17] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:17] Connecting: www.youtube.com:443
+[05:07:17] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:07:28] Connecting: www.youtube.com:443
+[05:07:29] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:29] Connecting: i.ytimg.com:443
+[05:07:29] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:07:30] Connecting: www.youtube.com:443
+[05:07:30] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:07:31] Connecting: googleads.g.doubleclick.net
+[05:07:31] Connecting: www.youtube.com
+[05:07:32] Proxy server stopped.
+[05:07:32] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[05:07:33] Exit proxy server ...
+[05:08:35] Proxy server started. Listening on port 8080...
+[05:08:35] Connecting: www.youtube.com:443
+[05:08:35] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:08:39] Proxy server stopped.
+[05:08:41] No data received or connection closed by client.
+[05:09:16] Exit proxy server ...
+[05:10:43] Exit proxy server ...
+[05:11:19] Proxy server started. Listening on port 8080...
+[05:11:21] Connecting: www.youtube.com:443
+[05:11:21] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:11:22] Connecting: www.youtube.com:443
+[05:11:22] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:22] Connecting: i.ytimg.com:443
+[05:11:22] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:22] Connecting: www.youtube.com:443
+[05:11:23] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:11:24] Connecting: googleads.g.doubleclick.net:443
+[05:11:24] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:24] Connecting: www.youtube.com:443
+[05:11:24] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:11:24] Connecting: www.youtube.com:443
+[05:11:24] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:11:25] Connecting: www.youtube.com:443
+[05:11:25] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:11:25] Connecting: www.youtube.com:443
+[05:11:25] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:28] Connecting: www.youtube.com:443
+[05:11:28] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:28] Connecting: www.youtube.com:443
+[05:11:28] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:30] No data received or connection closed by client.
+[05:11:57] Connecting: www.youtube.com:443
+[05:11:57] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:11:59] Exit proxy server ...
+[05:14:09] Proxy server started. Listening on port 8080...
+[05:14:10] Connecting: www.youtube.com:443
+[05:14:10] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:14:10] Connecting: www.youtube.com:443
+[05:14:10] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:10] Connecting: i.ytimg.com:443
+[05:14:10] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:11] Connecting: www.youtube.com:443
+[05:14:11] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:12] Connecting: googleads.g.doubleclick.net:443
+[05:14:12] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:14:12] Connecting: www.youtube.com:443
+[05:14:12] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:12] Connecting: www.youtube.com:443
+[05:14:12] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:14:12] Connecting: www.youtube.com:443
+[05:14:12] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:13] Connecting: www.youtube.com:443
+[05:14:13] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:14:13] Connecting: www.youtube.com:443
+[05:14:13] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:13] Connecting: www.youtube.com:443
+[05:14:13] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:13] Connecting: www.youtube.com:443
+[05:14:13] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:13] Connecting: www.youtube.com:443
+[05:14:13] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:14:17] No data received or connection closed by client.
+[05:14:18] Proxy server stopped.
+[05:18:17] Proxy server started. Listening on port 8080...
+[05:18:18] Connecting: googleads.g.doubleclick.net:443
+[05:18:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:18] Connecting: www.youtube.com:443
+[05:18:18] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:18:18] Connecting: i.ytimg.com:443
+[05:18:19] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:18:19] Connecting: www.youtube.com:443
+[05:18:19] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:20] Connecting: googleads.g.doubleclick.net:443
+[05:18:20] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:21] Connecting: www.youtube.com:443
+[05:18:21] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:21] Connecting: www.youtube.com:443
+[05:18:21] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:18:22] Connecting: www.youtube.com:443
+[05:18:22] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:23] Connecting: www.youtube.com:443
+[05:18:23] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:26] Connecting: www.youtube.com:443
+[05:18:26] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:26] Connecting: www.youtube.com:443
+[05:18:26] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:26] Connecting: spocs.getpocket.com:443
+[05:18:26] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:18:26] No data received or connection closed by client.
+[05:18:29] Proxy server stopped.
+[05:18:30] Exit proxy server ...
+[05:21:18] Proxy server started. Listening on port 8080...
+[05:21:19] Connecting: www.youtube.com:443
+[05:21:19] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:23] Proxy server stopped.
+[05:21:24] Exit proxy server ...
+[05:21:35] Proxy server started. Listening on port 8080...
+[05:21:37] Connecting: push.services.mozilla.com:443
+[05:21:37] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:50] Connecting: www.youtube.com:443
+[05:21:50] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:55] Connecting: www.youtube.com:443
+[05:21:55] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:21:55] No data received or connection closed by client.
+[05:21:55] Connecting: www.youtube.com:443
+[05:21:55] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:55] Connecting: i.ytimg.com:443
+[05:21:55] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:56] Connecting: www.youtube.com:443
+[05:21:56] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:21:57] Connecting: googleads.g.doubleclick.net:443
+[05:21:57] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:57] Connecting: www.youtube.com:443
+[05:21:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:58] Connecting: www.youtube.com:443
+[05:21:58] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:21:58] Connecting: www.youtube.com:443
+[05:21:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:58] Connecting: www.youtube.com:443
+[05:21:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:58] Connecting: www.youtube.com:443
+[05:21:58] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:58] Proxy server stopped.
+[05:21:58] Connecting: www.youtube.com:443
+[05:21:59] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:21:59] Exit proxy server ...
+[05:24:25] Proxy server started. Listening on port 8080...
+[05:24:26] Connecting: www.youtube.com
+[05:24:27] Connecting: i.ytimg.com
+[05:24:27] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com
+[05:24:27] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com
+[05:24:28] Connecting: rr6---sn-8qj-nbosz.googlevideo.com
+[05:24:28] Connecting: tpc.googlesyndication.com
+[05:24:28] Connecting: rr2---sn-8qj-nbo6r.googlevideo.com
+[05:24:30] Connecting: googleads.g.doubleclick.net
+[05:24:32] Connecting: rr1---sn-i3b7knsd.googlevideo.com
+[05:24:32] Connecting: pagead2.googlesyndication.com
+[05:24:33] Connecting: jnn-pa.googleapis.com
+[05:24:33] Connecting: play.google.com
+[05:24:33] Connecting: static.doubleclick.net
+[05:24:34] Connecting: play.google.com
+[05:24:35] Connecting: fonts.gstatic.com:443
+[05:24:35] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:35] Connecting: fonts.gstatic.com:443
+[05:24:35] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:35] Connecting: fonts.gstatic.com:443
+[05:24:35] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:37] Disconnecting: rr4---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[05:24:38] Disconnecting: rr6---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[05:24:38] Disconnecting: rr2---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[05:24:39] Connecting: www.gstatic.com:443
+[05:24:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:39] Connecting: r3---sn-nx5jvh-j2ue.googlevideo.com:443
+[05:24:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:39] Connecting: www.gstatic.com:443
+[05:24:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:39] No data received or connection closed by client.
+[05:24:39] Connecting: lh5.googleusercontent.com:443
+[05:24:39] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:40] Connecting: rr3---sn-8qj-nbosz.googlevideo.com:443
+[05:24:40] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:40] Connecting: rr4---sn-i3b7knsd.googlevideo.com:443
+[05:24:40] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:40] Connecting: rr3---sn-8qj-nbosz.googlevideo.com:443
+[05:24:40] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:40] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com:443
+[05:24:40] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com:443
+[05:24:40] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:40] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[05:24:41] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[05:24:41] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[05:24:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:41] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[05:24:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:42] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[05:24:42] Disconnecting: rr1---sn-i3b7knsd.googlevideo.com || Reason: Timeout occurred, closing connection.
+[05:24:43] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[05:24:43] Connecting: www.google.com:443
+[05:24:43] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:43] Connecting: rr3---sn-8qj-nbo66.googlevideo.com:443
+[05:24:43] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:44] Connecting: googleads.g.doubleclick.net:443
+[05:24:44] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:44] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[05:24:44] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[05:24:44] Connecting: www.gstatic.com:443
+[05:24:44] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:44] No data received or connection closed by client.
+[05:24:44] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[05:24:44] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[05:24:44] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:45] Connecting: rr3---sn-8qj-nbo66.googlevideo.com:443
+[05:24:45] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:45] Connecting: tpc.googlesyndication.com:443
+[05:24:45] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:45] Connecting: pagead2.googlesyndication.com:443
+[05:24:45] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:46] Connecting: play.google.com:443
+[05:24:46] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:46] Connecting: jnn-pa.googleapis.com:443
+[05:24:46] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:47] Connecting: www.gstatic.com:443
+[05:24:47] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:47] Connecting: www.google.com:443
+[05:24:47] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:47] Connecting: www.google.com.vn:443
+[05:24:47] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:47] Connecting: www.gstatic.com:443
+[05:24:48] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:48] Connecting: lh5.googleusercontent.com:443
+[05:24:48] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:48] Connecting: yt3.ggpht.com:443
+[05:24:48] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:48] Connecting: jnn-pa.googleapis.com:443
+[05:24:48] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:48] Connecting: play.google.com:443
+[05:24:48] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[05:24:49] Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[05:24:49] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000412:SSL routines::ssl/tls alert bad certificate
+[05:24:50] Proxy server stopped.
+[05:24:50] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[05:24:51] Exit proxy server ...
