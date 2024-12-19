@@ -17,16 +17,18 @@ namespace UI_WINDOW {
     static HWND hRequestBox;
     static HWND hRequestBoxLabel;
     static HWND hListType;
+    static HWND hProxyServerType;
 
     // Global variable for controlling the proxy server
     std::atomic<bool> isProxyRunning(false);
 
     int listType = 0;
+    int proxyServerType = 0;
 
     // Internal function to start the proxy server
     static void startProxyServer() {
         SOCKET listenSocket = NetworkInit::startInitSocket();
-
+        
         while (isProxyRunning) {
             fd_set readfds;
             FD_ZERO(&readfds);
@@ -38,7 +40,7 @@ namespace UI_WINDOW {
             if (activity > 0 && FD_ISSET(listenSocket, &readfds)) {
                 SOCKET clientSocket = accept(listenSocket, NULL, NULL);
                 if (clientSocket != INVALID_SOCKET) {
-                    std::thread clientThread(NetworkHandle::handleClient, clientSocket);
+                    std::thread clientThread((proxyServerType == 0 ? TransparentNetworkHandle::handleClient : MITMNetworkHandle::handleClient), clientSocket);
                     clientThread.detach();
                 }
             }
@@ -64,6 +66,7 @@ namespace UI_WINDOW {
         Font::ApplyFontToControl(hRequestBox);
         Font::ApplyFontToControl(hRequestBoxLabel);
         Font::ApplyFontToControl(hListType);     
+        Font::ApplyFontToControl(hProxyServerType);     
     }
 
     // Initialize UI elements
@@ -74,9 +77,10 @@ namespace UI_WINDOW {
         hRequestBoxLabel   = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
         hStatusBar         = CreateWindowA("BUTTON", " Status: Ready"      , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
         
-        hSaveListBtn   = CreateWindowA("BUTTON", " Save Blacklist" , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
-        hStartProxyBtn = CreateWindowA("BUTTON", " Start Proxy"    , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
-        hListType      = CreateWindowA("BUTTON", " Type: Blacklist", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)3, hInstance, NULL);
+        hSaveListBtn     = CreateWindowA("BUTTON", " Save Blacklist"   , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
+        hStartProxyBtn   = CreateWindowA("BUTTON", " Start Proxy"      , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
+        hListType        = CreateWindowA("BUTTON", " Type: Blacklist"  , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)3, hInstance, NULL);
+        hProxyServerType = CreateWindowA("BUTTON", " Type: Transparent", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)4, hInstance, NULL);
         
         hLogBox     = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         hListBox    = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
@@ -225,6 +229,16 @@ namespace UI_WINDOW {
                         }
                         break;
                     }
+                    case 4: {
+                        if (proxyServerType == 0) {
+                            proxyServerType = 1;
+                            SetWindowTextA(hProxyServerType, " Man In The Middle");
+                        } else {
+                            proxyServerType = 0;
+                            SetWindowTextA(hProxyServerType, " Transparent");
+                        }
+                        break;
+                    }
                 }
 
                 if (LOWORD(wParam) == ID_LISTBOX_HOSTRUNNING && HIWORD(wParam) == LVN_ITEMCHANGED) {
@@ -236,9 +250,8 @@ namespace UI_WINDOW {
                         // Lấy giá trị của cột đầu tiên ("Host") từ dòng được chọn
                         ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
 
-                        std::cout << "buffer: " << buffer << '\n';
                         // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
-                        std::string requestMessage = NetworkHandle::hostRequestMap[buffer];
+                        std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
 
                         // Hiển thị nội dung request trong `hRequestBox`
                         SetWindowText(hRequestBox, requestMessage.c_str());
@@ -256,7 +269,7 @@ namespace UI_WINDOW {
                         int index = pnmv->iItem;
                         char buffer[256];
                         ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
-                        std::string requestMessage = NetworkHandle::hostRequestMap[buffer];
+                        std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
                         SetWindowText(hRequestBox, requestMessage.c_str());
                     }
                 }
@@ -333,6 +346,9 @@ namespace UI_WINDOW {
                 MoveWindow(hLogBox     , column2X + x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding + buttonHeight + listBoxHeight + padding + padding;
+
+                MoveWindow(hProxyServerType, x, y, listBoxWidth / 4, buttonHeight, TRUE); 
+
                 MoveWindow(hListType   , x + listBoxWidth / 2                   , y, listBoxWidth / 4, buttonHeight, TRUE); 
                 MoveWindow(hSaveListBtn, x + listBoxWidth / 2 + listBoxWidth / 4, y, listBoxWidth / 4, buttonHeight, TRUE); 
                 
@@ -465,7 +481,7 @@ namespace UI_WINDOW {
         ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
 
         // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
-        std::string requestMessage = NetworkHandle::hostRequestMap[buffer];
+        std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
 
         // Hiển thị nội dung request trong `hRequestBox`
         SetWindowText(hRequestBox, requestMessage.c_str());
@@ -526,6 +542,65 @@ namespace UI_WINDOW {
         } else {
             // Optionally handle errors when opening the file
             // SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)"[Error] Could not write to log file.");
+            std::string errorMessage = "[Error] Could not write to log file.\r\n";
+            currentLog += errorMessage;
+            SetWindowTextA(hLogBox, currentLog.c_str());
+        }
+    }
+
+    void LogData(const std::string& direction, const std::string& data) {
+        // Get current time
+        auto now = std::chrono::system_clock::now();
+        auto now_time_t = std::chrono::system_clock::to_time_t(now);
+        std::tm tm;
+        localtime_s(&tm, &now_time_t); // Sử dụng localtime_s cho thread safety
+
+        // Format time as HH:MM:SS
+        std::ostringstream timeStream;
+        timeStream << std::put_time(&tm, "%H:%M:%S");
+
+        // Create the final log message with time prefix and direction
+        std::string logMessage = "[" + timeStream.str() + "] " + direction + ": " + data;
+
+        // Get the current content of the EDIT control
+        int length = GetWindowTextLengthA(hLogBox);
+        std::vector<char> buffer(length + 1);
+        GetWindowTextA(hLogBox, buffer.data(), length + 1);
+
+        // Append the new log message
+        std::string currentLog(buffer.begin(), buffer.end() - 1); // Loại bỏ ký tự null
+        currentLog += logMessage + "\r\n";
+
+        // Set the updated content back to the EDIT control
+        SetWindowTextA(hLogBox, currentLog.c_str());
+
+        // Automatically scroll to the bottom of the EDIT control
+        SendMessage(hLogBox, EM_SETSEL, static_cast<WPARAM>(currentLog.length()), static_cast<LPARAM>(currentLog.length()));
+        SendMessage(hLogBox, EM_SCROLLCARET, 0, 0);
+
+        // Prepare log file name: log_dd_mm_yy.txt
+        std::ostringstream fileNameStream;
+        fileNameStream << "log_"
+                       << std::put_time(&tm, "%d_%m_%y")
+                       << ".txt";
+        std::string logFileName = fileNameStream.str();
+
+        // Folder to store logs (adjust as needed)
+        std::string logFolder = "logs/";
+
+        // Ensure the log folder exists
+        CreateDirectoryA(logFolder.c_str(), NULL); // Không quan tâm đến lỗi nếu thư mục đã tồn tại
+
+        // Full path to log file
+        std::string logFilePath = logFolder + logFileName;
+
+        // Write the log message to the file
+        std::ofstream logFile(logFilePath, std::ios::app);
+        if (logFile.is_open()) {
+            logFile << logMessage << '\n';
+            logFile.close();
+        } else {
+            // Optionally handle errors when opening the file
             std::string errorMessage = "[Error] Could not write to log file.\r\n";
             currentLog += errorMessage;
             SetWindowTextA(hLogBox, currentLog.c_str());
