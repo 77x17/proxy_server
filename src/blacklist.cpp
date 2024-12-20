@@ -55,7 +55,17 @@ namespace Blacklist {
         blacklist.clear();
         while (std::getline(infile, line)) {
             while (not line.empty() and not isalpha(line.back())) line.pop_back();
-            blacklist.insert(line);
+            std::string clear_host = line;
+            while (!clear_host.empty() && clear_host.back() == '/') clear_host.pop_back();
+            
+            if (clear_host.find("https://") != std::string::npos) {
+                clear_host = clear_host.substr(8, clear_host.size() - 8);
+            }
+            if (clear_host.find("http://") != std::string::npos) {
+                clear_host = clear_host.substr(7, clear_host.size() - 7);
+            }
+
+            blacklist.insert(clear_host);
         }
     }
 
