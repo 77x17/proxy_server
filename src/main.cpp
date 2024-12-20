@@ -1,5 +1,49 @@
 #include "ui.h"
 
+bool loadRootCA(const std::string& keyPath, const std::string& certPath) {
+    // Load Private Key
+    FILE* keyFile = fopen(keyPath.c_str(), "r");
+    if (!keyFile) {
+        std::cerr << "Failed to open Root CA Key file: " << keyPath << "\n";
+        return false;
+    }
+    caKey = PEM_read_PrivateKey(keyFile, nullptr, nullptr, nullptr);
+    fclose(keyFile);
+
+    if (!caKey) {
+        std::cerr << "Failed to read private key from: " << keyPath << "\n";
+        unsigned long err = ERR_get_error();
+        std::cerr << "OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+        return false;
+    }
+
+    // Load Certificate
+    FILE* certFile = fopen(certPath.c_str(), "r");
+    if (!certFile) {
+        std::cerr << "Failed to open Root CA Certificate file: " << certPath << "\n";
+        return false;
+    }
+    caCert = PEM_read_X509(certFile, nullptr, nullptr, nullptr);
+    fclose(certFile);
+
+    if (!caCert) {
+        std::cerr << "Failed to read certificate from: " << certPath << "\n";
+        unsigned long err = ERR_get_error();
+        std::cerr << "OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+        return false;
+    }
+
+    // Kiểm tra tính hợp lệ của khóa và chứng chỉ
+    if (X509_check_private_key(caCert, caKey) <= 0) {
+        std::cerr << "The private key does not match the certificate.\n";
+        unsigned long err = ERR_get_error();
+        std::cerr << "OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+        return false;
+    }
+
+    return true;
+}
+
 int main() {
     Blacklist::load(BLACKLIST_URL);
     Whitelist::load(WHITELIST_URL);
@@ -8,43 +52,40 @@ int main() {
 
     // Tạo khóa RSA và chứng chỉ tự ký một lần duy nhất
     std::string host = "myproxy.local"; // Thay đổi theo nhu cầu, nên dùng một tên host phù hợp
-    EVP_PKEY* pkey = MITMNetworkHandle::generateRSAKey();
-    if (!pkey) {
-        std::cerr << "Failed to generate RSA key.\n";
-        MITMNetworkHandle::cleanupOpenSSL();
+
+    if (!loadRootCA("rootCA.key", "rootCA.crt")) {
+        std::cerr << "Failed to load Root CA.\n";
         return -1;
     }
 
-    X509* cert = MITMNetworkHandle::generateSelfSignedCert(pkey, host);
-    if (!cert) {
-        std::cerr << "Failed to generate self-signed certificate.\n";
-        EVP_PKEY_free(pkey);
-        MITMNetworkHandle::cleanupOpenSSL();
-        return -1;
-    }
-
-    // (Tùy chọn) Ghi chứng chỉ ra tệp để cài đặt vào client nếu cần
-    if (!MITMNetworkHandle::writeCertToFile(cert, "proxy_ca.crt")) {
-        std::cerr << "Failed to write certificate to file.\n";
-        X509_free(cert);
-        EVP_PKEY_free(pkey);
-        MITMNetworkHandle::cleanupOpenSSL();
-        return -1;
-    }
-
-    // Tạo SSL_CTX cố định cho proxy
-    MITMNetworkHandle::global_ssl_ctx = MITMNetworkHandle::createFakeSSLContext(pkey, cert);
+    // Khởi tạo SSL_CTX
+    MITMNetworkHandle::global_ssl_ctx = SSL_CTX_new(TLS_server_method());
     if (!MITMNetworkHandle::global_ssl_ctx) {
-        std::cerr << "Failed to create SSL context.\n";
-        X509_free(cert);
-        EVP_PKEY_free(pkey);
-        MITMNetworkHandle::cleanupOpenSSL();
+        std::cerr << "Failed to create global SSL_CTX.\n";
         return -1;
     }
 
-    // Giải phóng chứng chỉ và khóa sau khi đã gắn vào SSL_CTX
-    X509_free(cert);
-    EVP_PKEY_free(pkey);
+    // Gắn chứng chỉ vào SSL_CTX
+    if (SSL_CTX_use_certificate(MITMNetworkHandle::global_ssl_ctx, caCert) <= 0) {
+        std::cerr << "Failed to use certificate in SSL_CTX.\n";
+        unsigned long err = ERR_get_error();
+        std::cerr << "OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+        return -1;
+    }
+
+    // Gắn khóa riêng vào SSL_CTX
+    if (SSL_CTX_use_PrivateKey(MITMNetworkHandle::global_ssl_ctx, caKey) <= 0) {
+        std::cerr << "Failed to use private key in SSL_CTX.\n";
+        unsigned long err = ERR_get_error();
+        std::cerr << "OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+        return -1;
+    }
+
+    // Kiểm tra tính hợp lệ của khóa và chứng chỉ
+    if (!SSL_CTX_check_private_key(MITMNetworkHandle::global_ssl_ctx)) {
+        std::cerr << "Private key does not match the certificate public key.\n";
+        return -1;
+    }
 
     WSADATA wsaData;
     WSAStartup(MAKEWORD(2, 2), &wsaData);

@@ -1,5 +1,8 @@
 #include "network_handle.h"
 
+EVP_PKEY* caKey;
+X509* caCert;
+
 namespace MITMNetworkHandle {
     // Biến toàn cục
     std::atomic<int> activeThreads(0); // Quản lý các luồng đang hoạt động
@@ -253,23 +256,136 @@ namespace MITMNetworkHandle {
         return ctx;
     }
 
+    X509* generateCertificate(EVP_PKEY* caKey, X509* caCert, const std::string& domain) {
+        X509* cert = X509_new();
+        if (!cert) {
+            std::cerr << "Unable to create X509 certificate.\n";
+            return nullptr;
+        }
+
+        X509_set_version(cert, 2);
+        ASN1_INTEGER_set(X509_get_serialNumber(cert), rand());
+        X509_gmtime_adj(X509_get_notBefore(cert), 0);
+        X509_gmtime_adj(X509_get_notAfter(cert), 365 * 24 * 60 * 60);
+
+        EVP_PKEY* subKey = generateRSAKey();
+        if (!subKey) {
+            std::cerr << "Failed to generate RSA key for certificate.\n";
+            X509_free(cert);
+            return nullptr;
+        }
+
+        if (X509_set_pubkey(cert, subKey) <= 0) {
+            unsigned long err = ERR_get_error();
+            std::cerr << "Failed to attach public key to certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+            EVP_PKEY_free(subKey);
+            X509_free(cert);
+            return nullptr;
+        }
+
+        X509_NAME* name = X509_get_subject_name(cert);
+        if (!name) {
+            std::cerr << "Failed to get subject name from certificate.\n";
+            EVP_PKEY_free(subKey);
+            X509_free(cert);
+            return nullptr;
+        }
+
+        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC, reinterpret_cast<const unsigned char*>(domain.c_str()), -1, -1, 0);
+        X509_set_issuer_name(cert, X509_get_subject_name(caCert));
+
+        if (X509_sign(cert, caKey, EVP_sha256()) <= 0) {
+            unsigned long err = ERR_get_error();
+            std::cerr << "Failed to sign certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
+            EVP_PKEY_free(subKey);
+            X509_free(cert);
+            return nullptr;
+        }
+
+        EVP_PKEY_free(subKey);
+        return cert;
+    }
+
     void handleSSLConnection(SOCKET clientSocket, const std::string& host, int port, SSL_CTX* ctx) {
-        // Khởi tạo SSL object cho client
-        SSL* sslClient = SSL_new(ctx);
-        if (!sslClient) {
-            UI_WINDOW::UpdateLog("Failed to create SSL object for client.");
+        // Kiểm tra SSL_CTX
+        if (!caKey || !caCert) {
+            UI_WINDOW::UpdateLog("CA key or certificate is null.");
             closesocket(clientSocket);
             return;
         }
-        SSL_set_fd(sslClient, clientSocket);
 
-        // Thực hiện SSL handshake với client
-        if (SSL_accept(sslClient) <= 0) {
-            int error = SSL_get_error(sslClient, -1);
+        if (!ctx) {
+            UI_WINDOW::UpdateLog("Invalid SSL_CTX provided.");
+            closesocket(clientSocket);
+            return;
+        }
+
+        // Tạo chứng chỉ con cho domain
+        X509* cert = generateCertificate(caKey, caCert, host);
+        if (!cert) {
+            UI_WINDOW::UpdateLog("Failed to generate certificate for host: " + host);
+            closesocket(clientSocket);
+            return;
+        }
+
+        // Tạo SSL_CTX mới cho chứng chỉ con
+        SSL_CTX* childCtx = SSL_CTX_new(TLS_server_method());
+        if (!childCtx) {
+            UI_WINDOW::UpdateLog("Failed to create SSL_CTX for child connection.");
+            X509_free(cert);
+            closesocket(clientSocket);
+            return;
+        }
+
+        if (SSL_CTX_use_certificate(childCtx, cert) <= 0) {
+            UI_WINDOW::UpdateLog("Failed to use certificate in SSL_CTX.");
+            unsigned long err = ERR_get_error();
+            UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)));
+            SSL_CTX_free(childCtx);
+            X509_free(cert);
+            closesocket(clientSocket);
+            return;
+        }
+
+        if (SSL_CTX_use_PrivateKey(childCtx, caKey) <= 0) {
+            UI_WINDOW::UpdateLog("Failed to use private key in SSL_CTX.");
+            unsigned long err = ERR_get_error();
+            UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)));
+            SSL_CTX_free(childCtx);
+            X509_free(cert);
+            closesocket(clientSocket);
+            return;
+        }
+
+        if (!SSL_CTX_check_private_key(childCtx)) {
+            UI_WINDOW::UpdateLog("Private key does not match the certificate public key.");
+            SSL_CTX_free(childCtx);
+            X509_free(cert);
+            closesocket(clientSocket);
+            return;
+        }
+
+        // Tạo SSL object
+        SSL* ssl = SSL_new(childCtx);
+        if (!ssl) {
+            UI_WINDOW::UpdateLog("Failed to create SSL object.");
+            SSL_CTX_free(childCtx);
+            X509_free(cert);
+            closesocket(clientSocket);
+            return;
+        }
+
+        SSL_set_fd(ssl, clientSocket);
+
+        // Thực hiện SSL handshake
+        if (SSL_accept(ssl) <= 0) {
+            int error = SSL_get_error(ssl, -1);
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("SSL handshake failed. SSL Error: " + std::to_string(error) +
-                ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)));
-            SSL_free(sslClient);
+                                ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)));
+            SSL_free(ssl);
+            SSL_CTX_free(childCtx);
+            X509_free(cert);
             closesocket(clientSocket);
             return;
         }
@@ -280,7 +396,7 @@ namespace MITMNetworkHandle {
         SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (remoteSocket == INVALID_SOCKET) {
             UI_WINDOW::UpdateLog("Cannot create remote socket.");
-            SSL_free(sslClient);
+            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -292,7 +408,7 @@ namespace MITMNetworkHandle {
         if (remoteHost == NULL) {
             UI_WINDOW::UpdateLog("Cannot resolve hostname.");
             closesocket(remoteSocket);
-            SSL_free(sslClient);
+            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -301,7 +417,7 @@ namespace MITMNetworkHandle {
         if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
             UI_WINDOW::UpdateLog("Cannot connect to remote server.");
             closesocket(remoteSocket);
-            SSL_free(sslClient);
+            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -313,7 +429,7 @@ namespace MITMNetworkHandle {
         if (!serverCtx) {
             UI_WINDOW::UpdateLog("Unable to create server SSL context.");
             closesocket(remoteSocket);
-            SSL_free(sslClient);
+            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -329,7 +445,7 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Failed to create SSL object for server.");
             SSL_CTX_free(serverCtx);
             closesocket(remoteSocket);
-            SSL_free(sslClient);
+            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -342,7 +458,7 @@ namespace MITMNetworkHandle {
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("SSL handshake failed with server. SSL Error: " + std::to_string(error) +
                 ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)));
-            SSL_free(sslClient);
+            SSL_free(ssl);
             SSL_free(sslServer);
             SSL_CTX_free(serverCtx);
             closesocket(remoteSocket);
@@ -381,7 +497,7 @@ namespace MITMNetworkHandle {
             }
 
             if (FD_ISSET(clientSocket, &readfds)) {
-                int receivedBytes = SSL_read(sslClient, buffer, sizeof(buffer));
+                int receivedBytes = SSL_read(ssl, buffer, sizeof(buffer));
                 if (receivedBytes <= 0) {
                     connectionOpen = false;
                     break;
@@ -407,7 +523,7 @@ namespace MITMNetworkHandle {
                 std::string data(buffer, receivedBytes);
                 UI_WINDOW::LogData("Server -> Client:", data);
 
-                if (SSL_write(sslClient, buffer, receivedBytes) <= 0) {
+                if (SSL_write(ssl, buffer, receivedBytes) <= 0) {
                     connectionOpen = false;
                     break;
                 }
@@ -415,7 +531,7 @@ namespace MITMNetworkHandle {
         }
 
         // Đóng kết nối SSL và các tài nguyên
-        SSL_free(sslClient);
+        SSL_free(ssl);
         SSL_free(sslServer);
         SSL_CTX_free(serverCtx);
         closesocket(remoteSocket);

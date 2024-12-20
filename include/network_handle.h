@@ -21,6 +21,9 @@
 #include "blacklist.h"
 #include "whitelist.h"
 
+extern EVP_PKEY* caKey;
+extern X509* caCert;
+
 namespace MITMNetworkHandle {
     extern std::map<std::string, std::string> hostRequestMap;
     extern SSL_CTX* global_ssl_ctx;
