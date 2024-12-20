@@ -99,7 +99,7 @@ int main() {
 
     HWND hwnd = CreateWindowA(
         CLASS_NAME, 
-        "Proxy Server - fit.hcmus.edu.vn",  // Changed to char
+        "Transparent | Man In The Middle (MITM) - Proxy Server - fit.hcmus.edu.vn",  // Changed to char
         WS_OVERLAPPEDWINDOW, // Bao gồm hỗ trợ phóng to, thu nhỏ
         CW_USEDEFAULT, CW_USEDEFAULT, 
         800, 600, 

@@ -1,4 +1,5 @@
 *googlevideo.com
+example.com
+https://www.youtube.com
 i.ytimg.com
 www.youtube.com
-example.com

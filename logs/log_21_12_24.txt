@@ -1,0 +1,2208 @@
+[00:00:24] Proxy server started. Listening on port 8080...
+[00:00:29] Connecting: www.acunetix.com
+[00:00:30] Connecting: www.youtube.com
+[00:00:31] Handling HTTP request: https://o.pki.goog:80
+[00:00:31] Cannot resolve hostname: https://o.pki.goog
+[00:00:31] Connecting: i.ytimg.com
+[00:00:31] Handling HTTP request: https://o.pki.goog:80
+[00:00:31] Cannot resolve hostname: https://o.pki.goog
+[00:00:33] Connecting: googleads.g.doubleclick.net
+[00:00:33] Connecting: accounts.google.com
+[00:00:34] Handling HTTP request: https://o.pki.goog:80
+[00:00:34] Cannot resolve hostname: https://o.pki.goog
+[00:00:34] Handling HTTP request: https://o.pki.goog:80
+[00:00:34] Cannot resolve hostname: https://o.pki.goog
+[00:00:34] Connecting: www.google.com
+[00:00:35] Connecting: play.google.com
+[00:00:35] Handling HTTP request: https://o.pki.goog:80
+[00:00:35] Cannot resolve hostname: https://o.pki.goog
+[00:00:36] Connecting: fonts.gstatic.com
+[00:00:36] Connecting: fonts.gstatic.com
+[00:00:36] Connecting: fonts.gstatic.com
+[00:00:36] Connecting: www.gstatic.com
+[00:00:36] Connecting: play.google.com
+[00:00:36] Handling HTTP request: https://o.pki.goog:80
+[00:00:36] Cannot resolve hostname: https://o.pki.goog
+[00:00:36] Handling HTTP request: https://o.pki.goog:80
+[00:00:36] Cannot resolve hostname: https://o.pki.goog
+[00:00:38] Handling HTTP request: https://o.pki.goog:80
+[00:00:38] Cannot resolve hostname: https://o.pki.goog
+[00:00:39] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:00:39] Connecting: www.google.com
+[00:00:39] Connecting: www.google.com.vn
+[00:00:40] Handling HTTP request: https://o.pki.goog:80
+[00:00:40] Cannot resolve hostname: https://o.pki.goog
+[00:00:40] Handling HTTP request: https://o.pki.goog:80
+[00:00:40] Cannot resolve hostname: https://o.pki.goog
+[00:00:44] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:00:44] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[00:00:44] Connecting: www.acunetix.com
+[00:00:45] Connecting: client-registry.mutinycdn.com
+[00:00:45] Connecting: static.cloudflareinsights.com
+[00:00:45] Connecting: www.googletagmanager.com
+[00:00:45] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:00:46] Handling HTTP request: https://o.pki.goog:80
+[00:00:46] Cannot resolve hostname: https://o.pki.goog
+[00:00:47] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:00:47] Connecting: cdn.acunetix.com
+[00:00:47] Connecting: cdn.acunetix.com
+[00:00:47] Connecting: cdn.acunetix.com
+[00:00:47] Connecting: cdn.acunetix.com
+[00:00:48] Connecting: ob.esnlocco.com
+[00:00:48] Connecting: cdn.bizible.com
+[00:00:48] Connecting: j.6sc.co
+[00:00:48] Connecting: www.googletagmanager.com
+[00:00:49] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:00:50] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:00:51] Connecting: www.google-analytics.com
+[00:00:51] Connecting: dev.visualwebsiteoptimizer.com
+[00:00:51] Connecting: snap.licdn.com
+[00:00:51] Connecting: bat.bing.com
+[00:00:51] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:00:51] Connecting: www.google-analytics.com
+[00:00:51] Connecting: x.clearbitjs.com
+[00:00:51] Connecting: static.hotjar.com
+[00:00:52] Connecting: munchkin.marketo.net
+[00:00:52] Connecting: googleads.g.doubleclick.net
+[00:00:52] Handling HTTP request: https://o.pki.goog:80
+[00:00:52] Cannot resolve hostname: https://o.pki.goog
+[00:00:52] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:00:52] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:00:53] Connecting: c.6sc.co
+[00:00:53] Connecting: ipv6.6sc.co
+[00:00:53] Connecting: epsilon.6sense.com
+[00:00:53] Connecting: b.6sc.co
+[00:00:54] Connecting: b.6sc.co
+[00:00:54] Connecting: b.6sc.co
+[00:00:55] Connecting: obs.esnlocco.com
+[00:00:55] Handling HTTP request: https://ocsp.starfieldtech.com:80
+[00:00:55] Cannot resolve hostname: https://ocsp.starfieldtech.com
+[00:00:55] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:00:55] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:00:55] Handling HTTP request: https://o.pki.goog:80
+[00:00:55] Cannot resolve hostname: https://o.pki.goog
+[00:00:55] Connecting: script.hotjar.com
+[00:00:55] Connecting: b.6sc.co
+[00:00:55] Connecting: b.6sc.co
+[00:00:56] Connecting: 923-hqb-396.mktoresp.com
+[00:00:56] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:00:56] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:00:56] Connecting: px.ads.linkedin.com
+[00:00:56] Connecting: dev.visualwebsiteoptimizer.com
+[00:00:56] Connecting: dev.visualwebsiteoptimizer.com
+[00:00:56] Connecting: dev.visualwebsiteoptimizer.com
+[00:00:56] Connecting: b.6sc.co
+[00:00:56] Disconnecting: static.cloudflareinsights.com || Reason: Timeout occurred, closing connection.
+[00:00:56] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:00:57] Connecting: www.google.com.vn
+[00:00:57] Handling HTTP request: https://o.pki.goog:80
+[00:00:57] Cannot resolve hostname: https://o.pki.goog
+[00:00:57] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:00:57] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:00:57] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[00:00:58] Connecting: epsilon.6sense.com
+[00:00:58] Handling HTTP request: https://ocsp.digicert.com:80
+[00:00:58] Cannot resolve hostname: https://ocsp.digicert.com
+[00:00:58] Handling HTTP request: https://ocsp.starfieldtech.com:80
+[00:00:58] Cannot resolve hostname: https://ocsp.starfieldtech.com
+[00:00:58] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:00:58] Disconnecting: cdn.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:00:58] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:00:59] Handling HTTP request: https://o.pki.goog:80
+[00:00:59] Cannot resolve hostname: https://o.pki.goog
+[00:00:59] Connecting: js.zi-scripts.com
+[00:00:59] Connecting: cdn.bizibly.com
+[00:00:59] Connecting: cdn.bizible.com
+[00:00:59] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:00:59] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:00:59] Disconnecting: j.6sc.co || Reason: Timeout occurred, closing connection.
+[00:00:59] Connecting: v.eps.6sc.co
+[00:01:00] Connecting: eps.6sc.co
+[00:01:00] Connecting: js.zi-scripts.com
+[00:01:00] Handling HTTP request: https://ocsp.digicert.com:80
+[00:01:00] Cannot resolve hostname: https://ocsp.digicert.com
+[00:01:00] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[00:01:01] Disconnecting: ob.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:01:01] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:01:01] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:01:02] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:01:02] Connecting: ws-assets.zoominfo.com
+[00:01:02] Connecting: ws.zoominfo.com
+[00:01:02] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:01:03] Disconnecting: snap.licdn.com || Reason: Timeout occurred, closing connection.
+[00:01:03] Disconnecting: munchkin.marketo.net || Reason: Timeout occurred, closing connection.
+[00:01:03] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:01:03] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:01:03] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:01:03] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:01:04] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:01:04] Connecting: ws.zoominfo.com
+[00:01:04] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:01:05] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:01:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:01:06] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:01:07] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:01:07] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:01:07] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:01:07] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:01:07] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:01:08] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:01:08] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:01:09] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:01:09] Disconnecting: cdn.bizibly.com || Reason: Timeout occurred, closing connection.
+[00:01:09] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+
+[00:01:10] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:01:12] Connecting: play.google.com
+[00:01:12] Disconnecting: ws-assets.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:01:12] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:01:12] Handling HTTP request: https://o.pki.goog:80
+[00:01:12] Cannot resolve hostname: https://o.pki.goog
+[00:01:13] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:01:13] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:01:15] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:01:18] Connecting: ws.zoominfo.com
+[00:01:18] Connecting: www.acunetix.com
+[00:01:24] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:01:32] Exit proxy server ...
+[00:02:15] Proxy server started. Listening on port 8080...
+[00:02:15] Connecting: b.6sc.co
+[00:02:18] Connecting: www.acunetix.com
+[00:02:19] Connecting: play.google.com
+[00:02:19] Handling HTTP request: https://o.pki.goog:80
+[00:02:19] Cannot resolve hostname: https://o.pki.goog
+[00:02:19] Connecting: play.google.com
+[00:02:28] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:02:29] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:02:30] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:02:39] Exit proxy server ...
+[00:04:34] Proxy server started. Listening on port 8080...
+[00:04:35] Connecting: www.youtube.com
+[00:04:35] Handling HTTP request: https://o.pki.goog:80
+[00:04:35] Cannot resolve hostname: https://o.pki.goog
+[00:04:37] Connecting: incoming.telemetry.mozilla.org
+[00:04:37] Handling HTTP request: https://ocsp.digicert.com:80
+[00:04:37] Cannot resolve hostname: https://ocsp.digicert.com
+[00:04:50] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:04:52] Connecting: b.6sc.co
+[00:05:03] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:05:17] Connecting: www.acunetix.com
+[00:05:19] Connecting: client-registry.mutinycdn.com
+[00:05:19] Connecting: www.google-analytics.com
+[00:05:19] Connecting: bat.bing.com
+[00:05:19] Connecting: ws.zoominfo.com
+[00:05:20] Connecting: dev.visualwebsiteoptimizer.com
+[00:05:20] Connecting: www.google.com
+[00:05:20] Connecting: x.clearbitjs.com
+[00:05:20] Connecting: static.hotjar.com
+[00:05:20] Handling HTTP request: https://o.pki.goog:80
+[00:05:20] Cannot resolve hostname: https://o.pki.goog
+[00:05:21] Connecting: ws.zoominfo.com
+[00:05:21] Connecting: googleads.g.doubleclick.net
+[00:05:21] Connecting: c.6sc.co
+[00:05:21] Connecting: ipv6.6sc.co
+[00:05:21] Connecting: www.googletagmanager.com
+[00:05:21] Connecting: obs.esnlocco.com
+[00:05:21] Connecting: epsilon.6sense.com
+[00:05:21] Connecting: 923-hqb-396.mktoresp.com
+[00:05:22] Handling HTTP request: https://o.pki.goog:80
+[00:05:22] Cannot resolve hostname: https://o.pki.goog
+[00:05:22] Connecting: b.6sc.co
+[00:05:22] Connecting: px.ads.linkedin.com
+[00:05:22] Connecting: dev.visualwebsiteoptimizer.com
+[00:05:22] Connecting: v.eps.6sc.co
+[00:05:23] Connecting: eps.6sc.co
+[00:05:23] Handling HTTP request: https://o.pki.goog:80
+[00:05:23] Cannot resolve hostname: https://o.pki.goog
+[00:05:23] Connecting: b.6sc.co
+[00:05:23] Connecting: www.google.com.vn
+[00:05:24] Connecting: b.6sc.co
+[00:05:25] Connecting: b.6sc.co
+[00:05:27] Connecting: js.zi-scripts.com
+[00:05:27] Connecting: cdn.bizible.com
+[00:05:27] Connecting: js.zi-scripts.com
+[00:05:29] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:05:30] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:05:31] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:05:32] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:05:32] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:05:32] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:05:32] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:05:32] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:05:33] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:05:33] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:05:34] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+tion.
+[00:05:34] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:05:36] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:05:36] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:05:37] Connecting: incoming.telemetry.mozilla.org
+[00:05:37] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:05:37] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:05:38] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:05:39] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:05:39] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:05:40] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:05:44] Connecting: ws.zoominfo.com
+[00:05:50] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:05:50] Exit proxy server ...
+[00:08:56] Proxy server started. Listening on port 8080...
+[00:08:58] Connecting: www.acunetix.com
+[00:09:00] Connecting: client-registry.mutinycdn.com
+[00:09:00] Connecting: www.google-analytics.com
+[00:09:00] Connecting: bat.bing.com
+[00:09:00] Connecting: ws.zoominfo.com
+[00:09:01] Connecting: www.youtube.com
+[00:09:01] Connecting: dev.visualwebsiteoptimizer.com
+[00:09:01] Connecting: ws.zoominfo.com
+[00:09:01] Handling HTTP request: https://o.pki.goog:80
+[00:09:01] Cannot resolve hostname: https://o.pki.goog
+[00:09:02] Connecting: i.ytimg.com
+[00:09:02] Connecting: www.google.com
+[00:09:02] Connecting: x.clearbitjs.com
+[00:09:03] Connecting: static.hotjar.com
+[00:09:03] Connecting: js.zi-scripts.com
+[00:09:03] Connecting: cdn.bizible.com
+[00:09:03] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:09:04] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:09:04] Connecting: googleads.g.doubleclick.net
+[00:09:04] Connecting: c.6sc.co
+[00:09:04] Connecting: ipv6.6sc.co
+[00:09:04] Handling HTTP request: https://o.pki.goog:80
+[00:09:04] Cannot resolve hostname: https://o.pki.goog
+[00:09:04] Connecting: js.zi-scripts.com
+[00:09:05] Connecting: 923-hqb-396.mktoresp.com
+[00:09:05] Connecting: www.google.com.vn
+[00:09:05] Connecting: px.ads.linkedin.com
+[00:09:05] Connecting: b.6sc.co
+[00:09:06] Connecting: b.6sc.co
+[00:09:07] Connecting: play.google.com
+[00:09:10] Handling HTTP request: https://ocsp.digicert.com:80
+[00:09:10] Cannot resolve hostname: https://ocsp.digicert.com
+[00:09:10] Connecting: yt3.ggpht.com
+[00:09:11] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:09:11] Handling HTTP request: https://o.pki.goog:80
+[00:09:11] Cannot resolve hostname: https://o.pki.goog
+[00:09:11] Handling HTTP request: https://ocsp.digicert.com:80
+[00:09:11] Cannot resolve hostname: https://ocsp.digicert.com
+[00:09:12] Handling HTTP request: https://o.pki.goog:80
+[00:09:12] Cannot resolve hostname: https://o.pki.goog
+[00:09:13] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:09:13] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:09:14] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+
+[00:09:14] Connecting: jnn-pa.googleapis.com
+[00:09:14] Connecting: static.doubleclick.net
+[00:09:14] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:09:15] Handling HTTP request: https://o.pki.goog:80
+[00:09:15] Cannot resolve hostname: https://o.pki.goog
+[00:09:15] Handling HTTP request: https://o.pki.goog:80
+[00:09:15] Cannot resolve hostname: https://o.pki.goog
+[00:09:15] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:09:15] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:09:15] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:09:17] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:09:17] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:09:18] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:09:18] Connecting: obs.esnlocco.com
+[00:09:19] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:09:19] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+.
+[00:09:20] Connecting: bat.bing.com
+[00:09:20] Connecting: epsilon.6sense.com
+[00:09:20] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:09:21] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:09:21] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:09:21] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:09:22] Connecting: b.6sc.co
+[00:09:22] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[00:09:22] Connecting: v.eps.6sc.co
+[00:09:22] Connecting: eps.6sc.co
+[00:09:23] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:09:23] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:09:23] Connecting: www.google-analytics.com
+[00:09:25] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:09:26] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:09:27] Connecting: b.6sc.co
+[00:09:27] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:27] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:28] Connecting: b.6sc.co
+[00:09:28] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:28] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:28] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:09:28] Connecting: b.6sc.co
+[00:09:29] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:29] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:29] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:09:30] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:09:31] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:31] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:31] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:31] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:31] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:31] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:31] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:31] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:31] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:32] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:32] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:33] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:09:33] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:33] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Connecting: ws.zoominfo.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:34] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:34] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:35] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:35] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:36] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:36] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:37] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:37] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:37] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:37] Handling HTTP request: https://detectportal.firefox.com:80
+[00:09:37] Cannot resolve hostname: https://detectportal.firefox.com
+[00:09:45] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:09:46] Connecting: play.google.com
+[00:09:49] Connecting: ws.zoominfo.com
+[00:09:50] Proxy server stopped.
+[00:09:50] Disconnecting: b.6sc.co || Reason: Stopped proxy.
+[00:09:50] Disconnecting: b.6sc.co || Reason: Stopped proxy.
+[00:09:50] Disconnecting: b.6sc.co || Reason: Stopped proxy.
+[00:09:50] Disconnecting: ws.zoominfo.com || Reason: Stopped proxy.
+[00:09:56] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:15:33] Proxy server started. Listening on port 8080...
+[00:15:35] Connecting: www.youtube.com
+[00:15:35] Handling HTTP request: https://o.pki.goog:80
+[00:15:35] Cannot resolve hostname: https://o.pki.goog
+[00:15:36] Connecting: i.ytimg.com
+[00:15:36] Handling HTTP request: https://o.pki.goog:80
+[00:15:36] Cannot resolve hostname: https://o.pki.goog
+[00:15:39] Connecting: googleads.g.doubleclick.net
+[00:15:39] Connecting: www.acunetix.com
+[00:15:40] Connecting: play.google.com
+[00:15:40] Handling HTTP request: https://o.pki.goog:80
+[00:15:40] Cannot resolve hostname: https://o.pki.goog
+[00:15:41] Connecting: play.google.com
+[00:15:42] Handling HTTP request: https://o.pki.goog:80
+[00:15:42] Cannot resolve hostname: https://o.pki.goog
+[00:15:42] Connecting: client-registry.mutinycdn.com
+[00:15:42] Connecting: www.google-analytics.com
+[00:15:42] Connecting: ws.zoominfo.com
+[00:15:42] Connecting: bat.bing.com
+[00:15:43] Handling HTTP request: https://o.pki.goog:80
+[00:15:43] Cannot resolve hostname: https://o.pki.goog
+[00:15:43] Connecting: ws.zoominfo.com
+[00:15:43] Connecting: dev.visualwebsiteoptimizer.com
+[00:15:43] Connecting: www.google.com
+[00:15:43] Connecting: x.clearbitjs.com
+[00:15:44] Connecting: static.hotjar.com
+[00:15:44] Connecting: c.6sc.co
+[00:15:44] Connecting: ipv6.6sc.co
+[00:15:44] Connecting: www.google.com.vn
+[00:15:44] Connecting: obs.esnlocco.com
+[00:15:44] Connecting: epsilon.6sense.com
+[00:15:44] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:15:44] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:15:44] Connecting: 923-hqb-396.mktoresp.com
+[00:15:45] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:15:45] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:15:45] Connecting: b.6sc.co
+[00:15:45] Connecting: px.ads.linkedin.com
+[00:15:45] Handling HTTP request: https://ocsp.digicert.com:80
+[00:15:45] Cannot resolve hostname: https://ocsp.digicert.com
+[00:15:46] Connecting: b.6sc.co
+[00:15:46] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:15:46] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:15:46] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:15:48] Connecting: v.eps.6sc.co
+[00:15:48] Connecting: eps.6sc.co
+[00:15:48] Connecting: js.zi-scripts.com
+[00:15:48] Connecting: cdn.bizible.com
+[00:15:49] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:15:49] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:15:49] Connecting: js.zi-scripts.com
+[00:15:50] Connecting: ws-assets.zoominfo.com
+[00:15:50] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:15:50] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:15:50] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:15:52] Connecting: b.6sc.co
+[00:15:52] Connecting: yt3.ggpht.com
+[00:15:53] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:15:53] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:15:54] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:15:55] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:15:55] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:15:56] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:15:56] Connecting: rr1---sn-8pxuuxa-nbo6l.googlevideo.com
+[00:15:56] Connecting: i.ytimg.com
+[00:15:56] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:15:57] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:15:57] Handling HTTP request: https://o.pki.goog:80
+[00:15:57] Cannot resolve hostname: https://o.pki.goog
+[00:15:57] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:15:57] Handling HTTP request: https://o.pki.goog:80
+[00:15:57] Cannot resolve hostname: https://o.pki.goog
+[00:15:58] Handling HTTP request: https://o.pki.goog:80
+[00:15:58] Cannot resolve hostname: https://o.pki.goog
+[00:15:58] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:15:58] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:15:59] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:16:00] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:16:00] Connecting: rr4---sn-npoe7nss.googlevideo.com
+[00:16:00] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:16:00] Exit proxy server ...
+[00:16:00] Disconnecting: rr4---sn-npoe7nss.googlevideo.com || Reason: Stopped proxy.
+[00:16:19] Proxy server started. Listening on port 8080...
+[00:16:19] Connecting: rr4---sn-npoe7nss.googlevideo.com
+[00:16:19] Connecting: b.6sc.co
+[00:16:19] Connecting: www.youtube.com
+[00:16:20] Handling HTTP request: https://o.pki.goog:80
+[00:16:20] Cannot resolve hostname: https://o.pki.goog
+[00:16:20] Connecting: www.youtube.com
+[00:16:20] Handling HTTP request: https://o.pki.goog:80
+[00:16:20] Cannot resolve hostname: https://o.pki.goog
+[00:16:20] Handling HTTP request: https://o.pki.goog:80
+[00:16:20] Cannot resolve hostname: https://o.pki.goog
+[00:16:20] Connecting: ws.zoominfo.com
+[00:16:24] Connecting: www.acunetix.com
+[00:16:24] Connecting: client-registry.mutinycdn.com
+[00:16:24] Connecting: www.googletagmanager.com
+[00:16:24] Connecting: www.google.com
+[00:16:24] Handling HTTP request: https://o.pki.goog:80
+[00:16:24] Cannot resolve hostname: https://o.pki.goog
+[00:16:24] Connecting: www.google.com.vn
+[00:16:24] Connecting: dev.visualwebsiteoptimizer.com
+[00:16:24] Connecting: www.google-analytics.com
+[00:16:25] Connecting: x.clearbitjs.com
+c[00:16:25] Connecting: c.6sc.co
+epsilon.6sense.com
+[00:16:25] Connecting: bat.bing.com
+[00:16:25] Connecting: play.google.com
+[00:16:25] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:16:25] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:16:25] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:16:25] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:16:27] Connecting: v.eps.6sc.co
+[00:16:27] Connecting: b.6sc.co
+[00:16:27] Connecting: px.ads.linkedin.com
+[00:16:27] Connecting: eps.6sc.co
+[00:16:27] Connecting: play.google.com
+[00:16:28] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:16:28] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:16:28] Connecting: 923-hqb-396.mktoresp.com
+[00:16:29] Connecting: b.6sc.co
+[00:16:29] Handling HTTP request: https://ocsp.digicert.com:80
+[00:16:29] Cannot resolve hostname: https://ocsp.digicert.com
+[00:16:30] Connecting: js.zi-scripts.com
+[00:16:30] Connecting: cdn.bizible.com
+[00:16:30] Disconnecting: rr4---sn-npoe7nss.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:16:31] Connecting: js.zi-scripts.com
+[00:16:34] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:16:35] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[00:16:35] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:16:35] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:16:36] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:16:36] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+.
+
+[00:16:36] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:16:36] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:16:36] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:16:37] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:16:37] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:16:37] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:16:38] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:16:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:16:38] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:16:38] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:16:39] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:16:39] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:16:41] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:16:41] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:16:41] Connecting: jnn-pa.googleapis.com
+[00:16:42] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:16:42] Exit proxy server ...
+[00:16:42] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:17:02] Proxy server started. Listening on port 8080...
+[00:17:02] Connecting: b.6sc.co
+[00:17:02] Connecting: www.youtube.com
+[00:17:02] Connecting: ws.zoominfo.com
+[00:17:03] Connecting: www.youtube.com
+[00:17:03] Handling HTTP request: https://o.pki.goog:80
+[00:17:03] Cannot resolve hostname: https://o.pki.goog
+[00:17:03] Handling HTTP request: https://o.pki.goog:80
+[00:17:03] Cannot resolve hostname: https://o.pki.goog
+[00:17:04] Connecting: i.ytimg.com
+[00:17:04] Handling HTTP request: https://o.pki.goog:80
+[00:17:04] Cannot resolve hostname: https://o.pki.goog
+[00:17:07] Connecting: jnn-pa.googleapis.com
+[00:17:08] Connecting: www.acunetix.com
+[00:17:08] Connecting: client-registry.mutinycdn.com
+[00:17:08] Connecting: play.google.com
+[00:17:08] Connecting: www.google-analytics.com
+[00:17:08] Connecting: bat.bing.com
+[00:17:08] Connecting: play.google.com
+[00:17:09] Connecting: dev.visualwebsiteoptimizer.com
+[00:17:09] Handling HTTP request: https://o.pki.goog:80
+[00:17:09] Connecting: www.google.com
+ps://o.pki.goog
+[00:17:09] Connecting: x.clearbitjs.com
+[00:17:09] Connecting: static.hotjar.com
+[00:17:09] Connecting: googleads.g.doubleclick.net
+[00:17:09] Connecting: c.6sc.co
+[00:17:09] Connecting: ipv6.6sc.co
+[00:17:09] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:17:09] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:17:09] Connecting: www.google.com.vn
+[00:17:09] Connecting: obs.esnlocco.com
+[00:17:09] Connecting: epsilon.6sense.com
+[00:17:11] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:17:11] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:17:11] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:17:11] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:17:11] Connecting: v.eps.6sc.co
+[00:17:11] Connecting: dev.visualwebsiteoptimizer.com
+[00:17:11] Connecting: www.googletagmanager.com
+[00:17:11] Connecting: px.ads.linkedin.com
+[00:17:11] Connecting: 923-hqb-396.mktoresp.com
+[00:17:11] Connecting: eps.6sc.co
+[00:17:11] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:17:11] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:17:12] Handling HTTP request: https://ocsp.digicert.com:80
+[00:17:12] Cannot resolve hostname: https://ocsp.digicert.com
+[00:17:13] Connecting: js.zi-scripts.com
+[00:17:13] Connecting: cdn.bizible.com
+[00:17:14] Connecting: js.zi-scripts.com
+[00:17:15] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:17:18] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:17:18] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:17:19] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:17:19] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:17:19] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:19] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:17:19] Connecting: i.ytimg.com
+[00:17:19] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:19] Connecting: yt3.ggpht.com
+[00:17:19] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:17:20] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:17:20] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:17:20] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:17:21] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:17:21] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:17:22] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:22] Connecting: www.google.com.vn
+[00:17:22] Connecting: www.google.com
+[00:17:22] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:17:23] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:17:23] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:17:23] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:23] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:17:24] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:17:24] Connecting: jnn-pa.googleapis.com
+[00:17:24] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:17:25] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:17:26] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:17:27] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:17:29] Connecting: www.acunetix.com
+[00:17:30] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[00:17:30] Connecting: client-registry.mutinycdn.com
+[00:17:30] Connecting: dev.visualwebsiteoptimizer.com
+[00:17:30] Connecting: x.clearbitjs.com
+[00:17:30] Connecting: static.hotjar.com
+[00:17:30] Connecting: www.google-analytics.com
+[00:17:30] Connecting: bat.bing.com
+[00:17:30] Connecting: ws.zoominfo.com
+[00:17:30] Handling HTTP request: https://ocsp.r2m02.amazontrust.com:80
+[00:17:30] Connecting: googleads.g.doubleclick.net
+[00:17:30] Cannot resolve hostname: https://ocsp.r2m02.amazontrust.com
+[00:17:30] Connecting: c.6sc.co
+[00:17:30] Connecting: ipv6.6sc.co
+[00:17:31] Connecting: ws.zoominfo.com
+[00:17:31] Connecting: obs.esnlocco.com
+[00:17:31] Connecting: epsilon.6sense.com
+[00:17:31] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:17:31] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:17:31] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:17:31] Connecting: dev.visualwebsiteoptimizer.com
+[00:17:32] Connecting: v.eps.6sc.co
+[00:17:33] Connecting: script.hotjar.com
+[00:17:33] Connecting: px.ads.linkedin.com
+[00:17:33] Connecting: eps.6sc.co
+[00:17:33] Connecting: 923-hqb-396.mktoresp.com
+[00:17:33] Connecting: www.googletagmanager.com
+[00:17:33] Handling HTTP request: https://ocsp.r2m03.amazontrust.com:80
+[00:17:33] Cannot resolve hostname: https://ocsp.r2m03.amazontrust.com
+[00:17:33] Handling HTTP request: https://ocsp.digicert.com:80
+[00:17:33] Cannot resolve hostname: https://ocsp.digicert.com
+[00:17:35] Connecting: js.zi-scripts.com
+[00:17:35] Connecting: cdn.bizible.com
+[00:17:35] Connecting: js.zi-scripts.com
+[00:17:36] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:17:36] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:17:38] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:17:40] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:17:40] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:17:41] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:17:42] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:17:42] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:17:43] Disconnecting: script.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:17:43] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:44] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:17:44] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:17:44] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:17:44] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:17:45] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:17:45] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:17:46] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:17:46] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:17:47] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:17:47] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:17:52] Connecting: ws.zoominfo.com
+[00:17:54] Connecting: play.google.com
+[00:17:55] Handling HTTP request: https://o.pki.goog:80
+[00:17:55] Cannot resolve hostname: https://o.pki.goog
+[00:17:56] Connecting: play.google.com
+[00:17:56] Handling HTTP request: https://o.pki.goog:80
+[00:17:56] Cannot resolve hostname: https://o.pki.goog
+[00:17:56] Connecting: www.acunetix.com
+[00:17:59] Connecting: incoming.telemetry.mozilla.org
+[00:17:59] Handling HTTP request: https://ocsp.digicert.com:80
+[00:17:59] Cannot resolve hostname: https://ocsp.digicert.com
+[00:18:03] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:04] Handling HTTP request: https://testhtml5.vulnweb.com:80
+[00:18:04] Cannot resolve hostname: https://testhtml5.vulnweb.com
+[00:18:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:18:06] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:18:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:18:12] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:18:18] Connecting: www.google.com
+[00:18:18] Handling HTTP request: https://o.pki.goog:80
+[00:18:18] Cannot resolve hostname: https://o.pki.goog
+[00:18:28] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:18:58] Connecting: incoming.telemetry.mozilla.org
+[00:18:59] Connecting: www.youtube.com
+[00:18:59] Handling HTTP request: https://o.pki.goog:80
+[00:18:59] Cannot resolve hostname: https://o.pki.goog
+[00:19:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:19:12] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:19:54] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:19:58] Connecting: incoming.telemetry.mozilla.org
+[00:20:09] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:20:11] Connecting: b.6sc.co
+[00:20:21] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:20:38] Connecting: b.6sc.co
+[00:20:49] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:21:06] Connecting: b.6sc.co
+[00:21:48] Proxy server started. Listening on port 8080...
+[00:21:49] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:21:50] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:21:50] Connecting: ajax.googleapis.com
+[00:21:50] Handling HTTP request: o.pki.goog:80
+[00:21:50] Connected to remote server for HTTP request: o.pki.goog:80
+[00:21:50] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:21:51] Connecting: www.acunetix.com
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: ads.bxss.me:80
+[00:21:51] Cannot resolve hostname: ads.bxss.me
+[00:21:51] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:21:51] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:21:55] Handling HTTP request: ads.bxss.me:80
+[00:21:55] Cannot resolve hostname: ads.bxss.me
+[00:22:00] Connecting: b.6sc.co
+[00:22:00] Disconnecting: ajax.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:22:01] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:22:01] Connecting: www.acunetix.com
+[00:22:01] Connecting: client-registry.mutinycdn.com
+[00:22:02] Connecting: www.google-analytics.com
+[00:22:02] Connecting: bat.bing.com
+[00:22:02] Connecting: dev.visualwebsiteoptimizer.com
+[00:22:02] Connecting: www.google.com
+leclick.net
+[00:22:02] Connecting: x.clearbitjs.com
+[00:22:02] Connecting: static.hotjar.com
+[00:22:02] Connecting: c.6sc.co
+[00:22:02] Connecting: ipv6.6sc.co
+[00:22:02] Connecting: ws.zoominfo.com
+[00:22:03] Handling HTTP request: o.pki.goog:80
+[00:22:03] Connected to remote server for HTTP request: o.pki.goog:80
+[00:22:03] Connecting: www.google.com.vn
+[00:22:03] Connecting: obs.esnlocco.com
+[00:22:03] Connecting: epsilon.6sense.com
+[00:22:03] Connecting: v.eps.6sc.co
+[00:22:04] Connecting: www.youtube.com
+[00:22:04] Connecting: b.6sc.co
+[00:22:04] Connecting: eps.6sc.co
+[00:22:04] Handling HTTP request: o.pki.goog:80
+[00:22:04] Connected to remote server for HTTP request: o.pki.goog:80
+[00:22:04] Connecting: b.6sc.co
+[00:22:05] Connecting: b.6sc.co
+[00:22:05] Connecting: i.ytimg.com
+[00:22:05] Connecting: px.ads.linkedin.com
+[00:22:06] Connecting: dev.visualwebsiteoptimizer.com
+[00:22:06] Connecting: 923-hqb-396.mktoresp.com
+[00:22:06] Handling HTTP request: o.pki.goog:80
+[00:22:06] Connected to remote server for HTTP request: o.pki.goog:80
+[00:22:07] Connecting: cdn.bizible.com
+
+[00:22:08] Connecting: js.zi-scripts.com
+[00:22:12] Connecting: play.google.com
+[00:22:12] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:22:12] Handling HTTP request: o.pki.goog:80
+[00:22:12] Connected to remote server for HTTP request: o.pki.goog:80
+[00:22:13] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+ection.
+[00:22:13] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:13] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:22:14] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:14] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:22:15] Connecting: jnn-pa.googleapis.com
+[00:22:15] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:22:15] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:22:15] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:15] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:22:15] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:16] Handling HTTP request: ads.bxss.me:80
+[00:22:16] Cannot resolve hostname: ads.bxss.me
+[00:22:17] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+ction.
+[00:22:17] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:22:17] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:22:19] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:22:19] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:22:20] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:22:20] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:22:20] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:22:20] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:22:20] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:22:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:22:25] Connecting: ws.zoominfo.com
+[00:22:26] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:22:27] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:28] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:22:29] Connecting: www.acunetix.com
+[00:22:29] Connecting: client-registry.mutinycdn.com
+[00:22:30] Connecting: dev.visualwebsiteoptimizer.com
+[00:22:30] Connecting: c.6sc.co
+[00:22:30] Connecting: ipv6.6sc.co
+[00:22:30] Connecting: www.google.com
+[00:22:30] Connecting: www.google-analytics.com
+[00:22:30] Connecting: www.googletagmanager.com
+[00:22:30] Connecting: bat.bing.com
+[00:22:30] Connecting: x.clearbitjs.com
+[00:22:30] Connecting: googleads.g.doubleclick.net
+[00:22:30] Connecting: dev.visualwebsiteoptimizer.com
+[00:22:30] Connecting: px.ads.linkedin.com
+[00:22:31] Connecting: obs.esnlocco.com
+[00:22:31] Connecting: epsilon.6sense.com
+[00:22:31] Connecting: www.google.com.vn
+[00:22:31] Handling HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:22:31] Connected to remote server for HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:22:31] Connecting: 923-hqb-396.mktoresp.com
+[00:22:31] Handling HTTP request: ocsp.digicert.com:80
+[00:22:31] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:22:32] Connecting: js.zi-scripts.com
+[00:22:32] Connecting: cdn.bizible.com
+[00:22:33] Connecting: v.eps.6sc.co
+[00:22:33] Connecting: js.zi-scripts.com
+[00:22:33] Connecting: eps.6sc.co
+[00:22:39] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:22:40] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+.
+[00:22:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:22:41] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:22:41] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:22:41] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+ion.
+[00:22:42] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:22:42] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:22:43] Connecting: www.acunetix.com
+[00:22:43] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:22:44] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:44] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:22:44] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:22:45] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:22:45] Connecting: www.youtube.com
+[00:22:46] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:22:46] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:22:46] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:22:46] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:22:46] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:47] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:22:47] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:47] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:47] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:47] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:47] Handling HTTP request: ads.bxss.me:80
+[00:22:47] Cannot resolve hostname: ads.bxss.me
+[00:22:48] Handling HTTP request: ads.bxss.me:80
+[00:22:48] Cannot resolve hostname: ads.bxss.me
+[00:22:48] Handling HTTP request: ads.bxss.me:80
+[00:22:48] Cannot resolve hostname: ads.bxss.me
+[00:22:53] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:22:56] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:23:02] Timeout occurred, closing HTTP connection.
+[00:23:04] Timeout occurred, closing HTTP connection.
+[00:23:13] Connecting: play.google.com
+[00:23:15] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:23:18] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:23:24] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:23:49] Connecting: www.youtube.com
+[00:23:59] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:24:02] Connecting: safebrowsing.googleapis.com
+[00:24:03] Handling HTTP request: o.pki.goog:80
+[00:24:03] Connected to remote server for HTTP request: o.pki.goog:80
+[00:24:33] Timeout occurred, closing HTTP connection.
+[00:24:55] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:25:53] Proxy server started. Listening on port 8080...
+[00:25:54] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:25:55] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:25:55] Connecting: firefox.settings.services.mozilla.com
+[00:25:55] Handling HTTP request: r11.o.lencr.org:80
+[00:25:55] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[00:25:55] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:25:55] Handling HTTP request: ads.bxss.me:80
+[00:25:55] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:56] Handling HTTP request: ads.bxss.me:80
+[00:25:56] Cannot resolve hostname: ads.bxss.me
+[00:25:59] Connecting: www.acunetix.com
+[00:26:00] Connecting: client-registry.mutinycdn.com
+[00:26:00] Connecting: dev.visualwebsiteoptimizer.com
+[00:26:00] Connecting: www.google.com
+[00:26:00] Connecting: x.clearbitjs.com
+[00:26:00] Connecting: static.hotjar.com
+[00:26:00] Connecting: bat.bing.com
+lytics.com
+[00:26:00] Connecting: ws.zoominfo.com
+[00:26:00] Handling HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:26:00] Handling HTTP request: o.pki.goog:80
+[00:26:01] Connected to remote server for HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:26:01] Connected to remote server for HTTP request: o.pki.goog:80
+[00:26:01] Connecting: googleads.g.doubleclick.net
+[00:26:01] Connecting: c.6sc.co
+[00:26:01] Connecting: ipv6.6sc.co
+[00:26:01] Connecting: safebrowsing.googleapis.com
+[00:26:01] Connecting: ws.zoominfo.com
+[00:26:01] Handling HTTP request: o.pki.goog:80
+[00:26:01] Connecting: www.google.com.vn
+[00:26:01] Connected to remote server for HTTP request: o.pki.goog:80
+[00:26:01] Connecting: obs.esnlocco.com
+[00:26:01] Connecting: epsilon.6sense.com
+[00:26:03] Connecting: b.6sc.co
+[00:26:03] Connecting: dev.visualwebsiteoptimizer.com
+[00:26:03] Connecting: v.eps.6sc.co
+[00:26:03] Connecting: script.hotjar.com
+[00:26:03] Connecting: px.ads.linkedin.com
+[00:26:03] Connecting: eps.6sc.co
+[00:26:03] Connecting: 923-hqb-396.mktoresp.com
+[00:26:05] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:26:06] Connecting: js.zi-scripts.com
+[00:26:06] Connecting: cdn.bizible.com
+[00:26:07] Connecting: js.zi-scripts.com
+[00:26:10] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:26:11] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:26:11] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:26:11] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:11] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+.
+[00:26:11] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:26:12] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:26:12] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:26:12] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+sing connection.
+[00:26:13] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:26:13] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:14] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:26:14] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:14] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:26:15] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:26:16] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:26:17] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:26:17] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:26:17] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:26:18] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:26:23] Connecting: ws.zoominfo.com
+[00:26:31] Timeout occurred, closing HTTP connection.
+[00:26:34] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:26:34] Timeout occurred, closing HTTP connection.
+[00:26:37] Connecting: www.acunetix.com
+[00:26:37] Connecting: client-registry.mutinycdn.com
+[00:26:38] Connecting: dev.visualwebsiteoptimizer.com
+[00:26:38] Connecting: www.google.com
+[00:26:38] Connecting: x.clearbitjs.com
+[00:26:38] Connecting: static.hotjar.com
+[00:26:38] Connecting: bat.bing.com
+[00:26:38] Connecting: www.google-analytics.com
+[00:26:38] Connecting: ws.zoominfo.com
+[00:26:38] Handling HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:26:38] Connected to remote server for HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:26:38] Connecting: googleads.g.doubleclick.net
+[00:26:38] Connecting: c.6sc.co
+[00:26:38] Connecting: ipv6.6sc.co
+[00:26:39] Connecting: www.google.com.vn
+[00:26:39] Connecting: www.googletagmanager.com
+[00:26:39] Connecting: ws.zoominfo.com
+[00:26:39] Connecting: dev.visualwebsiteoptimizer.com
+[00:26:39] Connecting: obs.esnlocco.com
+[00:26:39] Connecting: epsilon.6sense.com
+[00:26:41] Connecting: 923-hqb-396.mktoresp.com
+[00:26:41] Connecting: px.ads.linkedin.com
+[00:26:41] Connecting: eps.6sc.co
+[00:26:41] Connecting: www.youtube.com
+[00:26:41] Handling HTTP request: o.pki.goog:80
+[00:26:41] Connected to remote server for HTTP request: o.pki.goog:80
+[00:26:41] Connecting: v.eps.6sc.co
+[00:26:41] Connecting: i.ytimg.com
+[00:26:42] Connecting: cdn.bizible.com
+[00:26:42] Connecting: js.zi-scripts.com
+[00:26:42] Connecting: js.zi-scripts.com
+[00:26:45] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:26:46] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:26:46] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:26:46] Connecting: play.google.com:443
+[00:26:46] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:26:47] Handling HTTP request: ads.bxss.me:80
+[00:26:47] Cannot resolve hostname: ads.bxss.me
+[00:26:47] Handling HTTP request: ads.bxss.me:80
+[00:26:47] Cannot resolve hostname: ads.bxss.me
+[00:26:47] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Handling HTTP request: ads.bxss.me:80
+[00:26:48] Cannot resolve hostname: ads.bxss.me
+[00:26:48] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:26:48] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:26:49] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:49] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:26:49] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:26:50] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:26:50] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+tion.
+[00:26:50] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:26:50] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:26:50] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:26:50] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:26:50] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:26:50] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:51] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:51] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:51] Handling HTTP request: ads.bxss.me:80
+[00:26:51] Cannot resolve hostname: ads.bxss.me
+[00:26:52] Handling HTTP request: ads.bxss.me:80
+[00:26:52] Cannot resolve hostname: ads.bxss.me
+[00:26:52] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:26:52] Handling HTTP request: ads.bxss.me:80
+[00:26:52] Cannot resolve hostname: ads.bxss.me
+[00:26:52] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:26:52] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:26:52] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:26:52] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:26:52] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:26:52] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:26:53] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:26:53] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:26:53] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:26:53] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:26:54] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:26:55] Connecting: www.acunetix.com:443
+[00:26:55] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:26:59] Connecting: ws.zoominfo.com:443
+[00:27:03] Connecting: i.ytimg.com:443
+[00:27:03] Handling HTTP request: www.twitter.com:80
+[00:27:03] Connected to remote server for HTTP request: www.twitter.com:80
+[00:27:04] Connecting: www.twitter.com:443
+[00:27:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:08] Connecting: www.google.com:443
+3
+[00:27:08] No data received or connection closed by client.
+[00:27:12] Timeout occurred, closing HTTP connection.
+[00:27:13] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:27:15] Proxy server stopped.
+[00:27:16] Disconnecting: b.6sc.co || Reason: Stopped proxy.
+[00:27:16] Proxy server started. Listening on port 8080...
+[00:27:19] Connecting: b.6sc.co
+[00:27:19] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:19] Connecting: play.google.com
+[00:27:19] Handling HTTP request: o.pki.goog:80
+[00:27:19] Connected to remote server for HTTP request: o.pki.goog:80
+[00:27:20] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:20] Connecting: www.acunetix.com
+r: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:21] Connecting: client-registry.mutinycdn.com
+[00:27:21] Connecting: dev.visualwebsiteoptimizer.com
+[00:27:21] Connecting: x.clearbitjs.com
+[00:27:21] Connecting: static.hotjar.com
+[00:27:21] Connecting: www.google-analytics.com
+[00:27:22] Connecting: bat.bing.com
+[00:27:22] Connecting: ws.zoominfo.com
+[00:27:22] Connecting: c.6sc.co
+[00:27:22] Connecting: ipv6.6sc.co
+[00:27:22] Connecting: epsilon.6sense.com
+[00:27:23] Handling HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:27:23] Connecting: googleads.g.doubleclick.net
+[00:27:23] Connecting: ws.zoominfo.com
+[00:27:23] Connecting: dev.visualwebsiteoptimizer.com
+[00:27:23] Connected to remote server for HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:27:24] Connecting: 923-hqb-396.mktoresp.com
+[00:27:24] Connecting: v.eps.6sc.co
+[00:27:24] Connecting: safebrowsing.googleapis.com
+[00:27:24] Connecting: eps.6sc.co
+din.com
+[00:27:27] Blacklist saved successfully!
+[00:27:27] Blacklist saved successfully!
+[00:27:29] Connecting: www.google.com
+[00:27:29] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:27:29] Connecting: www.google.com
+[00:27:30] Connecting: play.google.com
+[00:27:31] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:27:32] Connecting: play.google.com
+[00:27:32] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:27:33] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:27:34] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:27:34] Connecting: www.google.com
+[00:27:34] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:27:34] Handling HTTP request: o.pki.goog:80
+[00:27:34] Connected to remote server for HTTP request: o.pki.goog:80
+[00:27:35] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:27:35] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:35] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:27:35] Connecting: i.ytimg.com
+[00:27:36] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:27:36] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:27:37] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:27:38] Blacklist saved successfully!
+[00:27:38] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:27:39] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:27:40] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:27:41] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:27:41] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:27:42] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:27:42] Connecting: www.google.com
+[00:27:46] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:27:48] Access to example.com is blocked.
+[00:27:50] Access to example.com is blocked.
+[00:27:51] Connecting: jnn-pa.googleapis.com
+[00:27:51] Connecting: static.doubleclick.net
+[00:27:51] Handling HTTP request: o.pki.goog:80
+[00:27:51] Connecting: incoming.telemetry.mozilla.org
+[00:27:51] Connected to remote server for HTTP request: o.pki.goog:80
+[00:27:51] Connecting: www.youtube.com
+[00:27:53] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:27:57] Connecting: play.google.com
+[00:28:00] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:28:02] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:28:02] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:28:02] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:28:04] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:28:05] Timeout occurred, closing HTTP connection.
+[00:28:09] Access to example.com is blocked.
+[00:28:09] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:28:10] Access to example.com is blocked.
+[00:28:10] Access to example.com is blocked.
+[00:28:14] Access to example.com is blocked.
+[00:28:18] Access to example.com is blocked.
+[00:28:21] Timeout occurred, closing HTTP connection.
+[00:28:21] Timeout occurred, closing HTTP connection.
+[00:28:22] Connecting: www.google.com
+[00:28:22] Connecting: encrypted-tbn0.gstatic.com
+[00:28:23] Handling HTTP request: o.pki.goog:80
+[00:28:23] Connected to remote server for HTTP request: o.pki.goog:80
+[00:28:23] Access to www.facebook.com is blocked.
+[00:28:27] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:28:27] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:28:27] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:28] Cannot resolve hostname: ads.bxss.me
+[00:28:28] Handling HTTP request: ads.bxss.me:80
+[00:28:29] Cannot resolve hostname: ads.bxss.me
+[00:28:29] Handling HTTP request: ads.bxss.me:80
+[00:28:29] Cannot resolve hostname: ads.bxss.me
+[00:28:29] Handling HTTP request: ads.bxss.me:80
+[00:28:29] Cannot resolve hostname: ads.bxss.me
+[00:28:29] Connecting: incoming.telemetry.mozilla.org
+[00:28:33] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:28:34] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:28:39] Proxy server stopped.
+[00:28:39] Exit proxy server ...
+[00:28:39] Connecting: contile.services.mozilla.com
+[00:31:20] Proxy server started. Listening on port 8080...
+[00:31:21] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:31:22] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:31:22] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:31:22] Handling HTTP request: ads.bxss.me:80
+[00:31:22] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:31:22] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:23] Handling HTTP request: ads.bxss.me:80
+[00:31:23] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:31] Connecting: www.youtube.com
+[00:31:31] Handling HTTP request: o.pki.goog:80
+[00:31:31] Connected to remote server for HTTP request: o.pki.goog:80
+[00:31:33] Connecting: i.ytimg.com
+[00:31:35] Connecting: googleads.g.doubleclick.net
+[00:31:36] Connecting: accounts.google.com
+[00:31:37] Connecting: yt3.ggpht.com
+[00:31:39] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:31:40] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Handling HTTP request: testhtml5.vulnweb.com:80
+ss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:40] Handling HTTP request: ads.bxss.me:80
+[00:31:40] Cannot resolve hostname using getaddrinfo: ads.bxss.me (Error: No such host is known. )
+[00:31:45] Connecting: play.google.com
+[00:31:46] Connecting: play.google.com
+[00:31:46] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:31:47] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[00:31:47] Connecting: www.acunetix.com
+[00:31:47] Connecting: rr1---sn-8qj-nbosz.googlevideo.com
+[00:31:48] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:31:49] Connecting: client-registry.mutinycdn.com
+[00:31:49] Connecting: www.googletagmanager.com
+[00:31:51] Connecting: dev.visualwebsiteoptimizer.com
+[00:31:51] Connecting: www.google.com
+[00:31:51] Connecting: j.6sc.co
+[00:31:51] Connecting: obs.esnlocco.com
+[00:31:51] Connecting: bat.bing.com
+[00:31:51] Connecting: x.clearbitjs.com
+[00:31:51] Connecting: static.hotjar.com
+[00:31:51] Connecting: googleads.g.doubleclick.net
+[00:31:51] Connecting: www.google-analytics.com
+[00:31:51] Connecting: safebrowsing.googleapis.com
+[00:31:51] Connecting: www.googletagmanager.com
+[00:31:51] Connecting: www.google.com.vn
+[00:31:51] Handling HTTP request: o.pki.goog:80
+[00:31:51] Connecting: 923-hqb-396.mktoresp.com
+[00:31:51] Connected to remote server for HTTP request: o.pki.goog:80
+[00:31:52] Connecting: px.ads.linkedin.com
+[00:31:52] Connecting: dev.visualwebsiteoptimizer.com
+[00:31:52] Connecting: c.6sc.co
+[00:31:52] Connecting: ipv6.6sc.co
+[00:31:52] Connecting: epsilon.6sense.com
+[00:31:52] Connecting: b.6sc.co
+[00:31:52] Handling HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:31:52] Connected to remote server for HTTP request: ocsp.r2m03.amazontrust.com:80
+[00:31:53] Connecting: epsilon.6sense.com
+[00:31:53] Connecting: js.zi-scripts.com
+[00:31:53] Connecting: cdn.bizible.com
+[00:31:53] Connecting: cdn.bizible.com
+[00:31:54] Connecting: js.zi-scripts.com
+[00:31:54] Connecting: v.eps.6sc.co
+[00:31:54] Connecting: eps.6sc.co
+[00:31:54] Connecting: ws.zoominfo.com
+[00:31:56] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:31:56] Connecting: ws.zoominfo.com
+[00:31:59] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:32:00] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[00:32:01] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:32:01] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:32:02] Disconnecting: j.6sc.co || Reason: Timeout occurred, closing connection.
+[00:32:02] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:32:02] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:32:02] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+.
+[00:32:02] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+sing connection.
+[00:32:03] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:32:03] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:32:03] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:32:03] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:32:03] Disconnecting: rr1---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:32:04] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:32:04] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:32:04] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:32:04] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:32:05] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:32:05] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:32:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:32:05] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:32:06] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:32:06] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:32:06] Disconnecting: ws.zoominfo.com || Reason: Timeout occurred, closing connection.
+[00:32:07] Connecting: www.acunetix.com
+[00:32:08] Connecting: incoming.telemetry.mozilla.org
+[00:32:08] Connecting: bat.bing.com
+[00:32:08] Connecting: www.google-analytics.com
+[00:32:08] Connecting: ws.zoominfo.com
+[00:32:08] Connecting: ws.zoominfo.com
+[00:32:09] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:32:10] Connecting: jnn-pa.googleapis.com
+[00:32:10] Connecting: play.google.com
+[00:32:14] Exit proxy server ...
+[00:32:56] Proxy server started. Listening on port 8080...
+[00:32:57] Connecting: www.youtube.com
+[00:32:58] Handling HTTP request: o.pki.goog:80
+[00:32:58] Connected to remote server for HTTP request: o.pki.goog:80
+[00:33:02] Connecting: play.google.com
+[00:33:02] Connecting: play.google.com
+[00:33:03] Access to www.facebook.com is blocked.
+[00:33:03] Connecting: incoming.telemetry.mozilla.org
+[00:33:08] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:33:13] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:33:13] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:33:14] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:33:19] Connecting: incoming.telemetry.mozilla.org
+[00:33:25] Handling HTTP request: vulnweb.com:80
+[00:33:26] Connected to remote server for HTTP request: vulnweb.com:80
+[00:33:28] Connecting: play.google.com
+[00:33:30] Handling HTTP request: ads.bxss.me:80
+[00:33:30] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:33:30] Cannot resolve hostname: ads.bxss.me
+[00:33:30] Handling HTTP request: ads.bxss.me:80
+[00:33:30] Cannot resolve hostname: ads.bxss.me
+[00:33:30] Handling HTTP request: ads.bxss.me:80
+[00:33:30] Cannot resolve hostname: ads.bxss.me
+[00:33:30] Handling HTTP request: ads.bxss.me:80
+[00:33:30] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:31] Handling HTTP request: ads.bxss.me:80
+[00:33:31] Cannot resolve hostname: ads.bxss.me
+[00:33:33] Timeout occurred, closing HTTP connection.
+[00:33:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:33:39] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:33:39] Connecting: spocs.getpocket.com:443
+[00:33:39] Connecting: www.youtube.com:443
+[00:33:39] Connecting: www.youtube.com:443
+[00:33:40] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:33:40] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:33:42] Connecting: incoming.telemetry.mozilla.org:443
+[00:33:42] Connecting: incoming.telemetry.mozilla.org:443
+[00:33:42] Connecting: incoming.telemetry.mozilla.org:443
+[00:33:44] Handling HTTP request: fonts.googleapis.com:80
+[00:33:44] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:33:44] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:33:44] Connected to remote server for HTTP request: fonts.googleapis.com:80
+[00:33:44] Handling HTTP request: ads.bxss.me:80
+[00:33:44] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:33:45] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Handling HTTP request: ads.bxss.me:80
+[00:33:45] Cannot resolve hostname: ads.bxss.me
+[00:33:45] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:33:49] No data received or connection closed by client.
+[00:33:52] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:33:52] Connecting: incoming.telemetry.mozilla.org:443
+[00:34:01] Connecting: go.microsoft.com:443
+[00:34:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:01] Connecting: go.microsoft.com:443
+[00:34:01] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:01] Connecting: go.microsoft.com:443
+[00:34:02] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:02] Connecting: go.microsoft.com:443
+[00:34:02] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:02] Connecting: incoming.telemetry.mozilla.org:443
+[00:34:02] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:02] Connecting: go.microsoft.com:443
+[00:34:03] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:03] Connecting: go.microsoft.com:443
+[00:34:03] Connecting: go.microsoft.com:443
+[00:34:03] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:04] Connecting: go.microsoft.com:443
+[00:34:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:04] Connecting: go.microsoft.com:443
+[00:34:05] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:06] Connecting: go.microsoft.com:443
+[00:34:06] Connecting: go.microsoft.com:443
+[00:34:06] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:06] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[00:34:07] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:12] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:14] Connecting: www.acunetix.com:443
+[00:34:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:15] Handling HTTP request: ocsp.digicert.com:80
+[00:34:15] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:34:16] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:34:21] Timeout occurred, closing HTTP connection.
+[00:34:30] Exit proxy server ...
+[00:35:31] Proxy server started. Listening on port 8080...
+[00:35:32] Handling HTTP request: vulnweb.com:80
+[00:35:32] Connected to remote server for HTTP request: vulnweb.com:80
+[00:35:42] Connecting: go.microsoft.com:443
+[00:35:42] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:42] Connecting: go.microsoft.com:443
+[00:35:42] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:42] Connecting: go.microsoft.com:443
+[00:35:43] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:43] Connecting: go.microsoft.com:443
+[00:35:43] Connecting: go.microsoft.com:443
+[00:35:43] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:43] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:43] Connecting: go.microsoft.com:443
+[00:35:46] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:46] Connecting: go.microsoft.com:443
+[00:35:46] Connecting: go.microsoft.com:443
+[00:35:46] SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[00:35:46] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:46] Connecting: go.microsoft.com:443
+[00:35:47] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:47] Connecting: go.microsoft.com:443
+[00:35:48] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:35:49] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:35:50] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:35:50] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:35:50] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:35:50] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:35:55] No data received or connection closed by client.
+[00:36:07] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:36:08] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:36:18] Handling HTTP request: testasp.vulnweb.com:80
+[00:36:18] No data received or connection closed by client.
+[00:36:18] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[00:36:23] Handling HTTP request: testasp.vulnweb.com:80
+[00:36:23] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[00:36:34] Connecting: www.google.com:443
+[00:36:35] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:36:38] Connecting: www.google.com:443
+[00:36:38] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:36:42] Blacklist saved successfully!
+[00:36:46] Access to testasp.vulnweb.com is blocked.
+[00:36:48] Access to testasp.vulnweb.com is blocked.
+[00:36:48] Access to testasp.vulnweb.com is blocked.
+[00:36:48] Access to testasp.vulnweb.com is blocked.
+[00:36:48] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:49] Access to testasp.vulnweb.com is blocked.
+[00:36:50] Access to testasp.vulnweb.com is blocked.
+[00:36:51] Access to testasp.vulnweb.com is blocked.
+[00:36:51] Access to testasp.vulnweb.com is blocked.
+[00:36:51] Access to testasp.vulnweb.com is blocked.
+[00:36:51] Access to testasp.vulnweb.com is blocked.
+[00:36:51] Connecting: incoming.telemetry.mozilla.org:443
+[00:36:57] Blacklist saved successfully!
+[00:37:01] Blacklist saved successfully!
+[00:37:02] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:37:02] Connecting: incoming.telemetry.mozilla.org:443
+[00:37:03] Handling HTTP request: testasp.vulnweb.com:80
+[00:37:03] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[00:37:05] Connecting: www.acunetix.com:443
+[00:37:13] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:37:13] Connecting: incoming.telemetry.mozilla.org:443
+[00:37:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:37:18] Connecting: www.acunetix.com
+[00:37:19] Connecting: client-registry.mutinycdn.com
+[00:37:19] Connecting: cdn.acunetix.com
+[00:37:21] Connecting: dev.visualwebsiteoptimizer.com
+[00:37:21] Connecting: www.google.com
+[00:37:21] Connecting: www.googletagmanager.com
+[00:37:21] Connecting: x.clearbitjs.com
+[00:37:21] Connecting: static.hotjar.com
+[00:37:21] Connecting: www.google-analytics.com
+[00:37:21] Connecting: googleads.g.doubleclick.net
+[00:37:21] Connecting: c.6sc.co
+[00:37:21] Connecting: ipv6.6sc.co
+[00:37:21] Handling HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:37:21] Connected to remote server for HTTP request: ocsp.r2m02.amazontrust.com:80
+[00:37:21] Connecting: safebrowsing.googleapis.com
+[00:37:21] Connecting: www.google.com.vn
+[00:37:21] Handling HTTP request: o.pki.goog:80
+[00:37:21] Connecting: obs.esnlocco.com
+[00:37:21] Connecting: epsilon.6sense.com
+[00:37:22] Connected to remote server for HTTP request: o.pki.goog:80
+[00:37:22] Connecting: v.eps.6sc.co
+[00:37:22] Connecting: www.googletagmanager.com
+[00:37:23] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:37:23] Connecting: 923-hqb-396.mktoresp.com
+[00:37:23] Connecting: bat.bing.com
+[00:37:24] Connecting: b.6sc.co
+[00:37:24] Connecting: eps.6sc.co
+[00:37:24] Connecting: dev.visualwebsiteoptimizer.com
+[00:37:24] Connecting: px.ads.linkedin.com
+[00:37:24] Connecting: bat.bing.com
+[00:37:24] Connecting: b.6sc.co
+[00:37:24] Connecting: b.6sc.co
+[00:37:24] Connecting: b.6sc.co
+[00:37:24] Connecting: safebrowsing.googleapis.com
+[00:37:25] Connecting: cdn.bizible.com
+[00:37:25] Connecting: js.zi-scripts.com
+[00:37:26] Connecting: js.zi-scripts.com
+[00:37:29] Connecting: go2.invicti.com
+[00:37:30] Disconnecting: cdn.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:37:31] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:37:31] Disconnecting: ipv6.6sc.co || Reason: Timeout occurred, closing connection.
+[00:37:32] Connecting: www.gstatic.com
+[00:37:32] Connecting: www.invicti.com
+[00:37:32] Connecting: www.googletagmanager.com
+[00:37:35] Disconnecting: cdn.bizible.com || Reason: Timeout occurred, closing connection.
+[00:37:35] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+[00:37:38] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:37:39] Disconnecting: js.zi-scripts.com || Reason: Timeout occurred, closing connection.
+tion.
+[00:37:40] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:37:40] Disconnecting: go2.invicti.com || Reason: Timeout occurred, closing connection.
+[00:37:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:37:41] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:37:42] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:37:42] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+ection.
+[00:37:42] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:37:42] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:37:43] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:37:43] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:37:43] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:37:43] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:37:46] Timeout occurred, closing HTTP connection.
+[00:37:50] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:37:52] Connecting: www.acunetix.com
+[00:37:52] Timeout occurred, closing HTTP connection.
+[00:37:53] Connecting: client-registry.mutinycdn.com
+[00:37:54] Connecting: www.google-analytics.com
+[00:37:54] Connecting: bat.bing.com
+[00:37:54] Connecting: www.gstatic.com
+[00:37:55] Connecting: x.clearbitjs.com[00:37:55] Connecting: dev.visualwebsiteoptimizer.com
+[00:37:55] Connecting: static.hotjar.com
+[00:37:55] Connecting: c.6sc.co
+[00:37:55] Connecting: googleads.g.doubleclick.net
+[00:37:55] Connecting: ipv6.6sc.co
+[00:37:55] Connecting: www.invicti.com
+[00:37:55] Connecting: obs.esnlocco.com
+[00:37:55] Connecting: www.google.com.vn
+[00:37:56] Connecting: epsilon.6sense.com
+[00:37:56] Connecting: www.googletagmanager.com
+[00:37:56] Connecting: v.eps.6sc.co
+[00:37:58] Connecting: b.6sc.co
+[00:37:58] Connecting: eps.6sc.co
+[00:37:58] Connecting: dev.visualwebsiteoptimizer.com
+[00:37:58] Connecting: px.ads.linkedin.com
+[00:37:59] Connecting: 923-hqb-396.mktoresp.com
+[00:37:59] Connecting: go2.invicti.com
+[00:37:59] Handling HTTP request: detectportal.firefox.com:80
+[00:37:59] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:37:59] Handling HTTP request: detectportal.firefox.com:80
+[00:37:59] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:37:59] Handling HTTP request: detectportal.firefox.com:80
+[00:38:00] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:38:02] Connecting: js.zi-scripts.com
+[00:38:02] Connecting: cdn.bizible.com
+[00:38:02] Connecting: js.zi-scripts.com
+[00:38:02] Connecting: cdn.acunetix.com
+[00:38:02] Connecting: www.googletagmanager.com
+[00:38:03] Connecting: ipv6.6sc.co
+[00:38:04] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[00:38:05] Disconnecting: c.6sc.co || Reason: Timeout occurred, closing connection.
+[00:38:06] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[00:38:06] Disconnecting: epsilon.6sense.com || Reason: Timeout occurred, closing connection.
+[00:38:06] Handling HTTP request: testasp.vulnweb.com:80
+[00:38:07] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[00:38:07] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:38:07] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[00:38:08] Disconnecting: www.invicti.com || Reason: Timeout occurred, closing connection.
+[00:38:08] Disconnecting: eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:38:09] Disconnecting: v.eps.6sc.co || Reason: Timeout occurred, closing connection.
+[00:38:10] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:38:10] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[00:38:10] Disconnecting: go2.invicti.com || Reason: Timeout occurred, closing connection.
+[00:38:10] Disconnecting: px.ads.linkedin.com || Reason: Timeout occurred, closing connection.
+[00:38:10] Connecting: incoming.telemetry.mozilla.org
+[00:38:10] Disconnecting: b.6sc.co || Reason: Timeout occurred, closing connection.
+[00:38:12] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: cdn.acunetix.com || Reason: Timeout occurred, closing connection.
+
+[00:38:13] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:38:13] Disconnecting: obs.esnlocco.com || Reason: Timeout occurred, closing connection.
+[00:38:14] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[00:38:21] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:38:29] Timeout occurred, closing HTTP connection.
+[00:38:29] Timeout occurred, closing HTTP connection.
+[00:38:30] Timeout occurred, closing HTTP connection.
+[00:38:39] Connecting: push.services.mozilla.com
+[00:38:39] Connecting: spocs.getpocket.com
+[00:38:39] Handling HTTP request: o.pki.goog:80
+[00:38:39] Connecting: push.services.mozilla.com
+[00:38:39] Connected to remote server for HTTP request: o.pki.goog:80
+[00:38:49] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:38:50] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[00:39:09] Timeout occurred, closing HTTP connection.
+[00:39:09] Timeout occurred, closing HTTP connection.
+[00:41:43] Exit proxy server ...
+[00:42:44] Exit proxy server ...
+[00:43:46] Proxy server started. Listening on port 8080...
+[00:43:48] Access to vulnweb.com is not allowed.
+[00:43:52] Access to vulnweb.com is not allowed.
+[00:43:53] Access to vulnweb.com is not allowed.
+[00:43:55] Handling HTTP request: vulnweb.com:80
+[00:43:55] Connected to remote server for HTTP request: vulnweb.com:80
+[00:44:04] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:44:04] Handling HTTP request: bxss.s3.amazonaws.com:80
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Handling HTTP request: testhtml5.vulnweb.com:80
+[00:44:04] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:44:04] Connected to remote server for HTTP request: bxss.s3.amazonaws.com:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:04] Handling HTTP request: ads.bxss.me:80
+[00:44:04] Cannot resolve hostname: ads.bxss.me
+[00:44:09] Handling HTTP request: testasp.vulnweb.com:80
+[00:44:09] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[00:44:11] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:44:11] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:44:11] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:44:12] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:44:28] Handling HTTP request: rest.vulnweb.com:80
+[00:44:28] Connected to remote server for HTTP request: rest.vulnweb.com:80
+[00:44:30] Connecting: go.microsoft.com:443
+[00:44:30] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:44:30] Connecting: go.microsoft.com:443
+[00:44:32] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:44:32] Connecting: go.microsoft.com:443
+[00:44:34] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:44:34] No data received or connection closed by client.
+[00:44:35] Connecting: www.google.com:443
+[00:44:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:44:36] Connecting: www.youtube.com:443
+[00:44:42] Connecting: www.google.com
+[00:44:42] Handling HTTP request: o.pki.goog:80
+[00:44:42] Connected to remote server for HTTP request: o.pki.goog:80
+[00:44:53] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:44:56] Connecting: incoming.telemetry.mozilla.org
+[00:45:00] Proxy server stopped.
+[00:45:02] Proxy server started. Listening on port 8080...
+[00:45:07] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:45:12] Timeout occurred, closing HTTP connection.
+[00:45:17] Connecting: incoming.telemetry.mozilla.org
+[00:45:18] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:45:18] Connecting: www.youtube.com
+[00:45:18] Handling HTTP request: o.pki.goog:80
+[00:45:18] Connected to remote server for HTTP request: o.pki.goog:80
+[00:45:19] Access to example.com is blocked.
+[00:45:21] Access to www.facebook.com is blocked.
+[00:45:22] Connecting: www.wikipedia.org
+[00:45:22] Connecting: upload.wikimedia.org
+[00:45:25] Connecting: www.google.com
+[00:45:32] Handling HTTP request: www.testingmcafeesites.com:80
+[00:45:33] Connected to remote server for HTTP request: www.testingmcafeesites.com:80
+[00:45:33] Connecting: www.reddit.com
+[00:45:33] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[00:45:33] Connecting: www.redditstatic.com
+[00:45:33] Connecting: www.redditstatic.com
+[00:45:33] Connecting: www.redditstatic.com
+[00:45:33] Connecting: www.redditstatic.com
+[00:45:34] Connecting: www.redditstatic.com
+[00:45:34] Connecting: www.redditstatic.com
+[00:45:34] Connecting: www.redditstatic.com
+[00:45:34] Connecting: www.redditstatic.com
+[00:45:34] Connecting: external-preview.redd.it
+[00:45:35] Connecting: safebrowsing.googleapis.com
+[00:45:35] Connecting: external-preview.redd.it
+[00:45:35] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:45:35] Handling HTTP request: ocsp.digicert.com:80
+[00:45:36] Connecting: b.thumbs.redditmedia.com
+[00:45:36] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:45:36] Connecting: external-preview.redd.it
+[00:45:36] Connecting: preview.redd.it
+[00:45:36] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:45:36] Connecting: external-preview.redd.it
+[00:45:37] Connecting: styles.redditmedia.com
+[00:45:37] Connecting: external-preview.redd.it
+[00:45:37] Connecting: preview.redd.it
+[00:45:37] Handling HTTP request: ocsp.digicert.com:80
+[00:45:37] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:45:38] Handling HTTP request: ocsp.digicert.com:80
+[00:45:38] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:45:38] Handling HTTP request: ocsp.digicert.com:80
+[00:45:38] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:45:38] Handling HTTP request: ocsp.digicert.com:80
+[00:45:38] Connecting: external-preview.redd.it
+[00:45:38] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[00:45:38] Connecting: styles.redditmedia.com
+[00:45:38] Connecting: styles.redditmedia.com
+[00:45:39] Connecting: styles.redditmedia.com
+[00:45:39] Connecting: styles.redditmedia.com
+[00:45:39] Connecting: styles.redditmedia.com
+[00:45:39] Connecting: styles.redditmedia.com
+[00:45:40] Connecting: w3-reporting.reddit.com
+[00:45:40] Connecting: safebrowsing.googleapis.com
+[00:45:40] Connecting: w3-reporting.reddit.com
+[00:45:40] Connecting: www.google.com
+[00:45:40] Connecting: v.redd.it
+[00:45:40] Connecting: alb.reddit.com
+[00:45:40] Connecting: accounts.google.com
+[00:45:41] Connecting: www.gstatic.com
+[00:45:41] Connecting: www.gstatic.com
+[00:45:41] Connecting: fonts.gstatic.com
+[00:45:41] Connecting: fonts.gstatic.com
+[00:45:41] Connecting: fonts.gstatic.com
+[00:45:44] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:45:46] Disconnecting: b.thumbs.redditmedia.com || Reason: Timeout occurred, closing connection.
+[00:45:46] Disconnecting: preview.redd.it || Reason: Timeout occurred, closing connection.
+[00:45:47] Disconnecting: external-preview.redd.it || Reason: Timeout occurred, closing connection.
+[00:45:50] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[00:45:50] Disconnecting: styles.redditmedia.com || Reason: Timeout occurred, closing connection.
+[00:45:50] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[00:45:51] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[00:45:51] Connecting: play.google.com
+[00:45:51] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[00:45:51] Disconnecting: www.redditstatic.com || Reason: Timeout occurred, closing connection.
+[00:45:52] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[00:45:53] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[00:45:53] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:45:54] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[00:45:58] Connecting: www.reddit.com
+[00:45:59] Connecting: w3-reporting.reddit.com
+[00:46:00] Connecting: www.youtube.com
+[00:46:01] Connecting: incoming.telemetry.mozilla.org
+[00:46:01] Connecting: i.ytimg.com
+[00:46:03] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:46:06] Connecting: googleads.g.doubleclick.net
+[00:46:06] Connecting: www.google.com
+[00:46:07] Connecting: yt3.ggpht.com
+[00:46:08] Timeout occurred, closing HTTP connection.
+[00:46:09] Connecting: www.google.com.vn
+[00:46:09] Connecting: fonts.gstatic.com
+[00:46:09] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[00:46:09] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[00:46:10] Connecting: fonts.googleapis.com
+[00:46:11] Connecting: play.google.com
+[00:46:12] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:46:13] Connecting: jnn-pa.googleapis.com
+[00:46:13] Connecting: static.doubleclick.net
+[00:46:16] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:46:19] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:46:19] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[00:46:19] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:46:19] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:46:23] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:46:23] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:46:24] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:46:25] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:46:28] Exit proxy server ...
+[00:46:41] Exit proxy server ...
+[00:46:48] Exit proxy server ...
+[00:47:56] Proxy server started. Listening on port 8080...
+[00:47:56] Connecting: play.google.com
+[00:47:56] Handling HTTP request: o.pki.goog:80
+[00:47:56] Connected to remote server for HTTP request: o.pki.goog:80
+[00:47:56] Connecting: play.google.com
+[00:47:59] Connecting: www.youtube.com
+[00:47:59] Connecting: rr4---sn-8pxuuxa-nbo6l.googlevideo.com
+[00:47:59] Connecting: rr4---sn-8pxuuxa-nbo6l.googlevideo.com
+[00:48:00] Handling HTTP request: o.pki.goog:80
+[00:48:00] Connecting: jnn-pa.googleapis.com
+[00:48:00] Connected to remote server for HTTP request: o.pki.goog:80
+[00:48:00] Connecting: rr2---sn-8qj-nbosk.googlevideo.com
+[00:48:00] Handling HTTP request: o.pki.goog:80
+[00:48:00] Connected to remote server for HTTP request: o.pki.goog:80
+[00:48:01] Connecting: rr4---sn-8pxuuxa-nbo6l.googlevideo.com
+[00:48:01] Connecting: tpc.googlesyndication.com
+[00:48:01] Connecting: rr2---sn-8pxuuxa-nbo6s.googlevideo.com
+[00:48:01] Handling HTTP request: o.pki.goog:80
+[00:48:01] Connected to remote server for HTTP request: o.pki.goog:80
+[00:48:02] Connecting: www.gstatic.com
+[00:48:02] Connecting: i.ytimg.com
+[00:48:03] Connecting: rr4---sn-npoldn7y.googlevideo.com
+[00:48:03] Connecting: pagead2.googlesyndication.com
+[00:48:04] Connecting: pagead2.googlesyndication.com
+[00:48:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:48:07] Connecting: googleads.g.doubleclick.net
+[00:48:11] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:48:11] Disconnecting: rr4---sn-8pxuuxa-nbo6l.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:11] Disconnecting: rr2---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+n.
+[00:48:12] Connecting: rr3---sn-30a7rne6.googlevideo.com
+[00:48:13] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:48:13] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[00:48:14] Connecting: rr4---sn-npoldn7y.googlevideo.com
+[00:48:14] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[00:48:15] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:48:16] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:48:17] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:48:24] Disconnecting: rr4---sn-npoldn7y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:24] Connecting: rr1---sn-npoeene6.googlevideo.com
+[00:48:24] Connecting: i.ytimg.com
+[00:48:25] Connecting: www.gstatic.com
+[00:48:25] Connecting: yt3.ggpht.com
+[00:48:28] Connecting: rr5---sn-8pxuuxa-nbo6r.googlevideo.com
+[00:48:28] Connecting: tpc.googlesyndication.com
+[00:48:28] Connecting: rr4---sn-npoe7ne7.googlevideo.com
+[00:48:28] Connecting: tpc.googlesyndication.com
+[00:48:28] Connecting: pagead2.googlesyndication.com
+[00:48:29] Connecting: rr1---sn-i3b7knse.googlevideo.com
+[00:48:29] Connecting: rr1---sn-8pxuuxa-nbozz.googlevideo.com
+[00:48:30] Disconnecting: rr3---sn-30a7rne6.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:31] Connecting: rr4---sn-npoe7nl6.googlevideo.com
+[00:48:31] Connecting: rr1---sn-8pxuuxa-nbozz.googlevideo.com
+[00:48:31] Connecting: rr1---sn-8pxuuxa-nbo6s.googlevideo.com
+[00:48:32] Connecting: rr4---sn-npoe7ne6.googlevideo.com
+[00:48:33] Connecting: incoming.telemetry.mozilla.org
+[00:48:34] Connecting: play.google.com
+[00:48:35] Disconnecting: rr1---sn-npoeene6.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:36] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[00:48:37] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:48:37] Connecting: googleads.g.doubleclick.net
+[00:48:37] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:48:37] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:48:37] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:48:38] Disconnecting: rr5---sn-8pxuuxa-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:38] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[00:48:38] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[00:48:39] Disconnecting: rr4---sn-npoe7ne7.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:41] Disconnecting: rr1---sn-8pxuuxa-nbozz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:41] Disconnecting: rr1---sn-8pxuuxa-nbozz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:42] Disconnecting: rr1---sn-8pxuuxa-nbo6s.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:48:42] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:48:43] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:48:43] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:48:44] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:48:47] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:48:49] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:49:01] Timeout occurred, closing HTTP connection.
+[00:49:02] Timeout occurred, closing HTTP connection.
+[00:49:02] Timeout occurred, closing HTTP connection.
+[00:49:02] Timeout occurred, closing HTTP connection.
+[00:49:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:49:10] Connecting: www.youtube.com
+[00:49:17] Connecting: www.google.com
+[00:49:19] Timeout occurred, closing HTTP connection.
+[00:49:19] Access to example.com is blocked.
+[00:49:23] Access to example.com is blocked.
+[00:49:30] Access to example.com is blocked.
+[00:49:30] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:49:37] Connecting: play.google.com
+[00:49:38] Access to example.com is blocked.
+[00:49:41] Access to example.com is blocked.
+[00:49:41] Access to example.com is blocked.
+[00:49:42] Access to example.com is blocked.
+[00:49:42] Connecting: incoming.telemetry.mozilla.org
+[00:49:42] Access to example.com is blocked.
+[00:49:42] Access to example.com is blocked.
+[00:49:42] Access to example.com is blocked.
+[00:49:42] Access to example.com is blocked.
+[00:49:43] Access to example.com is blocked.
+[00:49:43] Access to example.com is blocked.
+[00:49:44] Access to example.com is blocked.
+[00:49:44] Access to example.com is blocked.
+[00:49:44] Access to example.com is blocked.
+[00:49:45] Access to example.com is blocked.
+[00:49:45] Access to example.com is blocked.
+[00:49:45] Access to example.com is blocked.
+[00:49:46] Access to example.com is blocked.
+[00:49:46] Access to example.com is blocked.
+[00:49:47] Access to example.com is blocked.
+[00:49:47] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:49:47] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:49:50] Connecting: www.youtube.com
+[00:49:52] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:49:58] Access to example.com is blocked.
+[00:49:58] Connecting: incoming.telemetry.mozilla.org
+[00:50:00] Access to example.com is blocked.
+[00:50:03] Access to example.com is blocked.
+[00:50:07] Blacklist saved successfully!
+[00:50:08] Handling HTTP request: example.com:80
+[00:50:09] Connected to remote server for HTTP request: example.com:80
+[00:50:10] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:50:11] Handling HTTP request: example.com:80
+[00:50:12] Connected to remote server for HTTP request: example.com:80
+[00:50:12] Handling HTTP request: example.com:80
+[00:50:12] Connected to remote server for HTTP request: example.com:80
+[00:50:13] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:50:17] Connecting: www.google.com
+[00:50:20] Connecting: encrypted-tbn0.gstatic.com
+[00:50:20] Handling HTTP request: o.pki.goog:80
+[00:50:20] Connected to remote server for HTTP request: o.pki.goog:80
+[00:50:22] Connecting: play.google.com
+[00:50:26] Connecting: example.com
+[00:50:30] Connecting: www.youtube.com
+[00:50:30] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:50:32] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:50:34] Connecting: encrypted-tbn0.gstatic.com
+[00:50:35] Connecting: www.wikipedia.org
+[00:50:35] Connecting: upload.wikimedia.org
+[00:50:37] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[00:50:41] Connecting: vi.wikipedia.org
+[00:50:42] Connecting: upload.wikimedia.org
+[00:50:42] Connecting: upload.wikimedia.org
+[00:50:42] Connecting: upload.wikimedia.org
+[00:50:42] Connecting: upload.wikimedia.org
+[00:50:43] Connecting: login.wikimedia.org
+[00:50:44] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:50:44] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:50:45] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:50:45] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[00:50:50] Timeout occurred, closing HTTP connection.
+[00:50:53] Disconnecting: upload.wikimedia.org || Reason: Timeout occurred, closing connection.
+[00:50:53] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[00:50:53] Disconnecting: login.wikimedia.org || Reason: Timeout occurred, closing connection.
+[00:50:58] Connecting: www.youtube.com
+[00:50:59] Exit proxy server ...
+[00:51:57] Exit proxy server ...
+[00:53:29] Proxy server started. Listening on port 8080...
+[00:53:29] Connecting: vi.wikipedia.org
+[00:53:30] Connecting: www.youtube.com
+[00:53:30] Handling HTTP request: o.pki.goog:80
+[00:53:30] Connected to remote server for HTTP request: o.pki.goog:80
+[00:53:34] Connecting: i.ytimg.com
+[00:53:35] Connecting: rr4---sn-8qj-nbo67.googlevideo.com
+[00:53:35] Connecting: rr4---sn-8qj-nbo67.googlevideo.com
+[00:53:35] Handling HTTP request: o.pki.goog:80
+[00:53:35] Connected to remote server for HTTP request: o.pki.goog:80
+[00:53:35] Connecting: rr3---sn-8qj-nbo67.googlevideo.com
+[00:53:39] Connecting: googleads.g.doubleclick.net
+[00:53:39] Connecting: rr2---sn-8qj-nbo66.googlevideo.com
+[00:53:39] Connecting: play.google.com
+[00:53:39] Connecting: jnn-pa.googleapis.com
+[00:53:39] Connecting: fonts.gstatic.com
+[00:53:39] Connecting: fonts.gstatic.com
+[00:53:39] Connecting: static.doubleclick.net
+[00:53:40] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[00:53:40] Connecting: www.gstatic.com
+[00:53:43] Connecting: www.google.com
+[00:53:43] Connecting: www.google.com.vn
+[00:53:45] Disconnecting: rr4---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:53:45] Disconnecting: rr4---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[00:53:50] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:53:51] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[00:53:51] Connecting: vi.wikipedia.org
+[00:53:51] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[00:53:52] Connecting: intake-analytics.wikimedia.org
+[00:53:52] Connecting: intake-analytics.wikimedia.org
+[00:53:53] Connecting: incoming.telemetry.mozilla.org
+[00:53:53] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[00:53:54] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:53:54] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:53:55] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[00:53:55] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:53:59] Handling HTTP request: www.testingmcafeesites.com:80
+[00:53:59] Connected to remote server for HTTP request: www.testingmcafeesites.com:80
+[00:54:01] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[00:54:02] Disconnecting: intake-analytics.wikimedia.org || Reason: Timeout occurred, closing connection.
+[00:54:09] Connecting: safebrowsing.googleapis.com
+[00:54:09] Handling HTTP request: o.pki.goog:80
+[00:54:09] Connected to remote server for HTTP request: o.pki.goog:80
+[00:54:10] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:54:10] Timeout occurred, closing HTTP connection.
+[00:54:11] Connecting: play.google.com
+[00:54:14] Timeout occurred, closing HTTP connection.
+[00:54:21] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:54:25] Connecting: www.youtube.com:443
+[00:54:29] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[00:54:30] Connecting: vi.wikipedia.org:443
+[00:54:34] Connecting: incoming.telemetry.mozilla.org:443
+[00:54:35] Connecting: www.google.com:443
+[00:54:36] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:54:40] Timeout occurred, closing HTTP connection.
+[00:54:44] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:54:44] Connecting: incoming.telemetry.mozilla.org:443
+[00:54:54] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:54:54] Connecting: incoming.telemetry.mozilla.org:443
+[00:54:55] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:54:55] Connecting: www.youtube.com:443
+[00:54:57] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:54:57] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:54:57] Handling HTTP request: testaspnet.vulnweb.com:80
+[00:54:57] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[00:54:58] Connecting: www.google.com:443
+[00:54:59] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:55:02] No data received or connection closed by client.
+[00:55:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:55:05] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:55:26] Connecting: i.ytimg.com
+[00:55:27] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[00:55:27] Connecting: www.youtube.com
+[00:55:27] Timeout occurred, closing HTTP connection.
+[00:55:28] Handling HTTP request: o.pki.goog:80
+[00:55:28] Connected to remote server for HTTP request: o.pki.goog:80
+[00:55:37] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[00:55:43] Exit proxy server ...
+[00:55:43] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[00:55:43] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Stopped proxy.
