@@ -24,6 +24,7 @@ namespace UI_WINDOW {
 
     int listType = 0;
     int proxyServerType = 0;
+    int requestBoxType = 0;
 
     // Internal function to start the proxy server
     static void startProxyServer() {
@@ -74,13 +75,13 @@ namespace UI_WINDOW {
         hListLabel         = CreateWindowA("BUTTON", " Blacklist"          , WS_CHILD | WS_VISIBLE, 20, 20, 250, 25, hwnd, NULL, hInstance, NULL);
         hRunningHostsLabel = CreateWindowA("BUTTON", " Hosts Running"      , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
         hLogBoxLabel       = CreateWindowA("BUTTON", " Logs"               , WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
-        hRequestBoxLabel   = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        hRequestBoxLabel   = CreateWindowA("BUTTON", " Request Information", WS_CHILD | WS_VISIBLE, 450, 20, 300, 25, hwnd, (HMENU)5, hInstance, NULL);
         hStatusBar         = CreateWindowA("BUTTON", " Status: Ready"      , WS_CHILD | WS_VISIBLE | BS_LEFT, 20, 590, 730, 25, hwnd, NULL, hInstance, NULL);
         
-        hSaveListBtn     = CreateWindowA("BUTTON", " Save Blacklist"   , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
-        hStartProxyBtn   = CreateWindowA("BUTTON", " Start Proxy"      , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
-        hListType        = CreateWindowA("BUTTON", " Type: Blacklist"  , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)3, hInstance, NULL);
-        hProxyServerType = CreateWindowA("BUTTON", " Type: Transparent", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)4, hInstance, NULL);
+        hSaveListBtn     = CreateWindowA("BUTTON", "Save Blacklist"   , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 280, 60, 150, 30, hwnd, (HMENU)1, hInstance, NULL);
+        hStartProxyBtn   = CreateWindowA("BUTTON", "Start Proxy"      , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)2, hInstance, NULL);
+        hListType        = CreateWindowA("BUTTON", "Type: Blacklist"  , WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)3, hInstance, NULL);
+        hProxyServerType = CreateWindowA("BUTTON", " Transparent Proxy Server", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON | WS_BORDER, 620, 60, 150, 30, hwnd, (HMENU)4, hInstance, NULL);
         
         hLogBox     = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         hListBox    = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
@@ -214,16 +215,16 @@ namespace UI_WINDOW {
                     case 3: { // Change Blacklist <-> Whitelist
                         if (listType == 0) {
                             listType = 1;
-                            SetWindowTextA(hListType, " Type: Whitelist");
+                            SetWindowTextA(hListType, "Type: Whitelist");
                             SetWindowTextA(hListLabel, " Whitelist");
-                            SetWindowTextA(hSaveListBtn, " Save Whitelist");
+                            SetWindowTextA(hSaveListBtn, "Save Whitelist");
                             SetWindowTextA(hStatusBar, " Status: Change to Whitelist");
                             Whitelist::updateListBox(hListBox);
                         } else {
                             listType = 0;
-                            SetWindowTextA(hListType, " Type: Blacklist");
+                            SetWindowTextA(hListType, "Type: Blacklist");
                             SetWindowTextA(hListLabel, " Blacklist");
-                            SetWindowTextA(hSaveListBtn, " Save Blacklist");
+                            SetWindowTextA(hSaveListBtn, "Save Blacklist");
                             SetWindowTextA(hStatusBar, " Status: Change to Blacklist");
                             Blacklist::updateListBox(hListBox);
                         }
@@ -232,16 +233,25 @@ namespace UI_WINDOW {
                     case 4: {
                         if (proxyServerType == 0) {
                             proxyServerType = 1;
-                            SetWindowTextA(hProxyServerType, " Man In The Middle");
+                            SetWindowTextA(hProxyServerType, " Man In The Middle Proxy Server");
                         } else {
                             proxyServerType = 0;
-                            SetWindowTextA(hProxyServerType, " Transparent");
+                            SetWindowTextA(hProxyServerType, " Transparent Proxy Server");
                         }
                         break;
                     }
+                    case 5: {
+                        if (requestBoxType == 0) {
+                            requestBoxType = 1;
+                            SetWindowTextA(hRequestBoxLabel, " Request Data - MITM");
+                        } else {
+                            requestBoxType = 0;
+                            SetWindowTextA(hRequestBoxLabel, " Request Information");
+                        }
+                    }
                 }
 
-                if (LOWORD(wParam) == ID_LISTBOX_HOSTRUNNING && HIWORD(wParam) == LVN_ITEMCHANGED) {
+                if (requestBoxType == 0 && LOWORD(wParam) == ID_LISTBOX_HOSTRUNNING && HIWORD(wParam) == LVN_ITEMCHANGED) {
                     // Lấy chỉ số của dòng được chọn
                     int index = ListView_GetNextItem(hRunningHostsBox, -1, LVNI_SELECTED);
                     if (index != -1) { // Kiểm tra nếu có dòng nào được chọn
@@ -262,7 +272,7 @@ namespace UI_WINDOW {
             }
             case WM_NOTIFY: {
                 LPNMHDR nmhdr = (LPNMHDR)lParam;
-                if (nmhdr->idFrom == ID_LISTBOX_HOSTRUNNING && nmhdr->code == LVN_ITEMCHANGED) {
+                if (requestBoxType == 0 && nmhdr->idFrom == ID_LISTBOX_HOSTRUNNING && nmhdr->code == LVN_ITEMCHANGED) {
                     // Gọi logic xử lý khi một dòng trong ListView được chọn
                     NMLISTVIEW* pnmv = (NMLISTVIEW*)lParam;
                     if (pnmv->uNewState & LVIS_SELECTED) {
@@ -347,10 +357,10 @@ namespace UI_WINDOW {
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding + buttonHeight + listBoxHeight + padding + padding;
 
-                MoveWindow(hProxyServerType, x, y, listBoxWidth / 4, buttonHeight, TRUE); 
+                MoveWindow(hProxyServerType, x, y, listBoxWidth / 2 - padding, buttonHeight, TRUE); 
 
-                MoveWindow(hListType   , x + listBoxWidth / 2                   , y, listBoxWidth / 4, buttonHeight, TRUE); 
-                MoveWindow(hSaveListBtn, x + listBoxWidth / 2 + listBoxWidth / 4, y, listBoxWidth / 4, buttonHeight, TRUE); 
+                MoveWindow(hListType   , x + listBoxWidth / 2                   , y, listBoxWidth / 4 - padding / 2, buttonHeight, TRUE); 
+                MoveWindow(hSaveListBtn, x + listBoxWidth / 2 + listBoxWidth / 4 + padding / 2, y, listBoxWidth / 4 - padding / 2, buttonHeight, TRUE); 
                 
                 MoveWindow(hStartProxyBtn, column2X + x                        , y, buttonWidth                         , buttonHeight, TRUE);
                 MoveWindow(hStatusBar    , column2X + x + buttonWidth + padding, y, listBoxWidth - buttonWidth - padding, buttonHeight, TRUE);
@@ -408,59 +418,66 @@ namespace UI_WINDOW {
         return 0;
     }
 
+    auto lastUpdate = std::chrono::steady_clock::now();
+    
     void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap) {
-        ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
-        for (const auto& [id, host] : threadMap) {
-            std::string request = host.second;
-            std::string method, uri, httpVersion, hostName;
+        auto now = std::chrono::steady_clock::now();
+        if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > 2000) {
+            ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
+            for (const auto& [id, host] : threadMap) {
+                std::string request = host.second;
+                std::string method, uri, httpVersion, hostName;
 
-            // Parse the request string
-            std::istringstream requestStream(request);
-            requestStream >> method >> uri >> httpVersion;
+                // Parse the request string
+                std::istringstream requestStream(request);
+                requestStream >> method >> uri >> httpVersion;
 
-            // Find "Host: " in the request to extract hostName
-            std::string line;
-            while (std::getline(requestStream, line)) {
-                if (line.find("Host: ") == 0) {
-                    hostName = line.substr(6);
-                    break;
+                // Find "Host: " in the request to extract hostName
+                std::string line;
+                while (std::getline(requestStream, line)) {
+                    if (line.find("Host: ") == 0) {
+                        hostName = line.substr(6);
+                        break;
+                    }
                 }
+
+                // Insert row into ListView
+                LVITEM lvItem = {};
+                lvItem.mask = LVIF_TEXT;
+                lvItem.iItem = ListView_GetItemCount(hRunningHostsBox); // Row index
+
+                // Add Host column
+                lvItem.iSubItem = 0;
+                lvItem.pszText = (LPSTR)host.first.c_str();
+                ListView_InsertItem(hRunningHostsBox, &lvItem);
+
+                // Add Method column
+                ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 1, (LPSTR)method.c_str());
+
+                // Add URI column
+                ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 2, (LPSTR)uri.c_str());
+
+                // Add Version column
+                ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 3, (LPSTR)httpVersion.c_str());
+
+                // Add Hostname column
+                ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
+
+                for (int i = 0; i < 5; ++i) {
+                    ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+                }
+                
+                ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
             }
 
-            // Insert row into ListView
-            LVITEM lvItem = {};
-            lvItem.mask = LVIF_TEXT;
-            lvItem.iItem = ListView_GetItemCount(hRunningHostsBox); // Row index
-
-            // Add Host column
-            lvItem.iSubItem = 0;
-            lvItem.pszText = (LPSTR)host.first.c_str();
-            ListView_InsertItem(hRunningHostsBox, &lvItem);
-
-            // Add Method column
-            ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 1, (LPSTR)method.c_str());
-
-            // Add URI column
-            ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 2, (LPSTR)uri.c_str());
-
-            // Add Version column
-            ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 3, (LPSTR)httpVersion.c_str());
-
-            // Add Hostname column
-            ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
-
-            for (int i = 0; i < 5; ++i) {
-                ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
-            }
-            
-            ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
+            lastUpdate = now;
         }
 
         // Kiểm tra dòng nào đang được chọn
         int index = ListView_GetNextItem(hRunningHostsBox, -1, LVNI_SELECTED);
         
         // Nếu không có dòng nào được chọn, tự động chọn dòng đầu tiên
-        if (index == -1) { 
+        if (requestBoxType == 0 && index == -1) { 
             index = 0; // Dòng đầu tiên trong danh sách
             // Kiểm tra xem dòng đầu tiên có dữ liệu hay không
             char testBuffer[256] = {0};
@@ -473,18 +490,20 @@ namespace UI_WINDOW {
             ListView_SetItemState(hRunningHostsBox, index, LVIS_SELECTED | LVIS_FOCUSED, LVIS_SELECTED | LVIS_FOCUSED);
             ListView_EnsureVisible(hRunningHostsBox, index, FALSE); // Đảm bảo dòng được nhìn thấy
         }
+        
+        if (requestBoxType == 0) {
+            // Tiếp tục xử lý dòng đã chọn
+            char buffer[256];
 
-        // Tiếp tục xử lý dòng đã chọn
-        char buffer[256];
+            // Lấy giá trị của cột đầu tiên ("Host") từ dòng được chọn
+            ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
 
-        // Lấy giá trị của cột đầu tiên ("Host") từ dòng được chọn
-        ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
+            // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
+            std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
 
-        // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
-        std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
-
-        // Hiển thị nội dung request trong `hRequestBox`
-        SetWindowText(hRequestBox, requestMessage.c_str());
+            // Hiển thị nội dung request trong `hRequestBox`
+            SetWindowText(hRequestBox, requestMessage.c_str());
+        }
     }
 
     void UpdateLog(const std::string& str) {
@@ -549,6 +568,19 @@ namespace UI_WINDOW {
     }
 
     void LogData(const std::string& direction, const std::string& data) {
+        if (requestBoxType == 1) {
+            // int length = GetWindowTextLengthA(hRequestBox);
+            // std::vector<char> buffer(length + 1);
+            // GetWindowTextA(hRequestBox, buffer.data(), length + 1);
+
+            // // Append the new log message
+            // std::string currentLog(buffer.begin(), buffer.end() - 1);
+            // currentLog += data + "\r\n";
+            // // std::cout << currentLog << '\n';
+            // // Set the updated content back to the EDIT control
+            SetWindowTextA(hRequestBox, data.c_str());
+        }
+
         // Get current time
         auto now = std::chrono::system_clock::now();
         auto now_time_t = std::chrono::system_clock::to_time_t(now);
@@ -562,25 +594,9 @@ namespace UI_WINDOW {
         // Create the final log message with time prefix and direction
         std::string logMessage = "[" + timeStream.str() + "] " + direction + ": " + data;
 
-        // Get the current content of the EDIT control
-        int length = GetWindowTextLengthA(hLogBox);
-        std::vector<char> buffer(length + 1);
-        GetWindowTextA(hLogBox, buffer.data(), length + 1);
-
-        // Append the new log message
-        std::string currentLog(buffer.begin(), buffer.end() - 1); // Loại bỏ ký tự null
-        currentLog += logMessage + "\r\n";
-
-        // Set the updated content back to the EDIT control
-        SetWindowTextA(hLogBox, currentLog.c_str());
-
-        // Automatically scroll to the bottom of the EDIT control
-        SendMessage(hLogBox, EM_SETSEL, static_cast<WPARAM>(currentLog.length()), static_cast<LPARAM>(currentLog.length()));
-        SendMessage(hLogBox, EM_SCROLLCARET, 0, 0);
-
         // Prepare log file name: log_dd_mm_yy.txt
         std::ostringstream fileNameStream;
-        fileNameStream << "log_"
+        fileNameStream << "logData_"
                        << std::put_time(&tm, "%d_%m_%y")
                        << ".txt";
         std::string logFileName = fileNameStream.str();
@@ -602,8 +618,7 @@ namespace UI_WINDOW {
         } else {
             // Optionally handle errors when opening the file
             std::string errorMessage = "[Error] Could not write to log file.\r\n";
-            currentLog += errorMessage;
-            SetWindowTextA(hLogBox, currentLog.c_str());
+            SetWindowTextA(hLogBox, errorMessage.c_str());
         }
     }
 }

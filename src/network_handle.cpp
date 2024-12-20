@@ -44,32 +44,20 @@ namespace MITMNetworkHandle {
 
     // Hàm tạo khóa RSA mới sử dụng EVP API
     EVP_PKEY* generateRSAKey() {
-        EVP_PKEY* pkey = nullptr;
         EVP_PKEY_CTX* ctx = EVP_PKEY_CTX_new_id(EVP_PKEY_RSA, nullptr);
-        if (!ctx) {
-            std::cerr << "Failed to create EVP_PKEY_CTX.\n";
-            return nullptr;
-        }
-
-        if (EVP_PKEY_keygen_init(ctx) <= 0) {
+        if (!ctx || EVP_PKEY_keygen_init(ctx) <= 0) {
             std::cerr << "Failed to initialize keygen context.\n";
-            EVP_PKEY_CTX_free(ctx);
             return nullptr;
         }
-
         if (EVP_PKEY_CTX_set_rsa_keygen_bits(ctx, 2048) <= 0) {
             std::cerr << "Failed to set RSA key length.\n";
-            EVP_PKEY_CTX_free(ctx);
             return nullptr;
         }
-
+        EVP_PKEY* pkey = nullptr;
         if (EVP_PKEY_keygen(ctx, &pkey) <= 0) {
             std::cerr << "Failed to generate RSA key.\n";
-            EVP_PKEY_CTX_free(ctx);
             return nullptr;
         }
-
-        EVP_PKEY_CTX_free(ctx);
         return pkey;
     }
 
@@ -256,11 +244,11 @@ namespace MITMNetworkHandle {
         return ctx;
     }
 
-    X509* generateCertificate(EVP_PKEY* caKey, X509* caCert, const std::string& domain) {
+    std::pair<X509*, EVP_PKEY*> generateCertificate(EVP_PKEY* caKey, X509* caCert, const std::string& domain) {
         X509* cert = X509_new();
         if (!cert) {
             std::cerr << "Unable to create X509 certificate.\n";
-            return nullptr;
+            return {nullptr, nullptr};
         }
 
         X509_set_version(cert, 2);
@@ -268,42 +256,54 @@ namespace MITMNetworkHandle {
         X509_gmtime_adj(X509_get_notBefore(cert), 0);
         X509_gmtime_adj(X509_get_notAfter(cert), 365 * 24 * 60 * 60);
 
+        // Tạo cặp khóa RSA cho chứng chỉ mới
         EVP_PKEY* subKey = generateRSAKey();
         if (!subKey) {
             std::cerr << "Failed to generate RSA key for certificate.\n";
             X509_free(cert);
-            return nullptr;
+            return {nullptr, nullptr};
         }
 
+        // Gắn khóa công khai của subKey vào chứng chỉ
         if (X509_set_pubkey(cert, subKey) <= 0) {
             unsigned long err = ERR_get_error();
             std::cerr << "Failed to attach public key to certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
             EVP_PKEY_free(subKey);
             X509_free(cert);
-            return nullptr;
+            return {nullptr, nullptr};
         }
 
+         // Thiết lập Subject và Issuer name
         X509_NAME* name = X509_get_subject_name(cert);
-        if (!name) {
-            std::cerr << "Failed to get subject name from certificate.\n";
+        X509_NAME_add_entry_by_txt(name, "C", MBSTRING_ASC,
+                                reinterpret_cast<const unsigned char*>("US"), -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "O", MBSTRING_ASC,
+                                reinterpret_cast<const unsigned char*>("MyProxy"), -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC,
+                                reinterpret_cast<const unsigned char*>(domain.c_str()), -1, -1, 0);
+
+        if (!caCert) {
+            std::cerr << "Root CA certificate is null.\n";
+            return {nullptr, nullptr};
+        }
+
+        if (X509_set_issuer_name(cert, X509_get_subject_name(caCert)) <= 0) {
+            std::cerr << "Failed to set issuer name.\n";
             EVP_PKEY_free(subKey);
             X509_free(cert);
-            return nullptr;
+            return {nullptr, nullptr};
         }
 
-        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC, reinterpret_cast<const unsigned char*>(domain.c_str()), -1, -1, 0);
-        X509_set_issuer_name(cert, X509_get_subject_name(caCert));
-
+        // Ký chứng chỉ với rootCA key
         if (X509_sign(cert, caKey, EVP_sha256()) <= 0) {
             unsigned long err = ERR_get_error();
             std::cerr << "Failed to sign certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
             EVP_PKEY_free(subKey);
             X509_free(cert);
-            return nullptr;
+            return {nullptr, nullptr};
         }
 
-        EVP_PKEY_free(subKey);
-        return cert;
+        return {cert, subKey};
     }
 
     void handleSSLConnection(SOCKET clientSocket, const std::string& host, int port, SSL_CTX* ctx) {
@@ -321,18 +321,19 @@ namespace MITMNetworkHandle {
         }
 
         // Tạo chứng chỉ con cho domain
-        X509* cert = generateCertificate(caKey, caCert, host);
-        if (!cert) {
+        auto [cert, subKey] = generateCertificate(caKey, caCert, host);
+        if (!cert || !subKey) {
             UI_WINDOW::UpdateLog("Failed to generate certificate for host: " + host);
             closesocket(clientSocket);
             return;
         }
 
-        // Tạo SSL_CTX mới cho chứng chỉ con
+        // Tạo SSL_CTX mới cho chứng chỉ động
         SSL_CTX* childCtx = SSL_CTX_new(TLS_server_method());
         if (!childCtx) {
             UI_WINDOW::UpdateLog("Failed to create SSL_CTX for child connection.");
             X509_free(cert);
+            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
@@ -343,16 +344,27 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)));
             SSL_CTX_free(childCtx);
             X509_free(cert);
+            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
 
-        if (SSL_CTX_use_PrivateKey(childCtx, caKey) <= 0) {
+        // if (SSL_CTX_add_extra_chain_cert(childCtx, caCert) <= 0) {
+        //     UI_WINDOW::UpdateLog("Failed to add root CA certificate to chain.");
+        //     SSL_CTX_free(childCtx);
+        //     X509_free(cert);
+        //     EVP_PKEY_free(subKey);
+        //     closesocket(clientSocket);
+        //     return;
+        // }
+
+        if (SSL_CTX_use_PrivateKey(childCtx, subKey) <= 0) {
             UI_WINDOW::UpdateLog("Failed to use private key in SSL_CTX.");
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)));
             SSL_CTX_free(childCtx);
             X509_free(cert);
+            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
@@ -361,6 +373,7 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Private key does not match the certificate public key.");
             SSL_CTX_free(childCtx);
             X509_free(cert);
+            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
@@ -385,7 +398,6 @@ namespace MITMNetworkHandle {
                                 ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)));
             SSL_free(ssl);
             SSL_CTX_free(childCtx);
-            X509_free(cert);
             closesocket(clientSocket);
             return;
         }
@@ -505,7 +517,7 @@ namespace MITMNetworkHandle {
 
                 // Log dữ liệu từ client
                 std::string data(buffer, receivedBytes);
-                UI_WINDOW::LogData("Client -> Server:", data);
+                // UI_WINDOW::LogData("Client -> Server:", data);
 
                 if (SSL_write(sslServer, buffer, receivedBytes) <= 0) {
                     connectionOpen = false;
@@ -560,54 +572,182 @@ namespace MITMNetworkHandle {
         }
     }
 
+    void handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request) {
+        // Kết nối đến server thật
+        SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+        if (remoteSocket == INVALID_SOCKET) {
+            UI_WINDOW::UpdateLog("Cannot create remote socket.");
+            
+            return;
+        }
+
+        sockaddr_in serverAddr;
+        serverAddr.sin_family = AF_INET;
+        serverAddr.sin_port = htons(port);
+        struct hostent* remoteHost = gethostbyname(host.c_str());
+        if (remoteHost == NULL) {
+            UI_WINDOW::UpdateLog("Cannot resolve hostname: " + host);
+            closesocket(remoteSocket);
+            
+            return;
+        }
+        memcpy(&serverAddr.sin_addr.s_addr, remoteHost->h_addr, remoteHost->h_length);
+
+        if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
+            UI_WINDOW::UpdateLog("Cannot connect to remote server: " + host + ":" + std::to_string(port));
+            closesocket(remoteSocket);
+            
+            return;
+        }
+
+        UI_WINDOW::UpdateLog("Connected to remote server for HTTP request: " + host + ":" + std::to_string(port));
+
+        // Gửi yêu cầu đến server
+        send(remoteSocket, request.c_str(), request.size(), 0);
+
+        // Relay dữ liệu từ server tới client
+        fd_set readfds;
+        char buffer_data[BUFFER_SIZE];
+        bool connectionOpen = true;
+        while (connectionOpen) {
+            FD_ZERO(&readfds);
+            FD_SET(clientSocket, &readfds);
+            FD_SET(remoteSocket, &readfds);
+
+            struct timeval timeout;
+            timeout.tv_sec = 30;
+            timeout.tv_usec = 0;
+
+            int maxfd = (clientSocket > remoteSocket) ? clientSocket : remoteSocket;
+            int activity = select(maxfd + 1, &readfds, NULL, NULL, &timeout);
+            if (activity < 0) {
+                UI_WINDOW::UpdateLog("Select error in HTTP request handling.");
+                break;
+            }
+            if (activity == 0) {
+                UI_WINDOW::UpdateLog("Timeout occurred, closing HTTP connection.");
+                break;
+            }
+
+            if (FD_ISSET(remoteSocket, &readfds)) {
+                int receivedBytes = recv(remoteSocket, buffer_data, sizeof(buffer_data), 0);
+                if (receivedBytes <= 0) {
+                    connectionOpen = false;
+                    break;
+                }
+
+                // Log dữ liệu từ server
+                std::string data(buffer_data, receivedBytes);
+                UI_WINDOW::LogData("Server -> Client:", data);
+
+                // Gửi dữ liệu tới client
+                send(clientSocket, buffer_data, receivedBytes, 0);
+            }
+
+            if (FD_ISSET(clientSocket, &readfds)) {
+                int receivedBytes = recv(clientSocket, buffer_data, sizeof(buffer_data), 0);
+                if (receivedBytes <= 0) {
+                    connectionOpen = false;
+                    break;
+                }
+
+                // Log dữ liệu từ client
+                std::string data(buffer_data, receivedBytes);
+                UI_WINDOW::LogData("Client -> Server:", data);
+
+                // Gửi dữ liệu tới server
+                send(remoteSocket, buffer_data, receivedBytes, 0);
+            }
+        }
+
+        // Đóng kết nối
+        closesocket(remoteSocket);
+    }
+
     void handleClient(SOCKET clientSocket) {
         // Nhận yêu cầu CONNECT từ client
         char buffer[BUFFER_SIZE];
         int receivedBytes = recv(clientSocket, buffer, BUFFER_SIZE, 0);
         if (receivedBytes <= 0) {
             UI_WINDOW::UpdateLog("No data received or connection closed by client.");
-            closesocket(clientSocket);
+            
             return;
         }
 
         std::string request(buffer, receivedBytes);
         // Kiểm tra xem yêu cầu có phải là CONNECT hay không
         if (request.substr(0, 3) == "GET" || request.substr(0, 4) == "POST") {
+            // Xử lý GET/POST trong luồng riêng
             std::string host = parseHttpRequest(request);
+            if (host.empty()) {
+                UI_WINDOW::UpdateLog("Failed to parse host from HTTP request.");
+                
+                return;
+            }
+
+            // Kiểm tra Blacklist/Whitelist
+            if (UI_WINDOW::listType == 0) { // Blacklist
+                if (Blacklist::isBlocked(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is blocked.");
+                    const char* forbiddenResponse = 
+                        "HTTP/1.1 403 Forbidden\r\n"
+                        "Connection: close\r\n"
+                        "Proxy-Agent: CustomProxy/1.0\r\n"
+                        "\r\n";
+
+                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            } else { // Whitelist
+                if (!Whitelist::isAble(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.");
+                    const char* forbiddenResponse = 
+                        "HTTP/1.1 403 Forbidden\r\n"
+                        "Connection: close\r\n"
+                        "Proxy-Agent: CustomProxy/1.0\r\n"
+                        "\r\n";
+
+                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            }
+
+            // Thêm HOST vào danh sách luồng
+            {
+                threadMap[std::this_thread::get_id()] = std::make_pair(host, request);
+                hostRequestMap[host] = request;
+                stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
+
+                printActiveThreads(); // Hiển thị danh sách luồng
+            }
+
+            // Kiểm tra xem HOST có bị chặn trong quá trình xử lý
+            checkAndStopBlacklistedThreads();  
+
+            activeThreads++;        
+    
             int port = 80; // Default HTTP port
-            SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+            UI_WINDOW::UpdateLog("Handling HTTP request: " + host + ":" + std::to_string(port));
+
+            // Tạo luồng mới để xử lý yêu cầu HTTP
+            handleHttpRequest(clientSocket, host, port, request);
             
-            // Resolve host and connect
-            sockaddr_in serverAddr;
-            serverAddr.sin_family = AF_INET;
-            serverAddr.sin_port = htons(port);
-            struct hostent* remoteHost = gethostbyname(host.c_str());
-            if (remoteHost == NULL) {
-                UI_WINDOW::UpdateLog("Cannot resolve hostname.");
-                closesocket(remoteSocket);
-                closesocket(clientSocket);
-                return;
-            }
-            memcpy(&serverAddr.sin_addr.s_addr, remoteHost->h_addr, remoteHost->h_length);
-            if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-                UI_WINDOW::UpdateLog("Cannot connect to remote server.");
-                closesocket(remoteSocket);
-                closesocket(clientSocket);
-                return;
+            activeThreads--;        
+
+            // Xóa luồng khỏi danh sách và đóng kết nối
+            {
+                std::lock_guard<std::mutex> lock(threadMapMutex);
+                hostRequestMap.erase(threadMap[std::this_thread::get_id()].first);
+                threadMap.erase(std::this_thread::get_id());
+                stopFlags.erase(std::this_thread::get_id());
             }
 
-            // Forward the request
-            send(remoteSocket, request.c_str(), request.size(), 0);
+            printActiveThreads(); // Hiển thị danh sách luồng
 
-            // Relay the response back to the client
-            char buffer[BUFFER_SIZE];
-            int bytesRead;
-            while ((bytesRead = recv(remoteSocket, buffer, BUFFER_SIZE, 0)) > 0) {
-                send(clientSocket, buffer, bytesRead, 0);
-            }
-
-            closesocket(remoteSocket);
             closesocket(clientSocket);
+
             return;
         }
 
@@ -672,14 +812,6 @@ namespace MITMNetworkHandle {
             }
         }
 
-        // Phản hồi cho client rằng kết nối đã được thiết lập
-        const char* connectionEstablished = 
-            "HTTP/1.1 200 Connection Established\r\n"
-            "Proxy-Agent: CustomProxy/1.0\r\n"
-            "\r\n";
-
-        send(clientSocket, connectionEstablished, strlen(connectionEstablished), 0);
-
         // Thêm HOST vào danh sách luồng
         {
             threadMap[std::this_thread::get_id()] = std::make_pair(host, request);
@@ -729,8 +861,8 @@ namespace TransparentNetworkHandle {
         size_t start = pos + 6;
         size_t end = request.find("\r\n", start);
         if (end == std::string::npos) return std::string();
-        
-        return "https://" + request.substr(start, end - start);
+
+        return request.substr(start, end - start);
     }
 
     void handleConnectMethod(SOCKET clientSocket, const std::string& host, int port) {
@@ -800,6 +932,98 @@ namespace TransparentNetworkHandle {
         closesocket(remoteSocket);
     }
 
+    void handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request) {
+        // Kết nối đến server thật
+        SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+        if (remoteSocket == INVALID_SOCKET) {
+            UI_WINDOW::UpdateLog("Cannot create remote socket.");
+            
+            return;
+        }
+
+        sockaddr_in serverAddr;
+        serverAddr.sin_family = AF_INET;
+        serverAddr.sin_port = htons(port);
+        struct hostent* remoteHost = gethostbyname(host.c_str());
+        if (remoteHost == NULL) {
+            UI_WINDOW::UpdateLog("Cannot resolve hostname: " + host);
+            closesocket(remoteSocket);
+            
+            return;
+        }
+        memcpy(&serverAddr.sin_addr.s_addr, remoteHost->h_addr, remoteHost->h_length);
+
+        if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
+            UI_WINDOW::UpdateLog("Cannot connect to remote server: " + host + ":" + std::to_string(port));
+            closesocket(remoteSocket);
+            
+            return;
+        }
+
+        UI_WINDOW::UpdateLog("Connected to remote server for HTTP request: " + host + ":" + std::to_string(port));
+
+        // Gửi yêu cầu đến server
+        send(remoteSocket, request.c_str(), request.size(), 0);
+
+        // Relay dữ liệu từ server tới client
+        fd_set readfds;
+        char buffer_data[BUFFER_SIZE];
+        bool connectionOpen = true;
+        while (connectionOpen) {
+            FD_ZERO(&readfds);
+            FD_SET(clientSocket, &readfds);
+            FD_SET(remoteSocket, &readfds);
+
+            struct timeval timeout;
+            timeout.tv_sec = 30;
+            timeout.tv_usec = 0;
+
+            int maxfd = (clientSocket > remoteSocket) ? clientSocket : remoteSocket;
+            int activity = select(maxfd + 1, &readfds, NULL, NULL, &timeout);
+            if (activity < 0) {
+                UI_WINDOW::UpdateLog("Select error in HTTP request handling.");
+                break;
+            }
+            if (activity == 0) {
+                UI_WINDOW::UpdateLog("Timeout occurred, closing HTTP connection.");
+                break;
+            }
+
+            if (FD_ISSET(remoteSocket, &readfds)) {
+                int receivedBytes = recv(remoteSocket, buffer_data, sizeof(buffer_data), 0);
+                if (receivedBytes <= 0) {
+                    connectionOpen = false;
+                    break;
+                }
+
+                // Log dữ liệu từ server
+                std::string data(buffer_data, receivedBytes);
+                UI_WINDOW::LogData("Server -> Client:", data);
+
+                // Gửi dữ liệu tới client
+                send(clientSocket, buffer_data, receivedBytes, 0);
+            }
+
+            if (FD_ISSET(clientSocket, &readfds)) {
+                int receivedBytes = recv(clientSocket, buffer_data, sizeof(buffer_data), 0);
+                if (receivedBytes <= 0) {
+                    connectionOpen = false;
+                    break;
+                }
+
+                // Log dữ liệu từ client
+                std::string data(buffer_data, receivedBytes);
+                UI_WINDOW::LogData("Client -> Server:", data);
+
+                // Gửi dữ liệu tới server
+                send(remoteSocket, buffer_data, receivedBytes, 0);
+            }
+        }
+
+        // Đóng kết nối
+        closesocket(remoteSocket);
+    }
+
     void printActiveThreads() {
         // std::lock_guard<std::mutex> lock(threadMapMutex);
         UI_WINDOW::UpdateRunningHosts(threadMap); // Gửi thông tin lên giao diện
@@ -829,20 +1053,96 @@ namespace TransparentNetworkHandle {
         }
 
         std::string request(buffer, receivedBytes);
-        std::string url = parseHttpRequest(request);
-        if (url.empty()) {
+
+        // Kiểm tra xem yêu cầu có phải là CONNECT hay không
+        if (request.substr(0, 3) == "GET" || request.substr(0, 4) == "POST") {
+            // Xử lý GET/POST trong luồng riêng
+            std::string host = parseHttpRequest(request);
+            if (host.empty()) {
+                UI_WINDOW::UpdateLog("Failed to parse host from HTTP request.");
+                
+                return;
+            }
+
+            // Kiểm tra Blacklist/Whitelist
+            if (UI_WINDOW::listType == 0) { // Blacklist
+                if (Blacklist::isBlocked(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is blocked.");
+                    const char* forbiddenResponse = 
+                        "HTTP/1.1 403 Forbidden\r\n"
+                        "Connection: close\r\n"
+                        "Proxy-Agent: CustomProxy/1.0\r\n"
+                        "\r\n";
+
+                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            } else { // Whitelist
+                if (!Whitelist::isAble(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.");
+                    const char* forbiddenResponse = 
+                        "HTTP/1.1 403 Forbidden\r\n"
+                        "Connection: close\r\n"
+                        "Proxy-Agent: CustomProxy/1.0\r\n"
+                        "\r\n";
+
+                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            }
+
+            // Thêm HOST vào danh sách luồng
+            {
+                threadMap[std::this_thread::get_id()] = std::make_pair(host, request);
+                hostRequestMap[host] = request;
+                stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
+
+                printActiveThreads(); // Hiển thị danh sách luồng
+            }
+
+            // Kiểm tra xem HOST có bị chặn trong quá trình xử lý
+            checkAndStopBlacklistedThreads();  
+
+            activeThreads++;        
+    
+            int port = 80; // Default HTTP port
+            UI_WINDOW::UpdateLog("Handling HTTP request: " + host + ":" + std::to_string(port));
+
+            // Tạo luồng mới để xử lý yêu cầu HTTP
+            handleHttpRequest(clientSocket, host, port, request);
+            
+            activeThreads--;        
+
+            // Xóa luồng khỏi danh sách và đóng kết nối
+            {
+                std::lock_guard<std::mutex> lock(threadMapMutex);
+                hostRequestMap.erase(threadMap[std::this_thread::get_id()].first);
+                threadMap.erase(std::this_thread::get_id());
+                stopFlags.erase(std::this_thread::get_id());
+            }
+
+            printActiveThreads(); // Hiển thị danh sách luồng
+
+            closesocket(clientSocket);
+
             return;
         }
 
-        size_t hostPos = request.find(' ') + 1;
-        if (std::string(url.begin() + 7, url.end()).find(':') == std::string::npos) {
+        std::string url = parseHttpRequest(request);
+        if (url.empty()) {
             closesocket(clientSocket);
             return;
         }
 
+        int port = 443;
+        size_t hostPos = request.find(' ') + 1;
         size_t portPos = request.find(':', hostPos);
         std::string host = request.substr(hostPos, portPos - hostPos);
-        int port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
+        if (std::string(url.begin() + 7, url.end()).find(':') != std::string::npos) {
+            port = stoi(request.substr(portPos + 1, request.find(' ', portPos) - portPos - 1));
+        }
 
         if (UI_WINDOW::listType == 0) {
             if (Blacklist::isBlocked(host)) {
