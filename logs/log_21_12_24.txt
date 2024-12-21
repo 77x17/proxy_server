@@ -2206,3 +2206,713 @@ n.
 [00:55:43] Exit proxy server ...
 [00:55:43] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
 [00:55:43] Disconnecting: rr2---sn-8qj-nbo66.googlevideo.com || Reason: Stopped proxy.
+[00:59:04] Exit proxy server ...
+[12:59:49] Proxy server started. Listening on port 8080...
+[12:59:50] Handling HTTP request: detectportal.firefox.com:80
+[12:59:50] Handling HTTP request: r11.o.lencr.org:80
+[12:59:50] Connecting: spocs.getpocket.com
+[12:59:50] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[12:59:50] Handling HTTP request: r11.o.lencr.org:80
+[12:59:50] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[12:59:50] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[12:59:50] Connecting: example.com
+[12:59:50] Handling HTTP request: r11.o.lencr.org:80
+[12:59:50] Handling HTTP request: detectportal.firefox.com:80
+[12:59:50] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[12:59:50] Connecting: firefox.settings.services.mozilla.com
+[12:59:50] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[12:59:50] Connecting: aus5.mozilla.org
+[12:59:50] Handling HTTP request: detectportal.firefox.com:80
+[12:59:50] Connecting: incoming.telemetry.mozilla.org
+[12:59:50] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[12:59:50] Connecting: www.youtube.com
+[12:59:50] Handling HTTP request: o.pki.goog:80
+[12:59:51] Connected to remote server for HTTP request: o.pki.goog:80
+[12:59:51] Connecting: i.ytimg.com
+[12:59:51] Connecting: fonts.googleapis.com
+[12:59:53] Connecting: push.services.mozilla.com
+[12:59:53] Connecting: fonts.gstatic.com
+[12:59:53] Connecting: accounts.google.com
+[12:59:53] Handling HTTP request: o.pki.goog:80
+[12:59:53] Connected to remote server for HTTP request: o.pki.goog:80
+[12:59:53] Connecting: push.services.mozilla.com
+[12:59:54] Connecting: www.google.com
+[12:59:57] Connecting: googleads.g.doubleclick.net
+[12:59:58] Connecting: www.gstatic.com
+[12:59:58] Connecting: fonts.gstatic.com
+[12:59:58] Connecting: fonts.gstatic.com
+[12:59:59] Connecting: safebrowsing.googleapis.com
+[12:59:59] Handling HTTP request: o.pki.goog:80
+[12:59:59] Connected to remote server for HTTP request: o.pki.goog:80
+[13:00:00] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:00:00] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[13:00:01] Disconnecting: example.com || Reason: Timeout occurred, closing connection.
+[13:00:01] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:00:02] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:00:03] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:00:04] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+ion.
+[13:00:05] Connecting: fonts.gstatic.com
+[13:00:05] Connecting: www.google.com.vn
+la.com
+[13:00:05] Connecting: push.services.mozilla.com
+[13:00:05] Handling HTTP request: o.pki.goog:80
+[13:00:05] Connected to remote server for HTTP request: o.pki.goog:80
+[13:00:07] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:00:10] Connecting: aus5.mozilla.org
+[13:00:10] Connecting: normandy.cdn.mozilla.net
+[13:00:10] Connecting: googleads.g.doubleclick.net
+[13:00:10] Connecting: classify-client.services.mozilla.com
+[13:00:11] Connecting: content-signature-2.cdn.mozilla.net
+[13:00:14] Handling HTTP request: vulnweb.com:80
+[13:00:14] Handling HTTP request: vulnweb.com:80
+[13:00:14] Handling HTTP request: vulnweb.com:80
+[13:00:14] Connecting: incoming.telemetry.mozilla.org
+[13:00:14] Connected to remote server for HTTP request: vulnweb.com:80
+[13:00:14] Connected to remote server for HTTP request: vulnweb.com:80
+[13:00:15] Connecting: www.gstatic.com
+[13:00:15] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:00:16] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:16] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:16] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:00:18] Handling HTTP request: ads.bxss.me:80
+[13:00:18] Handling HTTP request: www.acunetix.com:80
+[13:00:18] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Connected to remote server for HTTP request: www.acunetix.com:80
+[13:00:18] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:18] Cannot resolve hostname: ads.bxss.me
+[13:00:18] Handling HTTP request: ads.bxss.me:80
+[13:00:18] Cannot resolve hostname: ads.bxss.me
+[13:00:19] Handling HTTP request: ads.bxss.me:80
+[13:00:19] Cannot resolve hostname: ads.bxss.me
+[13:00:19] Connecting: www.acunetix.com
+[13:00:20] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:00:20] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:00:20] Timeout occurred, closing HTTP connection.
+[13:00:20] Timeout occurred, closing HTTP connection.
+[13:00:21] Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:00:21] Connecting: play.google.com
+[13:00:21] Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[13:00:21] Connecting: play.google.com
+[13:00:24] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:00:25] Connecting: push.services.mozilla.com
+[13:00:26] Connecting: push.services.mozilla.com:443
+[13:00:27] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:27] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:28] Handling HTTP request: testhtml5.vulnweb.com:80
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:28] Handling HTTP request: ads.bxss.me:80
+[13:00:28] Cannot resolve hostname: ads.bxss.me
+[13:00:29] Timeout occurred, closing HTTP connection.
+[13:00:31] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:00:33] No data received or connection closed by client.
+[13:00:34] Connecting: i.ytimg.com:443
+[13:00:34] Connecting: yt3.ggpht.com:443
+[13:00:34] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:00:34] No data received or connection closed by client.
+[13:00:35] Connecting: i.ytimg.com:443
+[13:00:35] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:00:36] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:00:36] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:00:38] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[13:00:39] No data received or connection closed by client.
+[13:00:41] Handling HTTP request: detectportal.firefox.com:80
+[13:00:41] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:00:41] Handling HTTP request: detectportal.firefox.com:80
+[13:00:41] Handling HTTP request: detectportal.firefox.com:80
+[13:00:41] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:00:41] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:00:44] Connecting: googleads.g.doubleclick.net:443
+[13:00:45] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:00:47] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:00:47] Connecting: i.ytimg.com:443
+[13:00:48] Connecting: www.youtube.com:443
+[13:00:49] Handling HTTP request: testasp.vulnweb.com:80
+[13:00:49] Connecting: play.google.com:443
+[13:00:49] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[13:00:50] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:00:51] Handling HTTP request: vulnweb.com:80
+[13:00:51] Connected to remote server for HTTP request: vulnweb.com:80
+[13:00:52] No data received or connection closed by client.
+[13:00:52] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:00:52] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:00:53] No data received or connection closed by client.
+[13:00:53] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:00:53] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:00:53] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:00:53] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:00:57] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:01:00] Connecting: yt3.ggpht.com
+[13:01:00] Handling HTTP request: o.pki.goog:80
+[13:01:00] Connected to remote server for HTTP request: o.pki.goog:80
+[13:01:05] Connecting: www.google.com
+[13:01:05] Connecting: www.google.com.vn
+[13:01:05] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:01:05] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:01:05] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[13:01:05] Connecting: www.youtube.com
+[13:01:05] Connecting: play.google.com
+[13:01:05] Connecting: www.youtube.com
+[13:01:07] Proxy server stopped.
+[13:01:10] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:01:11] Timeout occurred, closing HTTP connection.
+[13:01:11] Timeout occurred, closing HTTP connection.
+[13:01:11] Timeout occurred, closing HTTP connection.
+[13:01:15] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:01:15] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:01:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:01:26] Timeout occurred, closing HTTP connection.
+[13:01:30] Timeout occurred, closing HTTP connection.
+[13:01:59] Exit proxy server ...
+[13:08:57] Proxy server started. Listening on port 8080...
+[13:09:02] Connecting: www.youtube.com
+[13:09:03] Connecting: i.ytimg.com
+[13:09:03] Handling HTTP request: o.pki.goog:80
+[13:09:03] Connected to remote server for HTTP request: o.pki.goog:80
+[13:09:03] Connecting: incoming.telemetry.mozilla.org
+[13:09:03] No data received or connection closed by client.
+[13:09:05] Connecting: googleads.g.doubleclick.net
+[13:09:07] Connecting: fonts.gstatic.com
+[13:09:08] No data received or connection closed by client.
+[13:09:11] Connecting: fonts.gstatic.com
+[13:09:11] Connecting: fonts.gstatic.com
+[13:09:11] No data received or connection closed by client.
+[13:09:11] Connecting: www.google.com
+[13:09:11] Connecting: www.google.com.vn
+[13:09:12] No data received or connection closed by client.
+[13:09:12] Connecting: play.google.com
+[13:09:13] No data received or connection closed by client.
+[13:09:13] Connecting: play.google.com
+[13:09:13] Connecting: fonts.googleapis.com
+[13:09:13] Connecting: fonts.googleapis.com
+[13:09:13] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:09:14] No data received or connection closed by client.
+[13:09:15] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:09:16] Connecting: rr2---sn-8qj-nbosk.googlevideo.com
+[13:09:17] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:09:17] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:09:21] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:09:22] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:09:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:09:23] Connecting: rr3---sn-8qj-nbo6r.googlevideo.com
+[13:09:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:09:26] Connecting: www.google.com
+[13:09:28] Access to www.facebook.com is blocked.
+[13:09:28] Connecting: googleads.g.doubleclick.net
+[13:09:28] Connecting: www.google.com.vn
+[13:09:29] Connecting: googleads.g.doubleclick.net
+[13:09:29] Connecting: play.google.com
+[13:09:30] Connecting: incoming.telemetry.mozilla.org
+[13:09:32] Connecting: jnn-pa.googleapis.com
+[13:09:32] Connecting: static.doubleclick.net
+[13:09:32] Connecting: jnn-pa.googleapis.com
+[13:09:32] Handling HTTP request: o.pki.goog:80
+[13:09:32] Handling HTTP request: o.pki.goog:80
+[13:09:32] Connected to remote server for HTTP request: o.pki.goog:80
+[13:09:32] Connected to remote server for HTTP request: o.pki.goog:80
+[13:09:35] Connecting: example.com
+[13:09:36] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:09:37] Connecting: example.com
+[13:09:37] Connecting: yt3.ggpht.com
+[13:09:37] No data received or connection closed by client.
+[13:09:37] No data received or connection closed by client.
+[13:09:39] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:09:39] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:09:39] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:09:43] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:09:45] Connecting: rr1---sn-8qj-nbosk.googlevideo.com
+[13:09:45] Connecting: www.reddit.com
+[13:09:45] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:09:45] Connecting: incoming.telemetry.mozilla.org
+[13:09:45] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: www.redditstatic.com
+Reason: Timeout occurred, closing connection.
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: www.redditstatic.com
+[13:09:46] Connecting: preview.redd.it
+[13:09:46] Connecting: external-preview.redd.it
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] No data received or connection closed by client.
+[13:09:47] No data received or connection closed by client.
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:47] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: safebrowsing.googleapis.com
+[13:09:48] Connecting: www.redditstatic.com
+[13:09:48] Connecting: external-preview.redd.it
+[13:09:49] Connecting: styles.redditmedia.com
+[13:09:49] Connecting: external-preview.redd.it
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: safebrowsing.googleapis.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: b.thumbs.redditmedia.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: w3-reporting.reddit.com
+[13:09:49] Connecting: b.thumbs.redditmedia.com
+[13:09:49] Connecting: external-preview.redd.it
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:49] Connecting: www.redditstatic.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: w3-reporting.reddit.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: www.redditstatic.com
+[13:09:50] Connecting: i.ytimg.com
+[13:09:51] Connecting: rr1---sn-8qj-nbo6y.googlevideo.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: styles.redditmedia.com
+[13:09:51] Connecting: alb.reddit.com
+[13:09:51] Connecting: www.google.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:51] Connecting: www.redditstatic.com
+[13:09:53] Connecting: ad-delivery.net
+[13:09:53] Connecting: www.redditstatic.com
+[13:09:53] Connecting: v.redd.it
+[13:09:53] Connecting: accounts.google.com
+[13:09:55] Disconnecting: rr1---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:09:56] Connecting: fonts.gstatic.com
+[13:09:56] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:09:57] Disconnecting: preview.redd.it || Reason: Timeout occurred, closing connection.
+[13:09:57] No data received or connection closed by client.
+[13:09:58] No data received or connection closed by client.
+[13:09:59] Disconnecting: rr3---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:09:59] Disconnecting: external-preview.redd.it || Reason: Timeout occurred, closing connection.
+[13:09:59] No data received or connection closed by client.
+[13:09:59] Disconnecting: b.thumbs.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:10:01] Disconnecting: rr1---sn-8qj-nbo6y.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:10:01] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:10:01] Disconnecting: styles.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:10:01] Connecting: play.google.com
+[13:10:01] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[13:10:02] Timeout occurred, closing HTTP connection.
+[13:10:03] Timeout occurred, closing HTTP connection.
+[13:10:03] Timeout occurred, closing HTTP connection.
+[13:10:03] Connecting: alb.reddit.com
+[13:10:03] Connecting: a.thumbs.redditmedia.com
+[13:10:03] Connecting: b.thumbs.redditmedia.com
+[13:10:03] Connecting: a.thumbs.redditmedia.com
+[13:10:03] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[13:10:03] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[13:10:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:10:05] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[13:10:11] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:10:11] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:10:12] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[13:10:13] Disconnecting: a.thumbs.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:10:14] Disconnecting: b.thumbs.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:10:14] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[13:10:14] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[13:10:15] Connecting: i.ytimg.com
+[13:10:18] Blacklist saved successfully!
+[13:10:20] Connecting: i.ytimg.com
+[13:10:20] Handling HTTP request: o.pki.goog:80
+[13:10:20] Connected to remote server for HTTP request: o.pki.goog:80
+[13:10:20] Access to www.youtube.com is blocked.
+[13:10:21] Connecting: yt3.ggpht.com
+[13:10:21] Access to www.youtube.com is blocked.
+[13:10:21] Access to www.youtube.com is blocked.
+[13:10:21] Access to www.youtube.com is blocked.
+[13:10:21] Access to www.youtube.com is blocked.
+[13:10:21] Access to www.youtube.com is blocked.
+[13:10:21] Connecting: play.google.com
+[13:10:21] Connecting: play.google.com
+[13:10:22] Access to www.youtube.com is blocked.
+[13:10:22] Access to www.youtube.com is blocked.
+[13:10:22] Access to www.youtube.com is blocked.
+[13:10:22] Access to www.youtube.com is blocked.
+[13:10:25] Access to www.youtube.com is blocked.
+[13:10:25] Access to www.youtube.com is blocked.
+[13:10:25] Access to www.youtube.com is blocked.
+[13:10:25] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:10:25] Access to www.youtube.com is blocked.
+[13:10:26] Access to www.youtube.com is blocked.
+[13:10:26] Access to www.youtube.com is blocked.
+[13:10:26] Access to www.youtube.com is blocked.
+[13:10:27] Access to www.youtube.com is blocked.
+[13:10:27] Access to www.youtube.com is blocked.
+[13:10:30] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:10:31] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:10:31] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:10:32] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:10:32] Connecting: www.google.com
+[13:10:32] Handling HTTP request: o.pki.goog:80
+[13:10:32] Connected to remote server for HTTP request: o.pki.goog:80
+[13:10:37] Blacklist saved successfully!
+[13:10:37] Blacklist saved successfully!
+[13:10:38] Whitelist saved successfully!
+[13:10:41] Access to testaspnet.vulnweb.com is blocked.
+[13:10:43] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:10:45] Access to testaspnet.vulnweb.com is blocked.
+[13:10:50] Timeout occurred, closing HTTP connection.
+[13:10:51] Blacklist saved successfully!
+[13:11:02] Timeout occurred, closing HTTP connection.
+[13:11:03] Connecting: push.services.mozilla.com
+[13:11:04] Handling HTTP request: r10.o.lencr.org:80
+[13:11:04] Connected to remote server for HTTP request: r10.o.lencr.org:80
+[13:11:04] Connecting: push.services.mozilla.com
+[13:11:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:11:34] Timeout occurred, closing HTTP connection.
+[13:13:14] Proxy server started. Listening on port 8080...
+[13:13:18] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:13:18] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:13:21] Connecting: www.youtube.com
+[13:13:22] Connecting: i.ytimg.com
+[13:13:22] No data received or connection closed by client.
+[13:13:23] Connecting: rr5---sn-8qj-nbo67.googlevideo.com
+[13:13:23] Connecting: fonts.gstatic.com
+[13:13:23] Connecting: rr3---sn-npoe7nds.googlevideo.com
+[13:13:23] Handling HTTP request: o.pki.goog:80
+[13:13:23] Connected to remote server for HTTP request: o.pki.goog:80
+[13:13:24] No data received or connection closed by client.
+[13:13:25] Connecting: googleads.g.doubleclick.net
+[13:13:25] Connecting: rr1---sn-i3b7kns6.googlevideo.com
+[13:13:26] Connecting: play.google.com
+[13:13:27] Connecting: jnn-pa.googleapis.com
+[13:13:27] Connecting: www.reddit.com
+[13:13:28] No data received or connection closed by client.
+[13:13:28] Connecting: error-tracking.reddit.com
+[13:13:30] Connecting: emoji.redditmedia.com
+[13:13:30] Connecting: www.redditstatic.com
+sed by client.
+[13:13:30] No data received or connection closed by client.
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:30] Connecting: www.redditstatic.com
+[13:13:31] Connecting: www.redditstatic.com
+[13:13:31] No data received or connection closed by client.
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] No data received or connection closed by client.
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:32] Connecting: www.google.com
+[13:13:32] Connecting: www.redditstatic.com
+[13:13:33] Disconnecting: rr5---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:13:34] No data received or connection closed by client.
+[13:13:34] Connecting: w3-reporting.reddit.com
+[13:13:34] Connecting: alb.reddit.com
+[13:13:34] Connecting: preview.redd.it
+[13:13:34] Connecting: accounts.google.com
+[13:13:34] Connecting: www.google.com
+[13:13:34] Connecting: styles.redditmedia.com
+[13:13:34] Connecting: www.redditstatic.com
+[13:13:34] Connecting: ad-delivery.net
+[13:13:35] No data received or connection closed by client.
+[13:13:35] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:13:36] Disconnecting: rr1---sn-i3b7kns6.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:13:36] Connecting: www.gstatic.com
+[13:13:36] Connecting: fonts.gstatic.com
+[13:13:36] Connecting: fonts.gstatic.com
+[13:13:37] Connecting: fonts.googleapis.com
+sed by client.
+[13:13:37] Connecting: www.google.com.vn
+[13:13:38] No data received or connection closed by client.
+[13:13:38] No data received or connection closed by client.
+[13:13:39] Connecting: yt3.ggpht.com
+[13:13:39] Disconnecting: error-tracking.reddit.com || Reason: Timeout occurred, closing connection.
+[13:13:40] Disconnecting: emoji.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:13:40] No data received or connection closed by client.
+[13:13:43] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:13:44] Disconnecting: preview.redd.it || Reason: Timeout occurred, closing connection.
+[13:13:44] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[13:13:45] Disconnecting: styles.redditmedia.com || Reason: Timeout occurred, closing connection.
+[13:13:45] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:13:45] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[13:13:45] Disconnecting: www.redditstatic.com || Reason: Timeout occurred, closing connection.
+[13:13:47] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:13:47] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:13:48] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[13:13:48] Connecting: i.ytimg.com
+[13:13:49] Timeout occurred, closing HTTP connection.
+[13:13:49] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:13:50] Connecting: jnn-pa.googleapis.com
+[13:13:50] Connecting: play.google.com
+[13:13:52] Connecting: rr5---sn-8qj-nbo67.googlevideo.com
+[13:13:53] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:13:54] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:13:54] Connecting: googleads.g.doubleclick.net
+[13:13:55] Connecting: rr3---sn-npoe7nds.googlevideo.com
+[13:13:56] Connecting: rr4---sn-i3bssn7e.googlevideo.com
+[13:14:00] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:14:00] No data received or connection closed by client.
+[13:14:02] Disconnecting: rr5---sn-8qj-nbo67.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:14:03] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[13:14:05] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:14:05] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:14:06] Disconnecting: rr3---sn-npoe7nds.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:14:06] Disconnecting: rr4---sn-i3bssn7e.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:14:08] Exit proxy server ...
+[13:38:45] Proxy server started. Listening on port 8080...
+[13:38:46] Connecting: incoming.telemetry.mozilla.org:443
+[13:38:49] Connecting: www.youtube.com:443
+[13:38:49] Connecting: www.youtube.com:443
+[13:38:49] Connecting: play.google.com:443
+[13:38:49] Connecting: play.google.com:443
+[13:38:49] Connecting: play.google.com:443
+[13:38:49] Connecting: i.ytimg.com:443
+[13:38:50] Handling HTTP request: o.pki.goog:80
+[13:38:50] Connected to remote server for HTTP request: o.pki.goog:80
+[13:38:52] Connecting: rr1---sn-8qj-nbosk.googlevideo.com:443
+[13:38:55] Connecting: www.reddit.com:443
+[13:38:57] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:38:57] Connecting: googleads.g.doubleclick.net:443
+[13:38:58] Connecting: www.redditstatic.com:443
+[13:38:58] Connecting: preview.redd.it:443
+[13:38:58] Connecting: external-preview.redd.it:443
+[13:38:58] Connecting: www.redditstatic.com:443
+[13:38:58] Connecting: www.redditstatic.com:443
+[13:38:58] Connecting: external-preview.redd.it:443
+[13:38:59] Connecting: www.redditstatic.com:443
+[13:38:59] Connecting: www.redditstatic.com:443
+[13:38:59] Connecting: safebrowsing.googleapis.com:443
+[13:38:59] Connecting: safebrowsing.googleapis.com:443
+[13:38:59] Connecting: www.redditstatic.com:443
+[13:38:59] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:39:00] Connecting: www.redditstatic.com:443
+[13:39:00] Connecting: w3-reporting.reddit.com:443
+[13:39:01] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:39:02] Disconnecting: rr1---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:39:02] Connecting: www.google.com:443
+[13:39:02] Connecting: alb.reddit.com:443
+[13:39:02] Connecting: ad-delivery.net:443
+[13:39:03] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:39:03] Connecting: v.redd.it:443
+[13:39:04] Connecting: accounts.google.com:443
+[13:39:04] Connecting: v.redd.it:443
+[13:39:07] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:39:08] Connecting: accounts.google.com:443
+[13:39:08] Disconnecting: preview.redd.it || Reason: Timeout occurred, closing connection.
+[13:39:09] Disconnecting: external-preview.redd.it || Reason: Timeout occurred, closing connection.
+[13:39:09] Connecting: www.youtube.com:443
+[13:39:09] Connecting: rr3---sn-npoeenee.googlevideo.com:443
+[13:39:11] Connecting: rr3---sn-npoe7nds.googlevideo.com:443
+[13:39:13] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[13:39:13] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:39:13] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[13:39:13] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:39:14] Disconnecting: www.redditstatic.com || Reason: Timeout occurred, closing connection.
+[13:39:14] Connecting: play.google.com:443
+[13:39:14] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:39:14] Connecting: play.google.com:443
+[13:39:15] Disconnecting: v.redd.it || Reason: Timeout occurred, closing connection.
+[13:39:17] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[13:39:18] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:39:18] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:39:19] Disconnecting: rr3---sn-npoeenee.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:39:20] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[13:39:21] Disconnecting: rr3---sn-npoe7nds.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:39:22] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[13:39:24] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:39:27] Connecting: jnn-pa.googleapis.com:443
+[13:39:27] Connecting: static.doubleclick.net:443
+[13:39:27] Handling HTTP request: o.pki.goog:80
+[13:39:27] Connected to remote server for HTTP request: o.pki.goog:80
+[13:39:30] Connecting: www.reddit.com:443
+[13:39:32] Connecting: www.redditstatic.com:443
+[13:39:35] Connecting: www.google.com:443
+[13:39:35] Connecting: www.google.com.vn:443
+[13:39:37] Connecting: i.ytimg.com:443
+[13:39:37] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:39:38] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:39:39] Connecting: translate.google.com:443
+[13:39:39] Connecting: incoming.telemetry.mozilla.org:443
+[13:39:39] Connecting: fonts.googleapis.com:443
+[13:39:40] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:39:40] Connecting: www.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: www.gstatic.com:443
+[13:39:41] Connecting: www.gstatic.com:443
+[13:39:41] Connecting: ogads-pa.googleapis.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: fonts.gstatic.com:443
+[13:39:41] Connecting: www.gstatic.com:443
+[13:39:41] Connecting: www.gstatic.com:443
+[13:39:42] Disconnecting: www.reddit.com || Reason: Timeout occurred, closing connection.
+[13:39:42] Connecting: www.gstatic.com:443
+[13:39:42] Connecting: www.gstatic.com:443
+[13:39:42] Connecting: play.google.com:443
+[13:39:43] Connecting: play.google.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:44] Connecting: fonts.gstatic.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:44] Connecting: ssl.gstatic.com:443
+[13:39:45] Connecting: www.reddit.com:443
+[13:39:46] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[13:39:46] Connecting: w3-reporting.reddit.com:443
+[13:39:46] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:39:47] Connecting: www.redditstatic.com:443
+[13:39:48] Connecting: styles.redditmedia.com:443
+[13:39:48] Connecting: alb.reddit.com:443
+[13:39:48] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:39:49] Connecting: rr1---sn-8qj-nbosk.googlevideo.com:443
+[13:39:49] Connecting: ad-delivery.net:443
+[13:39:49] Connecting: spocs.getpocket.com:443
+[13:39:49] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:39:50] Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:39:50] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:39:50] Connecting: rr3---sn-npoeenee.googlevideo.com:443
+[13:39:50] Connecting: jnn-pa.googleapis.com:443
+[13:39:51] Connecting: www.youtube.com:443
+[13:39:52] Connecting: www.google.com:443
+[13:39:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[13:39:53] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:39:53] Connecting: www.redditstatic.com:443
+[13:39:53] Connecting: accounts.google.com:443
+[13:39:53] Connecting: error-tracking.reddit.com:443
+[13:39:54] Connecting: fonts.gstatic.com:443
+[13:39:54] Disconnecting: ssl.gstatic.com || Reason: Timeout occurred, closing connection.
+[13:39:56] Connecting: ogads-pa.googleapis.com:443
+[13:39:59] Disconnecting: alb.reddit.com || Reason: Timeout occurred, closing connection.
+[13:39:59] Disconnecting: rr1---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:39:59] Disconnecting: ad-delivery.net || Reason: Timeout occurred, closing connection.
+[13:39:59] Timeout occurred, closing HTTP connection.
+[13:39:59] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[13:40:00] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:40:01] Disconnecting: rr3---sn-npoeenee.googlevideo.com || Reason: Timeout occurred, closing connection.
+[13:40:01] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[13:40:02] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:40:02] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:40:03] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[13:40:03] Connecting: googleads.g.doubleclick.net:443
+[13:40:04] Disconnecting: error-tracking.reddit.com || Reason: Timeout occurred, closing connection.
+[13:40:04] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[13:40:05] Handling HTTP request: testaspnet.vulnweb.com:80
+[13:40:05] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[13:40:07] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[13:40:07] Connecting: jnn-pa.googleapis.com:443
+[13:40:08] Connecting: www.youtube.com:443
+[13:40:09] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[13:40:09] Disconnecting: w3-reporting.reddit.com || Reason: Timeout occurred, closing connection.
+[13:40:11] Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[13:40:14] Connecting: www.google.com:443
+[13:40:14] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:40:15] Exit proxy server ...

@@ -421,18 +421,77 @@ namespace UI_WINDOW {
     auto lastUpdate = std::chrono::steady_clock::now();
     
     void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap) {
-        auto now = std::chrono::steady_clock::now();
-        if (std::chrono::duration_cast<std::chrono::milliseconds>(now - lastUpdate).count() > 2000) {
-            ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
-            for (const auto& [id, host] : threadMap) {
-                std::string request = host.second;
+        // ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
+        // for (const auto& [id, host] : threadMap) {
+        //     std::string request = host.second;
+        //     std::string method, uri, httpVersion, hostName;
+
+        //     // Parse the request string
+        //     std::istringstream requestStream(request);
+        //     requestStream >> method >> uri >> httpVersion;
+
+        //     // Find "Host: " in the request to extract hostName
+        //     std::string line;
+        //     while (std::getline(requestStream, line)) {
+        //         if (line.find("Host: ") == 0) {
+        //             hostName = line.substr(6);
+        //             break;
+        //         }
+        //     }
+
+        //     // Insert row into ListView
+        //     LVITEM lvItem = {};
+        //     lvItem.mask = LVIF_TEXT;
+        //     lvItem.iItem = ListView_GetItemCount(hRunningHostsBox); // Row index
+
+        //     // Add Host column
+        //     lvItem.iSubItem = 0;
+        //     lvItem.pszText = (LPSTR)host.first.c_str();
+        //     ListView_InsertItem(hRunningHostsBox, &lvItem);
+
+        //     // Add Method column
+        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 1, (LPSTR)method.c_str());
+
+        //     // Add URI column
+        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 2, (LPSTR)uri.c_str());
+
+        //     // Add Version column
+        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 3, (LPSTR)httpVersion.c_str());
+
+        //     // Add Hostname column
+        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
+
+        //     for (int i = 0; i < 5; ++i) {
+        //         ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+        //     }
+            
+        //     ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
+        // }
+
+        // Lưu danh sách các Host hiện tại trong ListView
+        std::set<std::string> existingHosts;
+        int itemCount = ListView_GetItemCount(hRunningHostsBox);
+
+        for (int i = 0; i < itemCount; ++i) {
+            char buffer[128];
+            ListView_GetItemText(hRunningHostsBox, i, 0, buffer, sizeof(buffer));
+            existingHosts.insert(std::string(buffer)); // Lưu Host (cột đầu tiên)
+        }
+
+        // Duyệt qua threadMap để thêm hoặc cập nhật các mục
+        for (const auto& [id, host] : threadMap) {
+            const std::string& hostKey = host.first; // Host là khóa
+            const std::string& request = host.second;
+
+            if (existingHosts.find(hostKey) == existingHosts.end()) {
+                // Nếu Host chưa tồn tại trong bảng, thêm mới
                 std::string method, uri, httpVersion, hostName;
 
-                // Parse the request string
+                // Phân tích chuỗi request
                 std::istringstream requestStream(request);
                 requestStream >> method >> uri >> httpVersion;
 
-                // Find "Host: " in the request to extract hostName
+                // Tìm "Host: " trong request để lấy hostName
                 std::string line;
                 while (std::getline(requestStream, line)) {
                     if (line.find("Host: ") == 0) {
@@ -441,37 +500,46 @@ namespace UI_WINDOW {
                     }
                 }
 
-                // Insert row into ListView
+                // Thêm vào ListView
                 LVITEM lvItem = {};
                 lvItem.mask = LVIF_TEXT;
                 lvItem.iItem = ListView_GetItemCount(hRunningHostsBox); // Row index
-
-                // Add Host column
-                lvItem.iSubItem = 0;
-                lvItem.pszText = (LPSTR)host.first.c_str();
+                lvItem.pszText = (LPSTR)hostKey.c_str(); // Host (cột đầu tiên)
                 ListView_InsertItem(hRunningHostsBox, &lvItem);
 
-                // Add Method column
                 ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 1, (LPSTR)method.c_str());
-
-                // Add URI column
                 ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 2, (LPSTR)uri.c_str());
-
-                // Add Version column
                 ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 3, (LPSTR)httpVersion.c_str());
-
-                // Add Hostname column
                 ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
+            }
+        }
 
-                for (int i = 0; i < 5; ++i) {
-                    ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+        // Xóa các mục không còn trong threadMap
+        for (int i = 0; i < itemCount; ++i) {
+            char buffer[128];
+            ListView_GetItemText(hRunningHostsBox, i, 0, buffer, sizeof(buffer));
+            std::string hostKey(buffer);
+
+            bool found = false;
+            for (const auto& [id, host] : threadMap) {
+                if (host.first == hostKey) {
+                    found = true;
+                    break;
                 }
-                
-                ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
             }
 
-            lastUpdate = now;
+            if (!found) {
+                ListView_DeleteItem(hRunningHostsBox, i);
+                --i; // Điều chỉnh chỉ số sau khi xóa
+                --itemCount;
+            }
         }
+
+        // Tự động điều chỉnh kích thước các cột
+        for (int i = 0; i < 5; ++i) {
+            ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+        }
+        ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
 
         // Kiểm tra dòng nào đang được chọn
         int index = ListView_GetNextItem(hRunningHostsBox, -1, LVNI_SELECTED);
