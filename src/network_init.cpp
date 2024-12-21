@@ -6,7 +6,7 @@ namespace NetworkInit {
     void initWinsock() {
         WSADATA wsaData;
         if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
-            UI_WINDOW::UpdateLog("WSAStartup failed.");
+            UI_WINDOW::UpdateLog("WSAStartup failed.", std::string());
             
             exit(EXIT_FAILURE);
         }
@@ -21,7 +21,7 @@ namespace NetworkInit {
     SOCKET createSocket() {
         SOCKET listenSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (listenSocket == INVALID_SOCKET) {
-            UI_WINDOW::UpdateLog("Socket creation failed.");
+            UI_WINDOW::UpdateLog("Socket creation failed.", std::string());
             
             WSACleanup();
             exit(EXIT_FAILURE);
@@ -37,7 +37,7 @@ namespace NetworkInit {
         serverAddr.sin_port = htons(PORT);       // Chuyển cổng sang định dạng network byte order
 
         if (bind(listenSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-            UI_WINDOW::UpdateLog("Bind failed.");
+            UI_WINDOW::UpdateLog("Bind failed.", std::string());
             closesocket(listenSocket);
             WSACleanup();
             exit(EXIT_FAILURE);
@@ -46,13 +46,13 @@ namespace NetworkInit {
 
     void startListening(SOCKET listenSocket) {
         if (listen(listenSocket, SOMAXCONN) == SOCKET_ERROR) {
-            UI_WINDOW::UpdateLog("Listen failed.");
+            UI_WINDOW::UpdateLog("Listen failed.", std::string());
             closesocket(listenSocket);
             WSACleanup();
             exit(EXIT_FAILURE);
         }
 
-        UI_WINDOW::UpdateLog("Proxy server started. Listening on port " + std::to_string(PORT) + "...");
+        UI_WINDOW::UpdateLog("Proxy server started. Listening on port " + std::to_string(PORT) + "...", std::string());
     }
 
     SOCKET startInitSocket() {
