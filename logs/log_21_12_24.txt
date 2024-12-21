@@ -2916,3 +2916,1718 @@ sed by client.
 [13:40:14] Connecting: www.google.com:443
 [13:40:14] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
 [13:40:15] Exit proxy server ...
+[13:54:15] Proxy server started. Listening on port 8080...
+[13:54:22] Connection accepted from 127.0.0.1:57069
+[13:54:22] Connecting: content-signature-2.cdn.mozilla.net:443
+[13:54:23] Connection accepted from 127.0.0.1:57073
+[13:54:23] Handling HTTP request: r11.o.lencr.org:80
+[13:54:23] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[13:54:23] Connection accepted from 127.0.0.1:57076
+[13:54:23] Handling HTTP request: detectportal.firefox.com:80
+[13:54:23] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:54:23] Connection accepted from 127.0.0.1:57079
+[13:54:23] Connection accepted from 127.0.0.1:57080
+[13:54:23] Connection accepted from 127.0.0.1:57081
+[13:54:23] Handling HTTP request: detectportal.firefox.com:80
+[13:54:23] Handling HTTP request: detectportal.firefox.com:80
+[13:54:23] Connecting: contile.services.mozilla.com:443
+[13:54:23] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:54:23] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[13:54:24] Connection accepted from 127.0.0.1:57085
+[13:54:24] Connecting: firefox.settings.services.mozilla.com:443
+[13:54:24] Connection accepted from 127.0.0.1:57087
+[13:54:24] Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[13:54:25] Connection accepted from 127.0.0.1:57091
+[13:54:25] Connecting: safebrowsing.googleapis.com:443
+[13:54:25] Connection accepted from 127.0.0.1:57093
+[13:54:25] Connection accepted from 127.0.0.1:57094
+[13:54:26] Connection accepted from 127.0.0.1:57095
+[13:54:26] Connection accepted from 127.0.0.1:57096
+
+[13:54:26] Connection accepted from 127.0.0.1:57097
+[13:54:26] Handling HTTP request: o.pki.goog:80
+[13:54:26] Connecting: firefox.settings.services.mozilla.com:443
+[13:54:26] Connecting: incoming.telemetry.mozilla.org:443
+[13:54:26] Connecting: aus5.mozilla.org:443
+[13:54:26] Connected to remote server for HTTP request: o.pki.goog:80
+[13:54:26] Connection accepted from 127.0.0.1:57102
+[13:54:26] Connecting: push.services.mozilla.com:443
+[13:54:26] Connection accepted from 127.0.0.1:57105
+[13:54:26] Handling HTTP request: ocsp.digicert.com:80
+[13:54:26] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[13:54:32] Connection accepted from 127.0.0.1:57109
+[13:54:32] Connecting: push.services.mozilla.com:443
+[13:54:34] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:54:36] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:54:37] Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:54:38] Exit proxy server ...
+[13:56:00] Proxy server started. Listening on port 8080...
+[13:56:02] Connection accepted from 127.0.0.1:57185
+[13:56:03] Connection accepted from 127.0.0.1:57187
+[13:56:04] Connecting: www.youtube.com:443
+[13:56:04] Connecting: push.services.mozilla.com:443
+[13:56:04] Connection accepted from 127.0.0.1:57190
+[13:56:04] Connection accepted from 127.0.0.1:57191
+[13:56:04] Handling HTTP request: o.pki.goog:80
+[13:56:04] Connecting: push.services.mozilla.com:443
+[13:56:04] Connected to remote server for HTTP request: o.pki.goog:80
+[13:56:04] Connection accepted from 127.0.0.1:57194
+[13:56:04] Connecting: incoming.telemetry.mozilla.org:443
+[13:56:04] Connection accepted from 127.0.0.1:57195
+[13:56:04] Connection accepted from 127.0.0.1:57196
+[13:56:04] Connecting: i.ytimg.com:443
+[13:56:05] Connection accepted from 127.0.0.1:57200
+[13:56:05] Connecting: fonts.gstatic.com:443
+[13:56:07] Connection accepted from 127.0.0.1:57203
+[13:56:07] Connecting: googleads.g.doubleclick.net:443
+[13:56:08] Connection accepted from 127.0.0.1:57205
+[13:56:08] Connection accepted from 127.0.0.1:57206
+[13:56:10] Connection accepted from 127.0.0.1:57208
+[13:56:10] Connection accepted from 127.0.0.1:57209
+[13:56:10] Connecting: fonts.gstatic.com:443
+[13:56:11] Connection accepted from 127.0.0.1:57211
+[13:56:11] Connecting: yt3.ggpht.com:443
+[13:56:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[13:56:15] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[13:56:15] Connection accepted from 127.0.0.1:57214
+[13:56:15] Connection accepted from 127.0.0.1:57215
+[13:56:18] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[13:56:19] Connection accepted from 127.0.0.1:57219
+[13:56:19] Connecting: googleads.g.doubleclick.net:443
+[13:56:19] Connection accepted from 127.0.0.1:57221
+[13:56:19] Connection accepted from 127.0.0.1:57222
+[13:56:21] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[13:56:22] Connection accepted from 127.0.0.1:57223
+[13:56:22] Connection accepted from 127.0.0.1:57224
+[13:56:22] Connecting: play.google.com:443
+[13:56:22] Connecting: play.google.com:443
+[13:56:26] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[13:56:27] Exit proxy server ...
+[14:16:23] Proxy server started. Listening on port 8080...
+[14:16:23] Connection accepted from 127.0.0.1:58434
+[14:16:23] Connecting: www.youtube.com:443
+[14:16:32] Connection accepted from 127.0.0.1:58444
+[14:16:32] Connection accepted from 127.0.0.1:58445
+[14:16:32] Connecting: incoming.telemetry.mozilla.org:443
+[14:16:32] Connecting: i.ytimg.com:443
+[14:16:33] Connection accepted from 127.0.0.1:58448
+[14:16:34] Connection accepted from 127.0.0.1:58450
+[14:16:34] Connection accepted from 127.0.0.1:58451
+[14:16:34] Connecting: accounts.google.com:443
+[14:16:34] Connection accepted from 127.0.0.1:58453
+[14:16:34] Handling HTTP request: o.pki.goog:80
+[14:16:34] Connected to remote server for HTTP request: o.pki.goog:80
+[14:16:34] Connection accepted from 127.0.0.1:58455
+[14:16:35] Connection accepted from 127.0.0.1:58456
+[14:16:35] Connecting: googleads.g.doubleclick.net:443
+[14:16:36] Connection accepted from 127.0.0.1:58458
+[14:16:37] Connection accepted from 127.0.0.1:58461
+[14:16:37] Connection accepted from 127.0.0.1:58462
+[14:16:38] Connection accepted from 127.0.0.1:58463
+[14:16:40] Connecting: fonts.gstatic.com:443
+[14:16:41] Connection accepted from 127.0.0.1:58465
+[14:16:41] Connection accepted from 127.0.0.1:58466
+[14:16:41] Connecting: www.google.com:443
+[14:16:41] Connecting: www.google.com.vn:443
+[14:16:41] Connection accepted from 127.0.0.1:58469
+[14:16:41] Handling HTTP request: o.pki.goog:80
+[14:16:41] Connected to remote server for HTTP request: o.pki.goog:80
+[14:16:42] Connection accepted from 127.0.0.1:58472
+[14:16:42] Connection accepted from 127.0.0.1:58473
+[14:16:42] Connecting: play.google.com:443
+[14:16:42] Connecting: play.google.com:443
+[14:16:43] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:16:43] Connection accepted from 127.0.0.1:58476
+[14:16:43] Connection accepted from 127.0.0.1:58477
+[14:16:43] Connecting: fonts.googleapis.com:443
+[14:16:43] Connecting: fonts.googleapis.com:443
+[14:16:44] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:16:45] Connection accepted from 127.0.0.1:58480
+[14:16:45] Connection accepted from 127.0.0.1:58481
+[14:16:45] Connecting: jnn-pa.googleapis.com:443
+[14:16:45] Connecting: static.doubleclick.net:443
+[14:16:46] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:16:51] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:16:52] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:16:52] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:16:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:16:55] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:16:56] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:16:56] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:16:56] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:17:14] Connection accepted from 127.0.0.1:58493
+[14:17:14] Connecting: rr8---sn-8qj-nbosz.googlevideo.com:443
+[14:17:15] Connection accepted from 127.0.0.1:58495
+[14:17:15] Connecting: www.youtube.com:443
+[14:17:15] Connection accepted from 127.0.0.1:58497
+[14:17:15] Connection accepted from 127.0.0.1:58498
+[14:17:15] Connection accepted from 127.0.0.1:58499
+[14:17:15] Connecting: play.google.com:443
+[14:17:15] Connecting: rr1---sn-npoeenll.googlevideo.com:443
+[14:17:15] Connecting: jnn-pa.googleapis.com:443
+[14:17:16] Connection accepted from 127.0.0.1:58503
+[14:17:16] Connecting: i.ytimg.com:443
+[14:17:18] Connection accepted from 127.0.0.1:58506
+[14:17:18] Connecting: googleads.g.doubleclick.net:443
+[14:17:19] Connection accepted from 127.0.0.1:58508
+[14:17:19] Connection accepted from 127.0.0.1:58509
+[14:17:20] Connection accepted from 127.0.0.1:58511
+[14:17:20] Connecting: yt3.ggpht.com:443
+[14:17:23] Connection accepted from 127.0.0.1:58515
+[14:17:23] Connecting: www.google.com:443
+[14:17:23] Connecting: www.google.com.vn:443
+[14:17:24] Connection accepted from 127.0.0.1:58518
+[14:17:24] Connecting: play.google.com:443
+[14:17:24] Disconnecting: rr8---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:17:25] Disconnecting: rr1---sn-npoeenll.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:17:25] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:17:27] Connection accepted from 127.0.0.1:58521
+[14:17:27] Connection accepted from 127.0.0.1:58522
+[14:17:27] Connecting: jnn-pa.googleapis.com:443
+[14:17:29] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:17:31] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:17:33] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:17:33] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:17:33] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:17:34] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:17:37] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:17:38] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:17:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:17:44] Timeout occurred, closing HTTP connection.
+[14:17:45] Timeout occurred, closing HTTP connection.
+[14:17:50] Exit proxy server ...
+[14:19:53] Proxy server started. Listening on port 8080...
+[14:19:56] Connection accepted from 127.0.0.1:58795
+[14:19:56] Connecting: www.youtube.com:443
+[14:19:57] Connection accepted from 127.0.0.1:58797
+[14:19:57] Connection accepted from 127.0.0.1:58798
+[14:19:57] Connecting: play.google.com:443
+[14:19:57] Connection accepted from 127.0.0.1:58800
+[14:19:57] Connecting: i.ytimg.com:443
+[14:20:00] Connection accepted from 127.0.0.1:58803
+[14:20:00] Connecting: googleads.g.doubleclick.net:443
+[14:20:01] Connection accepted from 127.0.0.1:58805
+[14:20:01] Connection accepted from 127.0.0.1:58808
+[14:20:03] Connection accepted from 127.0.0.1:58809
+[14:20:03] Connecting: yt3.ggpht.com:443
+[14:20:06] Exit proxy server ...
+[14:22:16] Proxy server started. Listening on port 8080...
+[14:22:16] Connection accepted from 127.0.0.1:59145
+[14:22:16] Connecting: www.youtube.com:443
+[14:22:23] Connection accepted from 127.0.0.1:59149
+[14:22:23] Connection accepted from 127.0.0.1:59150
+[14:22:23] Connecting: play.google.com:443
+[14:22:23] Connection accepted from 127.0.0.1:59152
+[14:22:23] Connecting: i.ytimg.com:443
+[14:22:27] Connection accepted from 127.0.0.1:59154
+[14:22:27] Connecting: googleads.g.doubleclick.net:443
+[14:22:27] Connection accepted from 127.0.0.1:59157
+[14:22:28] Connection accepted from 127.0.0.1:59158
+[14:22:31] Connection accepted from 127.0.0.1:59159
+[14:22:31] Connection accepted from 127.0.0.1:59160
+[14:22:31] Connecting: play.google.com:443
+[14:22:32] Connecting: play.google.com:443
+[14:22:38] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:22:39] Connection accepted from 127.0.0.1:59167
+[14:22:39] Connection accepted from 127.0.0.1:59168
+[14:22:39] Connecting: i.ytimg.com:443
+[14:22:41] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:22:42] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:22:45] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:22:46] Connection accepted from 127.0.0.1:59173
+[14:22:46] Connecting: googleads.g.doubleclick.net:443
+[14:22:47] Connection accepted from 127.0.0.1:59175
+[14:22:47] Connection accepted from 127.0.0.1:59176
+[14:22:47] Connection accepted from 127.0.0.1:59177
+[14:22:47] Connecting: www.google.com:443
+[14:22:47] Connecting: www.google.com.vn:443
+[14:22:50] Connection accepted from 127.0.0.1:59182
+[14:22:50] Connection accepted from 127.0.0.1:59183
+[14:22:50] Connecting: safebrowsing.googleapis.com:443
+[14:22:54] Connection accepted from 127.0.0.1:59187
+[14:22:55] Connection accepted from 127.0.0.1:59188
+[14:22:55] Connection accepted from 127.0.0.1:59189
+[14:22:55] Connecting: play.google.com:443
+[14:22:56] Connecting: play.google.com:443
+[14:22:59] Connection accepted from 127.0.0.1:59192
+[14:22:59] Connecting: jnn-pa.googleapis.com:443
+[14:22:59] Connection accepted from 127.0.0.1:59194
+[14:22:59] Connecting: static.doubleclick.net:443
+[14:23:00] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:23:03] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:23:04] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:23:04] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:23:06] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:23:08] Connection accepted from 127.0.0.1:59197
+[14:23:08] Connection accepted from 127.0.0.1:59198
+[14:23:08] Connecting: www.google.com:443
+[14:23:08] Connecting: www.google.com.vn:443
+[14:23:09] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:23:10] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:23:10] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:23:11] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:23:14] Connection accepted from 127.0.0.1:59206
+[14:23:14] Connection accepted from 127.0.0.1:59207
+[14:23:14] Connection accepted from 127.0.0.1:59208
+[14:23:14] Connecting: www.youtube.com:443
+[14:23:14] Connecting: i.ytimg.com:443
+[14:23:14] Connecting: yt3.ggpht.com:443
+[14:23:18] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:23:18] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:23:20] Connection accepted from 127.0.0.1:59215
+[14:23:20] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[14:23:21] Connection accepted from 127.0.0.1:59217
+[14:23:21] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[14:23:22] Connection accepted from 127.0.0.1:59221
+[14:23:22] Connecting: tpc.googlesyndication.com:443
+[14:23:22] Connection accepted from 127.0.0.1:59222
+[14:23:22] Connecting: rr4---sn-8qj-nbo6r.googlevideo.com:443
+[14:23:23] Connection accepted from 127.0.0.1:59225
+[14:23:23] Handling HTTP request: o.pki.goog:80
+[14:23:23] Connected to remote server for HTTP request: o.pki.goog:80
+[14:23:24] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:23:25] Connection accepted from 127.0.0.1:59229
+[14:23:25] Connecting: www.gstatic.com:443
+[14:23:25] Connection accepted from 127.0.0.1:59231
+[14:23:25] Connecting: yt3.ggpht.com:443
+[14:23:25] Connection accepted from 127.0.0.1:59233
+[14:23:25] Connecting: rr1---sn-npoldn7e.googlevideo.com:443
+[14:23:25] Connection accepted from 127.0.0.1:59234
+[14:23:26] Connection accepted from 127.0.0.1:59235
+[14:23:26] Connecting: www.gstatic.com:443
+[14:23:26] Connecting: www.gstatic.com:443
+[14:23:26] Connection accepted from 127.0.0.1:59239
+[14:23:26] Connecting: pagead2.googlesyndication.com:443
+[14:23:27] Connection accepted from 127.0.0.1:59241
+[14:23:27] Connecting: rr1---sn-i3b7knse.googlevideo.com:443
+[14:23:28] Connection accepted from 127.0.0.1:59245
+[14:23:28] Connection accepted from 127.0.0.1:59246
+[14:23:28] Connecting: ad.doubleclick.net:443
+[14:23:29] Connecting: ade.googlesyndication.com:443
+[14:23:30] Connection accepted from 127.0.0.1:59250
+[14:23:30] Connecting: play.google.com:443
+[14:23:31] Connection accepted from 127.0.0.1:59252
+[14:23:31] Handling HTTP request: detectportal.firefox.com:80
+[14:23:31] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:23:31] Connection accepted from 127.0.0.1:59254
+[14:23:31] Connection accepted from 127.0.0.1:59255
+[14:23:31] Handling HTTP request: detectportal.firefox.com:80
+[14:23:31] Handling HTTP request: detectportal.firefox.com:80
+[14:23:31] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:23:31] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:23:32] Connection accepted from 127.0.0.1:59258
+[14:23:32] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[14:23:32] Disconnecting: rr4---sn-8qj-nbo6r.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:32] Connection accepted from 127.0.0.1:59260
+[14:23:32] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[14:23:33] Connection accepted from 127.0.0.1:59262
+[14:23:33] Connecting: rr5---sn-8qj-nbo66.googlevideo.com:443
+[14:23:33] Connection accepted from 127.0.0.1:59264
+[14:23:33] Connecting: jnn-pa.googleapis.com:443
+[14:23:33] Connection accepted from 127.0.0.1:59266
+[14:23:33] Connecting: googleads.g.doubleclick.net:443
+[14:23:35] Connection accepted from 127.0.0.1:59269
+[14:23:35] Connecting: rr3---sn-8qj-nbosz.googlevideo.com:443
+[14:23:35] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:23:36] Disconnecting: rr1---sn-npoldn7e.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:36] Connection accepted from 127.0.0.1:59271
+[14:23:37] Connecting: www.gstatic.com:443
+[14:23:37] Disconnecting: rr1---sn-i3b7knse.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:38] Connection accepted from 127.0.0.1:59273
+[14:23:38] Connection accepted from 127.0.0.1:59274
+[14:23:38] Connecting: www.gstatic.com:443
+[14:23:38] Connecting: www.gstatic.com:443
+[14:23:38] Disconnecting: ad.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:23:39] Connection accepted from 127.0.0.1:59277
+[14:23:39] Connecting: ad.doubleclick.net:443
+[14:23:41] Connection accepted from 127.0.0.1:59279
+[14:23:41] Connecting: safebrowsing.googleapis.com:443
+[14:23:43] Disconnecting: rr2---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:43] Connection accepted from 127.0.0.1:59281
+[14:23:43] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[14:23:43] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:23:44] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:23:47] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: ade.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: ad.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:23:49] Disconnecting: rr3---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:23:49] Connection accepted from 127.0.0.1:59287
+[14:23:51] Connection accepted from 127.0.0.1:59288
+[14:23:51] Connection accepted from 127.0.0.1:59289
+[14:23:51] Connecting: www.googleadservices.com:443
+[14:23:51] Connecting: ade.googlesyndication.com:443
+[14:23:51] Connecting: rr5---sn-8qj-nbo66.googlevideo.com:443
+[14:23:51] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:24:01] Disconnecting: rr5---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:24:01] Disconnecting: www.googleadservices.com || Reason: Timeout occurred, closing connection.
+[14:24:01] Timeout occurred, closing HTTP connection.
+[14:24:01] Timeout occurred, closing HTTP connection.
+[14:24:02] Timeout occurred, closing HTTP connection.
+[14:24:02] Disconnecting: ade.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[14:24:07] Connection accepted from 127.0.0.1:59303
+[14:24:07] Connecting: jnn-pa.googleapis.com:443
+[14:24:07] Connection accepted from 127.0.0.1:59305
+[14:24:07] Connection accepted from 127.0.0.1:59306
+[14:24:07] Connecting: googleads.g.doubleclick.net:443
+[14:24:09] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:24:17] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:24:18] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:24:18] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:24:19] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:24:21] Connection accepted from 127.0.0.1:59338
+[14:24:21] Connecting: www.youtube.com:443
+[14:24:21] Timeout occurred, closing HTTP connection.
+[14:24:24] Connection accepted from 127.0.0.1:59344
+[14:24:25] Connection accepted from 127.0.0.1:59345
+[14:24:25] Connecting: i.ytimg.com:443
+[14:24:28] Connection accepted from 127.0.0.1:59347
+[14:24:28] Connecting: play.google.com:443
+[14:24:30] Connection accepted from 127.0.0.1:59350
+[14:24:30] Connecting: spocs.getpocket.com:443
+[14:24:31] Connection accepted from 127.0.0.1:59354
+[14:24:31] Handling HTTP request: o.pki.goog:80
+[14:24:31] Connected to remote server for HTTP request: o.pki.goog:80
+[14:24:38] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:24:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:24:40] Disconnecting: rr2---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[14:24:41] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[14:24:42] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:24:54] Connection accepted from 127.0.0.1:59364
+[14:24:54] Connecting: safebrowsing.googleapis.com:443
+[14:25:01] Timeout occurred, closing HTTP connection.
+[14:25:05] Proxy server stopped.
+[14:25:10] Exit proxy server ...
+[14:26:54] Proxy server started. Listening on port 8080...
+[14:27:07] Connection accepted from 127.0.0.1:59598
+[14:27:07] Connecting: www.youtube.com:443
+[14:27:09] Connection accepted from 127.0.0.1:59601
+[14:27:09] Connecting: i.ytimg.com:443
+[14:27:09] Connection accepted from 127.0.0.1:59603
+[14:27:09] Connecting: incoming.telemetry.mozilla.org:443
+[14:27:09] Connection accepted from 127.0.0.1:59606
+[14:27:09] Connecting: fonts.googleapis.com:443
+[14:27:10] Connection accepted from 127.0.0.1:59609
+[14:27:10] Connecting: fonts.gstatic.com:443
+[14:27:12] Connection accepted from 127.0.0.1:59611
+[14:27:12] Connecting: googleads.g.doubleclick.net:443
+[14:27:13] Connection accepted from 127.0.0.1:59613
+[14:27:13] Connection accepted from 127.0.0.1:59614
+[14:27:14] Connection accepted from 127.0.0.1:59615
+[14:27:14] Connection accepted from 127.0.0.1:59616
+[14:27:14] Connecting: fonts.gstatic.com:443
+[14:27:14] Connection accepted from 127.0.0.1:59618
+[14:27:14] Connecting: yt3.ggpht.com:443
+[14:27:18] Connection accepted from 127.0.0.1:59621
+[14:27:18] Connecting: fonts.gstatic.com:443
+[14:27:18] Connecting: fonts.gstatic.com:443
+[14:27:18] Connection accepted from 127.0.0.1:59624
+[14:27:18] Connection accepted from 127.0.0.1:59625
+[14:27:18] Connecting: www.google.com:443
+[14:27:19] Connecting: www.google.com.vn:443
+[14:27:19] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:27:20] Connection accepted from 127.0.0.1:59628
+[14:27:20] Connection accepted from 127.0.0.1:59629
+[14:27:20] Connection accepted from 127.0.0.1:59630
+[14:27:20] Connecting: play.google.com:443
+[14:27:22] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:27:23] Connection accepted from 127.0.0.1:59632
+[14:27:23] Connection accepted from 127.0.0.1:59633
+[14:27:23] Connecting: jnn-pa.googleapis.com:443
+[14:27:23] Connecting: static.doubleclick.net:443
+[14:27:25] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:27:26] Exit proxy server ...
+[14:30:06] Proxy server started. Listening on port 8080...
+[14:30:08] Connecting: www.youtube.com:443
+[14:30:08] Connecting: www.youtube.com:443
+[14:30:10] Connecting: play.google.com:443
+[14:30:10] Connecting: i.ytimg.com:443
+[14:30:13] Exit proxy server ...
+[14:31:04] Proxy server started. Listening on port 8080...
+[14:31:07] Connecting: www.youtube.com:443
+[14:31:07] Connecting: www.youtube.com:443
+[14:31:09] Connecting: play.google.com:443
+[14:31:10] Connecting: i.ytimg.com:443
+[14:31:14] Connecting: googleads.g.doubleclick.net:443
+[14:31:20] Connecting: www.google.com:443
+[14:31:20] Connecting: www.google.com.vn:443
+[14:31:20] Connecting: safebrowsing.googleapis.com:443
+[14:31:20] Connecting: play.google.com:443
+[14:31:22] Connecting: play.google.com:443
+[14:31:23] Connecting: jnn-pa.googleapis.com:443
+[14:31:24] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:31:30] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:31:30] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:31:30] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:31:32] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:31:33] Access to www.facebook.com is blocked.
+[14:31:33] Connecting: incoming.telemetry.mozilla.org:443
+[14:31:33] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:31:38] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:31:38] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:31:44] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:31:45] Connecting: www.google.com:443
+[14:31:45] Handling HTTP request: o.pki.goog:80
+[14:31:45] Connected to remote server for HTTP request: o.pki.goog:80
+[14:31:47] Connecting: example.com:443
+[14:31:50] Connecting: encrypted-tbn0.gstatic.com:443
+[14:31:50] Connecting: www.wikipedia.org:443
+[14:31:51] Connecting: upload.wikimedia.org:443
+[14:32:00] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:32:00] Connecting: play.google.com:443
+[14:32:01] Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:32:01] Disconnecting: www.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:32:11] Connecting: vi.wikipedia.org:443
+[14:32:11] Connecting: upload.wikimedia.org:443
+[14:32:11] Connecting: upload.wikimedia.org:443
+[14:32:11] Connecting: upload.wikimedia.org:443
+[14:32:12] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:32:15] Timeout occurred, closing HTTP connection.
+[14:32:18] Connecting: www.wikipedia.org:443
+[14:32:20] Access to www.facebook.com is blocked.
+[14:32:23] Disconnecting: upload.wikimedia.org || Reason: Timeout occurred, closing connection.
+[14:32:23] Connecting: incoming.telemetry.mozilla.org:443
+[14:32:23] Disconnecting: vi.wikipedia.org || Reason: Timeout occurred, closing connection.
+[14:32:26] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:32:26] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Handling HTTP request: www.acunetix.com:80
+[14:32:27] Connected to remote server for HTTP request: www.acunetix.com:80
+[14:32:27] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Handling HTTP request: ads.bxss.me:80
+[14:32:27] Cannot resolve hostname: ads.bxss.me
+[14:32:27] Connecting: www.acunetix.com:443
+[14:32:33] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:32:35] Connecting: www.youtube.com:443
+[14:32:38] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[14:32:38] Handling HTTP request: www.twitter.com:80
+[14:32:38] Connected to remote server for HTTP request: www.twitter.com:80
+[14:32:38] Connecting: www.twitter.com:443
+[14:32:39] Handling HTTP request: ocsp.digicert.com:80
+[14:32:39] Connected to remote server for HTTP request: ocsp.digicert.com:80
+[14:32:40] Connecting: twitter.com:443
+[14:32:42] Connecting: x.com:443
+[14:32:43] Connecting: abs.twimg.com:443
+[14:32:43] Connecting: abs.twimg.com:443
+[14:32:45] Connecting: abs.twimg.com:443
+[14:32:45] Connecting: abs.twimg.com:443
+[14:32:45] Connecting: abs-0.twimg.com:443
+[14:32:45] Connecting: abs.twimg.com:443
+[14:32:45] Connecting: abs.twimg.com:443
+[14:32:46] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:32:48] Connecting: abs.twimg.com:443
+[14:32:48] Connecting: abs.twimg.com:443
+[14:32:49] Connecting: safebrowsing.googleapis.com:443
+[14:32:49] Connecting: accounts.google.com:443
+[14:32:50] Connecting: api.x.com:443
+[14:32:50] Connecting: api.x.com:443
+[14:32:50] Connecting: api.x.com:443
+[14:32:50] Disconnecting: www.twitter.com || Reason: Timeout occurred, closing connection.
+[14:32:51] Connecting: safebrowsing.googleapis.com:443
+[14:32:52] Connecting: api.x.com:443
+[14:32:52] Connecting: fonts.gstatic.com:443
+[14:32:52] Connecting: fonts.gstatic.com:443
+[14:32:54] Disconnecting: twitter.com || Reason: Timeout occurred, closing connection.
+[14:32:55] Disconnecting: x.com || Reason: Timeout occurred, closing connection.
+[14:32:55] Disconnecting: abs-0.twimg.com || Reason: Timeout occurred, closing connection.
+[14:32:56] Connecting: pbs.twimg.com:443
+[14:32:56] Connecting: pbs.twimg.com:443
+[14:32:59] Disconnecting: abs.twimg.com || Reason: Timeout occurred, closing connection.
+[14:33:01] Connecting: twitter.com:443
+[14:33:01] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:33:02] Connecting: play.google.com:443
+[14:33:03] Disconnecting: fonts.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:33:04] Connecting: appleid.cdn-apple.com:443
+[14:33:04] Connecting: accounts.google.com:443
+[14:33:07] Disconnecting: pbs.twimg.com || Reason: Timeout occurred, closing connection.
+[14:33:08] Timeout occurred, closing HTTP connection.
+[14:33:09] Disconnecting: abs.twimg.com || Reason: Timeout occurred, closing connection.
+[14:33:12] Disconnecting: twitter.com || Reason: Timeout occurred, closing connection.
+[14:33:13] Exit proxy server ...
+[14:33:13] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:34:01] Proxy server started. Listening on port 8080...
+[14:34:04] Connecting: play.google.com:443
+[14:34:04] Connecting: accounts.google.com:443
+[14:34:04] Connecting: api.x.com:443
+[14:34:09] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:34:09] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:34:14] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:34:14] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:34:15] Connecting: www.acunetix.com:443
+[14:34:15] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:34:15] Handling HTTP request: ads.bxss.me:80
+[14:34:15] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:34:15] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:16] Handling HTTP request: ads.bxss.me:80
+[14:34:16] Cannot resolve hostname: ads.bxss.me
+[14:34:20] Connecting: www.youtube.com:443
+[14:34:21] Connecting: i.ytimg.com:443
+[14:34:22] Connecting: api.x.com:443
+[14:34:24] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:34:24] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:34:25] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:34:25] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[14:34:25] Handling HTTP request: ads.bxss.me:80
+[14:34:25] Cannot resolve hostname: ads.bxss.me
+[14:34:25] Handling HTTP request: ads.bxss.me:80
+[14:34:25] Cannot resolve hostname: ads.bxss.me
+[14:34:25] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:34:25] Handling HTTP request: ads.bxss.me:80
+[14:34:25] Cannot resolve hostname: ads.bxss.me
+[14:34:25] Handling HTTP request: ads.bxss.me:80
+[14:34:25] Cannot resolve hostname: ads.bxss.me
+[14:34:25] Handling HTTP request: ads.bxss.me:80
+[14:34:25] Cannot resolve hostname: ads.bxss.me
+[14:34:26] Handling HTTP request: ads.bxss.me:80
+[14:34:26] Cannot resolve hostname: ads.bxss.me
+[14:34:26] Handling HTTP request: ads.bxss.me:80
+[14:34:26] Cannot resolve hostname: ads.bxss.me
+[14:34:26] Handling HTTP request: ads.bxss.me:80
+[14:34:26] Cannot resolve hostname: ads.bxss.me
+[14:34:26] Connecting: googleads.g.doubleclick.net:443
+[14:34:29] Connecting: www.acunetix.com:443
+[14:34:31] Connecting: client-registry.mutinycdn.com:443
+[14:34:31] Connecting: www.googletagmanager.com:443
+[14:34:31] Handling HTTP request: o.pki.goog:80
+[14:34:31] Connected to remote server for HTTP request: o.pki.goog:80
+[14:34:31] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:34:32] Connecting: dev.visualwebsiteoptimizer.com:443
+[14:34:32] Connecting: play.google.com:443
+[14:34:32] Connecting: www.google.com:443
+[14:34:32] Connecting: ob.esnlocco.com:443
+[14:34:32] Connecting: j.6sc.co:443
+[14:34:32] Handling HTTP request: ocsp.r2m03.amazontrust.com:80
+[14:34:32] Connected to remote server for HTTP request: ocsp.r2m03.amazontrust.com:80
+[14:34:32] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+[14:34:33] Connecting: snap.licdn.com:443
+[14:34:33] Connecting: bat.bing.com:443
+[14:34:33] Connecting: static.hotjar.com:443
+[14:34:33] Connecting: x.clearbitjs.com:443
+[14:34:33] Connecting: www.google-analytics.com:443
+[14:34:33] Connecting: dev.visualwebsiteoptimizer.com:443
+[14:34:33] Connecting: www.google.com.vn:443
+[14:34:34] Connecting: www.googletagmanager.com:443
+[14:34:34] Connecting: c.6sc.co:443
+[14:34:34] Connecting: ipv6.6sc.co:443
+[14:34:34] Handling HTTP request: testhtml5.vulnweb.com:80
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:34] Connecting: 923-hqb-396.mktoresp.com:443
+[14:34:34] Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:34] Handling HTTP request: ads.bxss.me:80
+[14:34:34] Cannot resolve hostname: ads.bxss.me
+[14:34:35] Handling HTTP request: ads.bxss.me:80
+[14:34:35] Cannot resolve hostname: ads.bxss.me
+[14:34:35] Handling HTTP request: ads.bxss.me:80
+[14:34:35] Cannot resolve hostname: ads.bxss.me
+[14:34:35] Handling HTTP request: ads.bxss.me:80
+[14:34:35] Cannot resolve hostname: ads.bxss.me
+[14:34:35] Handling HTTP request: ads.bxss.me:80
+[14:34:35] Cannot resolve hostname: ads.bxss.me
+[14:34:38] Handling HTTP request: testasp.vulnweb.com:80
+[14:34:38] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:34:41] Disconnecting: client-registry.mutinycdn.com || Reason: Timeout occurred, closing connection.
+[14:34:42] Disconnecting: www.googletagmanager.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: ob.esnlocco.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: static.hotjar.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: x.clearbitjs.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: bat.bing.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: snap.licdn.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: j.6sc.co || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:34:43] Disconnecting: dev.visualwebsiteoptimizer.com || Reason: Timeout occurred, closing connection.
+[14:34:44] Connecting: www.google.com:443
+[14:34:44] Connecting: www.google.com.vn:443
+[14:34:45] Disconnecting: 923-hqb-396.mktoresp.com || Reason: Timeout occurred, closing connection.
+[14:34:46] Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[14:34:46] Disconnecting: www.google-analytics.com || Reason: Timeout occurred, closing connection.
+[14:34:48] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:34:54] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:34:54] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:34:58] Exit proxy server ...
+[14:37:11] Proxy server started. Listening on port 8080...
+[14:37:15] Handling HTTP request: testasp.vulnweb.com:80
+[14:37:15] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:37:20] Connecting: www.youtube.com:443
+[14:37:20] Connecting: www.youtube.com:443
+[14:37:21] Connecting: play.google.com:443
+[14:37:21] Connecting: i.ytimg.com:443
+[14:37:23] Connecting: googleads.g.doubleclick.net:443
+[14:37:29] Connecting: www.google.com:443
+[14:37:29] Connecting: www.google.com.vn:443
+[14:37:30] Connecting: play.google.com:443
+[14:37:30] Connecting: play.google.com:443
+[14:37:32] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:37:32] Exit proxy server ...
+[14:39:19] Proxy server started. Listening on port 8080...
+[14:39:21] Connecting: play.google.com:443
+[14:39:21] Connecting: play.google.com:443
+[14:39:22] Connecting: www.youtube.com:443
+[14:39:23] Connecting: i.ytimg.com:443
+[14:39:26] Connecting: googleads.g.doubleclick.net:443
+[14:39:31] Handling HTTP request: testasp.vulnweb.com:80
+[14:39:31] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:39:31] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:39:33] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:39:33] Connecting: www.google.com:443
+[14:39:33] Connecting: www.google.com.vn:443
+[14:39:36] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:39:37] Connecting: play.google.com:443
+[14:39:38] Connecting: play.google.com:443
+[14:39:39] Exit proxy server ...
+[14:42:31] Proxy server started. Listening on port 8080...
+[14:42:31] Connecting: www.youtube.com:443
+[14:42:39] Exit proxy server ...
+[14:44:59] Proxy server started. Listening on port 8080...
+[14:44:59] Handling HTTP request: testasp.vulnweb.com:80
+[14:44:59] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:45:00] Handling HTTP request: testasp.vulnweb.com:80
+[14:45:00] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:45:02] Connecting: www.youtube.com:443
+[14:45:02] Connecting: play.google.com:443
+[14:45:02] Connecting: i.ytimg.com:443
+[14:45:05] Connecting: googleads.g.doubleclick.net:443
+[14:45:08] Exit proxy server ...
+[14:45:08] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[14:46:23] Proxy server started. Listening on port 8080...
+[14:46:28] Connecting: www.youtube.com:443
+[14:46:28] Connecting: i.ytimg.com:443
+[14:46:29] Connecting: play.google.com:443
+[14:46:33] Exit proxy server ...
+[14:48:52] Proxy server started. Listening on port 8080...
+[14:48:55] Connecting: www.youtube.com:443
+[14:48:55] Connecting: www.youtube.com:443
+[14:48:55] Connecting: play.google.com:443
+[14:48:55] Connecting: i.ytimg.com:443
+[14:48:59] Connecting: googleads.g.doubleclick.net:443
+[14:49:00] Connecting: accounts.google.com:443
+[14:49:01] Connecting: play.google.com:443
+[14:49:01] Connecting: play.google.com:443
+[14:49:06] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:49:06] Connecting: www.google.com.vn:443
+[14:49:06] Connecting: www.google.com:443
+[14:49:09] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:49:10] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:49:11] Connecting: jnn-pa.googleapis.com:443
+[14:49:11] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:49:11] Exit proxy server ...
+[14:49:11] Disconnecting: jnn-pa.googleapis.com || Reason: Stopped proxy.
+[14:50:33] Proxy server started. Listening on port 8080...
+[14:50:35] Connecting: www.youtube.com:443
+[14:50:35] Connecting: www.youtube.com:443
+[14:50:36] Connecting: play.google.com:443
+[14:50:36] Connecting: i.ytimg.com:443
+[14:50:39] Connecting: googleads.g.doubleclick.net:443
+[14:50:42] Connecting: yt3.ggpht.com:443
+[14:50:43] Handling HTTP request: testasp.vulnweb.com:80
+[14:50:44] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:50:46] Handling HTTP request: testasp.vulnweb.com:80
+[14:50:46] Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[14:50:49] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:50:50] Connecting: x.com:443
+[14:50:53] Connecting: api.x.com:443
+[14:50:54] Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:50:54] Connecting: abs.twimg.com:443
+[14:50:55] Connecting: accounts.google.com:443
+[14:50:55] Connecting: api.x.com:443
+[14:50:57] Connecting: twitter.com:443
+[14:50:57] Connecting: googleads.g.doubleclick.net:443
+[14:50:58] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:50:58] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:51:02] Disconnecting: x.com || Reason: Timeout occurred, closing connection.
+[14:51:03] Connecting: www.youtube.com:443
+[14:51:05] Connecting: play.google.com:443
+[14:51:05] Connecting: play.google.com:443
+[14:51:06] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+[14:51:07] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:51:08] Disconnecting: twitter.com || Reason: Timeout occurred, closing connection.
+[14:51:10] Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[14:51:15] Connecting: translate.google.com:443
+[14:51:15] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:51:16] Connecting: incoming.telemetry.mozilla.org:443
+[14:51:16] Connecting: fonts.gstatic.com:443
+[14:51:17] Connecting: www.gstatic.com:443
+[14:51:17] Connecting: ogads-pa.googleapis.com:443
+[14:51:17] Connecting: www.gstatic.com:443
+[14:51:17] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:51:17] Timeout occurred, closing HTTP connection.
+[14:51:19] Disconnecting: api.x.com || Reason: Timeout occurred, closing connection.
+ion.
+[14:51:19] Connecting: play.google.com:443
+[14:51:19] Connecting: apis.google.com:443
+[14:51:20] Connecting: play.google.com:443
+[14:51:21] Connecting: scone-pa.clients6.google.com:443
+[14:51:21] Handling HTTP request: o.pki.goog:80
+[14:51:21] Connected to remote server for HTTP request: o.pki.goog:80
+[14:51:21] Connecting: apis.google.com:443
+[14:51:22] Connecting: www.youtube.com:443
+[14:51:22] Connecting: i.ytimg.com:443
+[14:51:22] Connecting: yt3.ggpht.com:443
+[14:51:26] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:51:27] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:51:30] Connecting: googleads.g.doubleclick.net:443
+[14:51:30] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:51:30] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:51:30] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:51:32] Disconnecting: apis.google.com || Reason: Timeout occurred, closing connection.
+[14:51:32] Disconnecting: scone-pa.clients6.google.com || Reason: Timeout occurred, closing connection.
+[14:51:32] Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[14:51:34] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:51:35] Connecting: play.google.com:443
+[14:51:40] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:51:46] Connecting: www.google.com:443
+[14:51:46] Connecting: www.google.com.vn:443
+[14:51:46] Connecting: i.ytimg.com:443
+[14:51:49] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:51:49] Connecting: play.google.com:443
+[14:51:52] Timeout occurred, closing HTTP connection.
+[14:51:52] Connecting: translate.google.com:443
+[14:51:54] Connecting: ogads-pa.googleapis.com:443
+[14:51:55] Connecting: www.gstatic.com:443
+[14:51:55] Connecting: play.google.com:443
+[14:51:56] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:51:56] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:51:56] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:51:57] Exit proxy server ...
+[14:52:05] Proxy server started. Listening on port 8080...
+[14:52:05] Connecting: translate.google.com:443
+[14:52:06] Connecting: ogads-pa.googleapis.com:443
+[14:52:08] Connecting: play.google.com:443
+[14:52:09] Connecting: www.gstatic.com:443
+[14:52:09] Connecting: www.youtube.com:443
+[14:52:09] Connecting: www.youtube.com:443
+[14:52:09] Connecting: i.ytimg.com:443
+[14:52:10] Proxy server stopped.
+[14:52:10] Disconnecting: play.google.com || Reason: Stopped proxy.
+[14:52:10] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[14:52:11] Disconnecting: www.gstatic.com || Reason: Stopped proxy.
+[14:52:17] Disconnecting: ogads-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:52:18] Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[14:52:20] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:52:23] Proxy server started. Listening on port 8080...
+[14:52:24] Connecting: translate.google.com:443
+[14:52:24] Connecting: www.youtube.com:443
+[14:52:26] Connecting: play.google.com:443
+[14:52:27] Connecting: i.ytimg.com:443
+[14:52:27] Connecting: i.ytimg.com:443
+[14:52:32] Connecting: googleads.g.doubleclick.net:443
+[14:52:33] Connecting: incoming.telemetry.mozilla.org:443
+[14:52:34] Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[14:52:35] Handling HTTP request: testphp.vulnweb.com:80
+[14:52:35] Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[14:52:36] Handling HTTP request: testphp.vulnweb.com:80
+[14:52:36] Handling HTTP request: testphp.vulnweb.com:80
+[14:52:36] Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[14:52:36] Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[14:52:36] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:52:37] Connecting: translate.google.com:443
+[14:52:37] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:52:40] Connecting: play.google.com:443
+[14:52:42] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:52:43] Connecting: i.ytimg.com:443
+[14:52:43] Connecting: yt3.ggpht.com:443
+[14:52:44] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:52:46] Proxy server stopped.
+[14:52:47] Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[14:52:50] Exit proxy server ...
+[14:55:14] Proxy server started. Listening on port 8080...
+[14:55:16] Connecting: www.youtube.com:443
+[14:55:17] Connecting: firefox.settings.services.mozilla.com:443
+[14:55:17] Connecting: incoming.telemetry.mozilla.org:443
+[14:55:17] Connecting: i.ytimg.com:443
+[14:55:18] Connecting: fonts.gstatic.com:443
+[14:55:20] Connecting: googleads.g.doubleclick.net:443
+[14:55:21] Connecting: www.gstatic.com:443
+[14:55:22] Connecting: incoming.telemetry.mozilla.org:443
+[14:55:23] Connecting: fonts.gstatic.com:443
+[14:55:23] Connecting: fonts.gstatic.com:443
+[14:55:23] Connecting: fonts.gstatic.com:443
+[14:55:25] Proxy server stopped.
+[14:55:27] Connecting: fonts.gstatic.com:443
+[14:55:27] Disconnecting: fonts.gstatic.com || Reason: Stopped proxy.
+[14:55:27] Disconnecting: i.ytimg.com || Reason: Stopped proxy.
+[14:55:27] Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[14:55:27] Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:55:28] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:55:31] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:55:32] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:56:00] Proxy server started. Listening on port 8080...
+[14:56:00] Connecting: play.google.com:443
+[14:56:00] Connecting: www.youtube.com:443
+[14:56:00] Connecting: play.google.com:443
+[14:56:00] Connecting: www.youtube.com:443
+[14:56:04] Connecting: incoming.telemetry.mozilla.org:443
+[14:56:11] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:56:14] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:56:14] Connecting: incoming.telemetry.mozilla.org:443
+[14:56:15] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:56:15] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:56:16] Exit proxy server ...
+[14:59:56] Proxy server started. Listening on port 8080...
+[14:59:56] Connecting: www.youtube.com:443
+[14:59:57] Connecting: rr1---sn-8qj-nbosy.googlevideo.com:443
+[15:00:00] Connecting: rr1---sn-8qj-nbosy.googlevideo.com:443
+[15:00:03] Connecting: play.google.com:443
+[15:00:04] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:00:05] Connecting: incoming.telemetry.mozilla.org:443
+[15:00:09] Handling HTTP request: testaspnet.vulnweb.com:80
+[15:00:09] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:00:14] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:00:15] Handling HTTP request: testaspnet.vulnweb.com:80
+[15:00:15] Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:00:15] SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:00:15] Connecting: incoming.telemetry.mozilla.org:443
+[15:00:22] Exit proxy server ...
+[15:02:14] Proxy server started. Listening on port 8080...
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:16] Handling HTTP request: localhost:8080:80
+[15:02:16] Cannot resolve hostname: localhost:8080
+[15:02:17] Handling HTTP request: localhost:8080:80
+[15:02:17] Cannot resolve hostname: localhost:8080
+[15:02:17] Handling HTTP request: localhost:8080:80
+[15:02:17] Cannot resolve hostname: localhost:8080
+[15:02:17] Handling HTTP request: localhost:8080:80
+[15:02:17] Cannot resolve hostname: localhost:8080
+[15:02:17] Handling HTTP request: localhost:8080:80
+[15:02:17] Cannot resolve hostname: localhost:8080
+[15:02:32] Handling HTTP request: detectportal.firefox.com:80
+[15:02:32] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:02:33] Handling HTTP request: detectportal.firefox.com:80
+[15:02:33] Handling HTTP request: detectportal.firefox.com:80
+[15:02:33] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:02:33] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:02:33] Connecting: www.google.com:443
+[15:02:33] Handling HTTP request: o.pki.goog:80
+[15:02:33] Connected to remote server for HTTP request: o.pki.goog:80
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:34] Handling HTTP request: localhost:8080:80
+[15:02:34] Cannot resolve hostname: localhost:8080
+[15:02:46] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:02:53] Handling HTTP request: localhost:8080:80
+[15:02:53] Cannot resolve hostname: localhost:8080
+[15:02:54] Handling HTTP request: localhost:8080:80
+[15:02:54] Cannot resolve hostname: localhost:8080
+[15:02:54] Handling HTTP request: localhost:8080:80
+[15:02:54] Cannot resolve hostname: localhost:8080
+[15:02:55] Handling HTTP request: localhost:8080:80
+[15:02:55] Cannot resolve hostname: localhost:8080
+[15:02:55] Handling HTTP request: localhost:8080:80
+[15:02:55] Cannot resolve hostname: localhost:8080
+[15:02:56] Handling HTTP request: localhost:8080:80
+[15:02:56] Cannot resolve hostname: localhost:8080
+[15:02:57] Handling HTTP request: localhost:8080:80
+[15:02:57] Cannot resolve hostname: localhost:8080
+[15:03:03] Timeout occurred, closing HTTP connection.
+[15:03:03] Timeout occurred, closing HTTP connection.
+[15:03:03] Timeout occurred, closing HTTP connection.
+[15:03:03] Timeout occurred, closing HTTP connection.
+[15:03:06] Proxy server stopped.
+[15:03:07] Proxy server started. Listening on port 8080...
+[15:03:12] Handling HTTP request: localhost:8080:80
+[15:03:12] Cannot resolve hostname: localhost:8080
+[15:03:12] Handling HTTP request: localhost:8080:80
+[15:03:12] Cannot resolve hostname: localhost:8080
+[15:03:13] Handling HTTP request: localhost:8080:80
+[15:03:13] Cannot resolve hostname: localhost:8080
+[15:03:14] Handling HTTP request: localhost:8080:80
+[15:03:14] Cannot resolve hostname: localhost:8080
+[15:03:14] Handling HTTP request: localhost:8080:80
+[15:03:14] Cannot resolve hostname: localhost:8080
+[15:03:18] Proxy server stopped.
+[15:03:27] Proxy server started. Listening on port 8080...
+[15:03:29] Handling HTTP request: localhost:8080:80
+[15:03:29] Cannot resolve hostname: localhost:8080
+[15:03:30] Handling HTTP request: localhost:8080:80
+[15:03:30] Cannot resolve hostname: localhost:8080
+[15:03:31] Handling HTTP request: localhost:8080:80
+[15:03:31] Cannot resolve hostname: localhost:8080
+[15:03:32] Handling HTTP request: detectportal.firefox.com:80
+[15:03:33] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:03:33] Handling HTTP request: detectportal.firefox.com:80
+[15:03:33] Handling HTTP request: detectportal.firefox.com:80
+[15:03:33] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:03:33] Connected to remote server for HTTP request: detectportal.firefox.com:80
+[15:03:43] Handling HTTP request: localhost:8080:80
+[15:03:43] Cannot resolve hostname: localhost:8080
+[15:03:43] Handling HTTP request: localhost:8080:80
+[15:03:43] Cannot resolve hostname: localhost:8080
+[15:03:43] Handling HTTP request: localhost:8080:80
+[15:03:43] Cannot resolve hostname: localhost:8080
+[15:04:03] Timeout occurred, closing HTTP connection.
+[15:04:03] Timeout occurred, closing HTTP connection.
+[15:04:03] Timeout occurred, closing HTTP connection.
+[15:05:35] Connecting: contile.services.mozilla.com:443
+[15:05:35] Connecting: spocs.getpocket.com:443
+[15:05:35] Handling HTTP request: r11.o.lencr.org:80
+[15:05:35] Handling HTTP request: o.pki.goog:80
+[15:05:35] Connected to remote server for HTTP request: r11.o.lencr.org:80
+[15:05:35] Connected to remote server for HTTP request: o.pki.goog:80
+[15:05:45] Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:05:45] Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[15:05:50] Access to www.facebook.com is blocked.
+[15:05:50] Access to www.facebook.com is blocked.
+[15:05:51] Access to www.facebook.com is blocked.
+[15:05:51] Access to www.facebook.com is blocked.
+[15:05:51] Access to www.facebook.com is blocked.
+[15:05:52] Access to www.facebook.com is blocked.
+[15:05:53] Connecting: ssl.gstatic.com:443
+[15:05:53] Connecting: www.youtube.com:443
+[15:05:53] Connecting: www.google.com:443
+[15:05:54] Access to www.facebook.com is blocked.
+[15:05:54] Connecting: www.google.com:443
+[15:05:54] Connecting: www.google.com:443
+[15:05:54] Connecting: www.google.com:443
+[15:05:54] Connecting: cloudsearch.googleapis.com:443
+[15:05:54] Access to www.facebook.com is blocked.
+[15:05:55] Connecting: static.xx.fbcdn.net:443
+[15:05:55] Access to www.facebook.com is blocked.
+[15:05:58] Access to www.facebook.com is blocked.
+[15:06:00] Blacklist saved successfully!
+[15:06:01] Connecting: www.facebook.com:443
+[15:06:01] Connecting: static.xx.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-14.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-10.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-15.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-5.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-12.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-8.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-8.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-3.fna.fbcdn.net:443
+[15:06:02] Connecting: scontent.fsgn5-3.fna.fbcdn.net:443
+[15:06:03] Blacklist saved successfully!
+[15:06:03] Disconnecting: ssl.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:06:03] Connecting: edge-chat.facebook.com:443
+[15:06:03] Connecting: scontent.xx.fbcdn.net:443
+[15:06:03] Connecting: scontent.fsgn5-12.fna.fbcdn.net:443
+[15:06:03] Connecting: beacons.gcp.gvt2.com:443
+[15:06:03] Connecting: push.services.mozilla.com:443
+[15:06:04] Connecting: push.services.mozilla.com:443
+[15:06:04] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:06:04] Connecting: gateway.facebook.com:443
+[15:06:04] Disconnecting: cloudsearch.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:06:05] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:06:05] Connecting: www.fbsbx.com:443
+[15:06:05] Timeout occurred, closing HTTP connection.
+[15:06:05] Connecting: scontent.fsgn5-10.fna.fbcdn.net:443
+[15:06:05] Connecting: scontent.fsgn5-5.fna.fbcdn.net:443
+[15:06:06] Connecting: web-chat-e2ee.facebook.com:443
+[15:06:07] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:06:07] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:07] Connecting: scontent.fsgn5-8.fna.fbcdn.net:443
+[15:06:08] Connecting: scontent.fsgn5-15.fna.fbcdn.net:443
+[15:06:08] Connecting: scontent.fsgn5-3.fna.fbcdn.net:443
+[15:06:08] Connecting: edge-chat.facebook.com:443
+[15:06:09] Connecting: clients4.google.com:443
+[15:06:10] Connecting: edge-chat.facebook.com:443
+[15:06:11] Connecting: www.youtube.com:443
+[15:06:12] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:13] Connecting: scontent.fsgn8-3.fna.fbcdn.net:443
+[15:06:14] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:06:14] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:06:15] Connecting: scontent.fsgn8-4.fna.fbcdn.net:443
+[15:06:15] Disconnecting: www.fbsbx.com || Reason: Timeout occurred, closing connection.
+[15:06:15] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: external.fsgn5-12.fna.fbcdn.net:443
+[15:06:16] Connecting: www.google.com:443
+[15:06:16] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: static.xx.fbcdn.net:443
+[15:06:16] Connecting: edge-chat.facebook.com:443
+[15:06:17] Connecting: ogads-pa.clients6.google.com:443
+[15:06:17] Connecting: static.xx.fbcdn.net:443
+[15:06:18] Connecting: chat.openai.com:443
+[15:06:18] Disconnecting: scontent.fsgn5-8.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:18] Disconnecting: scontent.fsgn5-9.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:18] Disconnecting: scontent.fsgn5-15.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:18] Connecting: play.google.com:443
+[15:06:19] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:19] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:06:19] Connecting: scontent.fsgn5-15.fna.fbcdn.net:443
+[15:06:20] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:06:20] Disconnecting: clients4.google.com || Reason: Timeout occurred, closing connection.
+[15:06:20] Disconnecting: scontent.fsgn5-5.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:21] Connecting: edge-chat.facebook.com:443
+[15:06:21] Connecting: ogs.google.com:443
+[15:06:22] Connecting: ssl.gstatic.com:443
+[15:06:22] Connecting: www.gstatic.com:443
+[15:06:22] Connecting: www.gstatic.com:443
+[15:06:23] Connecting: ssl.gstatic.com:443
+[15:06:24] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:06:26] Disconnecting: scontent.fsgn5-8.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:26] Disconnecting: scontent.fsgn5-15.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:26] Connecting: clients4.google.com:443
+[15:06:26] Disconnecting: external.fsgn5-12.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:27] Disconnecting: scontent.fsgn5-14.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:27] Disconnecting: scontent.fsgn5-3.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:27] Disconnecting: scontent.fsgn5-10.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:28] Disconnecting: ogads-pa.clients6.google.com || Reason: Timeout occurred, closing connection.
+[15:06:28] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:28] Disconnecting: chat.openai.com || Reason: Timeout occurred, closing connection.
+[15:06:28] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:06:28] Connecting: www.youtube.com:443
+[15:06:29] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:06:29] Connecting: edge-chat.facebook.com:443
+[15:06:29] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:06:29] Disconnecting: scontent.fsgn5-9.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:30] Disconnecting: scontent.fsgn5-9.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:30] Disconnecting: scontent.fsgn5-15.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:31] Disconnecting: scontent.fsgn5-3.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:31] Disconnecting: scontent.fsgn5-10.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:31] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:31] Connecting: b1.nel.goog:443
+[15:06:31] Connecting: b1.nel.goog:443
+[15:06:31] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:31] Connecting: beacons.gcp.gvt2.com:443
+[15:06:31] Disconnecting: ogs.google.com || Reason: Timeout occurred, closing connection.
+[15:06:32] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:32] Disconnecting: ssl.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:06:32] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:06:32] Disconnecting: scontent.fsgn5-12.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:33] Connecting: edge-chat.facebook.com:443
+[15:06:33] Disconnecting: ssl.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:06:34] Timeout occurred, closing HTTP connection.
+[15:06:34] Connecting: www.google.com:443
+[15:06:37] Disconnecting: scontent.fsgn5-12.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:37] Disconnecting: clients4.google.com || Reason: Timeout occurred, closing connection.
+[15:06:38] Disconnecting: scontent.fsgn8-4.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:38] Disconnecting: scontent.fsgn8-3.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:39] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:39] Connecting: web-chat-e2ee.facebook.com:443
+[15:06:39] Connecting: google.com:443
+[15:06:39] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:41] Connecting: edge-chat.facebook.com:443
+[15:06:41] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:06:41] Disconnecting: b1.nel.goog || Reason: Timeout occurred, closing connection.
+[15:06:41] Disconnecting: b1.nel.goog || Reason: Timeout occurred, closing connection.
+[15:06:42] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:06:44] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:44] Disconnecting: scontent.fsgn5-5.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:44] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:06:45] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:06:45] Connecting: edge-chat.facebook.com:443
+[15:06:49] Disconnecting: google.com || Reason: Timeout occurred, closing connection.
+[15:06:49] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:50] Connecting: web-chat-e2ee.facebook.com:443
+[15:06:50] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:06:51] Connecting: web-chat-e2ee.facebook.com:443
+[15:06:52] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:52] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:52] Connecting: play.google.com:443
+[15:06:53] Connecting: edge-chat.facebook.com:443
+[15:06:54] Connecting: beacons.gcp.gvt2.com:443
+[15:06:54] Connecting: edge-chat.facebook.com:443
+[15:06:54] Connecting: beacons.gcp.gvt2.com:443
+[15:06:55] Connecting: www.youtube.com:443
+[15:06:55] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:06:57] Connecting: edge-chat.facebook.com:443
+[15:07:00] Connecting: scontent.fsgn5-3.fna.fbcdn.net:443
+[15:07:00] Connecting: scontent.fsgn5-9.fna.fbcdn.net:443
+[15:07:00] Connecting: static.xx.fbcdn.net:443
+[15:07:00] Connecting: scontent.fsgn5-10.fna.fbcdn.net:443
+[15:07:00] Connecting: scontent.fsgn5-15.fna.fbcdn.net:443
+[15:07:01] Connecting: static.xx.fbcdn.net:443
+[15:07:01] Connecting: scontent.fsgn5-12.fna.fbcdn.net:443
+[15:07:01] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:01] Connecting: scontent.fsgn5-5.fna.fbcdn.net:443
+[15:07:01] Connecting: scontent.fsgn5-8.fna.fbcdn.net:443
+[15:07:01] Connecting: scontent.fsgn5-14.fna.fbcdn.net:443
+[15:07:02] Connecting: scontent.fsgn5-8.fna.fbcdn.net:443
+[15:07:03] Connecting: ab.chatgpt.com:443
+[15:07:03] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:07:03] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:07:04] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:04] Connecting: web-chat-e2ee.facebook.com:443
+[15:07:04] Connecting: beacons.gcp.gvt2.com:443
+[15:07:04] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:04] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:07:04] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:07:05] Connecting: edge-chat.facebook.com:443
+[15:07:05] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:07] Connecting: edge-chat.facebook.com:443
+[15:07:08] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:09] Connecting: edge-chat.facebook.com:443
+[15:07:10] Connecting: chatgpt.com:443
+[15:07:10] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:11] Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:11] Disconnecting: scontent.fsgn5-8.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:07:12] Disconnecting: scontent.fsgn5-12.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Disconnecting: scontent.fsgn5-9.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Connecting: clients4.google.com:443
+[15:07:12] Disconnecting: scontent.fsgn5-3.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Disconnecting: scontent.fsgn5-8.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Disconnecting: scontent.fsgn5-15.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:12] Disconnecting: scontent.fsgn5-5.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:13] Disconnecting: scontent.fsgn5-14.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:13] Disconnecting: scontent.fsgn5-10.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:07:14] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:14] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:07:15] Connecting: beacons.gcp.gvt2.com:443
+[15:07:16] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:16] Connecting: web-chat-e2ee.facebook.com:443
+[15:07:16] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:16] Connecting: chat.openai.com:443
+[15:07:17] Connecting: chatgpt.com:443
+[15:07:17] Connecting: edge-chat.facebook.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:18] Connecting: cdn.oaistatic.com:443
+[15:07:19] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:19] Connecting: ab.chatgpt.com:443
+[15:07:19] Connecting: ab.chatgpt.com:443
+[15:07:19] Connecting: ab.chatgpt.com:443
+[15:07:19] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:20] Connecting: edge-chat.facebook.com:443
+[15:07:20] Disconnecting: chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:07:20] Connecting: edge-chat.facebook.com:443
+[15:07:21] Disconnecting: ab.chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:07:23] Disconnecting: clients4.google.com || Reason: Timeout occurred, closing connection.
+[15:07:23] Connecting: content-autofill.googleapis.com:443
+[15:07:24] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:07:25] Connecting: www.facebook.com:443
+[15:07:26] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:07:27] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:27] Connecting: web-chat-e2ee.facebook.com:443
+[15:07:27] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:07:28] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:29] Disconnecting: cdn.oaistatic.com || Reason: Timeout occurred, closing connection.
+[15:07:30] Connecting: edge-chat.facebook.com:443
+[15:07:31] Connecting: b1.nel.goog:443
+[15:07:31] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:31] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:32] Disconnecting: chat.openai.com || Reason: Timeout occurred, closing connection.
+[15:07:32] Connecting: edge-chat.facebook.com:443
+[15:07:33] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:07:33] Connecting: edge-chat.facebook.com:443
+[15:07:33] Disconnecting: content-autofill.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:07:36] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:37] Disconnecting: cdn.oaistatic.com || Reason: Timeout occurred, closing connection.
+[15:07:37] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:37] Connecting: web-chat-e2ee.facebook.com:443
+[15:07:39] Connecting: www.youtube.com:443
+[15:07:39] Disconnecting: chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:07:39] Connecting: google.com:443
+[15:07:41] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:41] Disconnecting: b1.nel.goog || Reason: Timeout occurred, closing connection.
+[15:07:42] Connecting: edge-chat.facebook.com:443
+[15:07:43] Disconnecting: ab.chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:07:43] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:44] Connecting: edge-chat.facebook.com:443
+[15:07:44] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:44] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:07:46] Connecting: edge-chat.facebook.com:443
+[15:07:49] Disconnecting: gateway.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:49] Connecting: gateway.facebook.com:443
+[15:07:50] Disconnecting: google.com || Reason: Timeout occurred, closing connection.
+[15:07:50] Connecting: www.facebook.com:443
+[15:07:52] Disconnecting: web-chat-e2ee.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:52] Connecting: web-chat-e2ee.facebook.com:443
+[15:07:53] Proxy server stopped.
+[15:07:53] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:53] Disconnecting: web-chat-e2ee.facebook.com || Reason: Stopped proxy.
+[15:07:55] Disconnecting: edge-chat.facebook.com || Reason: Timeout occurred, closing connection.
+[15:07:55] Exit proxy server ...
+[15:07:55] Disconnecting: scontent.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:08:46] Proxy server started. Listening on port 8080...
+[15:08:58] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:08:59] Connecting: chatgpt.com:443
+[15:09:00] Connecting: ab.chatgpt.com:443
+[15:09:02] Connecting: scontent.xx.fbcdn.net:443
+[15:09:02] Connecting: scontent.fsgn5-3.fna.fbcdn.net:443
+[15:09:03] Connecting: beacons.gcp.gvt2.com:443
+[15:09:03] Connecting: www.youtube.com:443
+[15:09:03] Connecting: www.facebook.com:443
+[15:09:06] Connecting: i.ytimg.com:443
+[15:09:06] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[15:09:06] Connecting: rr2---sn-8qj-nbosk.googlevideo.com:443
+[15:09:06] Connecting: rr5---sn-npoeenl7.c.youtube.com:443
+[15:09:06] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:06] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:06] Connecting: www.google.com:443
+[15:09:06] Connecting: www.gstatic.com:443
+[15:09:06] Connecting: googleads.g.doubleclick.net:443
+[15:09:07] Connecting: static.doubleclick.net:443
+[15:09:07] Connecting: jnn-pa.googleapis.com:443
+[15:09:07] Connecting: www.google.com.vn:443
+[15:09:07] Connecting: play.google.com:443
+[15:09:07] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:08] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:08] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:08] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:08] Connecting: accounts.youtube.com:443
+[15:09:08] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:09] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:09] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:10] Connecting: www.youtube.com:443
+[15:09:10] Handling HTTP request: o.pki.goog:80
+[15:09:10] Connected to remote server for HTTP request: o.pki.goog:80
+[15:09:10] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:09:10] Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[15:09:11] Connecting: i.ytimg.com:443
+[15:09:11] Disconnecting: chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:09:11] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:11] Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[15:09:12] Disconnecting: ab.chatgpt.com || Reason: Timeout occurred, closing connection.
+[15:09:12] Connecting: incoming.telemetry.mozilla.org:443
+[15:09:12] Connecting: fonts.gstatic.com:443
+[15:09:13] Disconnecting: scontent.fsgn5-3.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:09:14] Connecting: beacons.gcp.gvt2.com:443
+[15:09:14] Connecting: googleads.g.doubleclick.net:443
+[15:09:15] Handling HTTP request: o.pki.goog:80
+[15:09:15] Connected to remote server for HTTP request: o.pki.goog:80
+[15:09:16] Connecting: www.gstatic.com:443
+[15:09:16] Disconnecting: rr2---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:09:16] Disconnecting: rr2---sn-8qj-nbosk.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:09:17] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:09:17] Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:09:17] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:09:17] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:09:17] Connecting: clients4.google.com:443
+[15:09:17] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[15:09:17] Connecting: fonts.gstatic.com:443
+[15:09:17] Connecting: fonts.gstatic.com:443
+[15:09:18] Connecting: fonts.gstatic.com:443
+[15:09:18] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:09:18] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:09:18] Connecting: fonts.gstatic.com:443
+[15:09:18] Connecting: fonts.gstatic.com:443
+[15:09:18] Disconnecting: accounts.youtube.com || Reason: Timeout occurred, closing connection.
+[15:09:19] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:09:20] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:09:21] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:09:21] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:09:23] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:09:24] Connecting: www.facebook.com:443
+[15:09:24] Disconnecting: beacons.gcp.gvt2.com || Reason: Timeout occurred, closing connection.
+[15:09:25] Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:09:25] Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:09:26] Connecting: i.ytimg.com:443
+[15:09:27] Connecting: www.google.com:443
+[15:09:27] Connecting: www.google.com.vn:443
+[15:09:28] Disconnecting: clients4.google.com || Reason: Timeout occurred, closing connection.
+[15:09:31] Connecting: b1.nel.goog:443
+[15:09:32] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:09:33] Connecting: play.google.com:443
+[15:09:34] Connecting: play.google.com:443
+[15:09:34] Connecting: www.google.com:443
+[15:09:34] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:09:36] Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:09:37] Connecting: play.google.com:443
+[15:09:37] Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:09:38] Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[15:09:39] Connecting: www.facebook.com:443
+[15:09:41] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:09:41] Connecting: jnn-pa.googleapis.com:443
+[15:09:41] Disconnecting: b1.nel.goog || Reason: Timeout occurred, closing connection.
+[15:09:42] Connecting: static.doubleclick.net:443
+[15:09:44] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:09:48] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:09:48] Connecting: studio.youtube.com:443
+[15:09:50] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:09:51] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:09:52] Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:09:52] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:09:52] Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:09:53] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:09:59] Disconnecting: studio.youtube.com || Reason: Timeout occurred, closing connection.
+[15:10:01] Connecting: www.facebook.com:443
+[15:10:02] Connecting: rr4---sn-a5meknzs.googlevideo.com:443
+[15:10:12] Timeout occurred, closing HTTP connection.
+[15:10:12] Disconnecting: rr5---sn-npoeenl7.c.youtube.com || Reason: Timeout occurred, closing connection.
+[15:10:13] Disconnecting: scontent.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:10:13] Disconnecting: www.facebook.com || Reason: Timeout occurred, closing connection.
+[15:10:13] Connecting: play.google.com:443
+[15:10:14] Disconnecting: rr4---sn-a5meknzs.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:10:16] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:10:23] Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:11:01] Connecting: scontent.xx.fbcdn.net:443
+[15:11:11] Disconnecting: scontent.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:11:22] Connecting: www.youtube.com:443
+[15:11:24] Connecting: push.services.mozilla.com:443
+[15:11:24] Connecting: push.services.mozilla.com:443
+[15:11:32] Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:11:34] Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:13:12] Exit proxy server ...
+[15:50:05] : Proxy server started. Listening on port 8080...
+[15:50:06] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:50:07] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[15:50:07] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[15:50:07] 127.0.0.1: Connecting: www.youtube.com:443
+[15:50:12] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:50:15] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[15:50:18] 127.0.0.1: Connecting: accounts.google.com:443
+[15:50:19] 127.0.0.1: Connecting: play.google.com:443
+[15:50:20] 127.0.0.1: Connecting: play.google.com:443
+[15:50:23] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[15:50:23] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[15:50:26] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:50:27] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:50:28] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:50:28] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:50:29] 127.0.0.1: Disconnecting: accounts.google.com || Reason: Timeout occurred, closing connection.
+[15:50:29] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:50:29] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:50:29] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:50:29] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:50:30] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:50:31] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:50:32] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:50:32] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:50:34] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[15:50:34] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:50:34] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:50:34] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[15:50:34] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[15:50:34] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[15:50:34] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:50:35] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:50:35] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[15:50:39] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[15:50:39] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:50:39] 127.0.0.1: Connecting: www.google.com:443
+[15:50:40] 127.0.0.1: Connecting: www.google.com.vn:443
+[15:50:44] 127.0.0.1: Connecting: www.youtube.com:443
+[15:50:45] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:50:47] : Proxy server stopped.
+[15:50:47] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[15:50:47] 127.0.0.1: Connecting: static.doubleclick.net:443
+[15:50:49] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Stopped proxy.
+[15:50:49] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[15:50:49] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:50:50] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[15:50:51] : Proxy server started. Listening on port 8080...
+[15:50:53] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:50:53] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:50:53] 127.0.0.1: Connecting: www.youtube.com:443
+[15:50:53] 127.0.0.1: Connecting: www.youtube.com:443
+[15:50:53] 127.0.0.1: Connecting: www.youtube.com:443
+[15:50:53] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:50:53] 127.0.0.1: SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[15:50:54] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[15:50:57] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:51:07] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:07] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:51:10] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:51:17] 127.0.0.1: Connecting: play.google.com:443
+[15:51:18] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:18] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:51:20] 127.0.0.1: Connecting: play.google.com:443
+[15:51:21] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:21] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:24] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:25] 127.0.0.1: Connecting: www.youtube.com:443
+[15:51:28] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:53] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:51:57] 127.0.0.1: Connecting: www.facebook.com:443
+[15:51:58] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:58] 127.0.0.1: Connecting: www.youtube.com:443
+[15:52:03] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:03] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:52:06] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:52:14] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:14] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:52:14] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[15:52:14] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[15:52:25] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:52:28] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:28] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:30] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:30] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:30] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:30] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:30] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:30] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:35] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:35] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:35] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:35] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:35] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:36] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:36] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:38] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:38] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:38] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:38] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:44] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:52:49] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:52:50] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:50] 127.0.0.1: Connecting: www.youtube.com:443
+[15:52:51] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:52:55] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[15:52:58] 127.0.0.1: Connecting: play.google.com:443
+[15:52:58] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:52:59] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:52:59] 127.0.0.1: Connecting: play.google.com:443
+[15:53:00] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[15:53:00] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[15:53:01] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[15:53:01] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[15:53:01] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[15:53:01] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:53:02] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:02] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:02] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:02] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:03] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:03] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:03] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:03] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:03] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:03] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:05] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:53:07] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:07] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:07] 127.0.0.1: Connecting: www.google.com:443
+[15:53:08] 127.0.0.1: Connecting: www.google.com.vn:443
+[15:53:08] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:08] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:08] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:08] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:09] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:09] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:09] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:53:11] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:53:15] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[15:53:15] 127.0.0.1: Connecting: static.doubleclick.net:443
+[15:53:18] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[15:53:18] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:53:18] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[15:53:18] 127.0.0.1: Connecting: play.google.com:443
+[15:53:21] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:53:23] 127.0.0.1: Connecting: www.youtube.com:443
+[15:53:25] 127.0.0.1: Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:53:27] 127.0.0.1: Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:53:29] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:53:34] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:53:39] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:39] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:39] 127.0.0.1: Handling HTTP request: localhost:8080:80
+[15:53:39] 127.0.0.1: Cannot resolve hostname: localhost:8080
+[15:53:48] 127.0.0.1: Connecting: play.google.com:443
+[15:53:56] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:56] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:56] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:56] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:56] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:56] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:57] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:57] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:57] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:57] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:57] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:57] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:59] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:59] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:59] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:59] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:53:59] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:53:59] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:02] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:02] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:02] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:02] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:02] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:02] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:03] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:54:04] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:04] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:04] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:04] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:04] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:04] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:09] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:09] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:09] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:09] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:10] 10.0.144.2: Handling HTTP request: 10.0.144.2:8080:80
+[15:54:10] 10.0.144.2: Cannot resolve hostname: 10.0.144.2:8080
+[15:54:15] 127.0.0.1: Connecting: rr6---sn-8qj-nbosz.googlevideo.com:443
+[15:54:15] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[15:54:15] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[15:54:16] 127.0.0.1: Connecting: www.youtube.com:443
+[15:54:16] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[15:54:17] 127.0.0.1: Connecting: play.google.com:443
+[15:54:17] 127.0.0.1: Connecting: rr7---sn-8qj-nbosz.googlevideo.com:443
+[15:54:17] 127.0.0.1: Connecting: rr1---sn-npoldn7z.googlevideo.com:443
+[15:54:19] 127.0.0.1: Connecting: rr4---sn-i3b7kn6s.googlevideo.com:443
+[15:54:27] 127.0.0.1: Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[15:54:27] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:54:28] 127.0.0.1: Disconnecting: rr1---sn-npoldn7z.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:36] 127.0.0.1: Disconnecting: rr7---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:36] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:54:39] 127.0.0.1: Connecting: rr7---sn-8qj-nbosz.googlevideo.com:443
+[15:54:39] 127.0.0.1: Connecting: www.youtube.com:443
+[15:54:40] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:54:40] 127.0.0.1: Connecting: www.youtube.com:443
+[15:54:40] 127.0.0.1: Connecting: rr4---sn-i3b7kn6s.googlevideo.com:443
+[15:54:41] 127.0.0.1: Connecting: rr1---sn-npoldn7z.googlevideo.com:443
+[15:54:42] 127.0.0.1: Connecting: tpc.googlesyndication.com:443
+[15:54:43] 127.0.0.1: Connecting: rr2---sn-8qj-nbosz.googlevideo.com:443
+[15:54:46] 127.0.0.1: Connecting: www.gstatic.com:443
+[15:54:47] 127.0.0.1: Connecting: lh5.googleusercontent.com:443
+[15:54:47] 127.0.0.1: Connecting: rr2---sn-npoe7ndl.googlevideo.com:443
+[15:54:48] 127.0.0.1: Connecting: pagead2.googlesyndication.com:443
+[15:54:48] 127.0.0.1: Connecting: play.google.com:443
+[15:54:48] 127.0.0.1: Connecting: play.google.com:443
+[15:54:49] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[15:54:49] 127.0.0.1: Connecting: ad.doubleclick.net:443
+[15:54:50] 127.0.0.1: Connecting: ade.googlesyndication.com:443
+[15:54:52] 127.0.0.1: Disconnecting: rr7---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:53] 127.0.0.1: Disconnecting: rr4---sn-i3b7kn6s.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:54] 127.0.0.1: Disconnecting: rr2---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:54] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[15:54:56] 127.0.0.1: Connecting: rr2---sn-8qj-nbosz.googlevideo.com:443
+[15:54:56] 127.0.0.1: Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[15:54:57] 127.0.0.1: Disconnecting: lh5.googleusercontent.com || Reason: Timeout occurred, closing connection.
+[15:54:57] 127.0.0.1: Disconnecting: rr2---sn-npoe7ndl.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:54:58] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:55:00] 127.0.0.1: Disconnecting: ad.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:55:03] 127.0.0.1: Connecting: rr2---sn-npoe7ndl.googlevideo.com:443
+[15:55:04] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[15:55:06] 127.0.0.1: Disconnecting: ade.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:55:06] 127.0.0.1: Disconnecting: rr2---sn-8qj-nbosz.googlevideo.com || Reason: Timeout occurred, closing connection.
+[15:55:06] 127.0.0.1: Disconnecting: tpc.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:55:06] 127.0.0.1: Disconnecting: pagead2.googlesyndication.com || Reason: Timeout occurred, closing connection.
+[15:55:09] 127.0.0.1: Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[15:55:14] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:55:17] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:55:17] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:55:35] 127.0.0.1: Connecting: play.google.com:443
+[15:55:36] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:55:45] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:55:52] 127.0.0.1: Connecting: www.youtube.com:443
+[15:56:07] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:56:11] 127.0.0.1: Connecting: www.youtube.com:443
+[15:56:20] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:56:30] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[15:56:37] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:56:41] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[15:56:42] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[15:56:43] 127.0.0.1: Handling HTTP request: bxss.s3.amazonaws.com:80
+[15:56:43] 127.0.0.1: Handling HTTP request: netdna.bootstrapcdn.com:80
+[15:56:43] 127.0.0.1: Connected to remote server for HTTP request: netdna.bootstrapcdn.com:80
+[15:56:43] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:43] 127.0.0.1: Connected to remote server for HTTP request: bxss.s3.amazonaws.com:80
+[15:56:43] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[15:56:43] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[15:56:43] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[15:56:43] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:43] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[15:56:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:44] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[15:56:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:44] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[15:56:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:44] 127.0.0.1: Connecting: www.acunetix.com:443
+[15:56:47] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[15:56:50] 127.0.0.1: Connecting: play.google.com:443
+[15:56:53] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[15:56:54] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:54] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[15:56:54] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:54] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:54] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:54] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:54] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:54] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:54] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:55] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:55] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:55] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:55] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:55] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:55] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:56] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:57] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:57] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:57] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:57] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:57] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:57] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[15:56:57] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[15:56:59] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:56:59] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:57:01] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[15:57:01] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:57:04] 127.0.0.1: Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[15:57:12] 127.0.0.1: Connecting: www.youtube.com:443
+[15:57:28] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[15:57:29] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:57:31] 127.0.0.1: Connecting: www.youtube.com:443
+[15:57:39] : Blacklist saved successfully!
+[15:57:40] : Proxy server stopped.
+[15:57:41] : Exit proxy server ...

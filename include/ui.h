@@ -16,6 +16,7 @@
 #include <gdiplus.h>
 #include <map>
 #include <set>
+#include <ws2tcpip.h>
 
 #include "font.h"
 #include "blacklist.h"
@@ -32,9 +33,9 @@ namespace UI_WINDOW {
     void             Init(HWND hwnd, HINSTANCE hInstance);
     void             SetFontForControls(HWND hwnd);
     LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-    void             UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap);
-    void             UpdateLog(const std::string& str);
-    void             LogData(const std::string& direction, const std::string& data);
+    void             UpdateRunningHosts(std::map<std::thread::id, std::tuple<std::string, std::string, std::string>> threadMap);
+    void             UpdateLog(const std::string& str, const std::string& clientIP);
+    void             LogData(const std::string& direction, const std::string& data, const std::string& clientIP);
 }
 
 #endif

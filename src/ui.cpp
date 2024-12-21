@@ -39,8 +39,15 @@ namespace UI_WINDOW {
             int activity = select(0, &readfds, NULL, NULL, &timeout);
 
             if (activity > 0 && FD_ISSET(listenSocket, &readfds)) {
-                SOCKET clientSocket = accept(listenSocket, NULL, NULL);
+                // SOCKET clientSocket = accept(listenSocket, NULL, NULL);
+                sockaddr_in clientAddr;
+                int clientAddrSize = sizeof(clientAddr);
+                SOCKET clientSocket = accept(listenSocket, (struct sockaddr*)&clientAddr, &clientAddrSize);
                 if (clientSocket != INVALID_SOCKET) {
+                    char clientIP[INET_ADDRSTRLEN];
+                    inet_ntop(AF_INET, &clientAddr.sin_addr, clientIP, INET_ADDRSTRLEN);
+                    // UI_WINDOW::UpdateLog("Connection accepted from " + std::string(clientIP) + ":" + std::to_string(ntohs(clientAddr.sin_port)), std::string());
+
                     std::thread clientThread((proxyServerType == 0 ? TransparentNetworkHandle::handleClient : MITMNetworkHandle::handleClient), clientSocket);
                     clientThread.detach();
                 }
@@ -100,7 +107,7 @@ namespace UI_WINDOW {
 
         // Add "Host" column
         lvCol.cx = 150;
-        lvCol.pszText = " Host";
+        lvCol.pszText = " Client IP Address - Host";
         ListView_InsertColumn(hRunningHostsBox, 0, &lvCol);
 
         // Add "Method" column
@@ -157,7 +164,7 @@ namespace UI_WINDOW {
                 // Tải ảnh PNG khi cửa sổ được tạo
                 g_image = new Gdiplus::Image(LOGO_URL);
                 if (g_image->GetLastStatus() != Gdiplus::Ok) {
-                    UpdateLog("Can not load image PNG!");
+                    UpdateLog("Can not load image PNG!", std::string());
                     delete g_image;
                     g_image = nullptr;
                 }
@@ -186,7 +193,7 @@ namespace UI_WINDOW {
                         }
 
                         std::string message = (std::string)(listType == 0 ? "Blacklist" : "Whitelist") + (std::string)" saved successfully!"; 
-                        UpdateLog(message);
+                        UpdateLog(message, std::string());
                         message = (std::string)"Status: " + message;
                         SetWindowTextA(hStatusBar, message.c_str());
                         delete[] buffer;  // Giải phóng bộ nhớ
@@ -202,7 +209,7 @@ namespace UI_WINDOW {
                             }
                             SetWindowTextA(hStartProxyBtn, " Start Proxy");  // Change the button text
                             SetWindowTextA(hStatusBar, " Status: Proxy server stopped");
-                            UpdateLog("Proxy server stopped.");
+                            UpdateLog("Proxy server stopped.", std::string());
                         } else {
                             // Start the proxy server
                             isProxyRunning = true;
@@ -403,7 +410,7 @@ namespace UI_WINDOW {
             }
             case WM_DESTROY: {
                 isProxyRunning = false;
-                UpdateLog("Exit proxy server ...");
+                UpdateLog("Exit proxy server ...", std::string());
                 if (g_image) {
                     delete g_image;
                     g_image = nullptr;
@@ -418,56 +425,7 @@ namespace UI_WINDOW {
         return 0;
     }
 
-    auto lastUpdate = std::chrono::steady_clock::now();
-    
-    void UpdateRunningHosts(std::map<std::thread::id, std::pair<std::string, std::string>> threadMap) {
-        // ListView_DeleteAllItems(hRunningHostsBox); // Clear existing items
-        // for (const auto& [id, host] : threadMap) {
-        //     std::string request = host.second;
-        //     std::string method, uri, httpVersion, hostName;
-
-        //     // Parse the request string
-        //     std::istringstream requestStream(request);
-        //     requestStream >> method >> uri >> httpVersion;
-
-        //     // Find "Host: " in the request to extract hostName
-        //     std::string line;
-        //     while (std::getline(requestStream, line)) {
-        //         if (line.find("Host: ") == 0) {
-        //             hostName = line.substr(6);
-        //             break;
-        //         }
-        //     }
-
-        //     // Insert row into ListView
-        //     LVITEM lvItem = {};
-        //     lvItem.mask = LVIF_TEXT;
-        //     lvItem.iItem = ListView_GetItemCount(hRunningHostsBox); // Row index
-
-        //     // Add Host column
-        //     lvItem.iSubItem = 0;
-        //     lvItem.pszText = (LPSTR)host.first.c_str();
-        //     ListView_InsertItem(hRunningHostsBox, &lvItem);
-
-        //     // Add Method column
-        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 1, (LPSTR)method.c_str());
-
-        //     // Add URI column
-        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 2, (LPSTR)uri.c_str());
-
-        //     // Add Version column
-        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 3, (LPSTR)httpVersion.c_str());
-
-        //     // Add Hostname column
-        //     ListView_SetItemText(hRunningHostsBox, lvItem.iItem, 4, (LPSTR)hostName.c_str());
-
-        //     for (int i = 0; i < 5; ++i) {
-        //         ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
-        //     }
-            
-        //     ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
-        // }
-
+    void UpdateRunningHosts(std::map<std::thread::id, std::tuple<std::string, std::string, std::string>> threadMap) {
         // Lưu danh sách các Host hiện tại trong ListView
         std::set<std::string> existingHosts;
         int itemCount = ListView_GetItemCount(hRunningHostsBox);
@@ -479,9 +437,12 @@ namespace UI_WINDOW {
         }
 
         // Duyệt qua threadMap để thêm hoặc cập nhật các mục
-        for (const auto& [id, host] : threadMap) {
-            const std::string& hostKey = host.first; // Host là khóa
-            const std::string& request = host.second;
+        for (const auto& [id, data] : threadMap) {
+            const std::string& clientIP = std::get<0>(data);
+            const std::string& host = std::get<1>(data);
+            const std::string& request = std::get<2>(data);
+
+            std::string hostKey = clientIP + (std::string)" - " + host;
 
             if (existingHosts.find(hostKey) == existingHosts.end()) {
                 // Nếu Host chưa tồn tại trong bảng, thêm mới
@@ -521,8 +482,10 @@ namespace UI_WINDOW {
             std::string hostKey(buffer);
 
             bool found = false;
-            for (const auto& [id, host] : threadMap) {
-                if (host.first == hostKey) {
+            for (const auto& [id, data] : threadMap) {
+                const std::string& clientIP = std::get<0>(data);
+                const std::string& host = std::get<1>(data);
+                if (hostKey == (clientIP + (std::string)" - " + host)) {
                     found = true;
                     break;
                 }
@@ -538,8 +501,8 @@ namespace UI_WINDOW {
         // Tự động điều chỉnh kích thước các cột
         for (int i = 0; i < 5; ++i) {
             ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE);
+            ListView_SetColumnWidth(hRunningHostsBox, i, LVSCW_AUTOSIZE_USEHEADER);
         }
-        ListView_SetColumnWidth(hRunningHostsBox, 4, LVSCW_AUTOSIZE_USEHEADER);
 
         // Kiểm tra dòng nào đang được chọn
         int index = ListView_GetNextItem(hRunningHostsBox, -1, LVNI_SELECTED);
@@ -565,7 +528,7 @@ namespace UI_WINDOW {
 
             // Lấy giá trị của cột đầu tiên ("Host") từ dòng được chọn
             ListView_GetItemText(hRunningHostsBox, index, 0, buffer, sizeof(buffer));
-
+            
             // Giả lập gửi request để lấy thông tin liên quan từ hostRequestMap
             std::string requestMessage = (proxyServerType == 0 ? TransparentNetworkHandle::hostRequestMap[buffer] : MITMNetworkHandle::hostRequestMap[buffer]);
 
@@ -574,7 +537,7 @@ namespace UI_WINDOW {
         }
     }
 
-    void UpdateLog(const std::string& str) {
+    void UpdateLog(const std::string& str, const std::string& clientIP) {
         // Get current time
         auto now = std::chrono::system_clock::now();
         auto now_time_t = std::chrono::system_clock::to_time_t(now);
@@ -585,7 +548,7 @@ namespace UI_WINDOW {
         timeStream << std::put_time(&tm, "%H:%M:%S");
 
         // Create the final log message with time prefix
-        std::string logMessage = "[" + timeStream.str() + "] " + str;
+        std::string logMessage = "[" + timeStream.str() + "] " + clientIP + ": " + str;
 
         // Add the log message to the listbox
         // SendMessage(hLogBox, LB_ADDSTRING, 0, (LPARAM)logMessage.c_str());
@@ -635,7 +598,7 @@ namespace UI_WINDOW {
         }
     }
 
-    void LogData(const std::string& direction, const std::string& data) {
+    void LogData(const std::string& direction, const std::string& data, const std::string& clientIP) {
         if (requestBoxType == 1) {
             // int length = GetWindowTextLengthA(hRequestBox);
             // std::vector<char> buffer(length + 1);
@@ -646,7 +609,7 @@ namespace UI_WINDOW {
             // currentLog += data + "\r\n";
             // // std::cout << currentLog << '\n';
             // // Set the updated content back to the EDIT control
-            SetWindowTextA(hRequestBox, data.c_str());
+            SetWindowTextA(hRequestBox, (clientIP + ": " + data).c_str());
         }
 
         // Get current time
@@ -660,7 +623,7 @@ namespace UI_WINDOW {
         timeStream << std::put_time(&tm, "%H:%M:%S");
 
         // Create the final log message with time prefix and direction
-        std::string logMessage = "[" + timeStream.str() + "] " + direction + ": " + data;
+        std::string logMessage = "[" + timeStream.str() + "] " + clientIP + " " + direction + ": " + data;
 
         // Prepare log file name: log_dd_mm_yy.txt
         std::ostringstream fileNameStream;

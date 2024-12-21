@@ -15,6 +15,7 @@
 #include <openssl/x509.h>
 #include <openssl/bn.h>
 #include <openssl/x509v3.h>
+#include <ws2tcpip.h>
 
 #include "ui.h"
 #include "constants.h"
@@ -27,8 +28,8 @@ namespace TransparentNetworkHandle {
     std::string parseHttpRequest(const std::string &request);
     void        printActiveThreads();
     void        checkAndStopBlacklistedThreads();
-    void        handleConnectMethod(SOCKET clientSocket, const std::string& host, int port);
-    void        handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request);
+    void        handleConnectMethod(SOCKET clientSocket, const std::string& host, int port, const std::string& clientIP);
+    void        handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request, const std::string& clientIP);
     void        handleClient(SOCKET clientSocket);
 }
 

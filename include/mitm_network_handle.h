@@ -15,6 +15,7 @@
 #include <openssl/x509.h>
 #include <openssl/bn.h>
 #include <openssl/x509v3.h>
+#include <ws2tcpip.h>
 
 #include "ui.h"
 #include "constants.h"
@@ -37,8 +38,8 @@ namespace MITMNetworkHandle {
     X509*       generateSelfSignedCert(EVP_PKEY* pkey, const std::string& host);
     bool        writeCertToFile(X509* cert, const std::string& filename);
     SSL_CTX*    createFakeSSLContext(EVP_PKEY* pkey, X509* cert);
-    void        handleSSLConnection(SOCKET clientSocket, const std::string& host, int port, SSL_CTX* ctx);
-    void        handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request);
+    void        handleSSLConnection(SOCKET clientSocket, const std::string& host, int port, SSL_CTX* ctx, const std::string& clientIP);
+    void        handleHttpRequest(SOCKET clientSocket, const std::string& host, int port, const std::string& request, const std::string& clientIP);
     void        handleClient(SOCKET clientSocket);
 }
 
