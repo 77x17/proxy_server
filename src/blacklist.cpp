@@ -67,6 +67,9 @@ namespace Blacklist {
 
             blacklist.insert(clear_host);
         }
+
+        TransparentNetworkHandle::checkAndStopBlacklistedThreads();
+        MITMNetworkHandle::checkAndStopBlacklistedThreads();
     }
 
     void updateListBox(HWND hBlackListBox) {
