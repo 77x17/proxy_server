@@ -46,6 +46,38 @@ namespace MITMNetworkHandle {
         }
     }
 
+    std::string forbiddenResponse(const std::string& host) {
+        std::string body = 
+            "<html>"
+            "<head>"
+            "<title>403 Forbidden</title>"
+            "<style>"
+            "body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background-color: #f8f8f8; }"
+            "h1 { color: #ff0000; }"
+            "p { color: #333333; font-size: 16px; }"
+            "button { margin-top: 20px; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #007bff; border: none; border-radius: 5px; cursor: pointer; }"
+            "button:hover { background-color: #0056b3; }"
+            "</style>"
+            "</head>"
+            "<body>"
+            "<h1>403 Forbidden</h1>"
+            "<p>Access to <strong>" + host + "</strong> is denied.</p>"
+            "<p>If you believe this is an error, please contact the administrator.</p>"
+            "<button onclick=\"location.reload()\">Reload</button>"
+            "</body>"
+            "</html>";
+
+        std::string forbiddenResponse = 
+            "HTTP/1.1 403 Forbidden\r\n"
+            "Content-Type: text/html\r\n"
+            "Content-Length: " + std::to_string(body.size()) + "\r\n"
+            "Connection: close\r\n"
+            "Proxy-Agent: CustomProxy/1.0\r\n"
+            "\r\n" + body;
+        
+        return forbiddenResponse;
+    }
+
     void initializeOpenSSL() {
         SSL_library_init();
         SSL_load_error_strings();
@@ -607,7 +639,7 @@ namespace MITMNetworkHandle {
         fd_set readfds;
         char buffer_data[BUFFER_SIZE];
         bool connectionOpen = true;
-        while (connectionOpen) {
+        while (connectionOpen and not stopFlags[std::this_thread::get_id()]) {
             FD_ZERO(&readfds);
             FD_SET(clientSocket, &readfds);
             FD_SET(remoteSocket, &readfds);
@@ -660,6 +692,13 @@ namespace MITMNetworkHandle {
 
         // Đóng kết nối
         closesocket(remoteSocket);
+
+        if (stopFlags[std::this_thread::get_id()]) {
+            std::string message = forbiddenResponse(host);
+            send(clientSocket, message.c_str(), message.size(), 0);
+            closesocket(clientSocket);
+            return;
+        }
     }
 
     void handleClient(SOCKET clientSocket) {
@@ -694,26 +733,16 @@ namespace MITMNetworkHandle {
             if (UI_WINDOW::listType == 0) { // Blacklist
                 if (Blacklist::isBlocked(host)) {
                     UI_WINDOW::UpdateLog("Access to " + host + " is blocked.", clientIP);
-                    const char* forbiddenResponse = 
-                        "HTTP/1.1 403 Forbidden\r\n"
-                        "Connection: close\r\n"
-                        "Proxy-Agent: CustomProxy/1.0\r\n"
-                        "\r\n";
-
-                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    std::string message = forbiddenResponse(host);
+                    send(clientSocket, message.c_str(), message.size(), 0);
                     closesocket(clientSocket);
                     return;
                 }
             } else { // Whitelist
                 if (!Whitelist::isAble(host)) {
                     UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.", clientIP);
-                    const char* forbiddenResponse = 
-                        "HTTP/1.1 403 Forbidden\r\n"
-                        "Connection: close\r\n"
-                        "Proxy-Agent: CustomProxy/1.0\r\n"
-                        "\r\n";
-
-                    send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                    std::string message = forbiddenResponse(host);
+                    send(clientSocket, message.c_str(), message.size(), 0);
                     closesocket(clientSocket);
                     return;
                 }
@@ -727,9 +756,6 @@ namespace MITMNetworkHandle {
 
                 printActiveThreads(); // Hiển thị danh sách luồng
             }
-
-            // Kiểm tra xem HOST có bị chặn trong quá trình xử lý
-            checkAndStopBlacklistedThreads();  
 
             activeThreads++;        
     
@@ -792,26 +818,16 @@ namespace MITMNetworkHandle {
         if (UI_WINDOW::listType == 0) { // Blacklist
             if (Blacklist::isBlocked(host)) {
                 UI_WINDOW::UpdateLog("Access to " + host + " is blocked.", clientIP);
-                const char* forbiddenResponse = 
-                    "HTTP/1.1 403 Forbidden\r\n"
-                    "Connection: close\r\n"
-                    "Proxy-Agent: CustomProxy/1.0\r\n"
-                    "\r\n";
-
-                send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                std::string message = forbiddenResponse(host);
+                send(clientSocket, message.c_str(), message.size(), 0);
                 closesocket(clientSocket);
                 return;
             }
         } else { // Whitelist
             if (!Whitelist::isAble(host)) {
                 UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.", clientIP);
-                const char* forbiddenResponse = 
-                    "HTTP/1.1 403 Forbidden\r\n"
-                    "Connection: close\r\n"
-                    "Proxy-Agent: CustomProxy/1.0\r\n"
-                    "\r\n";
-
-                send(clientSocket, forbiddenResponse, strlen(forbiddenResponse), 0);
+                std::string message = forbiddenResponse(host);
+                send(clientSocket, message.c_str(), message.size(), 0);
                 closesocket(clientSocket);
                 return;
             }
@@ -825,9 +841,6 @@ namespace MITMNetworkHandle {
 
             printActiveThreads(); // Hiển thị danh sách luồng
         }
-
-        // Kiểm tra xem HOST có bị chặn trong quá trình xử lý
-        checkAndStopBlacklistedThreads();  
 
         activeThreads++;
 
