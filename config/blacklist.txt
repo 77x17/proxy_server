@@ -1,4 +1,1 @@
-abc.xyz
-www.wikipedia.org
-
-http://vulnweb.com/
+example.com

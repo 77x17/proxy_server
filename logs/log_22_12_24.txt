@@ -1,0 +1,2209 @@
+[00:15:00] : Proxy server started. Listening on port 8080...
+[00:15:08] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[00:15:10] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[00:15:10] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[00:15:10] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[00:15:10] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[00:15:10] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[00:15:10] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:15:10] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[00:15:11] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[00:15:11] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[00:15:11] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:15:11] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[00:15:11] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[00:15:11] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[00:15:11] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[00:15:11] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[00:15:12] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[00:15:12] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[00:15:12] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[00:15:12] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:12] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[00:15:12] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[00:15:12] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[00:15:13] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[00:15:13] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[00:15:13] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:13] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[00:15:13] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[00:15:14] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[00:15:14] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[00:15:14] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[00:15:14] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[00:15:15] 127.0.0.1: Connecting: www.google.com:443
+[00:15:16] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[00:15:16] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[00:15:18] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:20] 127.0.0.1: Connecting: www.google.com:443
+[00:15:20] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[00:15:20] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[00:15:22] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:22] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:22] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:23] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:23] : Blacklist saved successfully!
+[00:15:23] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:15:24] 127.0.0.1: Access to vulnweb.com is blocked.
+[00:15:27] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:15:29] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:30] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[00:15:34] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:34] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:38] 127.0.0.1: Connecting: services.addons.mozilla.org:443
+[00:15:38] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[00:15:39] 127.0.0.1: Connecting: versioncheck-bg.addons.mozilla.org:443
+[00:15:39] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[00:15:39] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[00:15:40] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:42] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:42] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:43] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:43] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:43] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:44] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:45] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:45] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[00:15:46] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[00:15:48] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[00:15:48] 127.0.0.1: Disconnecting: services.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:15:49] 127.0.0.1: Disconnecting: versioncheck-bg.addons.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:15:49] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[00:15:49] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[00:15:54] : Exit proxy server ...
+[14:11:09] : Proxy server started. Listening on port 8080...
+[14:11:10] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:11:10] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[14:11:10] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:11:10] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[14:11:19] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[14:11:20] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[14:11:24] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:11:25] 127.0.0.1: Connecting: www.youtube.com:443
+[14:11:25] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[14:11:25] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[14:11:26] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:11:26] 127.0.0.1: Connecting: i.ytimg.com:443
+[14:11:26] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[14:11:28] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[14:11:28] 127.0.0.1: Connecting: normandy.cdn.mozilla.net:443
+[14:11:28] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[14:11:29] 127.0.0.1: Connecting: www.gstatic.com:443
+[14:11:29] 127.0.0.1: Connecting: www.google.com:443
+[14:11:29] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:29] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:29] 127.0.0.1: Connecting: classify-client.services.mozilla.com:443
+[14:11:30] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[14:11:30] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[14:11:30] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[14:11:30] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[14:11:30] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[14:11:30] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[14:11:30] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:11:30] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[14:11:31] 127.0.0.1: Connecting: www.google.com:443
+[14:11:31] 127.0.0.1: Connecting: www.google.com.vn:443
+[14:11:31] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:31] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:32] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:32] 127.0.0.1: Connecting: rr1---sn-ntqe6nel.googlevideo.com:443
+[14:11:32] 127.0.0.1: Connecting: play.google.com:443
+[14:11:33] 127.0.0.1: Connecting: play.google.com:443
+[14:11:33] 127.0.0.1: Connecting: accounts.youtube.com:443
+[14:11:34] 127.0.0.1: Connecting: www.gstatic.com:443
+[14:11:34] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[14:11:34] 127.0.0.1: Connecting: static.doubleclick.net:443
+[14:11:36] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:11:37] 127.0.0.1: Connecting: www.google.com:443
+[14:11:37] 127.0.0.1: Connecting: www.google.com:443
+[14:11:37] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[14:11:37] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[14:11:37] 127.0.0.1: Connecting: encrypted-tbn0.gstatic.com:443
+[14:11:39] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[14:11:39] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:11:39] 127.0.0.1: Disconnecting: normandy.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[14:11:40] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:11:40] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[14:11:40] 127.0.0.1: Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:11:40] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:11:40] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:11:40] 127.0.0.1: Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:11:40] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[14:11:41] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[14:11:42] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:11:42] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:11:42] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:11:43] 127.0.0.1: Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:11:43] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:11:44] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[14:11:44] 127.0.0.1: Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:11:44] 127.0.0.1: Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:11:45] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:11:45] 127.0.0.1: Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:11:45] 127.0.0.1: Disconnecting: accounts.youtube.com || Reason: Timeout occurred, closing connection.
+[14:11:46] 127.0.0.1: Access to vulnweb.com is blocked.
+[14:11:46] 127.0.0.1: Access to vulnweb.com is blocked.
+[14:11:46] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:11:48] 127.0.0.1: Disconnecting: encrypted-tbn0.gstatic.com || Reason: Timeout occurred, closing connection.
+[14:11:50] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[14:11:50] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[14:11:52] 127.0.0.1: Access to vulnweb.com is blocked.
+[14:11:53] 127.0.0.1: Access to vulnweb.com is blocked.
+[14:11:55] : Blacklist saved successfully!
+[14:11:55] : Blacklist saved successfully!
+[14:11:55] : Blacklist saved successfully!
+[14:11:56] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:11:56] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:11:56] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[14:11:57] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[14:11:59] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:59] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:11:59] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:59] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[14:11:59] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:12:00] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[14:12:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:01] 127.0.0.1: Connecting: www.google.com:443
+[14:12:01] 127.0.0.1: Connecting: www.google.com:443
+[14:12:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:01] 127.0.0.1: Connecting: www.google.com:443
+[14:12:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:01] 127.0.0.1: Connecting: www.facebook.com:443
+[14:12:02] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:04] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:06] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:06] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:12:07] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:16] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:20] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[14:12:25] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:25] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[14:12:25] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:12:27] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:29] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:30] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:30] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[14:12:30] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[14:12:31] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[14:12:32] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[14:12:32] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[14:12:34] : Blacklist saved successfully!
+[14:12:35] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:35] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:12:36] 127.0.0.1: Connecting: www.wikipedia.org:443
+[14:12:40] 127.0.0.1: Connecting: www.google.com:443
+[14:12:40] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:40] 127.0.0.1: Connecting: www.google.com:443
+[14:12:41] 127.0.0.1: Connecting: www.google.com:443
+[14:12:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:41] 127.0.0.1: Connecting: www.google.com:443
+[14:12:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:41] 127.0.0.1: Access to example.com is blocked.
+[14:12:41] 127.0.0.1: Access to example.com is blocked.
+[14:12:45] 127.0.0.1: Connecting: www.youtube.com:443
+[14:12:45] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:45] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[14:12:46] 127.0.0.1: Connecting: www.google.com:443
+[14:12:46] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:50] 127.0.0.1: Access to example.com is blocked.
+[14:12:51] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:12:55] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:13:03] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:04] 127.0.0.1: Access to example.com is blocked.
+[14:13:06] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:13:15] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:13:15] 127.0.0.1: Connecting: www.youtube.com:443
+[14:13:16] 127.0.0.1: Connecting: i.ytimg.com:443
+[14:13:18] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[14:13:19] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:19] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:19] 127.0.0.1: Connecting: play.google.com:443
+[14:13:19] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[14:13:21] 127.0.0.1: Connecting: www.google.com:443
+[14:13:21] 127.0.0.1: Connecting: www.google.com.vn:443
+[14:13:21] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:21] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:22] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:22] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:13:23] 127.0.0.1: Connecting: accounts.youtube.com:443
+[14:13:23] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[14:13:26] : Blacklist saved successfully!
+[14:13:26] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:13:26] : Blacklist saved successfully!
+[14:13:27] : Blacklist saved successfully!
+[14:13:28] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:28] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:28] 127.0.0.1: Connecting: i.ytimg.com:443
+[14:13:28] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:13:29] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:30] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[14:13:30] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:30] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:30] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:30] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:31] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:31] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:31] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:31] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:31] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:32] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:32] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:32] 127.0.0.1: Connecting: rr4---sn-q4fl6ndl.googlevideo.com:443
+[14:13:34] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:34] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:35] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:37] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:37] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:38] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:38] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:38] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:13:38] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:39] 127.0.0.1: Connecting: rr5---sn-ntqe6nee.googlevideo.com:443
+[14:13:41] 127.0.0.1: Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[14:13:44] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[14:13:46] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[14:13:48] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[14:13:48] 127.0.0.1: Disconnecting: accounts.youtube.com || Reason: Timeout occurred, closing connection.
+[14:13:50] 127.0.0.1: Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[14:13:50] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[14:13:50] : Exit proxy server ...
+[14:49:17] : Proxy server started. Listening on port 8080...
+[14:49:21] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:21] 127.0.0.1: Connecting: i.ytimg.com:443
+[14:49:22] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:22] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:23] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:23] 127.0.0.1: Connecting: www.google.com:443
+[14:49:23] 127.0.0.1: Connecting: www.google.com.vn:443
+[14:49:24] 127.0.0.1: Connecting: accounts.youtube.com:443
+[14:49:24] 127.0.0.1: Access to www.youtube.com is blocked.
+[14:49:25] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[14:49:25] 127.0.0.1: Connecting: static.doubleclick.net:443
+[14:49:27] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:31] : Blacklist saved successfully!
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:33] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:34] 127.0.0.1: Connecting: www.youtube.com:443
+[14:49:34] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:49:34] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:34] 127.0.0.1: Connecting: www.youtube.com:443
+[14:49:34] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:34] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:34] 127.0.0.1: SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[14:49:34] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:34] 127.0.0.1: Connecting: rr1---sn-5hnekn7s.googlevideo.com:443
+[14:49:34] 127.0.0.1: SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[14:49:34] 127.0.0.1: SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[14:49:35] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[14:49:47] : Exit proxy server ...
+[14:52:20] : Proxy server started. Listening on port 8080...
+[14:52:22] 127.0.0.1: Connecting: play.google.com:443
+[14:52:22] 127.0.0.1: Connecting: www.youtube.com:443
+[14:52:23] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[14:52:29] 127.0.0.1: Connecting: play.google.com:443
+[14:52:31] 127.0.0.1: Connecting: www.facebook.com:443
+[14:52:41] : Exit proxy server ...
+[15:06:40] : Proxy server started. Listening on port 8080...
+[15:06:42] 127.0.0.1: Connecting: www.facebook.com:443
+[15:06:43] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[15:06:43] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:44] 127.0.0.1: Connecting: facebook.com:443
+[15:06:44] 127.0.0.1: Connecting: scontent.fsgn10-1.fna.fbcdn.net:443
+[15:06:44] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[15:06:47] 127.0.0.1: Connecting: www.youtube.com:443
+[15:06:54] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:06:55] 127.0.0.1: Disconnecting: static.xx.fbcdn.net || Reason: Timeout occurred, closing connection.
+[15:06:57] 127.0.0.1: Connecting: play.google.com:443
+[15:07:00] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:07:00] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:07:00] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:00] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:00] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:00] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:00] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:02] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:02] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:02] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:02] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:02] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:07:02] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:02] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[15:07:02] 127.0.0.1: Failed to generate certificate for host: fonts.googleapis.com
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:03] 127.0.0.1: Connecting: www.youtube.com:443
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:07:03] 127.0.0.1: Failed to generate certificate for host: i.ytimg.com
+[15:07:03] 127.0.0.1: Connecting: i.ytimg.com:443
+[15:09:35] : Proxy server started. Listening on port 8080...
+[15:09:38] 127.0.0.1: Connecting: www.youtube.com:443
+[15:09:43] 127.0.0.1: Connecting: play.google.com:443
+[15:09:44] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:09:46] 127.0.0.1: Connecting: www.facebook.com:443
+[15:10:03] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:10:03] 127.0.0.1: Failed to generate certificate for host: prod.ohttp-gateway.prod.webservices.mozgcp.net
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:10:03] 127.0.0.1: Failed to generate certificate for host: prod.ohttp-gateway.prod.webservices.mozgcp.net
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:10:03] 127.0.0.1: Failed to generate certificate for host: prod.ohttp-gateway.prod.webservices.mozgcp.net
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:10:03] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:12:06] : Proxy server started. Listening on port 8080...
+[15:12:08] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[15:12:08] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[15:12:08] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:09] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:19] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:19] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:20] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:20] 127.0.0.1: Connecting: www.youtube.com:443
+[15:12:33] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:37] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:12:38] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:12:39] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:12:39] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:39] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:12:39] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:12:39] 127.0.0.1: Failed to generate certificate for host: firefox.settings.services.mozilla.com
+[15:12:39] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[15:13:54] : Proxy server started. Listening on port 8080...
+[15:13:54] 127.0.0.1: Connecting: play.google.com:443
+[15:13:57] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:13:58] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:13:59] 127.0.0.1: Connecting: www.youtube.com:443
+[15:14:00] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:14:00] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:14:00] 127.0.0.1: Connecting: www.youtube.com:443
+[15:14:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:14:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:14:01] 127.0.0.1: Failed to generate certificate for host: www.youtube.com
+[15:14:01] 127.0.0.1: Connecting: www.youtube.com:443
+[15:16:53] : Proxy server started. Listening on port 8080...
+[15:16:57] 127.0.0.1: Connecting: www.youtube.com:443
+[15:17:01] 127.0.0.1: Connecting: play.google.com:443
+[15:17:02] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[15:17:02] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[15:17:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:17:08] 127.0.0.1: Connecting: play.google.com:443
+[15:17:09] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:17:10] 127.0.0.1: Connecting: www.facebook.com:443
+[15:17:32] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:18:09] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:18:09] 127.0.0.1: Connecting: www.youtube.com:443
+[15:18:10] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:18:10] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:18:10] 127.0.0.1: Connecting: www.youtube.com:443
+[15:18:11] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:18:21] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:18:21] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:18:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:18:31] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[15:18:31] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:18:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:19:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:19:57] : Proxy server started. Listening on port 8080...
+[15:20:00] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 5, OpenSSL Details: error:00000000:lib(0)::reason(0)
+[15:20:04] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:05] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:05] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:07] 127.0.0.1: Connecting: www.youtube.com:443
+[15:20:07] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:20:11] 127.0.0.1: Connecting: www.google.com:443
+[15:20:11] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:11] 127.0.0.1: Connecting: www.google.com:443
+[15:20:12] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:18] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[15:20:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:20] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:20] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:20] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:20] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:21] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:21] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:21] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:24] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:28] : Proxy server stopped.
+[15:20:28] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:29] : Exit proxy server ...
+[15:20:46] : Proxy server started. Listening on port 8080...
+[15:20:50] 127.0.0.1: Connecting: www.youtube.com:443
+[15:20:52] 127.0.0.1: Connecting: www.facebook.com:443
+[15:20:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:20:54] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:41:08] : Proxy server started. Listening on port 8080...
+[15:41:10] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:41:11] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:41:20] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:41:20] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:41:24] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:41:26] : Exit proxy server ...
+[15:43:17] : Proxy server started. Listening on port 8080...
+[15:43:19] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:43:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:46:00] : Proxy server started. Listening on port 8080...
+[15:46:02] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:46:25] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[15:46:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:47:14] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:47:59] : Exit proxy server ...
+[15:51:22] : Proxy server started. Listening on port 8080...
+[15:51:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:51:27] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:51:36] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[15:51:36] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:51:37] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[15:51:40] 127.0.0.1: Handling HTTP request: rest.vulnweb.com:80
+[15:51:40] 127.0.0.1: Handling HTTP request: rest.vulnweb.com:80
+[15:51:41] 127.0.0.1: Connected to remote server for HTTP request: rest.vulnweb.com:80
+[15:51:41] 127.0.0.1: Connected to remote server for HTTP request: rest.vulnweb.com:80
+[15:51:41] 127.0.0.1: Connecting: go.microsoft.com:443
+[15:51:42] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:42] 127.0.0.1: Connecting: go.microsoft.com:443
+[15:51:42] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:51:42] 127.0.0.1: Connecting: go.microsoft.com:443
+[15:52:46] : Blacklist saved successfully!
+[15:52:46] : Proxy server started. Listening on port 8080...
+[15:52:48] 127.0.0.1: Connecting: go.microsoft.com:443
+[15:52:49] 127.0.0.1: Connecting: www.iis.net:443
+[15:52:50] 127.0.0.1: Handling HTTP request: oneocsp.microsoft.com:80
+[15:52:50] 127.0.0.1: Connected to remote server for HTTP request: oneocsp.microsoft.com:80
+[15:52:51] 127.0.0.1: Connecting: consentdeliveryfd.azurefd.net:443
+[15:52:51] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:52:51] 127.0.0.1: Connecting: js.monitor.azure.com:443
+[15:52:51] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:52:51] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:52:52] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:52:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:52:54] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:52:54] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:52:57] 127.0.0.1: Connecting: js.monitor.azure.com:443
+[15:52:57] 127.0.0.1: Connecting: consentdeliveryfd.azurefd.net:443
+[15:52:57] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:52:57] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:52:57] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:52:57] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:53:06] 127.0.0.1: Disconnecting: go.microsoft.com || Reason: Timeout occurred, closing connection.
+[15:53:07] 127.0.0.1: Connecting: www.wikipedia.org:443
+[15:53:07] 127.0.0.1: Disconnecting: www.iis.net || Reason: Timeout occurred, closing connection.
+[15:53:12] 127.0.0.1: Connecting: www.facebook.com:443
+[15:53:20] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[15:54:17] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[15:54:18] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:18] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:18] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:18] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:20] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:54:20] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:54:20] 127.0.0.1: Connecting: js.monitor.azure.com:443
+[15:54:29] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:29] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:54:39] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:54:39] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[15:54:50] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:25] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:25] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:26] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:26] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:26] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:26] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:26] 127.0.0.1: Failed to generate certificate for host: spocs.getpocket.com
+[15:56:26] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:27] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:28] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:28] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:28] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:28] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:28] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:29] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:29] 127.0.0.1: Connecting: iis-umbraco.azurewebsites.net:443
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: iis-umbraco.azurewebsites.net
+[15:56:30] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+.windows.net
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:30] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:30] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:31] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:31] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:31] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+media
+[15:56:31] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:31] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:31] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:31] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] : Fail to get clientSocket IP
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+media
+[15:56:32] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:32] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:32] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+media
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+.windows.net
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:33] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:33] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:34] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+media
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:34] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:34] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Connecting: www.iis.net:443
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: iisumbraco.blob.core.windows.net
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: www.iis.net
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:35] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:36] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:36] 127.0.0.1: Connecting: iisumbraco.blob.core.windows.net:443
+[15:56:36] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:36] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:36] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:36] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:36] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:36] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[15:56:36] : Fail to get clientSocket IP
+[15:56:36] 127.0.0.1: Connecting: effectus.nui.media:443
+[15:56:36] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+.windows.net
+[15:56:36] : Fail to get clientSocket IP
+[15:56:36] 127.0.0.1: Failed to generate certificate for host: effectus.nui.media
+[16:32:34] : Proxy server started. Listening on port 8080...
+[16:32:36] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[16:32:38] 127.0.0.1: Connecting: www.facebook.com:443
+[16:32:39] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[16:32:39] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[16:32:39] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[16:32:39] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[16:32:39] 127.0.0.1: Connecting: scontent.fsgn10-1.fna.fbcdn.net:443
+[16:32:39] 127.0.0.1: Connecting: facebook.com:443
+[16:32:39] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[16:32:39] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[16:32:40] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[16:32:43] 127.0.0.1: Connecting: static.xx.fbcdn.net:443
+[16:32:46] 127.0.0.1: Connecting: www.iis.net:443
+[16:32:48] 127.0.0.1: Connecting: www.wikipedia.org:443
+[16:32:50] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[16:32:51] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[16:32:52] 127.0.0.1: Disconnecting: scontent.fsgn10-1.fna.fbcdn.net || Reason: Timeout occurred, closing connection.
+[16:32:53] 127.0.0.1: Disconnecting: facebook.com || Reason: Timeout occurred, closing connection.
+[16:33:02] : Exit proxy server ...
+[21:04:19] : Proxy server started. Listening on port 8080...
+[21:04:26] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:04:27] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[21:04:27] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[21:04:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:04:27] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[21:04:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:04:27] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[21:04:29] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:04:29] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[21:04:29] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:04:29] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:04:29] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[21:04:29] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[21:04:29] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:04:30] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[21:04:30] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[21:04:30] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:04:30] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[21:04:30] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[21:04:30] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[21:04:30] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[21:04:30] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:04:31] 127.0.0.1: Connecting: prod.ohttp-gateway.prod.webservices.mozgcp.net:443
+[21:04:31] 127.0.0.1: Connecting: mozilla-ohttp.fastly-edge.com:443
+[21:04:35] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:04:39] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[21:04:40] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:04:40] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:04:40] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[21:04:41] 127.0.0.1: Disconnecting: prod.ohttp-gateway.prod.webservices.mozgcp.net || Reason: Timeout occurred, closing connection.
+[21:04:42] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:04:43] 127.0.0.1: Disconnecting: mozilla-ohttp.fastly-edge.com || Reason: Timeout occurred, closing connection.
+[21:04:45] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[21:04:45] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:04:46] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:04:46] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[21:04:51] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:04:51] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:04:55] 127.0.0.1: Connecting: normandy.cdn.mozilla.net:443
+[21:04:55] 127.0.0.1: Connecting: classify-client.services.mozilla.com:443
+[21:04:57] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[21:04:57] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:04:59] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:04:59] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:00] 127.0.0.1: Connecting: www.youtube.com:443
+[21:05:00] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[21:05:00] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[21:05:00] 127.0.0.1: Connecting: i.ytimg.com:443
+[21:05:01] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:05:01] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:05:01] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:05:01] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:05:02] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:04] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[21:05:04] 127.0.0.1: Connecting: www.gstatic.com:443
+[21:05:04] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:05:04] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:05:05] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:05] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:06] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:06] 127.0.0.1: Connecting: play.google.com:443
+[21:05:06] 127.0.0.1: Connecting: play.google.com:443
+[21:05:06] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[21:05:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:07] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:07] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:07] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[21:05:08] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[21:05:09] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:05:09] 127.0.0.1: Connecting: www.google.com:443
+[21:05:09] 127.0.0.1: Connecting: www.google.com.vn:443
+[21:05:09] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:10] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:11] 127.0.0.1: Connecting: rr1---sn-q4fl6nsk.googlevideo.com:443
+[21:05:11] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:05:11] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:05:11] 127.0.0.1: Disconnecting: classify-client.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:05:11] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[21:05:11] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:05:14] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:05:15] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[21:05:15] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:05:16] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:05:16] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:05:16] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[21:05:17] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[21:05:17] 127.0.0.1: Handling HTTP request: fonts.googleapis.com:80
+[21:05:17] 127.0.0.1: Connected to remote server for HTTP request: fonts.googleapis.com:80
+[21:05:18] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:05:18] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[21:05:18] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:05:18] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:05:18] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[21:05:18] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:05:18] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:05:18] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:05:18] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:05:18] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:05:18] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:05:18] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:05:18] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:05:18] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:05:19] 127.0.0.1: Connecting: www.acunetix.com:443
+[21:05:19] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[21:05:20] 127.0.0.1: Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[21:05:20] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[21:05:20] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[21:05:22] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:05:23] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:05:23] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:05:23] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[21:05:26] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:05:26] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:05:27] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:05:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:05:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:05:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:05:27] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:05:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:05:27] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:05:28] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[21:05:28] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[21:05:28] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:05:28] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[21:05:28] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[21:05:33] 127.0.0.1: Access to example.com is blocked.
+[21:05:36] 127.0.0.1: Access to example.com is blocked.
+[21:05:37] 127.0.0.1: Access to example.com is blocked.
+[21:05:37] 127.0.0.1: Access to example.com is blocked.
+[21:05:38] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:05:38] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:05:40] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:41] 127.0.0.1: Connecting: www.google.com:443
+[21:05:41] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:05:42] 127.0.0.1: Access to example.com is blocked.
+[21:05:42] 127.0.0.1: Access to example.com is blocked.
+[21:05:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:05:48] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:05:48] 127.0.0.1: Handling HTTP request: www.testingmcafeesites.com:80
+[21:05:48] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:05:48] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:05:49] 127.0.0.1: Cannot connect to remote server: www.testingmcafeesites.com:80
+[21:05:49] 127.0.0.1: Handling HTTP request: www.testingmcafeesites.com:80
+[21:05:49] 127.0.0.1: Connected to remote server for HTTP request: www.testingmcafeesites.com:80
+[21:05:57] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:57] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:57] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:05:58] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:06:03] 127.0.0.1: Connecting: www.reddit.com:443
+[21:06:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:06:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:06:04] 127.0.0.1: Connecting: www.reddit.com:443
+[21:06:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:06:05] 127.0.0.1: Connecting: translate.google.com:443
+[21:06:20] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:06:22] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:06:26] : Exit proxy server ...
+[21:11:20] : Proxy server started. Listening on port 8080...
+[21:11:28] 127.0.0.1: Connecting: translate.google.com:443
+[21:11:28] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:11:29] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:11:29] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:11:30] 127.0.0.1: Connecting: lh3.googleusercontent.com:443
+[21:11:30] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:11:36] : Proxy server stopped.
+[21:11:40] 127.0.0.1: Disconnecting: fonts.googleapis.com || Reason: Timeout occurred, closing connection.
+[21:11:44] 127.0.0.1: Disconnecting: translate.google.com || Reason: Timeout occurred, closing connection.
+[21:11:48] : Proxy server started. Listening on port 8080...
+[21:11:50] 127.0.0.1: Connecting: translate.google.com:443
+[21:12:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:12:09] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:12:09] 127.0.0.1: Connecting: www.facebook.com:443
+[21:12:10] 127.0.0.1: Connecting: www.facebook.com:443
+[21:12:13] : Proxy server stopped.
+[21:16:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:16:36] : Proxy server started. Listening on port 8080...
+[21:16:42] 127.0.0.1: Connecting: www.facebook.com:443
+[21:16:49] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:16:49] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:16:49] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:16:54] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:16:59] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:16:59] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:17:00] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:01] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:01] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:02] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:02] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:03] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:03] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:04] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:05] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:05] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:06] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:07] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:07] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:07] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:08] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:09] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:09] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:09] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:09] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:17:11] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:17:13] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:17:19] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:18:50] : Proxy server started. Listening on port 8080...
+[21:18:53] 127.0.0.1: Connecting: www.facebook.com:443
+[21:18:59] : Proxy server stopped.
+[21:19:06] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:19:08] : Exit proxy server ...
+[21:19:53] : Proxy server started. Listening on port 8080...
+[21:19:55] 127.0.0.1: Connecting: www.facebook.com:443
+[21:19:55] 127.0.0.1: SSL handshake with client succeeded.
+[21:19:55] 127.0.0.1: Connected to remote server.
+[21:19:55] 127.0.0.1: SSL handshake with server succeeded.
+[21:20:19] 127.0.0.1: Connecting: www.facebook.com:443
+[21:20:19] 127.0.0.1: SSL handshake with client succeeded.
+[21:20:19] 127.0.0.1: Connected to remote server.
+[21:20:19] 127.0.0.1: SSL handshake with server succeeded.
+[21:20:20] 127.0.0.1: Connecting: www.facebook.com:443
+[21:20:20] 127.0.0.1: SSL handshake with client succeeded.
+[21:20:20] 127.0.0.1: Connected to remote server.
+[21:20:20] 127.0.0.1: SSL handshake with server succeeded.
+[21:24:42] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:43] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:43] 127.0.0.1: Connected to remote server.
+[21:24:43] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:43] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:43] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:43] 127.0.0.1: Connected to remote server.
+[21:24:43] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:43] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:43] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:43] 127.0.0.1: Connected to remote server.
+[21:24:44] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:44] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:44] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:44] 127.0.0.1: Connected to remote server.
+[21:24:44] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:44] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:44] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:44] 127.0.0.1: Connected to remote server.
+[21:24:44] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:45] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:45] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:46] 127.0.0.1: Connected to remote server.
+[21:24:46] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:47] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:47] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:47] 127.0.0.1: Connected to remote server.
+[21:24:47] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:47] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:47] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:47] 127.0.0.1: Connected to remote server.
+[21:24:47] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:47] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:47] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:47] 127.0.0.1: Connected to remote server.
+[21:24:47] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:24:48] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:24:48] 127.0.0.1: SSL handshake with client succeeded.
+[21:24:48] 127.0.0.1: Connected to remote server.
+[21:24:48] 127.0.0.1: SSL handshake failed with server. SSL Error: 1, OpenSSL Details: error:0A000410:SSL routines::ssl/tls alert handshake failure
+[21:26:42] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:26:42] 127.0.0.1: SSL handshake with client succeeded.
+[21:26:43] 127.0.0.1: Connected to remote server.
+[21:26:43] 127.0.0.1: SSL handshake with server succeeded.
+[21:27:13] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:29:09] : Proxy server started. Listening on port 8080...
+[21:29:10] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:10] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:10] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:10] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:10] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:10] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:10] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:10] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:11] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:11] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:11] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:11] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:11] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:12] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:12] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:12] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:13] : Proxy server stopped.
+[21:29:17] : Proxy server started. Listening on port 8080...
+[21:29:19] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:19] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:19] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:19] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:19] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:20] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:20] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:20] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:20] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:20] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:21] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:21] 127.0.0.1: Connecting: www.facebook.com:443
+[21:29:21] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:29:22] : Proxy server stopped.
+[21:29:21] 127.0.0.1: SSL handshake failed: error:0A0000D3:SSL routines::read bio not set
+[21:30:33] : Exit proxy server ...
+[21:31:41] : Proxy server started. Listening on port 8080...
+[21:31:44] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:44] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:44] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:44] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:44] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:45] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:45] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:31:45] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:45] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:45] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:46] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:46] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:46] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:31:46] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:31:46] 127.0.0.1: Connecting: www.facebook.com:443
+[21:31:46] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:07] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:07] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:07] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:08] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:08] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:08] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:08] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:08] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:08] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:08] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:08] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:09] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:09] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:09] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:09] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:34:09] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:34:09] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:09] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:34:09] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:34:09] 127.0.0.1: SSL_accept would block.  Try again later.
+[21:35:01] : Proxy server started. Listening on port 8080...
+[21:35:04] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:08] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:13] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:18] 127.0.0.1: SSL handshake timeout
+[21:35:18] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:18] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:23] 127.0.0.1: SSL handshake timeout
+[21:35:23] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:23] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:28] 127.0.0.1: Connecting: support.mozilla.org:443
+[21:35:29] 127.0.0.1: SSL handshake timeout
+[21:35:29] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:29] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:34] 127.0.0.1: SSL handshake timeout
+[21:35:34] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:34] 127.0.0.1: Connecting: support.mozilla.org:443
+[21:35:34] 127.0.0.1: Connecting: support.mozilla.org:443
+[21:35:34] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:35:34] 127.0.0.1: SSL handshake timeout
+[21:35:34] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:34] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:35] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:39] 127.0.0.1: Connecting: support.mozilla.org:443
+[21:35:40] 127.0.0.1: SSL handshake timeout
+[21:35:40] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:40] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:40] 127.0.0.1: Connecting: www.google.com:443
+[21:35:40] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:44] 127.0.0.1: SSL handshake timeout
+[21:35:44] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:44] 127.0.0.1: Connecting: support.mozilla.org:443
+[21:35:44] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:45] 127.0.0.1: SSL handshake timeout
+[21:35:45] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:45] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:49] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:35:50] 127.0.0.1: SSL handshake timeout
+[21:35:50] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:50] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:54] 127.0.0.1: SSL handshake timeout
+[21:35:54] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:54] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:35:54] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:35:54] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:35:55] 127.0.0.1: SSL handshake timeout
+[21:35:55] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:35:55] 127.0.0.1: Connecting: www.facebook.com:443
+[21:35:57] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:59] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:35:59] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:36:01] : Proxy server stopped.
+[21:36:04] 127.0.0.1: SSL handshake timeout
+[21:36:04] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:09] : Proxy server started. Listening on port 8080...
+[21:53:13] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:18] 127.0.0.1: SSL handshake timeout
+[21:53:18] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:19] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:19] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:19] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:53:24] 127.0.0.1: SSL handshake timeout
+[21:53:24] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:24] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:29] 127.0.0.1: SSL handshake timeout
+[21:53:29] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:29] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:34] 127.0.0.1: SSL handshake timeout
+[21:53:34] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:34] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:35] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:38] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:53:38] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:53:39] 127.0.0.1: Connecting: www.acunetix.com:443
+[21:53:39] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:40] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[21:53:40] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[21:53:40] 127.0.0.1: SSL handshake timeout
+[21:53:40] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:40] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:40] 127.0.0.1: SSL handshake timeout
+[21:53:40] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:40] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:40] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:40] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:53:44] 127.0.0.1: SSL handshake timeout
+[21:53:44] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:44] 127.0.0.1: Connecting: www.acunetix.com:443
+[21:53:45] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:53:45] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:53:45] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:45] 127.0.0.1: SSL handshake timeout
+[21:53:45] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:45] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:50] 127.0.0.1: SSL handshake timeout
+[21:53:50] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:50] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:50] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:53:50] 127.0.0.1: SSL handshake timeout
+[21:53:50] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:53:50] 127.0.0.1: Connecting: www.youtube.com:443
+[21:53:50] 127.0.0.1: SSL handshake failed: error:00000000:lib(0)::reason(0)
+[21:53:52] : Exit proxy server ...
+[21:54:44] : Proxy server started. Listening on port 8080...
+[21:54:50] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:54:51] 127.0.0.1: SSL handshake failed: error:0A000126:SSL routines::unexpected eof while reading
+[21:54:51] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:54:51] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:54:51] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:54:51] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[21:54:51] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:54:52] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:54:52] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:54:52] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:54:52] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[21:54:52] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:54:52] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[21:54:52] 127.0.0.1: SSL handshake failed: error:0A000126:SSL routines::unexpected eof while reading
+[21:54:53] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:55:04] : Proxy server started. Listening on port 8080...
+[21:55:04] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:55:04] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[21:55:04] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[21:55:05] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:55:05] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:55:05] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:55:05] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:55:07] 127.0.0.1: Access to example.com is blocked.
+[21:55:07] 127.0.0.1: Access to example.com is blocked.
+[21:55:10] 127.0.0.1: Connecting: www.youtube.com:443
+[21:55:12] 127.0.0.1: Connecting: www.facebook.com:443
+[21:55:12] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:55:14] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:55:14] 127.0.0.1: Connecting: www.reddit.com:443
+[21:55:14] 127.0.0.1: SSL handshake failed after select: error:0A000126:SSL routines::unexpected eof while reading
+[21:55:14] 127.0.0.1: Handling HTTP request: www.testingmcafeesites.com:80
+[21:55:15] 127.0.0.1: Connecting: translate.google.com:443
+[21:55:58] : Proxy server started. Listening on port 8080...
+[21:55:58] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:55:58] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:55:58] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:55:58] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:55:58] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:55:58] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:55:58] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:56:00] 127.0.0.1: Handling HTTP request: www.testingmcafeesites.com:80
+[21:56:00] 127.0.0.1: Connected to remote server for HTTP request: www.testingmcafeesites.com:80
+[21:56:03] 127.0.0.1: SSL handshake timeout
+[21:56:03] 127.0.0.1: SSL handshake failed after select: error:00000000:lib(0)::reason(0)
+[21:56:03] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:56:03] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:56:03] 127.0.0.1: SSL handshake failed: error:0A000126:SSL routines::unexpected eof while reading
+[21:56:04] 127.0.0.1: Connecting: www.youtube.com:443
+[21:56:07] : Exit proxy server ...
+[21:57:49] : Proxy server started. Listening on port 8080...
+[21:57:54] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:57:55] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[21:57:56] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[21:57:56] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[21:57:56] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[21:57:56] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[21:57:56] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[21:57:56] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:57:56] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:57:56] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[21:57:57] 127.0.0.1: Connecting: www.youtube.com:443
+[21:57:59] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[21:57:59] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[21:57:59] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[21:57:59] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[21:57:59] 127.0.0.1: Connecting: i.ytimg.com:443
+[21:57:59] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:57:59] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:57:59] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:57:59] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[21:57:59] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:57:59] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[21:57:59] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[21:57:59] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[21:57:59] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[21:57:59] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[21:58:00] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[21:58:00] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[21:58:00] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:58:00] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:03] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[21:58:04] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:04] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:05] 127.0.0.1: Connecting: play.google.com:443
+[21:58:05] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:58:05] 127.0.0.1: Connecting: play.google.com:443
+[21:58:05] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:06] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[21:58:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:06] 127.0.0.1: Connecting: fonts.gstatic.com:443
+[21:58:06] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[21:58:06] 127.0.0.1: Connecting: www.google.com:443
+[21:58:06] 127.0.0.1: Connecting: www.google.com.vn:443
+[21:58:07] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:58:07] : Blacklist saved successfully!
+[21:58:08] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[21:58:09] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[21:58:09] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:09] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:10] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:58:10] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[21:58:10] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:58:10] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:58:10] 127.0.0.1: Connecting: fonts.googleapis.com:443
+[21:58:10] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:58:10] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:58:12] 127.0.0.1: Connecting: rr5---sn-5hneknek.googlevideo.com:443
+[21:58:12] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:58:13] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[21:58:14] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[21:58:15] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[21:58:15] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[21:58:16] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[21:58:17] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[21:58:17] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[21:58:17] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[21:58:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:58:19] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:58:19] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:58:20] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[21:58:21] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[21:58:21] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[21:58:22] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[21:58:25] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:25] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:26] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:27] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:27] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:28] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[21:58:28] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:29] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:29] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[21:58:29] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[21:58:29] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:35] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:37] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[21:58:45] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[21:58:47] : Exit proxy server ...
+[22:04:07] : Exit proxy server ...
+[22:05:13] : Proxy server started. Listening on port 8080...
+[22:05:22] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:05:23] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[22:05:23] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:23] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:05:24] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:24] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:05:24] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[22:05:24] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:24] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:24] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:05:25] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:05:25] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[22:05:26] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:05:26] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:05:26] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:05:26] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:05:27] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:05:27] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:05:27] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:05:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:05:37] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:05:38] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:38] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:38] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[22:05:38] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:38] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:05:38] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:38] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:05:38] : Exit proxy server ...
+[22:05:38] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:06:43] : Proxy server started. Listening on port 8080...
+[22:06:43] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:06:43] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:06:43] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:06:43] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:06:43] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:06:43] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:06:46] : Proxy server stopped.
+[22:07:13] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:07:13] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:07:14] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:07:47] : Exit proxy server ...
+[22:10:11] : Exit proxy server ...
+[22:11:16] : Blacklist saved successfully!
+[22:11:16] : Blacklist saved successfully!
+[22:11:26] : Exit proxy server ...
+[22:14:23] : Exit proxy server ...
+[22:16:37] : Exit proxy server ...
+[22:19:01] : Exit proxy server ...
+[22:20:09] : Exit proxy server ...
+[22:20:40] : Proxy server started. Listening on port 8080...
+[22:20:45] 127.0.0.1: Access to example.com is blocked.
+[22:20:45] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:20:49] 127.0.0.1: Connecting: www.google.com:443
+[22:20:50] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:20:52] 127.0.0.1: Access to example.com is blocked.
+[22:20:55] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:20:55] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:20:57] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:20:57] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:20:57] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:20:57] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:20:57] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:20:57] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:20:59] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:21:00] : Exit proxy server ...
+[22:21:28] : Proxy server started. Listening on port 8080...
+[22:21:36] : Exit proxy server ...
+[22:22:12] : Exit proxy server ...
+[22:23:18] : Proxy server started. Listening on port 8080...
+[22:23:18] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:23:18] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:23:19] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:23:19] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:23:19] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:23:19] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:23:23] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:23:43] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:23:43] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:23:43] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:23:43] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:23:43] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:23:44] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:23:44] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:23:45] 127.0.0.1: Handling HTTP request: fonts.googleapis.com:80
+[22:23:45] 127.0.0.1: Connected to remote server for HTTP request: fonts.googleapis.com:80
+[22:23:45] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[22:23:45] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:23:45] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[22:23:45] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:23:45] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:23:46] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:23:46] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:23:46] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:23:46] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:23:46] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:23:46] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:23:46] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:23:46] 127.0.0.1: Connecting: www.acunetix.com:443
+[22:23:48] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:23:49] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:23:49] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:23:53] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:23:53] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:24:05] : Exit proxy server ...
+[22:27:15] : Proxy server started. Listening on port 8080...
+[22:27:17] : Proxy server stopped.
+[22:27:19] : Proxy server started. Listening on port 8080...
+[22:27:40] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:27:41] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[22:27:41] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:27:41] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:27:41] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:27:41] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[22:27:41] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[22:27:41] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[22:27:41] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[22:27:42] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[22:27:42] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:27:42] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:27:43] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:27:43] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[22:27:43] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:27:46] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:27:46] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:27:46] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:27:47] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:27:48] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:27:52] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:27:52] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:27:52] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:27:54] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:27:54] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[22:27:55] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:27:55] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:27:56] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[22:27:56] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[22:27:56] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[22:27:57] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[22:27:59] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:28:01] : Exit proxy server ...
+[22:29:00] : Proxy server started. Listening on port 8080...
+[22:29:00] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:29:00] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:29:01] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:29:01] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:29:01] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:29:01] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:29:05] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:29:05] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:29:06] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:06] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[22:29:06] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:29:06] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[22:29:06] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:06] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:06] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:06] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:29:06] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:06] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:07] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:07] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:07] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:07] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:07] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:07] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:07] 127.0.0.1: Connecting: www.acunetix.com:443
+[22:29:15] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:29:16] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:29:17] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:17] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:29:17] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:29:23] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:29:23] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:29:24] : Exit proxy server ...
+[22:31:56] : Proxy server started. Listening on port 8080...
+[22:31:58] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:31:58] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:31:59] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:31:59] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:31:59] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:31:59] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:00] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:00] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:04] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:32:04] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:32:04] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:05] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:32:05] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:32:09] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:32:09] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:32:10] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:32:11] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:32:11] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:32:11] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:32:14] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:32:19] : Exit proxy server ...
+[22:34:18] : Exit proxy server ...
+[22:35:16] : Exit proxy server ...
+[22:36:37] : Proxy server started. Listening on port 8080...
+[22:36:39] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[22:36:40] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[22:36:44] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:44] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:44] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:45] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:45] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:45] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[22:36:45] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[22:36:49] : Exit proxy server ...
+[22:38:22] : Proxy server started. Listening on port 8080...
+[22:38:28] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:38:29] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:29] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:38:30] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:38:30] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[22:38:30] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[22:38:30] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:38:30] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:38:31] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[22:38:31] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:38:31] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[22:38:31] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[22:38:31] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[22:38:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:31] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:38:31] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:32] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:32] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:38:32] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[22:38:32] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[22:38:32] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:42] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:42] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:38:52] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:38:52] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:38:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:39:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:39:02] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:02] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:39:02] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:39:16] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:16] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[22:39:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:17] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[22:39:17] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[22:39:26] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:39:27] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[22:39:59] : Proxy server started. Listening on port 8080...
+[22:39:59] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:40:00] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[22:40:00] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[22:40:03] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:40:04] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:40:04] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:40:04] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:40:04] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:40:04] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:40:05] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:40:05] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:40:05] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:40:05] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:40:13] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[22:40:30] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:40:35] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:40:35] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[22:40:35] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[22:40:35] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:40:45] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:40:58] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:41:05] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:41:12] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[22:41:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:41:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[22:41:58] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[22:42:06] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:42:12] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[22:43:33] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[22:43:33] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[22:43:33] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[22:43:33] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[22:43:43] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[22:43:44] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[22:51:45] : Proxy server started. Listening on port 8080...
+[22:51:52] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:51:52] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:52:24] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[22:52:24] : Exit proxy server ...
+[22:53:55] : Proxy server started. Listening on port 8080...
+[22:53:57] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:53:58] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:54:03] : Exit proxy server ...
+[22:57:11] : Proxy server started. Listening on port 8080...
+[22:57:15] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[22:57:15] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[22:57:20] : Exit proxy server ...
+[23:00:38] : Proxy server started. Listening on port 8080...
+[23:00:40] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[23:00:40] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[23:00:45] : Exit proxy server ...
+[23:05:14] : Proxy server started. Listening on port 8080...
+[23:05:21] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:05:22] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[23:05:22] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[23:05:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:05:22] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:05:22] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:05:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:05:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:05:22] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:05:22] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:05:23] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:05:23] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:05:24] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[23:05:24] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:24] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:05:24] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:05:24] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:05:25] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:05:25] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:05:25] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:25] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:05:25] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:05:30] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:32] 127.0.0.1: Handling HTTP request: www.testingmcafeesites.com:80
+[23:05:33] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:05:33] 127.0.0.1: Connected to remote server for HTTP request: www.testingmcafeesites.com:80
+[23:05:33] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:05:35] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:05:35] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:05:35] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:05:40] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:05:44] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:05:46] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:46] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:52] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:55] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:55] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:55] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:55] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:55] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:05:56] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:05:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:05:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:06:03] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:06:06] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:06:17] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:06:17] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:06:22] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:06:22] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:06:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:06:22] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:06:22] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:06:27] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:06:32] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:06:36] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:06:36] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:06:37] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[23:06:37] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:06:37] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[23:06:38] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:06:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:06:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:06:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:06:38] 127.0.0.1: Connecting: www.acunetix.com:443
+[23:06:48] 127.0.0.1: Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[23:06:52] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:06:52] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:06:52] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:06:55] : Exit proxy server ...
+[23:12:12] : Proxy server started. Listening on port 8080...
+[23:12:13] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:12:13] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:12:13] 127.0.0.1: Connecting: www.acunetix.com:443
+[23:12:13] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:12:14] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:12:14] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:15] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:12:15] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:12:16] : Exit proxy server ...
+[23:14:32] : Proxy server started. Listening on port 8080...
+[23:14:36] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:14:37] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:14:37] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:14:37] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:38] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:38] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:39] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:14:39] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:14:42] : Exit proxy server ...
+[23:15:15] : Proxy server started. Listening on port 8080...
+[23:15:20] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:20] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:21] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:21] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:21] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:22] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:22] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:24] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:24] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:25] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:25] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:25] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:27] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[23:15:27] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:27] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:28] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:15:28] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:15:28] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:15:28] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:28] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:28] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:28] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:28] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:15:28] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:28] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:28] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:28] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:28] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:28] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:29] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:29] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:29] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:29] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:29] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:15:29] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:15:34] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[23:15:34] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[23:15:38] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[23:15:42] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[23:15:42] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[23:15:43] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[23:15:43] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[23:15:58] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:16:34] : Proxy server started. Listening on port 8080...
+[23:16:37] 127.0.0.1: Handling HTTP request: testaspnet.vulnweb.com:80
+[23:16:38] 127.0.0.1: Connected to remote server for HTTP request: testaspnet.vulnweb.com:80
+[23:16:54] : Exit proxy server ...
+[23:17:58] : Exit proxy server ...
+[23:18:26] : Proxy server started. Listening on port 8080...
+[23:18:33] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:18:34] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:18:34] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:18:34] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[23:18:34] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[23:18:34] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:18:34] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:18:35] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:18:36] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:18:36] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[23:18:36] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[23:18:37] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:18:37] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:18:37] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:18:37] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:18:37] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:18:37] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:18:41] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:18:41] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:18:41] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:18:41] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:18:42] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:18:42] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:18:42] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:18:45] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:18:45] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:18:45] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:18:46] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:18:46] : Exit proxy server ...
+[23:19:22] : Proxy server started. Listening on port 8080...
+[23:19:30] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:19:31] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:19:31] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:19:31] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:19:31] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:19:31] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:19:31] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:19:31] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:19:31] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:19:31] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:19:32] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:19:32] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:19:32] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:19:32] 127.0.0.1: Handling HTTP request: r10.o.lencr.org:80
+[23:19:32] 127.0.0.1: Connected to remote server for HTTP request: r10.o.lencr.org:80
+[23:19:32] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:19:33] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:19:33] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:19:33] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:19:33] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:19:36] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:19:37] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:19:37] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:19:37] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:19:37] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:19:37] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:19:39] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:19:40] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:19:40] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:19:40] 127.0.0.1: Handling HTTP request: fonts.googleapis.com:80
+[23:19:40] 127.0.0.1: Connected to remote server for HTTP request: fonts.googleapis.com:80
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Handling HTTP request: www.acunetix.com:80
+[23:19:41] 127.0.0.1: Handling HTTP request: testhtml5.vulnweb.com:80
+[23:19:41] 127.0.0.1: Connected to remote server for HTTP request: www.acunetix.com:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Connected to remote server for HTTP request: testhtml5.vulnweb.com:80
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Handling HTTP request: ads.bxss.me:80
+[23:19:41] 127.0.0.1: Cannot resolve hostname: ads.bxss.me
+[23:19:41] 127.0.0.1: Connecting: www.acunetix.com:443
+[23:19:42] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:19:43] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:19:44] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[23:19:44] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[23:19:45] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:19:47] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:19:49] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:19:51] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[23:19:52] 127.0.0.1: Disconnecting: www.acunetix.com || Reason: Timeout occurred, closing connection.
+[23:19:52] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[23:19:52] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[23:19:52] 127.0.0.1: Handling HTTP request: testasp.vulnweb.com:80
+[23:19:52] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[23:19:52] 127.0.0.1: Connected to remote server for HTTP request: testasp.vulnweb.com:80
+[23:19:54] : Exit proxy server ...
+[23:20:39] : Proxy server started. Listening on port 8080...
+[23:20:44] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:20:45] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:20:45] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:20:45] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:20:46] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:20:46] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:20:46] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:20:46] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:20:46] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[23:20:46] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[23:20:46] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:20:46] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:20:46] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:20:47] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:20:47] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:20:48] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:20:48] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:20:48] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:20:48] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:20:48] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:20:49] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:20:49] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:20:49] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:20:49] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:20:51] 127.0.0.1: Handling HTTP request: testphp.vulnweb.com:80
+[23:20:51] 127.0.0.1: Connected to remote server for HTTP request: testphp.vulnweb.com:80
+[23:20:54] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:20:56] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:20:58] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:20:59] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:21:00] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:21:05] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:21:05] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:21:10] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:21:10] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:21:17] : Exit proxy server ...
+[23:25:46] : Proxy server started. Listening on port 8080...
+[23:25:54] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:25:54] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:25:54] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[23:25:54] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:25:54] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:25:55] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:25:55] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[23:25:55] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:25:55] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:25:56] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:25:56] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:25:56] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:25:57] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:25:57] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:25:57] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:25:59] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:25:59] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:25:59] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:25:59] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:26:01] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:04] : Exit proxy server ...

@@ -1,8 +1,5 @@
 #include "mitm_network_handle.h"
 
-EVP_PKEY* caKey;
-X509* caCert;
-
 namespace MITMNetworkHandle {
     std::atomic<int> activeThreads(0); // Quản lý các luồng đang hoạt động
     std::map<std::thread::id, std::tuple<std::string, std::string, std::string>> threadMap;
@@ -12,6 +9,8 @@ namespace MITMNetworkHandle {
     std::map<std::string, std::string> hostRequestMap;
 
     // SSL_CTX cố định cho proxy
+    EVP_PKEY* caKey;
+    X509* caCert;
     SSL_CTX* global_ssl_ctx = nullptr;
 
     std::string parseHttpRequest(const std::string& request) {
@@ -113,189 +112,6 @@ namespace MITMNetworkHandle {
         return pkey;
     }
 
-    // Hàm tạo chứng chỉ tự ký với các phần mở rộng cần thiết
-    X509* generateSelfSignedCert(EVP_PKEY* pkey, const std::string& host) {
-        X509* cert = X509_new();
-        if (!cert) {
-            std::cerr << "Unable to create X509 certificate.\n";
-            return nullptr;
-        }
-
-        // Đặt phiên bản chứng chỉ (X509v3)
-        X509_set_version(cert, 2);
-
-        // Tạo số serial duy nhất
-        ASN1_INTEGER_set(X509_get_serialNumber(cert), 1);
-
-        // Đặt thời gian hiệu lực của chứng chỉ
-        X509_gmtime_adj(X509_get_notBefore(cert), 0);
-        X509_gmtime_adj(X509_get_notAfter(cert), 365 * 24 * 60 * 60); // 1 năm
-
-        // Gắn khóa công khai vào chứng chỉ
-        if (X509_set_pubkey(cert, pkey) <= 0) {
-            std::cerr << "Failed to set public key in certificate.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-
-        // Đặt Subject và Issuer name
-        X509_NAME* name = X509_get_subject_name(cert);
-        if (!name) {
-            std::cerr << "Failed to get subject name from certificate.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-
-        // Thêm các trường vào Subject name
-        X509_NAME_add_entry_by_txt(name, "C", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>("US"), -1, -1, 0);
-        X509_NAME_add_entry_by_txt(name, "O", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>("MyProxy"), -1, -1, 0);
-        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>(host.c_str()), -1, -1, 0);
-
-        // Đặt Issuer name giống Subject name (self-signed)
-        if (X509_set_issuer_name(cert, name) <= 0) {
-            std::cerr << "Failed to set issuer name.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-
-        // Thêm các phần mở rộng vào chứng chỉ
-        X509_EXTENSION* ext;
-
-        // Basic Constraints: CA:TRUE
-        ext = X509V3_EXT_conf_nid(nullptr, nullptr, NID_basic_constraints, "CA:TRUE");
-        if (!ext) {
-            std::cerr << "Failed to create Basic Constraints extension.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-        X509_add_ext(cert, ext, -1);
-        X509_EXTENSION_free(ext);
-
-        // Key Usage: Digital Signature, Key Encipherment
-        ext = X509V3_EXT_conf_nid(nullptr, nullptr, NID_key_usage, "digitalSignature,keyEncipherment,keyCertSign");
-        if (!ext) {
-            std::cerr << "Failed to create Key Usage extension.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-        X509_add_ext(cert, ext, -1);
-        X509_EXTENSION_free(ext);
-
-        // Extended Key Usage: Server Authentication
-        ext = X509V3_EXT_conf_nid(nullptr, nullptr, NID_ext_key_usage, "serverAuth");
-        if (!ext) {
-            std::cerr << "Failed to create Extended Key Usage extension.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-        X509_add_ext(cert, ext, -1);
-        X509_EXTENSION_free(ext);
-
-        // Subject Alternative Name: DNS:host
-        std::string san = "DNS:" + host;
-        ext = X509V3_EXT_conf_nid(nullptr, nullptr, NID_subject_alt_name, san.c_str());
-        if (!ext) {
-            std::cerr << "Failed to create Subject Alternative Name extension.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-        X509_add_ext(cert, ext, -1);
-        X509_EXTENSION_free(ext);
-
-        // Ký chứng chỉ
-        if (X509_sign(cert, pkey, EVP_sha256()) <= 0) {
-            std::cerr << "Failed to sign certificate.\n";
-            X509_free(cert);
-            return nullptr;
-        }
-
-        return cert;
-    }
-
-    // Hàm ghi chứng chỉ vào tệp (dùng để cài đặt vào client nếu cần)
-    bool writeCertToFile(X509* cert, const std::string& filename) {
-        FILE* certFile = fopen(filename.c_str(), "wb");
-        if (!certFile) {
-            std::cerr << "Failed to open file to write certificate.\n";
-            return false;
-        }
-        if (!PEM_write_X509(certFile, cert)) {
-            std::cerr << "Failed to write certificate to file.\n";
-            fclose(certFile);
-            return false;
-        }
-        fclose(certFile);
-        return true;
-    }
-
-    // Function to create a fake SSL context with a self-signed certificate
-    SSL_CTX* createFakeSSLContext(EVP_PKEY* pkey, X509* cert) {
-        // Tạo SSL Context
-        SSL_CTX* ctx = SSL_CTX_new(TLS_server_method());
-        if (!ctx) {
-            UI_WINDOW::UpdateLog("Unable to create SSL context.", std::string());
-            return nullptr;
-        }
-
-        // Gắn chứng chỉ và khóa vào SSL_CTX
-        if (SSL_CTX_use_certificate(ctx, cert) <= 0) {
-            UI_WINDOW::UpdateLog("Failed to use certificate in SSL context.", std::string());
-            X509_free(cert);
-            EVP_PKEY_free(pkey);
-            SSL_CTX_free(ctx);
-            return nullptr;
-        }
-
-        if (SSL_CTX_use_PrivateKey(ctx, pkey) <= 0) {
-            UI_WINDOW::UpdateLog("Failed to use private key in SSL context.", std::string());
-            X509_free(cert);
-            EVP_PKEY_free(pkey);
-            SSL_CTX_free(ctx);
-            return nullptr;
-        }
-
-        // Kiểm tra khóa và chứng chỉ
-        if (!SSL_CTX_check_private_key(ctx)) {
-            UI_WINDOW::UpdateLog("Private key does not match the public certificate.", std::string());
-            X509_free(cert);
-            EVP_PKEY_free(pkey);
-            SSL_CTX_free(ctx);
-            return nullptr;
-        }
-
-        // Thiết lập các tùy chọn SSL_CTX
-        SSL_CTX_set_min_proto_version(ctx, TLS1_2_VERSION);
-        SSL_CTX_set_max_proto_version(ctx, TLS1_3_VERSION);
-        SSL_CTX_set_cipher_list(ctx, "HIGH:!aNULL:!MD5");
-
-        // Bật ghi log chi tiết cho SSL
-        SSL_CTX_set_info_callback(ctx, [](const SSL* ssl, int where, int ret) {
-            if (where & SSL_CB_HANDSHAKE_START) {
-                std::cerr << "SSL Handshake started.\n";
-            }
-            if (where & SSL_CB_HANDSHAKE_DONE) {
-                std::cerr << "SSL Handshake done.\n";
-            }
-            if (where & SSL_CB_ALERT) {
-                const char* alertType = SSL_alert_type_string(ret);
-                const char* alertDesc = SSL_alert_desc_string(ret);
-                std::cerr << "SSL Alert - Type: " << (alertType ? alertType : "unknown")
-                        << ", Description: " << (alertDesc ? alertDesc : "unknown") << "\n";
-            }
-            if (where & SSL_CB_EXIT) {
-                if (ret == 0) {
-                    unsigned long err = ERR_get_error();
-                    std::cerr << "SSL Error: " << ERR_error_string(err, NULL) << "\n";
-                }
-            }
-        });
-
-        return ctx;
-    }
-
     std::pair<X509*, EVP_PKEY*> generateCertificate(EVP_PKEY* caKey, X509* caCert, const std::string& domain) {
         X509* cert = X509_new();
         if (!cert) {
@@ -312,7 +128,6 @@ namespace MITMNetworkHandle {
         EVP_PKEY* subKey = generateRSAKey();
         if (!subKey) {
             std::cerr << "Failed to generate RSA key for certificate.\n";
-            X509_free(cert);
             return {nullptr, nullptr};
         }
 
@@ -320,19 +135,20 @@ namespace MITMNetworkHandle {
         if (X509_set_pubkey(cert, subKey) <= 0) {
             unsigned long err = ERR_get_error();
             std::cerr << "Failed to attach public key to certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
-            EVP_PKEY_free(subKey);
-            X509_free(cert);
             return {nullptr, nullptr};
         }
 
          // Thiết lập Subject và Issuer name
         X509_NAME* name = X509_get_subject_name(cert);
-        X509_NAME_add_entry_by_txt(name, "C", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>("US"), -1, -1, 0);
-        X509_NAME_add_entry_by_txt(name, "O", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>("MyProxy"), -1, -1, 0);
-        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC,
-                                reinterpret_cast<const unsigned char*>(domain.c_str()), -1, -1, 0);
+
+        // Correctly set the subject name:
+        X509_NAME_add_entry_by_txt(name, "C", MBSTRING_ASC, (const unsigned char*)"VN", -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "ST", MBSTRING_ASC, (const unsigned char*)"Ho Chi Minh", -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "L", MBSTRING_ASC, (const unsigned char*)"Ho Chi Minh City", -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "O", MBSTRING_ASC, (const unsigned char*)"MyProxy Vietnam", -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "OU", MBSTRING_ASC, (const unsigned char*)"IT Department", -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "CN", MBSTRING_ASC, (const unsigned char*)domain.c_str(), -1, -1, 0);
+        X509_NAME_add_entry_by_txt(name, "emailAddress", MBSTRING_ASC, (const unsigned char*)"phanngung77x17@gmail.com", -1, -1, 0);
 
         if (!caCert) {
             std::cerr << "Root CA certificate is null.\n";
@@ -341,8 +157,6 @@ namespace MITMNetworkHandle {
 
         if (X509_set_issuer_name(cert, X509_get_subject_name(caCert)) <= 0) {
             std::cerr << "Failed to set issuer name.\n";
-            EVP_PKEY_free(subKey);
-            X509_free(cert);
             return {nullptr, nullptr};
         }
 
@@ -350,8 +164,6 @@ namespace MITMNetworkHandle {
         if (X509_sign(cert, caKey, EVP_sha256()) <= 0) {
             unsigned long err = ERR_get_error();
             std::cerr << "Failed to sign certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
-            EVP_PKEY_free(subKey);
-            X509_free(cert);
             return {nullptr, nullptr};
         }
 
@@ -384,8 +196,6 @@ namespace MITMNetworkHandle {
         SSL_CTX* childCtx = SSL_CTX_new(TLS_server_method());
         if (!childCtx) {
             UI_WINDOW::UpdateLog("Failed to create SSL_CTX for child connection.", clientIP);
-            X509_free(cert);
-            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
@@ -394,18 +204,12 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Failed to use certificate in SSL_CTX.", clientIP);
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            SSL_CTX_free(childCtx);
-            X509_free(cert);
-            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
 
         // if (SSL_CTX_add_extra_chain_cert(childCtx, caCert) <= 0) {
-        //     UI_WINDOW::UpdateLog("Failed to add root CA certificate to chain.");
-        //     SSL_CTX_free(childCtx);
-        //     X509_free(cert);
-        //     EVP_PKEY_free(subKey);
+        //     UI_WINDOW::UpdateLog("Failed to add root CA certificate to chain.", clientIP);
         //     closesocket(clientSocket);
         //     return;
         // }
@@ -414,18 +218,12 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Failed to use private key in SSL_CTX.", clientIP);
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            SSL_CTX_free(childCtx);
-            X509_free(cert);
-            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
 
         if (!SSL_CTX_check_private_key(childCtx)) {
             UI_WINDOW::UpdateLog("Private key does not match the certificate public key.", clientIP);
-            SSL_CTX_free(childCtx);
-            X509_free(cert);
-            EVP_PKEY_free(subKey);
             closesocket(clientSocket);
             return;
         }
@@ -434,8 +232,6 @@ namespace MITMNetworkHandle {
         SSL* ssl = SSL_new(childCtx);
         if (!ssl) {
             UI_WINDOW::UpdateLog("Failed to create SSL object.", clientIP);
-            SSL_CTX_free(childCtx);
-            X509_free(cert);
             closesocket(clientSocket);
             return;
         }
@@ -448,8 +244,6 @@ namespace MITMNetworkHandle {
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("SSL handshake failed. SSL Error: " + std::to_string(error) +
                                 ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            SSL_free(ssl);
-            SSL_CTX_free(childCtx);
             closesocket(clientSocket);
             return;
         }
@@ -460,7 +254,6 @@ namespace MITMNetworkHandle {
         SOCKET remoteSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
         if (remoteSocket == INVALID_SOCKET) {
             UI_WINDOW::UpdateLog("Cannot create remote socket.", clientIP);
-            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -472,7 +265,6 @@ namespace MITMNetworkHandle {
         if (remoteHost == NULL) {
             UI_WINDOW::UpdateLog("Cannot resolve hostname.", clientIP);
             closesocket(remoteSocket);
-            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -481,7 +273,6 @@ namespace MITMNetworkHandle {
         if (connect(remoteSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
             UI_WINDOW::UpdateLog("Cannot connect to remote server.", clientIP);
             closesocket(remoteSocket);
-            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -493,7 +284,6 @@ namespace MITMNetworkHandle {
         if (!serverCtx) {
             UI_WINDOW::UpdateLog("Unable to create server SSL context.", clientIP);
             closesocket(remoteSocket);
-            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -507,9 +297,7 @@ namespace MITMNetworkHandle {
         SSL* sslServer = SSL_new(serverCtx);
         if (!sslServer) {
             UI_WINDOW::UpdateLog("Failed to create SSL object for server.", clientIP);
-            SSL_CTX_free(serverCtx);
             closesocket(remoteSocket);
-            SSL_free(ssl);
             closesocket(clientSocket);
             return;
         }
@@ -522,9 +310,6 @@ namespace MITMNetworkHandle {
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("SSL handshake failed with server. SSL Error: " + std::to_string(error) +
                 ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            SSL_free(ssl);
-            SSL_free(sslServer);
-            SSL_CTX_free(serverCtx);
             closesocket(remoteSocket);
             closesocket(clientSocket);
             return;

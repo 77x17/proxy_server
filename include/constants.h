@@ -6,5 +6,7 @@
 #define BLACKLIST_URL "config\\blacklist.txt"
 #define WHITELIST_URL "config\\whitelist.txt"
 #define LOGO_URL      L"config\\hcmus_logo.png"
+#define KEYPATH       "config\\rootCA.key"
+#define CERTPATH      "config\\rootCA.crt"
 
 #endif

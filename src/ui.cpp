@@ -18,6 +18,7 @@ namespace UI_WINDOW {
     static HWND hRequestBoxLabel;
     static HWND hListType;
     static HWND hProxyServerType;
+    static HWND hHttpView;
 
     // Global variable for controlling the proxy server
     std::atomic<bool> isProxyRunning(false);
@@ -75,6 +76,7 @@ namespace UI_WINDOW {
         Font::ApplyFontToControl(hRequestBoxLabel);
         Font::ApplyFontToControl(hListType);     
         Font::ApplyFontToControl(hProxyServerType);     
+        Font::ApplyFontToControl(hHttpView);     
     }
 
     // Initialize UI elements
@@ -93,11 +95,12 @@ namespace UI_WINDOW {
         hLogBox     = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
         hListBox    = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | WS_BORDER, 20, 100, 400, 200, hwnd, NULL, hInstance, NULL);
         hRequestBox = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_WANTRETURN | ES_READONLY | WS_BORDER, 20, 320, 730, 150, hwnd, NULL, hInstance, NULL);
-        
+        hHttpView   = CreateWindowA("EDIT", "", WS_CHILD | WS_VISIBLE | WS_VSCROLL | ES_MULTILINE | ES_READONLY | WS_BORDER, 450, 20, 300, 25, hwnd, NULL, hInstance, NULL);
+        ShowWindow(hHttpView, SW_HIDE);
+
         hRunningHostsBox    = CreateWindowExA(WS_EX_CLIENTEDGE, WC_LISTVIEW, "",
             WS_CHILD | WS_VISIBLE | LVS_REPORT | LVS_EDITLABELS | WS_BORDER,
             450, 100, 300, 200, hwnd, (HMENU)ID_LISTBOX_HOSTRUNNING, hInstance, NULL);
-        
         SendMessage(hRunningHostsBox, LVM_SETBKCOLOR, 0, (LPARAM)RGB(255, 255, 224));
         SendMessage(hRunningHostsBox, LVM_SETTEXTBKCOLOR, 0, (LPARAM)RGB(255, 255, 224));
 
@@ -250,9 +253,13 @@ namespace UI_WINDOW {
                     case 5: {
                         if (requestBoxType == 0) {
                             requestBoxType = 1;
+                            ShowWindow(hRequestBox, SW_HIDE); // Ẩn hRequestBox
+                            ShowWindow(hHttpView, SW_SHOW); // Hiển thị hHttpView
                             SetWindowTextA(hRequestBoxLabel, " Request Data - MITM");
                         } else {
                             requestBoxType = 0;
+                            ShowWindow(hRequestBox, SW_SHOW); // Ẩn hRequestBox
+                            ShowWindow(hHttpView, SW_HIDE); // Hiển thị hHttpView
                             SetWindowTextA(hRequestBoxLabel, " Request Information");
                         }
                     }
@@ -295,7 +302,7 @@ namespace UI_WINDOW {
             case WM_CTLCOLORSTATIC: {
                 // Kiểm tra nếu control là một trong các hộp cần thay đổi màu nền
                 HWND hControl = (HWND)lParam;
-                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox || hControl == hHttpView) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -310,7 +317,7 @@ namespace UI_WINDOW {
             case WM_CTLCOLORLISTBOX: {
                 // Nếu là ListBox, áp dụng màu nền xám
                 HWND hControl = (HWND)lParam;
-                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox || hControl == hHttpView) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -324,7 +331,7 @@ namespace UI_WINDOW {
             case WM_CTLCOLOREDIT: {
                 // Nếu là Edit control, áp dụng màu nền xám
                 HWND hControl = (HWND)lParam;
-                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox) {
+                if (hControl == hListBox || hControl == hRunningHostsBox || hControl == hLogBox || hControl == hRequestBox || hControl == hHttpView) {
                     HDC hdc = (HDC)wParam;
                     // Tạo brush với màu nền xám
                     HBRUSH hBrush = CreateSolidBrush(RGB(255, 255, 224)); // Màu xám
@@ -353,7 +360,8 @@ namespace UI_WINDOW {
                 MoveWindow(hRunningHostsBox  , x, y + buttonHeight, listBoxWidth, listBoxHeight, TRUE);
 
                 MoveWindow(hRequestBoxLabel, column2X + x, y               , width - column2X - 2 * padding, buttonHeight , TRUE);
-                MoveWindow(hRequestBox     , column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
+                MoveWindow(hRequestBox, column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
+                MoveWindow(hHttpView  , column2X + x, y + buttonHeight, width - column2X - 2 * padding, listBoxHeight, TRUE);
 
                 x = padding, y = 20 + buttonHeight + listBoxHeight + padding;
                 MoveWindow(hListLabel, x + listBoxWidth / 2, y               , listBoxWidth / 2, buttonHeight , TRUE);
@@ -599,19 +607,6 @@ namespace UI_WINDOW {
     }
 
     void LogData(const std::string& direction, const std::string& data, const std::string& clientIP) {
-        if (requestBoxType == 1) {
-            // int length = GetWindowTextLengthA(hRequestBox);
-            // std::vector<char> buffer(length + 1);
-            // GetWindowTextA(hRequestBox, buffer.data(), length + 1);
-
-            // // Append the new log message
-            // std::string currentLog(buffer.begin(), buffer.end() - 1);
-            // currentLog += data + "\r\n";
-            // // std::cout << currentLog << '\n';
-            // // Set the updated content back to the EDIT control
-            SetWindowTextA(hRequestBox, (clientIP + ": " + data).c_str());
-        }
-
         // Get current time
         auto now = std::chrono::system_clock::now();
         auto now_time_t = std::chrono::system_clock::to_time_t(now);
@@ -623,7 +618,7 @@ namespace UI_WINDOW {
         timeStream << std::put_time(&tm, "%H:%M:%S");
 
         // Create the final log message with time prefix and direction
-        std::string logMessage = "[" + timeStream.str() + "] " + clientIP + " " + direction + ": " + data;
+        std::string logMessage = "[" + timeStream.str() + "] " + clientIP + " " + direction + " " + data;
 
         // Prepare log file name: log_dd_mm_yy.txt
         std::ostringstream fileNameStream;
@@ -650,6 +645,12 @@ namespace UI_WINDOW {
             // Optionally handle errors when opening the file
             std::string errorMessage = "[Error] Could not write to log file.\r\n";
             SetWindowTextA(hLogBox, errorMessage.c_str());
+        }
+    }
+
+    void ShowHTTP(const std::string& direction, const std::string& data, const std::string& clientIP) {
+        if (requestBoxType == 1) {
+            SetWindowTextA(hHttpView, (clientIP + " " + direction + " " + data).c_str());
         }
     }
 }

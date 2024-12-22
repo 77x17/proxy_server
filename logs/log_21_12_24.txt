@@ -6082,3 +6082,204 @@ ion.
 [23:03:53] : Blacklist saved successfully!
 [23:03:55] : Proxy server stopped.
 [23:03:56] : Exit proxy server ...
+[23:13:09] : Blacklist saved successfully!
+[23:13:12] : Proxy server started. Listening on port 8080...
+[23:13:27] : Blacklist saved successfully!
+[23:13:28] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:13:28] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:13:32] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[23:13:34] 127.0.0.1: Connecting: play.google.com:443
+[23:13:34] 127.0.0.1: Connecting: play.google.com:443
+[23:13:35] 127.0.0.1: Connecting: www.youtube.com:443
+[23:13:35] 127.0.0.1: Connecting: i.ytimg.com:443
+[23:13:39] 127.0.0.1: Connecting: googleads.g.doubleclick.net:443
+[23:13:40] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:40] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:41] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:41] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:41] 127.0.0.1: Connecting: yt3.ggpht.com:443
+[23:13:44] 127.0.0.1: Connecting: www.google.com:443
+[23:13:44] 127.0.0.1: Connecting: www.google.com.vn:443
+[23:13:44] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:13:44] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:13:44] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:44] 127.0.0.1: Connecting: rr5---sn-q4flrne6.googlevideo.com:443
+[23:13:45] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:13:45] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:13:45] 127.0.0.1: Connecting: rr7---sn-8qj-nbo66.googlevideo.com:443
+[23:13:45] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:13:46] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:13:48] 127.0.0.1: Connecting: play.google.com:443
+[23:13:49] 127.0.0.1: Disconnecting: googleads.g.doubleclick.net || Reason: Timeout occurred, closing connection.
+[23:13:51] 127.0.0.1: Connecting: jnn-pa.googleapis.com:443
+[23:13:52] 127.0.0.1: Disconnecting: yt3.ggpht.com || Reason: Timeout occurred, closing connection.
+[23:13:52] 127.0.0.1: Connecting: static.doubleclick.net:443
+[23:13:53] 127.0.0.1: Connecting: accounts.youtube.com:443
+[23:13:53] 127.0.0.1: Connecting: www.gstatic.com:443
+[23:13:55] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:13:56] 127.0.0.1: Disconnecting: rr7---sn-8qj-nbo66.googlevideo.com || Reason: Timeout occurred, closing connection.
+[23:13:59] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:14:01] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:14:01] 127.0.0.1: Disconnecting: www.google.com.vn || Reason: Timeout occurred, closing connection.
+[23:14:02] 127.0.0.1: Disconnecting: static.doubleclick.net || Reason: Timeout occurred, closing connection.
+[23:14:03] 127.0.0.1: Disconnecting: jnn-pa.googleapis.com || Reason: Timeout occurred, closing connection.
+[23:14:03] 127.0.0.1: Disconnecting: play.google.com || Reason: Timeout occurred, closing connection.
+[23:14:03] 127.0.0.1: Disconnecting: accounts.youtube.com || Reason: Timeout occurred, closing connection.
+[23:14:04] 127.0.0.1: Disconnecting: www.gstatic.com || Reason: Timeout occurred, closing connection.
+[23:14:05] 127.0.0.1: Connecting: www.google.com:443
+[23:14:06] : Blacklist saved successfully!
+[23:14:08] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:14:12] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[23:14:15] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:14:16] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:14:16] 127.0.0.1: Disconnecting: i.ytimg.com || Reason: Timeout occurred, closing connection.
+[23:14:29] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[23:14:32] : Blacklist saved successfully!
+[23:14:32] 127.0.0.1: Connecting: www.wikipedia.org:443
+[23:14:34] 127.0.0.1: Connecting: www.google.com:443
+[23:14:36] : Blacklist saved successfully!
+[23:14:39] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[23:14:44] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:15:06] 127.0.0.1: Connecting: www.youtube.com:443
+[23:15:17] 127.0.0.1: Disconnecting: www.youtube.com || Reason: Timeout occurred, closing connection.
+[23:15:57] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:15:59] : Blacklist saved successfully!
+[23:16:00] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:16:00] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:16:01] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:16:06] : Blacklist saved successfully!
+[23:16:06] 127.0.0.1: Connecting: spocs.getpocket.com:443
+[23:16:06] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:16:07] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:16:11] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:16:18] 127.0.0.1: Disconnecting: spocs.getpocket.com || Reason: Timeout occurred, closing connection.
+[23:16:22] : Proxy server stopped.
+[23:16:27] : Proxy server started. Listening on port 8080...
+[23:16:27] 127.0.0.1: Connecting: www.youtube.com:443
+[23:16:27] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:16:27] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[23:16:32] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:16:36] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:16:37] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:16:38] : Blacklist saved successfully!
+[23:16:38] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:16:39] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:16:45] : Exit proxy server ...
+[23:26:16] : Proxy server started. Listening on port 8080...
+[23:26:25] 127.0.0.1: Connecting: content-signature-2.cdn.mozilla.net:443
+[23:26:26] 127.0.0.1: Handling HTTP request: r11.o.lencr.org:80
+[23:26:26] 127.0.0.1: Connected to remote server for HTTP request: r11.o.lencr.org:80
+[23:26:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Connecting: contile.services.mozilla.com:443
+[23:26:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:26:26] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:26:27] 127.0.0.1: Connecting: firefox-settings-attachments.cdn.mozilla.net:443
+[23:26:27] 127.0.0.1: Connecting: safebrowsing.googleapis.com:443
+[23:26:29] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:29] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:26:29] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:26:29] 127.0.0.1: Connecting: aus5.mozilla.org:443
+[23:26:29] 127.0.0.1: Connecting: firefox.settings.services.mozilla.com:443
+[23:26:29] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:26:29] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:29] 127.0.0.1: Handling HTTP request: ocsp.digicert.com:80
+[23:26:29] 127.0.0.1: Connected to remote server for HTTP request: ocsp.digicert.com:80
+[23:26:34] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:36] 127.0.0.1: Disconnecting: content-signature-2.cdn.mozilla.net || Reason: Timeout occurred, closing connection.
+[23:26:36] 127.0.0.1: Disconnecting: contile.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:26:36] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:26:37] 127.0.0.1: Access to www.wikipedia.org is blocked.
+[23:26:38] 127.0.0.1: Connecting: example.com:443
+[23:26:39] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:26:39] 127.0.0.1: Disconnecting: firefox.settings.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:26:40] 127.0.0.1: Disconnecting: aus5.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:26:42] 127.0.0.1: Connecting: www.google.com:443
+[23:26:42] 127.0.0.1: Handling HTTP request: o.pki.goog:80
+[23:26:42] 127.0.0.1: Connected to remote server for HTTP request: o.pki.goog:80
+[23:26:44] : Blacklist saved successfully!
+[23:26:45] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:26:47] 127.0.0.1: Access to example.com is blocked.
+[23:26:48] 127.0.0.1: Access to example.com is blocked.
+[23:26:48] 127.0.0.1: Access to example.com is blocked.
+[23:26:50] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:26:50] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:51] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:26:52] 127.0.0.1: Access to example.com is blocked.
+[23:26:52] 127.0.0.1: Access to example.com is blocked.
+[23:26:53] 127.0.0.1: Access to example.com is blocked.
+[23:26:53] 127.0.0.1: Access to example.com is blocked.
+[23:26:54] 127.0.0.1: Access to example.com is blocked.
+[23:26:54] 127.0.0.1: Access to example.com is blocked.
+[23:26:55] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:56] 127.0.0.1: Access to example.com is blocked.
+[23:26:57] 127.0.0.1: Access to example.com is blocked.
+[23:26:57] 127.0.0.1: Access to example.com is blocked.
+[23:26:58] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:26:58] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:26:59] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:26:59] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:00] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:01] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:27:01] : Blacklist saved successfully!
+[23:27:01] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:27:02] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:27:03] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:27:03] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:27:04] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:27:07] : Blacklist saved successfully!
+[23:27:08] 127.0.0.1: Access to vulnweb.com is blocked.
+[23:27:12] 127.0.0.1: Disconnecting: push.services.mozilla.com || Reason: Timeout occurred, closing connection.
+[23:27:12] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:14] : Blacklist saved successfully!
+[23:27:14] 127.0.0.1: Disconnecting: incoming.telemetry.mozilla.org || Reason: Timeout occurred, closing connection.
+[23:27:14] 127.0.0.1: Disconnecting: www.google.com || Reason: Timeout occurred, closing connection.
+[23:27:16] 127.0.0.1: Connecting: www.google.com:443
+[23:27:17] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:17] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:27:17] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:27:22] 127.0.0.1: Connecting: push.services.mozilla.com:443
+[23:27:22] 127.0.0.1: Connecting: www.google.com:443
+[23:27:22] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:23] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:23] 127.0.0.1: Connecting: www.google.com:443
+[23:27:23] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:23] 127.0.0.1: Connecting: www.google.com:443
+[23:27:23] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:23] 127.0.0.1: Connecting: www.google.com:443
+[23:27:23] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:25] 127.0.0.1: Handling HTTP request: example.com:80
+[23:27:25] 127.0.0.1: Connected to remote server for HTTP request: example.com:80
+[23:27:25] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:27:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:27:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:27:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:27:26] 127.0.0.1: Handling HTTP request: detectportal.firefox.com:80
+[23:27:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:27:26] 127.0.0.1: Connected to remote server for HTTP request: detectportal.firefox.com:80
+[23:27:31] 127.0.0.1: Connecting: www.google.com:443
+[23:27:32] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:34] : Blacklist saved successfully!
+[23:27:35] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:35] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:27:37] 127.0.0.1: Handling HTTP request: vulnweb.com:80
+[23:27:37] 127.0.0.1: Connected to remote server for HTTP request: vulnweb.com:80
+[23:27:40] 127.0.0.1: Connecting: www.youtube.com:443
+[23:27:45] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:45] 127.0.0.1: Connecting: incoming.telemetry.mozilla.org:443
+[23:27:55] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:55] 127.0.0.1: SSL handshake failed. SSL Error: 1, OpenSSL Details: error:0A000126:SSL routines::unexpected eof while reading
+[23:27:56] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:56] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:56] 127.0.0.1: Timeout occurred, closing HTTP connection.
+[23:27:58] : Proxy server stopped.
+[23:27:59] : Exit proxy server ...
