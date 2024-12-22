@@ -17,6 +17,7 @@
 #include <map>
 #include <set>
 #include <ws2tcpip.h>
+#include <richedit.h>
 
 #include "font.h"
 #include "blacklist.h"
@@ -36,6 +37,7 @@ namespace UI_WINDOW {
     void             UpdateRunningHosts(std::map<std::thread::id, std::tuple<std::string, std::string, std::string>> threadMap);
     void             UpdateLog(const std::string& str, const std::string& clientIP);
     void             LogData(const std::string& direction, const std::string& data, const std::string& clientIP);
+    void             ShowHTTP(const std::string& direction, const std::string& data, const std::string& clientIP);
 }
 
 #endif
