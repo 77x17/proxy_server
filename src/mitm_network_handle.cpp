@@ -5,6 +5,7 @@ namespace MITMNetworkHandle {
     std::map<std::thread::id, std::tuple<std::string, std::string, std::string>> threadMap;
     std::mutex threadMapMutex; // Mutex để đồng bộ
     std::map<std::thread::id, std::atomic<bool>> stopFlags; // Cờ dừng cho từng luồng
+    std::map<std::thread::id, std::string> serverDataBuffer;
 
     std::map<std::string, std::string> hostRequestMap;
 
@@ -166,6 +167,11 @@ namespace MITMNetworkHandle {
             std::cerr << "Failed to sign certificate. OpenSSL Error: " << ERR_error_string(err, NULL) << "\n";
             return {nullptr, nullptr};
         }
+ 
+        if (!subKey) {
+            std::cerr << "Failed to generate RSA key for certificate.\n";
+            return {nullptr, nullptr};
+        }
 
         return {cert, subKey};
     }
@@ -174,13 +180,11 @@ namespace MITMNetworkHandle {
         // Kiểm tra SSL_CTX
         if (!caKey || !caCert) {
             UI_WINDOW::UpdateLog("CA key or certificate is null.", clientIP);
-            closesocket(clientSocket);
             return;
         }
 
         if (!ctx) {
             UI_WINDOW::UpdateLog("Invalid SSL_CTX provided.", clientIP);
-            closesocket(clientSocket);
             return;
         }
 
@@ -188,7 +192,6 @@ namespace MITMNetworkHandle {
         auto [cert, subKey] = generateCertificate(caKey, caCert, host);
         if (!cert || !subKey) {
             UI_WINDOW::UpdateLog("Failed to generate certificate for host: " + host, clientIP);
-            closesocket(clientSocket);
             return;
         }
 
@@ -196,7 +199,6 @@ namespace MITMNetworkHandle {
         SSL_CTX* childCtx = SSL_CTX_new(TLS_server_method());
         if (!childCtx) {
             UI_WINDOW::UpdateLog("Failed to create SSL_CTX for child connection.", clientIP);
-            closesocket(clientSocket);
             return;
         }
 
@@ -204,7 +206,6 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Failed to use certificate in SSL_CTX.", clientIP);
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            closesocket(clientSocket);
             return;
         }
 
@@ -218,16 +219,13 @@ namespace MITMNetworkHandle {
             UI_WINDOW::UpdateLog("Failed to use private key in SSL_CTX.", clientIP);
             unsigned long err = ERR_get_error();
             UI_WINDOW::UpdateLog("OpenSSL Error: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            closesocket(clientSocket);
             return;
         }
 
         if (!SSL_CTX_check_private_key(childCtx)) {
             UI_WINDOW::UpdateLog("Private key does not match the certificate public key.", clientIP);
-            closesocket(clientSocket);
             return;
         }
-
         // Tạo SSL object
         SSL* ssl = SSL_new(childCtx);
         if (!ssl) {
@@ -237,15 +235,47 @@ namespace MITMNetworkHandle {
         }
 
         SSL_set_fd(ssl, clientSocket);
+        
+        fd_set readfds;
+        FD_ZERO(&readfds);
+        FD_SET(clientSocket, &readfds);
+
+        struct timeval timeout;
+        timeout.tv_sec = 10; // Chờ tối đa 10 giây
+        timeout.tv_usec = 0;
+
+        int activity = select(clientSocket + 1, &readfds, NULL, NULL, &timeout);
+        if (activity < 0) {
+            UI_WINDOW::UpdateLog("Error in select(): " + std::to_string(WSAGetLastError()), clientIP);
+            closesocket(clientSocket);
+            SSL_free(ssl);
+            return;
+        } else if (activity == 0) {
+            UI_WINDOW::UpdateLog("Client did not respond in time or disconnected.", clientIP);
+            closesocket(clientSocket);
+            SSL_free(ssl);
+            return;
+        }
+
+        UI_WINDOW::UpdateLog("Client responded, proceeding with SSL handshake...", clientIP);
+
+        u_long mode = 0;
+        ioctlsocket(clientSocket, FIONBIO, &mode); // Set socket to non-blocking
 
         // Thực hiện SSL handshake
         if (SSL_accept(ssl) <= 0) {
             int error = SSL_get_error(ssl, -1);
-            unsigned long err = ERR_get_error();
-            UI_WINDOW::UpdateLog("SSL handshake failed. SSL Error: " + std::to_string(error) +
-                                ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)), clientIP);
-            closesocket(clientSocket);
-            return;
+            if (error == SSL_ERROR_WANT_READ || error == SSL_ERROR_WANT_WRITE) {
+                UI_WINDOW::UpdateLog("SSL_accept is waiting for more data.", clientIP);
+            } else {
+                // Xử lý lỗi nghiêm trọng
+                unsigned long err = ERR_get_error();
+                UI_WINDOW::UpdateLog("SSL handshake failed. SSL Error: " + std::to_string(error) +
+                                    ", OpenSSL Details: " + std::string(ERR_error_string(err, NULL)), clientIP);
+                closesocket(clientSocket);
+                SSL_free(ssl);
+                return; // Thoát khỏi hàm
+            }
         }
 
         UI_WINDOW::UpdateLog("SSL handshake with client succeeded.", clientIP);
@@ -318,7 +348,7 @@ namespace MITMNetworkHandle {
         UI_WINDOW::UpdateLog("SSL handshake with server succeeded.", clientIP);
 
         // Chuyển dữ liệu giữa client và server
-        fd_set readfds;
+        // fd_set readfds;
         char buffer[BUFFER_SIZE];
         bool connectionOpen = true;
         while (connectionOpen) {
@@ -337,7 +367,9 @@ namespace MITMNetworkHandle {
             int maxfd = (clientSocket > remoteSocket) ? clientSocket : remoteSocket;
             int activity = select(maxfd + 1, &readfds, NULL, NULL, &timeout);
             if (activity < 0) {
-                UI_WINDOW::UpdateLog("Select error.", clientIP);
+                int errorCode = WSAGetLastError();
+                UI_WINDOW::UpdateLog("Error in select(): " + std::to_string(errorCode), clientIP);
+                return;
                 break;
             }
             if (activity == 0) {
@@ -453,9 +485,10 @@ namespace MITMNetworkHandle {
 
                 // Log dữ liệu từ server
                 std::string data(buffer_data, receivedBytes);
+                serverDataBuffer[std::this_thread::get_id()] += data;
                 UI_WINDOW::LogData("Server -> Client:", data, clientIP);
-
-                // Gửi dữ liệu tới client
+                UI_WINDOW::ShowHTTP("Server -> Client:", serverDataBuffer[std::this_thread::get_id()], clientIP);
+   
                 send(clientSocket, buffer_data, receivedBytes, 0);
             }
 
@@ -469,12 +502,22 @@ namespace MITMNetworkHandle {
                 // Log dữ liệu từ client
                 std::string data(buffer_data, receivedBytes);
                 UI_WINDOW::LogData("Client -> Server:", data, clientIP);
+                // UI_WINDOW::ShowHTTP("Client -> Server:", data, clientIP);
 
                 // Gửi dữ liệu tới server
                 send(remoteSocket, buffer_data, receivedBytes, 0);
             }
         }
 
+        if (not serverDataBuffer[std::this_thread::get_id()].empty()) {
+            // std::string fullData = serverDataBuffer[std::this_thread::get_id()];
+            // fullData = "[Modified]\n" + fullData;
+
+            // UI_WINDOW::LogData("Server -> Client:", fullData, clientIP);
+            // UI_WINDOW::ShowHTTP("Server -> Client:", fullData, clientIP);
+            
+            serverDataBuffer.erase(std::this_thread::get_id());
+        }
         // Đóng kết nối
         closesocket(remoteSocket);
 
@@ -504,9 +547,8 @@ namespace MITMNetworkHandle {
         }
 
         std::string request(buffer, receivedBytes);
-        // Kiểm tra xem yêu cầu có phải là CONNECT hay không
-        if (request.substr(0, 3) == "GET" || request.substr(0, 4) == "POST") {
-            // Xử lý GET/POST trong luồng riêng
+        std::string method = request.substr(0, request.find(" "));
+        if (method == "GET" || method == "POST") { //  || method == "PUT" || method == "DELETE" || method == "HEAD" || method == "OPTIONS" || method == "PATCH"
             std::string host = parseHttpRequest(request);
             if (host.empty()) {
                 UI_WINDOW::UpdateLog("Failed to parse host from HTTP request.", clientIP);
@@ -565,85 +607,89 @@ namespace MITMNetworkHandle {
             closesocket(clientSocket);
 
             return;
-        }
-
-        // Phân tích yêu cầu CONNECT
-        size_t hostStart = request.find(' ') + 1;
-        size_t hostEnd = request.find(':', hostStart);
-        size_t portEnd = request.find(' ', hostEnd);
-        if (hostStart == std::string::npos || hostEnd == std::string::npos || portEnd == std::string::npos) {
-            UI_WINDOW::UpdateLog("Malformed CONNECT request.", clientIP);
-            closesocket(clientSocket);
-            return;
-        }
-
-        std::string host = request.substr(hostStart, hostEnd - hostStart);
-        std::string portStr = request.substr(hostEnd + 1, portEnd - hostEnd - 1);
-
-        int port = 0;
-        try {
-            port = std::stoi(portStr); // Chuyển chuỗi port sang số
-        } catch (const std::invalid_argument& e) {
-            UI_WINDOW::UpdateLog("Invalid port number format: " + portStr + ", Error: " + std::string(e.what()), clientIP);
-            closesocket(clientSocket);
-            return;
-        } catch (const std::out_of_range& e) {
-            UI_WINDOW::UpdateLog("Port number out of range: " + portStr + ", Error: " + std::string(e.what()), clientIP);
-            closesocket(clientSocket);
-            return;
-        }
-
-        if (port <= 0 || port > 65535) {
-            UI_WINDOW::UpdateLog("Invalid port range: " + std::to_string(port), clientIP);
-            closesocket(clientSocket);
-            return;
-        }
-
-        // Kiểm tra Blacklist/Whitelist
-        if (UI_WINDOW::listType == 0) { // Blacklist
-            if (Blacklist::isBlocked(host)) {
-                UI_WINDOW::UpdateLog("Access to " + host + " is blocked.", clientIP);
-                std::string message = forbiddenResponse(host);
-                send(clientSocket, message.c_str(), message.size(), 0);
+        } else if (method == "CONNECT") {
+            size_t hostStart = request.find(' ') + 1;
+            size_t hostEnd = request.find(':', hostStart);
+            size_t portEnd = request.find(' ', hostEnd);
+            if (hostStart == std::string::npos || hostEnd == std::string::npos || portEnd == std::string::npos) {
+                UI_WINDOW::UpdateLog("Malformed CONNECT request.", clientIP);
                 closesocket(clientSocket);
                 return;
             }
-        } else { // Whitelist
-            if (!Whitelist::isAble(host)) {
-                UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.", clientIP);
-                std::string message = forbiddenResponse(host);
-                send(clientSocket, message.c_str(), message.size(), 0);
+
+            std::string host = request.substr(hostStart, hostEnd - hostStart);
+            std::string portStr = request.substr(hostEnd + 1, portEnd - hostEnd - 1);
+
+            int port = 0;
+            try {
+                port = std::stoi(portStr); // Chuyển chuỗi port sang số
+            } catch (const std::invalid_argument& e) {
+                UI_WINDOW::UpdateLog("Invalid port number format: " + portStr + ", Error: " + std::string(e.what()), clientIP);
+                closesocket(clientSocket);
+                return;
+            } catch (const std::out_of_range& e) {
+                UI_WINDOW::UpdateLog("Port number out of range: " + portStr + ", Error: " + std::string(e.what()), clientIP);
                 closesocket(clientSocket);
                 return;
             }
-        }
 
-        // Thêm HOST vào danh sách luồng
-        {
-            threadMap[std::this_thread::get_id()] = std::make_tuple(clientIP, host, request);
-            hostRequestMap[(std::string)clientIP + (std::string)" - " + host] = request;
-            stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
+            if (port <= 0 || port > 65535) {
+                UI_WINDOW::UpdateLog("Invalid port range: " + std::to_string(port), clientIP);
+                closesocket(clientSocket);
+                return;
+            }
+
+            if (UI_WINDOW::listType == 0) { 
+                if (Blacklist::isBlocked(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is blocked.", clientIP);
+                    std::string message = forbiddenResponse(host);
+                    send(clientSocket, message.c_str(), message.size(), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            } else { 
+                if (!Whitelist::isAble(host)) {
+                    UI_WINDOW::UpdateLog("Access to " + host + " is not allowed.", clientIP);
+                    std::string message = forbiddenResponse(host);
+                    send(clientSocket, message.c_str(), message.size(), 0);
+                    closesocket(clientSocket);
+                    return;
+                }
+            }
+            // Thêm HOST vào danh sách luồng
+            {
+                threadMap[std::this_thread::get_id()] = std::make_tuple(clientIP, host, request);
+                hostRequestMap[(std::string)clientIP + (std::string)" - " + host] = request;
+                stopFlags[std::this_thread::get_id()] = false; // Đặt cờ dừng ban đầu là false
+
+                printActiveThreads(); // Hiển thị danh sách luồng
+            }
+
+            activeThreads++;
+
+            UI_WINDOW::UpdateLog("Connecting: " + host + ":" + std::to_string(port), clientIP);
+            handleSSLConnection(clientSocket, host, port, global_ssl_ctx, clientIP);
+
+            activeThreads--;
+
+            // Xóa luồng khỏi danh sách và đóng kết nối
+            {
+                std::lock_guard<std::mutex> lock(threadMapMutex);
+                hostRequestMap.erase(std::get<0>(threadMap[std::this_thread::get_id()]) + (std::string)" - " + std::get<1>(threadMap[std::this_thread::get_id()]));
+                threadMap.erase(std::this_thread::get_id());
+                stopFlags.erase(std::this_thread::get_id());
+            }
 
             printActiveThreads(); // Hiển thị danh sách luồng
+
+            closesocket(clientSocket);
+            return;
+        } else {
+            UI_WINDOW::UpdateLog("Unsupported HTTP method: " + method, clientIP);
+            std::string message = "HTTP/1.1 405 Method Not Allowed\r\n\r\n";
+            send(clientSocket, message.c_str(), message.size(), 0);
+            closesocket(clientSocket);
+            return;
         }
-
-        activeThreads++;
-
-        UI_WINDOW::UpdateLog("Connecting: " + host + ":" + std::to_string(port), clientIP);
-        handleSSLConnection(clientSocket, host, port, global_ssl_ctx, clientIP);
-
-        activeThreads--;
-
-        // Xóa luồng khỏi danh sách và đóng kết nối
-        {
-            std::lock_guard<std::mutex> lock(threadMapMutex);
-            hostRequestMap.erase(std::get<0>(threadMap[std::this_thread::get_id()]) + (std::string)" - " + std::get<1>(threadMap[std::this_thread::get_id()]));
-            threadMap.erase(std::this_thread::get_id());
-            stopFlags.erase(std::this_thread::get_id());
-        }
-
-        printActiveThreads(); // Hiển thị danh sách luồng
-
-        closesocket(clientSocket);
     }
 }
