@@ -32,6 +32,7 @@ Môn: Mạng máy tính (Học kỳ 1 | 2024 - 2025)
 
 `makefile`: Dịch toàn bộ dự án proxy server.
 + Cài make bằng msys2.
++ make run
 
 `readme.md`: Tạo trang preview trên github.
 
